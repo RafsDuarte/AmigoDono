@@ -163,14 +163,15 @@
     <Content Include="Content\css\bootstrap-theme.min.css" />
     <Content Include="Content\css\bootstrap.css" />
     <Content Include="Content\css\bootstrap.min.css" />
-    <Content Include="Content\css\carroselHome.css" />
     <Content Include="Content\css\pets.css" />
     <Content Include="Content\css\signin.css" />
     <Content Include="Content\imagens\cachorro.jpg" />
+    <Content Include="Content\imagens\capturar.png" />
     <Content Include="Content\imagens\foto1.jpg" />
     <Content Include="Content\imagens\foto2.jpg" />
     <Content Include="Content\imagens\Logo.png" />
     <Content Include="Content\imagens\Logo2.png" />
+    <Content Include="Content\imagens\sasha.png" />
     <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
     <Content Include="Content\css\Site.css" />
@@ -214,6 +215,7 @@
     <Content Include="Scripts\jquery.validate.unobtrusive.js" />
     <Content Include="Scripts\jquery.validate.unobtrusive.min.js" />
     <Content Include="Scripts\modernizr-2.8.3.js" />
+    <Content Include="Scripts\pets.js" />
     <Content Include="Scripts\popper-utils.js" />
     <Content Include="Scripts\popper-utils.min.js" />
     <Content Include="Scripts\popper.js" />
@@ -229,12 +231,12 @@
     <Content Include="Web.Release.config">
       <DependentUpon>Web.config</DependentUpon>
     </Content>
-    <Content Include="Views\Web.config" />
-    <Content Include="Views\Shared\_ViewStart.cshtml" />
-    <Content Include="Views\Shared\Error.cshtml" />
-    <Content Include="Views\Shared\_Layout.cshtml" />
-    <Content Include="Views\Adocao\Index.cshtml" />
-    <Content Include="Views\DENUNCIA\Create.cshtml" />
+    <Content Include="Scripts\Views\Web.config" />
+    <Content Include="Scripts\Views\Shared\_ViewStart.cshtml" />
+    <Content Include="Scripts\Views\Shared\Error.cshtml" />
+    <Content Include="Scripts\Views\Shared\_Layout.cshtml" />
+    <Content Include="Scripts\Views\Adocao\Index.cshtml" />
+    <Content Include="Scripts\Views\DENUNCIA\Create.cshtml" />
     <Content Include="Scripts\umd\popper.min.js.map" />
     <Content Include="Scripts\umd\popper.js.map" />
     <Content Include="Scripts\umd\popper-utils.min.js.map" />
@@ -244,8 +246,8 @@
     <Content Include="Scripts\popper.js.map" />
     <Content Include="Scripts\popper-utils.min.js.map" />
     <Content Include="Scripts\popper-utils.js.map" />
-    <Content Include="Views\Login\Index.cshtml" />
-    <Content Include="Views\Home\Index.cshtml" />
+    <Content Include="Scripts\Views\Login\Index.cshtml" />
+    <Content Include="Scripts\Views\Home\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

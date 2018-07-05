@@ -1,2 +1,109 @@
-﻿
+body, html {
+	height: 100%;
+}
+
+a {
+	color: #ffffff;
+}
+
+section {
+	background-color: #111;
+	min-height: 100%;
+}
+
+section .container-fluid {
+	background-color: #000;
+	color: #fff;
+}
+
+section .container-fluid>.row {
+	padding-bottom: 10px;
+}
+
+.foto {
+	background-color: #101010;
+	color: #ffffff;
+}
+
+.foto h4 a {
+	text-decoration: underline;
+}
+
+.foto>div {
+	padding: 10px;
+}
+
+.foto h4 {
+	padding-bottom: 8px;
+}
+
+.foto .capturar {
+	padding: 10px;
+}
+
+.foto .capturar a, .foto .capturar a:active {
+	color: #101010;
+	font-weight: bold;
+}
+
+.foto .dados {
+	border-bottom: 1px solid #ddd;
+	height: 80px;
+	margin: 0px;
+	padding: 0px 0px 20px 0px;
+}
+
+.foto .dados div {
+	height: 60px;
+	line-height: 60px;
+}
+
+.foto .dados div:first-child {
+	border-right: 1px solid #ddd;
+	font-size: 150%;
+}
+
+.foto .localizacao {
+	border-bottom: 1px solid #ddd;
+	margin: 0px;
+}
+
+.foto img {
+	margin: auto;
+	display: inline-block;
+}
+
+.pet img:first-child {
+	margin-right: 30px;
+}
+
+.local {
+	background-color: #111;
+	padding-bottom: 10px;
+}
+
+.local:hover {
+	background-color: #333;
+	cursor: pointer;
+}
+
+.local.atual {
+	background-color: #5c1410;
+}
+
+.local h4 {
+	color: #ddd;
+}
+
+.local p {
+	color: #999;
+}
+
+.navbar {
+	border-radius: initial;
+	margin-bottom: 0px;
+}
+
+.row>div {
+	margin-top: 5px;
 }

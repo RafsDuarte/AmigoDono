@@ -4,15 +4,14 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="~/Content/css/bootstrap.min.css" rel="stylesheet" />
-    <link href="~/Content/css/carroselHome.css" rel="stylesheet" />
-    <title>@ViewBag.Title - Friend of the Owner</title>
+    <title>@ViewBag.Title</title>
 
     @Scripts.Render("~/bundles/modernizr")
 </head>
 <body>
     <header>
         <nav class="navbar navbar-inverse navbar-fixed-top">
-            <a class="navbar-brand" href="~/Views/Home/Index.cshtml">Friend of the Owner</a>
+            <a class="navbar-brand" href="~/Views/Home/Index.cshtml">Owner's Friend</a>
             <div class="collapse navbar-collapse" id="navbarCollapse">
                 <ul class="navbar-nav nav">
                     <li>
@@ -35,8 +34,8 @@
 
     <div class="container body-content">
         @RenderBody()
-        <footer>
-            <p>&copy; @DateTime.Now.Year -  Friend of the Owner</p>
+        <footer style="border-top: 1px solid black; clear: both; margin-top: 20px" >
+            <p style="text-align: center">&copy; @DateTime.Now.Year -  Friend of the Owner</p>
         </footer>
     </div>
 
