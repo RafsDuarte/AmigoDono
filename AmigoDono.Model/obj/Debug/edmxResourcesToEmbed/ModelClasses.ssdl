@@ -1,0 +1,160 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="AmigoDonoModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="AMIGO">
+    <Key>
+      <PropertyRef Name="IDA" />
+    </Key>
+    <Property Name="IDA" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Nome" Type="varchar" MaxLength="100" Nullable="false" />
+    <Property Name="Funcao" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="Senha" Type="varchar" MaxLength="20" Nullable="false" />
+    <Property Name="CPF" Type="varchar" MaxLength="14" />
+    <Property Name="CNPJ" Type="varchar" MaxLength="18" />
+    <Property Name="DataNascimento" Type="date" Nullable="false" />
+    <Property Name="DataCadastro" Type="date" Nullable="false" />
+    <Property Name="Email" Type="varchar" MaxLength="100" />
+    <Property Name="CEP" Type="varchar" MaxLength="9" Nullable="false" />
+    <Property Name="Logradouro" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="NomeLogradouro" Type="varchar" MaxLength="100" Nullable="false" />
+    <Property Name="Numero" Type="varchar" MaxLength="5" Nullable="false" />
+    <Property Name="Complemento" Type="varchar" MaxLength="100" Nullable="false" />
+    <Property Name="Bairro" Type="varchar" MaxLength="100" Nullable="false" />
+    <Property Name="Cidade" Type="varchar" MaxLength="100" Nullable="false" />
+    <Property Name="UF" Type="varchar" MaxLength="2" Nullable="false" />
+    <Property Name="Telefone" Type="varchar" MaxLength="13" />
+    <Property Name="Celular" Type="varchar" MaxLength="14" />
+    <Property Name="Ajuda" Type="varchar(max)" />
+    <Property Name="Imagem" Type="image" />
+  </EntityType>
+  <EntityType Name="CONTROLE">
+    <Key>
+      <PropertyRef Name="IDC" />
+    </Key>
+    <Property Name="IDC" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="IDPet" Type="int" Nullable="false" />
+    <Property Name="IDAmigo" Type="int" Nullable="false" />
+    <Property Name="DataAdocao" Type="date" />
+    <Property Name="Status" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="OBS" Type="varchar(max)" />
+  </EntityType>
+  <EntityType Name="DENUNCIA">
+    <Key>
+      <PropertyRef Name="IDD" />
+    </Key>
+    <Property Name="IDD" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Denunciante" Type="varchar" MaxLength="100" />
+    <Property Name="TextoDenuncia" Type="varchar(max)" Nullable="false" />
+    <Property Name="Email" Type="varchar" MaxLength="100" Nullable="false" />
+    <Property Name="CEP" Type="varchar" MaxLength="9" />
+    <Property Name="TipoLogradouro" Type="varchar" MaxLength="50" />
+    <Property Name="NomeLogradouro" Type="varchar" MaxLength="100" />
+    <Property Name="Numero" Type="varchar" MaxLength="3" />
+    <Property Name="Complemento" Type="varchar" MaxLength="100" />
+    <Property Name="Bairro" Type="varchar" MaxLength="100" />
+    <Property Name="Cidade" Type="varchar" MaxLength="100" />
+    <Property Name="UF" Type="varchar" MaxLength="2" />
+    <Property Name="Data" Type="date" Nullable="false" />
+    <Property Name="DataResposta" Type="date" />
+  </EntityType>
+  <EntityType Name="PET">
+    <Key>
+      <PropertyRef Name="IDP" />
+    </Key>
+    <Property Name="IDP" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Cadastro" Type="date" Nullable="false" />
+    <Property Name="NomePet" Type="varchar" MaxLength="80" Nullable="false" />
+    <Property Name="TipoPet" Type="varchar" MaxLength="10" Nullable="false" />
+    <Property Name="Situacao" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="Idade" Type="varchar" MaxLength="10" Nullable="false" />
+    <Property Name="Raca" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="Sexo" Type="varchar" MaxLength="10" Nullable="false" />
+    <Property Name="Porte" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="Castrado" Type="varchar" MaxLength="3" Nullable="false" />
+    <Property Name="DataNascimento" Type="date" />
+    <Property Name="OBS" Type="varchar(max)" />
+    <Property Name="Imagem" Type="image" />
+  </EntityType>
+  <EntityType Name="TRATAMENTO">
+    <Key>
+      <PropertyRef Name="IDT" />
+    </Key>
+    <Property Name="IDT" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="IDResponsavel" Type="int" Nullable="false" />
+    <Property Name="IDPet" Type="int" Nullable="false" />
+    <Property Name="Tipo" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="Data" Type="date" Nullable="false" />
+    <Property Name="OBS" Type="varchar(max)" />
+    <Property Name="Descricao" Type="varchar(max)" />
+  </EntityType>
+  <Association Name="FK_adocao_Animal">
+    <End Role="PET" Type="Self.PET" Multiplicity="1" />
+    <End Role="CONTROLE" Type="Self.CONTROLE" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="PET">
+        <PropertyRef Name="IDP" />
+      </Principal>
+      <Dependent Role="CONTROLE">
+        <PropertyRef Name="IDPet" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_CONTROLE_AMIGO">
+    <End Role="AMIGO" Type="Self.AMIGO" Multiplicity="1" />
+    <End Role="CONTROLE" Type="Self.CONTROLE" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="AMIGO">
+        <PropertyRef Name="IDA" />
+      </Principal>
+      <Dependent Role="CONTROLE">
+        <PropertyRef Name="IDAmigo" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_TRATAMENTO_AMIGO">
+    <End Role="AMIGO" Type="Self.AMIGO" Multiplicity="1" />
+    <End Role="TRATAMENTO" Type="Self.TRATAMENTO" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="AMIGO">
+        <PropertyRef Name="IDA" />
+      </Principal>
+      <Dependent Role="TRATAMENTO">
+        <PropertyRef Name="IDResponsavel" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_TRATAMENTO_PET">
+    <End Role="PET" Type="Self.PET" Multiplicity="1" />
+    <End Role="TRATAMENTO" Type="Self.TRATAMENTO" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="PET">
+        <PropertyRef Name="IDP" />
+      </Principal>
+      <Dependent Role="TRATAMENTO">
+        <PropertyRef Name="IDPet" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="AmigoDonoModelStoreContainer">
+    <EntitySet Name="AMIGO" EntityType="Self.AMIGO" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="CONTROLE" EntityType="Self.CONTROLE" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="DENUNCIA" EntityType="Self.DENUNCIA" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="PET" EntityType="Self.PET" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="TRATAMENTO" EntityType="Self.TRATAMENTO" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK_adocao_Animal" Association="Self.FK_adocao_Animal">
+      <End Role="PET" EntitySet="PET" />
+      <End Role="CONTROLE" EntitySet="CONTROLE" />
+    </AssociationSet>
+    <AssociationSet Name="FK_CONTROLE_AMIGO" Association="Self.FK_CONTROLE_AMIGO">
+      <End Role="AMIGO" EntitySet="AMIGO" />
+      <End Role="CONTROLE" EntitySet="CONTROLE" />
+    </AssociationSet>
+    <AssociationSet Name="FK_TRATAMENTO_AMIGO" Association="Self.FK_TRATAMENTO_AMIGO">
+      <End Role="AMIGO" EntitySet="AMIGO" />
+      <End Role="TRATAMENTO" EntitySet="TRATAMENTO" />
+    </AssociationSet>
+    <AssociationSet Name="FK_TRATAMENTO_PET" Association="Self.FK_TRATAMENTO_PET">
+      <End Role="PET" EntitySet="PET" />
+      <End Role="TRATAMENTO" EntitySet="TRATAMENTO" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

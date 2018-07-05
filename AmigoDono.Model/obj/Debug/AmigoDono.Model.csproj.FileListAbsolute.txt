@@ -1,0 +1,152 @@
+C:\Amigo_do_Dono\Atual - Copia\Atual\AmigoDono\AmigoDono.Model\obj\Debug\AmigoDono.Model.csprojResolveAssemblyReference.cache
+C:\Amigo_do_Dono\Atual - Copia\Atual\AmigoDono\AmigoDono.Model\obj\Debug\AmigoDono.Model.csproj.CoreCompileInputs.cache
+C:\Amigo_do_Dono\Atual - Copia\Atual\AmigoDono\AmigoDono.Model\bin\Debug\AmigoDono.Model.dll.config
+C:\Amigo_do_Dono\Atual - Copia\Atual\AmigoDono\AmigoDono.Model\bin\Debug\AmigoDono.Model.dll
+C:\Amigo_do_Dono\Atual - Copia\Atual\AmigoDono\AmigoDono.Model\bin\Debug\AmigoDono.Model.pdb
+C:\Amigo_do_Dono\Atual - Copia\Atual\AmigoDono\AmigoDono.Model\bin\Debug\EntityFramework.dll
+C:\Amigo_do_Dono\Atual - Copia\Atual\AmigoDono\AmigoDono.Model\bin\Debug\EntityFramework.SqlServer.dll
+C:\Amigo_do_Dono\Atual - Copia\Atual\AmigoDono\AmigoDono.Model\bin\Debug\EntityFramework.xml
+C:\Amigo_do_Dono\Atual - Copia\Atual\AmigoDono\AmigoDono.Model\bin\Debug\EntityFramework.SqlServer.xml
+C:\Amigo_do_Dono\Atual - Copia\Atual\AmigoDono\AmigoDono.Model\obj\Debug\AmigoDono.Model.csproj.CopyComplete
+C:\Amigo_do_Dono\Atual - Copia\Atual\AmigoDono\AmigoDono.Model\obj\Debug\AmigoDono.Model.dll
+C:\Amigo_do_Dono\Atual - Copia\Atual\AmigoDono\AmigoDono.Model\obj\Debug\AmigoDono.Model.pdb
+C:\Amigo_do_Dono\Atual - Copia (3)\Atual - Copia\Atual\AmigoDono\AmigoDono.Model\bin\Debug\AmigoDono.Model.dll.config
+C:\Amigo_do_Dono\Atual - Copia (3)\Atual - Copia\Atual\AmigoDono\AmigoDono.Model\bin\Debug\AmigoDono.Model.dll
+C:\Amigo_do_Dono\Atual - Copia (3)\Atual - Copia\Atual\AmigoDono\AmigoDono.Model\bin\Debug\AmigoDono.Model.pdb
+C:\Amigo_do_Dono\Atual - Copia (3)\Atual - Copia\Atual\AmigoDono\AmigoDono.Model\bin\Debug\EntityFramework.dll
+C:\Amigo_do_Dono\Atual - Copia (3)\Atual - Copia\Atual\AmigoDono\AmigoDono.Model\bin\Debug\EntityFramework.SqlServer.dll
+C:\Amigo_do_Dono\Atual - Copia (3)\Atual - Copia\Atual\AmigoDono\AmigoDono.Model\bin\Debug\EntityFramework.xml
+C:\Amigo_do_Dono\Atual - Copia (3)\Atual - Copia\Atual\AmigoDono\AmigoDono.Model\bin\Debug\EntityFramework.SqlServer.xml
+C:\Amigo_do_Dono\Atual - Copia (3)\Atual - Copia\Atual\AmigoDono\AmigoDono.Model\obj\Debug\AmigoDono.Model.csprojResolveAssemblyReference.cache
+C:\Amigo_do_Dono\Atual - Copia (3)\Atual - Copia\Atual\AmigoDono\AmigoDono.Model\obj\Debug\AmigoDono.Model.csproj.CoreCompileInputs.cache
+C:\Amigo_do_Dono\Atual - Copia (3)\Atual - Copia\Atual\AmigoDono\AmigoDono.Model\obj\Debug\AmigoDono.Model.csproj.CopyComplete
+C:\Amigo_do_Dono\Atual - Copia (3)\Atual - Copia\Atual\AmigoDono\AmigoDono.Model\obj\Debug\AmigoDono.Model.dll
+C:\Amigo_do_Dono\Atual - Copia (3)\Atual - Copia\Atual\AmigoDono\AmigoDono.Model\obj\Debug\AmigoDono.Model.pdb
+C:\Users\rafin\Documents\Desktop\Atual - Copia (3)\Atual - Copia (3)\Atual - Copia\Atual\AmigoDono\AmigoDono.Model\bin\Debug\AmigoDono.Model.dll.config
+C:\Users\rafin\Documents\Desktop\Atual - Copia (3)\Atual - Copia (3)\Atual - Copia\Atual\AmigoDono\AmigoDono.Model\bin\Debug\AmigoDono.Model.dll
+C:\Users\rafin\Documents\Desktop\Atual - Copia (3)\Atual - Copia (3)\Atual - Copia\Atual\AmigoDono\AmigoDono.Model\bin\Debug\AmigoDono.Model.pdb
+C:\Users\rafin\Documents\Desktop\Atual - Copia (3)\Atual - Copia (3)\Atual - Copia\Atual\AmigoDono\AmigoDono.Model\bin\Debug\EntityFramework.dll
+C:\Users\rafin\Documents\Desktop\Atual - Copia (3)\Atual - Copia (3)\Atual - Copia\Atual\AmigoDono\AmigoDono.Model\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\rafin\Documents\Desktop\Atual - Copia (3)\Atual - Copia (3)\Atual - Copia\Atual\AmigoDono\AmigoDono.Model\bin\Debug\EntityFramework.xml
+C:\Users\rafin\Documents\Desktop\Atual - Copia (3)\Atual - Copia (3)\Atual - Copia\Atual\AmigoDono\AmigoDono.Model\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\rafin\Documents\Desktop\Atual - Copia (3)\Atual - Copia (3)\Atual - Copia\Atual\AmigoDono\AmigoDono.Model\obj\Debug\AmigoDono.Model.csprojAssemblyReference.cache
+C:\Users\rafin\Documents\Desktop\Atual - Copia (3)\Atual - Copia (3)\Atual - Copia\Atual\AmigoDono\AmigoDono.Model\obj\Debug\AmigoDono.Model.csproj.CoreCompileInputs.cache
+C:\Users\rafin\Documents\Desktop\Atual - Copia (3)\Atual - Copia (3)\Atual - Copia\Atual\AmigoDono\AmigoDono.Model\obj\Debug\AmigoDono.Model.csproj.CopyComplete
+C:\Users\rafin\Documents\Desktop\Atual - Copia (3)\Atual - Copia (3)\Atual - Copia\Atual\AmigoDono\AmigoDono.Model\obj\Debug\AmigoDono.Model.dll
+C:\Users\rafin\Documents\Desktop\Atual - Copia (3)\Atual - Copia (3)\Atual - Copia\Atual\AmigoDono\AmigoDono.Model\obj\Debug\AmigoDono.Model.pdb
+C:\Users\rafin\Documents\Desktop\Atual\AmigoDono\AmigoDono.Model\bin\Debug\AmigoDono.Model.dll.config
+C:\Users\rafin\Documents\Desktop\Atual\AmigoDono\AmigoDono.Model\bin\Debug\AmigoDono.Model.dll
+C:\Users\rafin\Documents\Desktop\Atual\AmigoDono\AmigoDono.Model\bin\Debug\AmigoDono.Model.pdb
+C:\Users\rafin\Documents\Desktop\Atual\AmigoDono\AmigoDono.Model\bin\Debug\EntityFramework.dll
+C:\Users\rafin\Documents\Desktop\Atual\AmigoDono\AmigoDono.Model\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\rafin\Documents\Desktop\Atual\AmigoDono\AmigoDono.Model\bin\Debug\EntityFramework.xml
+C:\Users\rafin\Documents\Desktop\Atual\AmigoDono\AmigoDono.Model\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\rafin\Documents\Desktop\Atual\AmigoDono\AmigoDono.Model\obj\Debug\AmigoDono.Model.csprojAssemblyReference.cache
+C:\Users\rafin\Documents\Desktop\Atual\AmigoDono\AmigoDono.Model\obj\Debug\AmigoDono.Model.csproj.CoreCompileInputs.cache
+C:\Users\rafin\Documents\Desktop\Atual\AmigoDono\AmigoDono.Model\obj\Debug\AmigoDono.Model.csproj.CopyComplete
+C:\Users\rafin\Documents\Desktop\Atual\AmigoDono\AmigoDono.Model\obj\Debug\AmigoDono.Model.dll
+C:\Users\rafin\Documents\Desktop\Atual\AmigoDono\AmigoDono.Model\obj\Debug\AmigoDono.Model.pdb
+C:\Amigo_do_Dono\Atual\Atual\AmigoDono\AmigoDono.Model\bin\Debug\AmigoDono.Model.dll.config
+C:\Amigo_do_Dono\Atual\Atual\AmigoDono\AmigoDono.Model\bin\Debug\AmigoDono.Model.dll
+C:\Amigo_do_Dono\Atual\Atual\AmigoDono\AmigoDono.Model\bin\Debug\AmigoDono.Model.pdb
+C:\Amigo_do_Dono\Atual\Atual\AmigoDono\AmigoDono.Model\bin\Debug\EntityFramework.dll
+C:\Amigo_do_Dono\Atual\Atual\AmigoDono\AmigoDono.Model\bin\Debug\EntityFramework.SqlServer.dll
+C:\Amigo_do_Dono\Atual\Atual\AmigoDono\AmigoDono.Model\bin\Debug\EntityFramework.xml
+C:\Amigo_do_Dono\Atual\Atual\AmigoDono\AmigoDono.Model\bin\Debug\EntityFramework.SqlServer.xml
+C:\Amigo_do_Dono\Atual\Atual\AmigoDono\AmigoDono.Model\obj\Debug\AmigoDono.Model.csprojResolveAssemblyReference.cache
+C:\Amigo_do_Dono\Atual\Atual\AmigoDono\AmigoDono.Model\obj\Debug\AmigoDono.Model.csproj.CoreCompileInputs.cache
+C:\Amigo_do_Dono\Atual\Atual\AmigoDono\AmigoDono.Model\obj\Debug\AmigoDono.Model.csproj.CopyComplete
+C:\Amigo_do_Dono\Atual\Atual\AmigoDono\AmigoDono.Model\obj\Debug\AmigoDono.Model.dll
+C:\Amigo_do_Dono\Atual\Atual\AmigoDono\AmigoDono.Model\obj\Debug\AmigoDono.Model.pdb
+C:\Users\rafin\Documents\Desktop\Atual1\Atual1\Atual\AmigoDono\AmigoDono.Model\bin\Debug\AmigoDono.Model.dll.config
+C:\Users\rafin\Documents\Desktop\Atual1\Atual1\Atual\AmigoDono\AmigoDono.Model\bin\Debug\AmigoDono.Model.dll
+C:\Users\rafin\Documents\Desktop\Atual1\Atual1\Atual\AmigoDono\AmigoDono.Model\bin\Debug\AmigoDono.Model.pdb
+C:\Users\rafin\Documents\Desktop\Atual1\Atual1\Atual\AmigoDono\AmigoDono.Model\bin\Debug\EntityFramework.dll
+C:\Users\rafin\Documents\Desktop\Atual1\Atual1\Atual\AmigoDono\AmigoDono.Model\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\rafin\Documents\Desktop\Atual1\Atual1\Atual\AmigoDono\AmigoDono.Model\bin\Debug\EntityFramework.xml
+C:\Users\rafin\Documents\Desktop\Atual1\Atual1\Atual\AmigoDono\AmigoDono.Model\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\rafin\Documents\Desktop\Atual1\Atual1\Atual\AmigoDono\AmigoDono.Model\obj\Debug\AmigoDono.Model.csprojAssemblyReference.cache
+C:\Users\rafin\Documents\Desktop\Atual1\Atual1\Atual\AmigoDono\AmigoDono.Model\obj\Debug\AmigoDono.Model.csproj.CoreCompileInputs.cache
+C:\Users\rafin\Documents\Desktop\Atual1\Atual1\Atual\AmigoDono\AmigoDono.Model\obj\Debug\AmigoDono.Model.csproj.CopyComplete
+C:\Users\rafin\Documents\Desktop\Atual1\Atual1\Atual\AmigoDono\AmigoDono.Model\obj\Debug\AmigoDono.Model.dll
+C:\Users\rafin\Documents\Desktop\Atual1\Atual1\Atual\AmigoDono\AmigoDono.Model\obj\Debug\AmigoDono.Model.pdb
+C:\Amigo_do_Dono\Atual2\Atual1\Atual1\Atual\AmigoDono\AmigoDono.Model\bin\Debug\AmigoDono.Model.dll.config
+C:\Amigo_do_Dono\Atual2\Atual1\Atual1\Atual\AmigoDono\AmigoDono.Model\bin\Debug\AmigoDono.Model.dll
+C:\Amigo_do_Dono\Atual2\Atual1\Atual1\Atual\AmigoDono\AmigoDono.Model\bin\Debug\AmigoDono.Model.pdb
+C:\Amigo_do_Dono\Atual2\Atual1\Atual1\Atual\AmigoDono\AmigoDono.Model\bin\Debug\EntityFramework.dll
+C:\Amigo_do_Dono\Atual2\Atual1\Atual1\Atual\AmigoDono\AmigoDono.Model\bin\Debug\EntityFramework.SqlServer.dll
+C:\Amigo_do_Dono\Atual2\Atual1\Atual1\Atual\AmigoDono\AmigoDono.Model\bin\Debug\EntityFramework.xml
+C:\Amigo_do_Dono\Atual2\Atual1\Atual1\Atual\AmigoDono\AmigoDono.Model\bin\Debug\EntityFramework.SqlServer.xml
+C:\Amigo_do_Dono\Atual2\Atual1\Atual1\Atual\AmigoDono\AmigoDono.Model\obj\Debug\AmigoDono.Model.csprojResolveAssemblyReference.cache
+C:\Amigo_do_Dono\Atual2\Atual1\Atual1\Atual\AmigoDono\AmigoDono.Model\obj\Debug\AmigoDono.Model.csproj.CoreCompileInputs.cache
+C:\Amigo_do_Dono\Atual2\Atual1\Atual1\Atual\AmigoDono\AmigoDono.Model\obj\Debug\AmigoDono.Model.csproj.CopyComplete
+C:\Amigo_do_Dono\Atual2\Atual1\Atual1\Atual\AmigoDono\AmigoDono.Model\obj\Debug\AmigoDono.Model.dll
+C:\Amigo_do_Dono\Atual2\Atual1\Atual1\Atual\AmigoDono\AmigoDono.Model\obj\Debug\AmigoDono.Model.pdb
+C:\Users\rafin\Documents\Desktop\Atual3\Atual2\Atual1\Atual1\Atual\AmigoDono\AmigoDono.Model\bin\Debug\AmigoDono.Model.dll.config
+C:\Users\rafin\Documents\Desktop\Atual3\Atual2\Atual1\Atual1\Atual\AmigoDono\AmigoDono.Model\bin\Debug\AmigoDono.Model.dll
+C:\Users\rafin\Documents\Desktop\Atual3\Atual2\Atual1\Atual1\Atual\AmigoDono\AmigoDono.Model\bin\Debug\AmigoDono.Model.pdb
+C:\Users\rafin\Documents\Desktop\Atual3\Atual2\Atual1\Atual1\Atual\AmigoDono\AmigoDono.Model\bin\Debug\EntityFramework.dll
+C:\Users\rafin\Documents\Desktop\Atual3\Atual2\Atual1\Atual1\Atual\AmigoDono\AmigoDono.Model\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\rafin\Documents\Desktop\Atual3\Atual2\Atual1\Atual1\Atual\AmigoDono\AmigoDono.Model\bin\Debug\EntityFramework.xml
+C:\Users\rafin\Documents\Desktop\Atual3\Atual2\Atual1\Atual1\Atual\AmigoDono\AmigoDono.Model\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\rafin\Documents\Desktop\Atual3\Atual2\Atual1\Atual1\Atual\AmigoDono\AmigoDono.Model\obj\Debug\AmigoDono.Model.csproj.CoreCompileInputs.cache
+C:\Users\rafin\Documents\Desktop\Atual3\Atual2\Atual1\Atual1\Atual\AmigoDono\AmigoDono.Model\obj\Debug\AmigoDono.Model.csproj.CopyComplete
+C:\Users\rafin\Documents\Desktop\Atual3\Atual2\Atual1\Atual1\Atual\AmigoDono\AmigoDono.Model\obj\Debug\AmigoDono.Model.dll
+C:\Users\rafin\Documents\Desktop\Atual3\Atual2\Atual1\Atual1\Atual\AmigoDono\AmigoDono.Model\obj\Debug\AmigoDono.Model.pdb
+C:\Users\rafin\Documents\Desktop\Atual3\Atual2\Atual1\Atual1\Atual\AmigoDono\AmigoDono.Model\obj\Debug\AmigoDono.Model.csprojAssemblyReference.cache
+C:\Visual Studio Projects\Atual3\Atual2\Atual1\Atual1\Atual\AmigoDono\AmigoDono.Model\bin\Debug\AmigoDono.Model.dll.config
+C:\Visual Studio Projects\Atual3\Atual2\Atual1\Atual1\Atual\AmigoDono\AmigoDono.Model\bin\Debug\AmigoDono.Model.dll
+C:\Visual Studio Projects\Atual3\Atual2\Atual1\Atual1\Atual\AmigoDono\AmigoDono.Model\bin\Debug\AmigoDono.Model.pdb
+C:\Visual Studio Projects\Atual3\Atual2\Atual1\Atual1\Atual\AmigoDono\AmigoDono.Model\bin\Debug\EntityFramework.dll
+C:\Visual Studio Projects\Atual3\Atual2\Atual1\Atual1\Atual\AmigoDono\AmigoDono.Model\bin\Debug\EntityFramework.SqlServer.dll
+C:\Visual Studio Projects\Atual3\Atual2\Atual1\Atual1\Atual\AmigoDono\AmigoDono.Model\bin\Debug\EntityFramework.xml
+C:\Visual Studio Projects\Atual3\Atual2\Atual1\Atual1\Atual\AmigoDono\AmigoDono.Model\bin\Debug\EntityFramework.SqlServer.xml
+C:\Visual Studio Projects\Atual3\Atual2\Atual1\Atual1\Atual\AmigoDono\AmigoDono.Model\obj\Debug\AmigoDono.Model.csproj.CoreCompileInputs.cache
+C:\Visual Studio Projects\Atual3\Atual2\Atual1\Atual1\Atual\AmigoDono\AmigoDono.Model\obj\Debug\AmigoDono.Model.csproj.CopyComplete
+C:\Visual Studio Projects\Atual3\Atual2\Atual1\Atual1\Atual\AmigoDono\AmigoDono.Model\obj\Debug\AmigoDono.Model.dll
+C:\Visual Studio Projects\Atual3\Atual2\Atual1\Atual1\Atual\AmigoDono\AmigoDono.Model\obj\Debug\AmigoDono.Model.pdb
+C:\Visual Studio Projects\Atual3\Atual\AmigoDono\AmigoDono.Model\bin\Debug\AmigoDono.Model.dll.config
+C:\Visual Studio Projects\Atual3\Atual\AmigoDono\AmigoDono.Model\bin\Debug\AmigoDono.Model.dll
+C:\Visual Studio Projects\Atual3\Atual\AmigoDono\AmigoDono.Model\bin\Debug\AmigoDono.Model.pdb
+C:\Visual Studio Projects\Atual3\Atual\AmigoDono\AmigoDono.Model\bin\Debug\EntityFramework.dll
+C:\Visual Studio Projects\Atual3\Atual\AmigoDono\AmigoDono.Model\bin\Debug\EntityFramework.SqlServer.dll
+C:\Visual Studio Projects\Atual3\Atual\AmigoDono\AmigoDono.Model\bin\Debug\EntityFramework.xml
+C:\Visual Studio Projects\Atual3\Atual\AmigoDono\AmigoDono.Model\bin\Debug\EntityFramework.SqlServer.xml
+C:\Visual Studio Projects\Atual3\Atual\AmigoDono\AmigoDono.Model\obj\Debug\AmigoDono.Model.csproj.CoreCompileInputs.cache
+C:\Visual Studio Projects\Atual3\Atual\AmigoDono\AmigoDono.Model\obj\Debug\AmigoDono.Model.csproj.CopyComplete
+C:\Visual Studio Projects\Atual3\Atual\AmigoDono\AmigoDono.Model\obj\Debug\AmigoDono.Model.dll
+C:\Visual Studio Projects\Atual3\Atual\AmigoDono\AmigoDono.Model\obj\Debug\AmigoDono.Model.pdb
+E:\Atual3\Atual\AmigoDono\AmigoDono.Model\bin\Debug\AmigoDono.Model.dll.config
+E:\Atual3\Atual\AmigoDono\AmigoDono.Model\bin\Debug\AmigoDono.Model.dll
+E:\Atual3\Atual\AmigoDono\AmigoDono.Model\bin\Debug\AmigoDono.Model.pdb
+E:\Atual3\Atual\AmigoDono\AmigoDono.Model\bin\Debug\EntityFramework.dll
+E:\Atual3\Atual\AmigoDono\AmigoDono.Model\bin\Debug\EntityFramework.SqlServer.dll
+E:\Atual3\Atual\AmigoDono\AmigoDono.Model\bin\Debug\EntityFramework.xml
+E:\Atual3\Atual\AmigoDono\AmigoDono.Model\bin\Debug\EntityFramework.SqlServer.xml
+E:\Atual3\Atual\AmigoDono\AmigoDono.Model\obj\Debug\AmigoDono.Model.csproj.CoreCompileInputs.cache
+E:\Atual3\Atual\AmigoDono\AmigoDono.Model\obj\Debug\AmigoDono.Model.csproj.CopyComplete
+E:\Atual3\Atual\AmigoDono\AmigoDono.Model\obj\Debug\AmigoDono.Model.dll
+E:\Atual3\Atual\AmigoDono\AmigoDono.Model\obj\Debug\AmigoDono.Model.pdb
+C:\GitHub\AmigoDono\AmigoDono\AmigoDono.Model\bin\Debug\AmigoDono.Model.dll.config
+C:\GitHub\AmigoDono\AmigoDono\AmigoDono.Model\bin\Debug\AmigoDono.Model.dll
+C:\GitHub\AmigoDono\AmigoDono\AmigoDono.Model\bin\Debug\AmigoDono.Model.pdb
+C:\GitHub\AmigoDono\AmigoDono\AmigoDono.Model\bin\Debug\EntityFramework.dll
+C:\GitHub\AmigoDono\AmigoDono\AmigoDono.Model\bin\Debug\EntityFramework.SqlServer.dll
+C:\GitHub\AmigoDono\AmigoDono\AmigoDono.Model\bin\Debug\EntityFramework.xml
+C:\GitHub\AmigoDono\AmigoDono\AmigoDono.Model\bin\Debug\EntityFramework.SqlServer.xml
+C:\GitHub\AmigoDono\AmigoDono\AmigoDono.Model\obj\Debug\AmigoDono.Model.csproj.CoreCompileInputs.cache
+C:\GitHub\AmigoDono\AmigoDono\AmigoDono.Model\obj\Debug\AmigoDono.Model.csproj.CopyComplete
+C:\GitHub\AmigoDono\AmigoDono\AmigoDono.Model\obj\Debug\AmigoDono.Model.dll
+C:\GitHub\AmigoDono\AmigoDono\AmigoDono.Model\obj\Debug\AmigoDono.Model.pdb
+C:\Users\rafin\Documents\Desktop\AmigoDono\AmigoDono\AmigoDono.Model\bin\Debug\AmigoDono.Model.dll.config
+C:\Users\rafin\Documents\Desktop\AmigoDono\AmigoDono\AmigoDono.Model\bin\Debug\AmigoDono.Model.dll
+C:\Users\rafin\Documents\Desktop\AmigoDono\AmigoDono\AmigoDono.Model\bin\Debug\AmigoDono.Model.pdb
+C:\Users\rafin\Documents\Desktop\AmigoDono\AmigoDono\AmigoDono.Model\bin\Debug\EntityFramework.dll
+C:\Users\rafin\Documents\Desktop\AmigoDono\AmigoDono\AmigoDono.Model\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\rafin\Documents\Desktop\AmigoDono\AmigoDono\AmigoDono.Model\bin\Debug\EntityFramework.xml
+C:\Users\rafin\Documents\Desktop\AmigoDono\AmigoDono\AmigoDono.Model\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\rafin\Documents\Desktop\AmigoDono\AmigoDono\AmigoDono.Model\obj\Debug\AmigoDono.Model.csprojAssemblyReference.cache
+C:\Users\rafin\Documents\Desktop\AmigoDono\AmigoDono\AmigoDono.Model\obj\Debug\AmigoDono.Model.csproj.CoreCompileInputs.cache
+C:\Users\rafin\Documents\Desktop\AmigoDono\AmigoDono\AmigoDono.Model\obj\Debug\AmigoDono.Model.csproj.CopyComplete
+C:\Users\rafin\Documents\Desktop\AmigoDono\AmigoDono\AmigoDono.Model\obj\Debug\AmigoDono.Model.dll
+C:\Users\rafin\Documents\Desktop\AmigoDono\AmigoDono\AmigoDono.Model\obj\Debug\AmigoDono.Model.pdb

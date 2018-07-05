@@ -1,0 +1,296 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{9EE7D7A0-1266-4033-846D-4AD3BA7194A7}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>AmigoDono.View</RootNamespace>
+    <AssemblyName>AmigoDono.View</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.ReportViewer.Common, Version=14.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ReportingServices.ReportViewerControl.Winforms.140.1000.523\lib\net40\Microsoft.ReportViewer.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.DataVisualization, Version=14.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ReportingServices.ReportViewerControl.Winforms.140.1000.523\lib\net40\Microsoft.ReportViewer.DataVisualization.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.Design, Version=14.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ReportingServices.ReportViewerControl.Winforms.140.1000.523\lib\net40\Microsoft.ReportViewer.Design.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.ProcessingObjectModel, Version=14.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ReportingServices.ReportViewerControl.Winforms.140.1000.523\lib\net40\Microsoft.ReportViewer.ProcessingObjectModel.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.WinForms, Version=14.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ReportingServices.ReportViewerControl.Winforms.140.1000.523\lib\net40\Microsoft.ReportViewer.WinForms.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.SqlServer.Types, Version=14.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.SqlServer.Types.14.0.314.76\lib\net40\Microsoft.SqlServer.Types.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AmigoDonoAMIGO.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>AmigoDonoAMIGO.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Amigos_do_DonoDataSet1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Amigos_do_DonoDataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Amigos_do_DonoDataSet12.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Amigos_do_DonoDataSet12.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="SqlServerTypes\Loader.cs" />
+    <Compile Include="TelaBuscarPet.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TelaBuscarPet.Designer.cs">
+      <DependentUpon>TelaBuscarPet.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TelaCadastroAmigo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TelaCadastroAmigo.Designer.cs">
+      <DependentUpon>TelaCadastroAmigo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TelaCadastroPet.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TelaCadastroPet.Designer.cs">
+      <DependentUpon>TelaCadastroPet.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TelaControle.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TelaControle.Designer.cs">
+      <DependentUpon>TelaControle.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TelaPesquisaControle.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TelaPesquisaControle.Designer.cs">
+      <DependentUpon>TelaPesquisaControle.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TelaPesquisaDenuncia.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TelaPesquisaDenuncia.Designer.cs">
+      <DependentUpon>TelaPesquisaDenuncia.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TelaPesquisarAmigo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TelaPesquisarAmigo.Designer.cs">
+      <DependentUpon>TelaPesquisarAmigo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TelaPesquisarPet.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TelaPesquisarPet.Designer.cs">
+      <DependentUpon>TelaPesquisarPet.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TelaPesquisaTratamento.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TelaPesquisaTratamento.Designer.cs">
+      <DependentUpon>TelaPesquisaTratamento.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TelaRelatorio.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TelaRelatorio.Designer.cs">
+      <DependentUpon>TelaRelatorio.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TelaTratamento.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TelaTratamento.Designer.cs">
+      <DependentUpon>TelaTratamento.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TelaDenuncia.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TelaDenuncia.Designer.cs">
+      <DependentUpon>TelaDenuncia.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TelaLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TelaLogin.Designer.cs">
+      <DependentUpon>TelaLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TelaPrincipal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TelaPrincipal.Designer.cs">
+      <DependentUpon>TelaPrincipal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="TelaBuscarPet.resx">
+      <DependentUpon>TelaBuscarPet.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TelaCadastroAmigo.resx">
+      <DependentUpon>TelaCadastroAmigo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TelaCadastroPet.resx">
+      <DependentUpon>TelaCadastroPet.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TelaControle.resx">
+      <DependentUpon>TelaControle.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TelaPesquisaControle.resx">
+      <DependentUpon>TelaPesquisaControle.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TelaPesquisaDenuncia.resx">
+      <DependentUpon>TelaPesquisaDenuncia.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TelaPesquisarAmigo.resx">
+      <DependentUpon>TelaPesquisarAmigo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TelaPesquisarPet.resx">
+      <DependentUpon>TelaPesquisarPet.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TelaPesquisaTratamento.resx">
+      <DependentUpon>TelaPesquisaTratamento.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TelaRelatorio.resx">
+      <DependentUpon>TelaRelatorio.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TelaTratamento.resx">
+      <DependentUpon>TelaTratamento.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TelaDenuncia.resx">
+      <DependentUpon>TelaDenuncia.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TelaLogin.resx">
+      <DependentUpon>TelaLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TelaPrincipal.resx">
+      <DependentUpon>TelaPrincipal.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="AmigoDonoAMIGO.xsc">
+      <DependentUpon>AmigoDonoAMIGO.xsd</DependentUpon>
+    </None>
+    <None Include="AmigoDonoAMIGO.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>AmigoDonoAMIGO.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="AmigoDonoAMIGO.xss">
+      <DependentUpon>AmigoDonoAMIGO.xsd</DependentUpon>
+    </None>
+    <None Include="Amigos_do_DonoDataSet1.xsc">
+      <DependentUpon>Amigos_do_DonoDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="Amigos_do_DonoDataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Amigos_do_DonoDataSet1.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Amigos_do_DonoDataSet1.xss">
+      <DependentUpon>Amigos_do_DonoDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="Amigos_do_DonoDataSet12.xsc">
+      <DependentUpon>Amigos_do_DonoDataSet12.xsd</DependentUpon>
+    </None>
+    <None Include="Amigos_do_DonoDataSet12.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Amigos_do_DonoDataSet12.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Amigos_do_DonoDataSet12.xss">
+      <DependentUpon>Amigos_do_DonoDataSet12.xsd</DependentUpon>
+    </None>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\AmigoDono.Control\AmigoDono.Control.csproj">
+      <Project>{899b6674-077c-4d0b-b59a-92be7f58a58e}</Project>
+      <Name>AmigoDono.Control</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\AmigoDono.Model\AmigoDono.Model.csproj">
+      <Project>{3f1d5b9c-adda-4d58-a433-f74790dc9934}</Project>
+      <Name>AmigoDono.Model</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="imagem\Caricatura.jpg" />
+    <Content Include="SqlServerTypes\readme.htm" />
+    <Content Include="SqlServerTypes\x64\msvcr120.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="SqlServerTypes\x64\SqlServerSpatial140.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="SqlServerTypes\x86\msvcr120.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="SqlServerTypes\x86\SqlServerSpatial140.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{C0C07587-41A7-46C8-8FBD-3F9C8EBE2DDC}" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

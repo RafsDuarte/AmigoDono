@@ -1,0 +1,595 @@
+C:\Users\rafin\Documents\Desktop\Web2\AmigoDono\AmigoDono.Web\bin\ApplicationInsights.config
+C:\Users\rafin\Documents\Desktop\Web2\AmigoDono\AmigoDono.Web\bin\AmigoDono.Web.dll.config
+C:\Users\rafin\Documents\Desktop\Web2\AmigoDono\AmigoDono.Web\bin\AmigoDono.Web.dll
+C:\Users\rafin\Documents\Desktop\Web2\AmigoDono\AmigoDono.Web\bin\AmigoDono.Web.pdb
+C:\Users\rafin\Documents\Desktop\Web2\AmigoDono\AmigoDono.Web\bin\roslyn\csc.exe
+C:\Users\rafin\Documents\Desktop\Web2\AmigoDono\AmigoDono.Web\bin\roslyn\csc.exe.config
+C:\Users\rafin\Documents\Desktop\Web2\AmigoDono\AmigoDono.Web\bin\roslyn\csc.rsp
+C:\Users\rafin\Documents\Desktop\Web2\AmigoDono\AmigoDono.Web\bin\roslyn\csi.exe
+C:\Users\rafin\Documents\Desktop\Web2\AmigoDono\AmigoDono.Web\bin\roslyn\csi.exe.config
+C:\Users\rafin\Documents\Desktop\Web2\AmigoDono\AmigoDono.Web\bin\roslyn\csi.rsp
+C:\Users\rafin\Documents\Desktop\Web2\AmigoDono\AmigoDono.Web\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\rafin\Documents\Desktop\Web2\AmigoDono\AmigoDono.Web\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\rafin\Documents\Desktop\Web2\AmigoDono\AmigoDono.Web\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\rafin\Documents\Desktop\Web2\AmigoDono\AmigoDono.Web\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\rafin\Documents\Desktop\Web2\AmigoDono\AmigoDono.Web\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\rafin\Documents\Desktop\Web2\AmigoDono\AmigoDono.Web\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\rafin\Documents\Desktop\Web2\AmigoDono\AmigoDono.Web\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\rafin\Documents\Desktop\Web2\AmigoDono\AmigoDono.Web\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\rafin\Documents\Desktop\Web2\AmigoDono\AmigoDono.Web\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\rafin\Documents\Desktop\Web2\AmigoDono\AmigoDono.Web\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\rafin\Documents\Desktop\Web2\AmigoDono\AmigoDono.Web\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\rafin\Documents\Desktop\Web2\AmigoDono\AmigoDono.Web\bin\roslyn\System.AppContext.dll
+C:\Users\rafin\Documents\Desktop\Web2\AmigoDono\AmigoDono.Web\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\rafin\Documents\Desktop\Web2\AmigoDono\AmigoDono.Web\bin\roslyn\System.Console.dll
+C:\Users\rafin\Documents\Desktop\Web2\AmigoDono\AmigoDono.Web\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\rafin\Documents\Desktop\Web2\AmigoDono\AmigoDono.Web\bin\roslyn\System.Diagnostics.Process.dll
+C:\Users\rafin\Documents\Desktop\Web2\AmigoDono\AmigoDono.Web\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\rafin\Documents\Desktop\Web2\AmigoDono\AmigoDono.Web\bin\roslyn\System.IO.Compression.dll
+C:\Users\rafin\Documents\Desktop\Web2\AmigoDono\AmigoDono.Web\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\rafin\Documents\Desktop\Web2\AmigoDono\AmigoDono.Web\bin\roslyn\System.IO.FileSystem.DriveInfo.dll
+C:\Users\rafin\Documents\Desktop\Web2\AmigoDono\AmigoDono.Web\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\rafin\Documents\Desktop\Web2\AmigoDono\AmigoDono.Web\bin\roslyn\System.IO.Pipes.dll
+C:\Users\rafin\Documents\Desktop\Web2\AmigoDono\AmigoDono.Web\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\rafin\Documents\Desktop\Web2\AmigoDono\AmigoDono.Web\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\rafin\Documents\Desktop\Web2\AmigoDono\AmigoDono.Web\bin\roslyn\System.Security.Claims.dll
+C:\Users\rafin\Documents\Desktop\Web2\AmigoDono\AmigoDono.Web\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\rafin\Documents\Desktop\Web2\AmigoDono\AmigoDono.Web\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\rafin\Documents\Desktop\Web2\AmigoDono\AmigoDono.Web\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\rafin\Documents\Desktop\Web2\AmigoDono\AmigoDono.Web\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\rafin\Documents\Desktop\Web2\AmigoDono\AmigoDono.Web\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\rafin\Documents\Desktop\Web2\AmigoDono\AmigoDono.Web\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\rafin\Documents\Desktop\Web2\AmigoDono\AmigoDono.Web\bin\roslyn\System.Threading.Thread.dll
+C:\Users\rafin\Documents\Desktop\Web2\AmigoDono\AmigoDono.Web\bin\roslyn\System.ValueTuple.dll
+C:\Users\rafin\Documents\Desktop\Web2\AmigoDono\AmigoDono.Web\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\rafin\Documents\Desktop\Web2\AmigoDono\AmigoDono.Web\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\rafin\Documents\Desktop\Web2\AmigoDono\AmigoDono.Web\bin\roslyn\System.Xml.XPath.dll
+C:\Users\rafin\Documents\Desktop\Web2\AmigoDono\AmigoDono.Web\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\rafin\Documents\Desktop\Web2\AmigoDono\AmigoDono.Web\bin\roslyn\vbc.exe
+C:\Users\rafin\Documents\Desktop\Web2\AmigoDono\AmigoDono.Web\bin\roslyn\vbc.exe.config
+C:\Users\rafin\Documents\Desktop\Web2\AmigoDono\AmigoDono.Web\bin\roslyn\vbc.rsp
+C:\Users\rafin\Documents\Desktop\Web2\AmigoDono\AmigoDono.Web\bin\roslyn\VBCSCompiler.exe
+C:\Users\rafin\Documents\Desktop\Web2\AmigoDono\AmigoDono.Web\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\rafin\Documents\Desktop\Web2\AmigoDono\AmigoDono.Web\bin\Antlr3.Runtime.dll
+C:\Users\rafin\Documents\Desktop\Web2\AmigoDono\AmigoDono.Web\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\rafin\Documents\Desktop\Web2\AmigoDono\AmigoDono.Web\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\rafin\Documents\Desktop\Web2\AmigoDono\AmigoDono.Web\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\rafin\Documents\Desktop\Web2\AmigoDono\AmigoDono.Web\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\rafin\Documents\Desktop\Web2\AmigoDono\AmigoDono.Web\bin\Microsoft.AI.Web.dll
+C:\Users\rafin\Documents\Desktop\Web2\AmigoDono\AmigoDono.Web\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\rafin\Documents\Desktop\Web2\AmigoDono\AmigoDono.Web\bin\Microsoft.ApplicationInsights.dll
+C:\Users\rafin\Documents\Desktop\Web2\AmigoDono\AmigoDono.Web\bin\Microsoft.AspNet.TelemetryCorrelation.dll
+C:\Users\rafin\Documents\Desktop\Web2\AmigoDono\AmigoDono.Web\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\rafin\Documents\Desktop\Web2\AmigoDono\AmigoDono.Web\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\rafin\Documents\Desktop\Web2\AmigoDono\AmigoDono.Web\bin\Newtonsoft.Json.dll
+C:\Users\rafin\Documents\Desktop\Web2\AmigoDono\AmigoDono.Web\bin\System.Diagnostics.DiagnosticSource.dll
+C:\Users\rafin\Documents\Desktop\Web2\AmigoDono\AmigoDono.Web\bin\System.Web.Helpers.dll
+C:\Users\rafin\Documents\Desktop\Web2\AmigoDono\AmigoDono.Web\bin\System.Web.Mvc.dll
+C:\Users\rafin\Documents\Desktop\Web2\AmigoDono\AmigoDono.Web\bin\System.Web.Optimization.dll
+C:\Users\rafin\Documents\Desktop\Web2\AmigoDono\AmigoDono.Web\bin\System.Web.Razor.dll
+C:\Users\rafin\Documents\Desktop\Web2\AmigoDono\AmigoDono.Web\bin\System.Web.WebPages.Deployment.dll
+C:\Users\rafin\Documents\Desktop\Web2\AmigoDono\AmigoDono.Web\bin\System.Web.WebPages.dll
+C:\Users\rafin\Documents\Desktop\Web2\AmigoDono\AmigoDono.Web\bin\System.Web.WebPages.Razor.dll
+C:\Users\rafin\Documents\Desktop\Web2\AmigoDono\AmigoDono.Web\bin\WebGrease.dll
+C:\Users\rafin\Documents\Desktop\Web2\AmigoDono\AmigoDono.Web\bin\System.Web.Helpers.xml
+C:\Users\rafin\Documents\Desktop\Web2\AmigoDono\AmigoDono.Web\bin\System.Web.Mvc.xml
+C:\Users\rafin\Documents\Desktop\Web2\AmigoDono\AmigoDono.Web\bin\System.Web.Optimization.xml
+C:\Users\rafin\Documents\Desktop\Web2\AmigoDono\AmigoDono.Web\bin\System.Web.Razor.xml
+C:\Users\rafin\Documents\Desktop\Web2\AmigoDono\AmigoDono.Web\bin\System.Web.WebPages.xml
+C:\Users\rafin\Documents\Desktop\Web2\AmigoDono\AmigoDono.Web\bin\System.Web.WebPages.Deployment.xml
+C:\Users\rafin\Documents\Desktop\Web2\AmigoDono\AmigoDono.Web\bin\System.Web.WebPages.Razor.xml
+C:\Users\rafin\Documents\Desktop\Web2\AmigoDono\AmigoDono.Web\bin\Newtonsoft.Json.xml
+C:\Users\rafin\Documents\Desktop\Web2\AmigoDono\AmigoDono.Web\bin\Antlr3.Runtime.pdb
+C:\Users\rafin\Documents\Desktop\Web2\AmigoDono\AmigoDono.Web\bin\System.Diagnostics.DiagnosticSource.xml
+C:\Users\rafin\Documents\Desktop\Web2\AmigoDono\AmigoDono.Web\bin\Microsoft.AspNet.TelemetryCorrelation.xml
+C:\Users\rafin\Documents\Desktop\Web2\AmigoDono\AmigoDono.Web\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\rafin\Documents\Desktop\Web2\AmigoDono\AmigoDono.Web\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\rafin\Documents\Desktop\Web2\AmigoDono\AmigoDono.Web\bin\Microsoft.AI.Web.xml
+C:\Users\rafin\Documents\Desktop\Web2\AmigoDono\AmigoDono.Web\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\rafin\Documents\Desktop\Web2\AmigoDono\AmigoDono.Web\obj\Debug\AmigoDono.Web.csproj.CoreCompileInputs.cache
+C:\Users\rafin\Documents\Desktop\Web2\AmigoDono\AmigoDono.Web\obj\Debug\AmigoDono.Web.csproj.CopyComplete
+C:\Users\rafin\Documents\Desktop\Web2\AmigoDono\AmigoDono.Web\obj\Debug\AmigoDono.Web.dll
+C:\Users\rafin\Documents\Desktop\Web2\AmigoDono\AmigoDono.Web\obj\Debug\AmigoDono.Web.pdb
+C:\Users\rafin\Documents\Desktop\Web2\AmigoDono\AmigoDono.Web\obj\Debug\AmigoDono.Web.csprojAssemblyReference.cache
+C:\Visual Studio Projects\Web2\AmigoDono\AmigoDono.Web\bin\ApplicationInsights.config
+C:\Visual Studio Projects\Web2\AmigoDono\AmigoDono.Web\bin\AmigoDono.Web.dll.config
+C:\Visual Studio Projects\Web2\AmigoDono\AmigoDono.Web\bin\AmigoDono.Web.dll
+C:\Visual Studio Projects\Web2\AmigoDono\AmigoDono.Web\bin\AmigoDono.Web.pdb
+C:\Visual Studio Projects\Web2\AmigoDono\AmigoDono.Web\bin\roslyn\csc.exe
+C:\Visual Studio Projects\Web2\AmigoDono\AmigoDono.Web\bin\roslyn\csc.exe.config
+C:\Visual Studio Projects\Web2\AmigoDono\AmigoDono.Web\bin\roslyn\csc.rsp
+C:\Visual Studio Projects\Web2\AmigoDono\AmigoDono.Web\bin\roslyn\csi.exe
+C:\Visual Studio Projects\Web2\AmigoDono\AmigoDono.Web\bin\roslyn\csi.exe.config
+C:\Visual Studio Projects\Web2\AmigoDono\AmigoDono.Web\bin\roslyn\csi.rsp
+C:\Visual Studio Projects\Web2\AmigoDono\AmigoDono.Web\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Visual Studio Projects\Web2\AmigoDono\AmigoDono.Web\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Visual Studio Projects\Web2\AmigoDono\AmigoDono.Web\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Visual Studio Projects\Web2\AmigoDono\AmigoDono.Web\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Visual Studio Projects\Web2\AmigoDono\AmigoDono.Web\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Visual Studio Projects\Web2\AmigoDono\AmigoDono.Web\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Visual Studio Projects\Web2\AmigoDono\AmigoDono.Web\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Visual Studio Projects\Web2\AmigoDono\AmigoDono.Web\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Visual Studio Projects\Web2\AmigoDono\AmigoDono.Web\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Visual Studio Projects\Web2\AmigoDono\AmigoDono.Web\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Visual Studio Projects\Web2\AmigoDono\AmigoDono.Web\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Visual Studio Projects\Web2\AmigoDono\AmigoDono.Web\bin\roslyn\System.AppContext.dll
+C:\Visual Studio Projects\Web2\AmigoDono\AmigoDono.Web\bin\roslyn\System.Collections.Immutable.dll
+C:\Visual Studio Projects\Web2\AmigoDono\AmigoDono.Web\bin\roslyn\System.Console.dll
+C:\Visual Studio Projects\Web2\AmigoDono\AmigoDono.Web\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Visual Studio Projects\Web2\AmigoDono\AmigoDono.Web\bin\roslyn\System.Diagnostics.Process.dll
+C:\Visual Studio Projects\Web2\AmigoDono\AmigoDono.Web\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Visual Studio Projects\Web2\AmigoDono\AmigoDono.Web\bin\roslyn\System.IO.Compression.dll
+C:\Visual Studio Projects\Web2\AmigoDono\AmigoDono.Web\bin\roslyn\System.IO.FileSystem.dll
+C:\Visual Studio Projects\Web2\AmigoDono\AmigoDono.Web\bin\roslyn\System.IO.FileSystem.DriveInfo.dll
+C:\Visual Studio Projects\Web2\AmigoDono\AmigoDono.Web\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Visual Studio Projects\Web2\AmigoDono\AmigoDono.Web\bin\roslyn\System.IO.Pipes.dll
+C:\Visual Studio Projects\Web2\AmigoDono\AmigoDono.Web\bin\roslyn\System.Reflection.Metadata.dll
+C:\Visual Studio Projects\Web2\AmigoDono\AmigoDono.Web\bin\roslyn\System.Security.AccessControl.dll
+C:\Visual Studio Projects\Web2\AmigoDono\AmigoDono.Web\bin\roslyn\System.Security.Claims.dll
+C:\Visual Studio Projects\Web2\AmigoDono\AmigoDono.Web\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Visual Studio Projects\Web2\AmigoDono\AmigoDono.Web\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Visual Studio Projects\Web2\AmigoDono\AmigoDono.Web\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Visual Studio Projects\Web2\AmigoDono\AmigoDono.Web\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Visual Studio Projects\Web2\AmigoDono\AmigoDono.Web\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Visual Studio Projects\Web2\AmigoDono\AmigoDono.Web\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Visual Studio Projects\Web2\AmigoDono\AmigoDono.Web\bin\roslyn\System.Threading.Thread.dll
+C:\Visual Studio Projects\Web2\AmigoDono\AmigoDono.Web\bin\roslyn\System.ValueTuple.dll
+C:\Visual Studio Projects\Web2\AmigoDono\AmigoDono.Web\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Visual Studio Projects\Web2\AmigoDono\AmigoDono.Web\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Visual Studio Projects\Web2\AmigoDono\AmigoDono.Web\bin\roslyn\System.Xml.XPath.dll
+C:\Visual Studio Projects\Web2\AmigoDono\AmigoDono.Web\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Visual Studio Projects\Web2\AmigoDono\AmigoDono.Web\bin\roslyn\vbc.exe
+C:\Visual Studio Projects\Web2\AmigoDono\AmigoDono.Web\bin\roslyn\vbc.exe.config
+C:\Visual Studio Projects\Web2\AmigoDono\AmigoDono.Web\bin\roslyn\vbc.rsp
+C:\Visual Studio Projects\Web2\AmigoDono\AmigoDono.Web\bin\roslyn\VBCSCompiler.exe
+C:\Visual Studio Projects\Web2\AmigoDono\AmigoDono.Web\bin\roslyn\VBCSCompiler.exe.config
+C:\Visual Studio Projects\Web2\AmigoDono\AmigoDono.Web\bin\AmigoDono.Control.dll
+C:\Visual Studio Projects\Web2\AmigoDono\AmigoDono.Web\bin\AmigoDono.Model.dll
+C:\Visual Studio Projects\Web2\AmigoDono\AmigoDono.Web\bin\Antlr3.Runtime.dll
+C:\Visual Studio Projects\Web2\AmigoDono\AmigoDono.Web\bin\EntityFramework.dll
+C:\Visual Studio Projects\Web2\AmigoDono\AmigoDono.Web\bin\EntityFramework.SqlServer.dll
+C:\Visual Studio Projects\Web2\AmigoDono\AmigoDono.Web\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Visual Studio Projects\Web2\AmigoDono\AmigoDono.Web\bin\Microsoft.AI.DependencyCollector.dll
+C:\Visual Studio Projects\Web2\AmigoDono\AmigoDono.Web\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Visual Studio Projects\Web2\AmigoDono\AmigoDono.Web\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Visual Studio Projects\Web2\AmigoDono\AmigoDono.Web\bin\Microsoft.AI.Web.dll
+C:\Visual Studio Projects\Web2\AmigoDono\AmigoDono.Web\bin\Microsoft.AI.WindowsServer.dll
+C:\Visual Studio Projects\Web2\AmigoDono\AmigoDono.Web\bin\Microsoft.ApplicationInsights.dll
+C:\Visual Studio Projects\Web2\AmigoDono\AmigoDono.Web\bin\Microsoft.AspNet.TelemetryCorrelation.dll
+C:\Visual Studio Projects\Web2\AmigoDono\AmigoDono.Web\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Visual Studio Projects\Web2\AmigoDono\AmigoDono.Web\bin\Microsoft.Web.Infrastructure.dll
+C:\Visual Studio Projects\Web2\AmigoDono\AmigoDono.Web\bin\Newtonsoft.Json.dll
+C:\Visual Studio Projects\Web2\AmigoDono\AmigoDono.Web\bin\System.Diagnostics.DiagnosticSource.dll
+C:\Visual Studio Projects\Web2\AmigoDono\AmigoDono.Web\bin\System.Web.Helpers.dll
+C:\Visual Studio Projects\Web2\AmigoDono\AmigoDono.Web\bin\System.Web.Mvc.dll
+C:\Visual Studio Projects\Web2\AmigoDono\AmigoDono.Web\bin\System.Web.Optimization.dll
+C:\Visual Studio Projects\Web2\AmigoDono\AmigoDono.Web\bin\System.Web.Razor.dll
+C:\Visual Studio Projects\Web2\AmigoDono\AmigoDono.Web\bin\System.Web.WebPages.Deployment.dll
+C:\Visual Studio Projects\Web2\AmigoDono\AmigoDono.Web\bin\System.Web.WebPages.dll
+C:\Visual Studio Projects\Web2\AmigoDono\AmigoDono.Web\bin\System.Web.WebPages.Razor.dll
+C:\Visual Studio Projects\Web2\AmigoDono\AmigoDono.Web\bin\WebGrease.dll
+C:\Visual Studio Projects\Web2\AmigoDono\AmigoDono.Web\bin\AmigoDono.Control.pdb
+C:\Visual Studio Projects\Web2\AmigoDono\AmigoDono.Web\bin\AmigoDono.Model.pdb
+C:\Visual Studio Projects\Web2\AmigoDono\AmigoDono.Web\bin\AmigoDono.Model.dll.config
+C:\Visual Studio Projects\Web2\AmigoDono\AmigoDono.Web\bin\EntityFramework.xml
+C:\Visual Studio Projects\Web2\AmigoDono\AmigoDono.Web\bin\EntityFramework.SqlServer.xml
+C:\Visual Studio Projects\Web2\AmigoDono\AmigoDono.Web\bin\System.Web.Helpers.xml
+C:\Visual Studio Projects\Web2\AmigoDono\AmigoDono.Web\bin\System.Web.Mvc.xml
+C:\Visual Studio Projects\Web2\AmigoDono\AmigoDono.Web\bin\System.Web.Optimization.xml
+C:\Visual Studio Projects\Web2\AmigoDono\AmigoDono.Web\bin\System.Web.Razor.xml
+C:\Visual Studio Projects\Web2\AmigoDono\AmigoDono.Web\bin\System.Web.WebPages.xml
+C:\Visual Studio Projects\Web2\AmigoDono\AmigoDono.Web\bin\System.Web.WebPages.Deployment.xml
+C:\Visual Studio Projects\Web2\AmigoDono\AmigoDono.Web\bin\System.Web.WebPages.Razor.xml
+C:\Visual Studio Projects\Web2\AmigoDono\AmigoDono.Web\bin\Newtonsoft.Json.xml
+C:\Visual Studio Projects\Web2\AmigoDono\AmigoDono.Web\bin\Antlr3.Runtime.pdb
+C:\Visual Studio Projects\Web2\AmigoDono\AmigoDono.Web\bin\System.Diagnostics.DiagnosticSource.xml
+C:\Visual Studio Projects\Web2\AmigoDono\AmigoDono.Web\bin\Microsoft.AspNet.TelemetryCorrelation.xml
+C:\Visual Studio Projects\Web2\AmigoDono\AmigoDono.Web\bin\Microsoft.AI.DependencyCollector.xml
+C:\Visual Studio Projects\Web2\AmigoDono\AmigoDono.Web\bin\Microsoft.AI.WindowsServer.xml
+C:\Visual Studio Projects\Web2\AmigoDono\AmigoDono.Web\bin\Microsoft.AI.Web.xml
+C:\Visual Studio Projects\Web2\AmigoDono\AmigoDono.Web\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Visual Studio Projects\Web2\AmigoDono\AmigoDono.Web\obj\Debug\AmigoDono.Web.csprojAssemblyReference.cache
+C:\Visual Studio Projects\Web2\AmigoDono\AmigoDono.Web\obj\Debug\AmigoDono.Web.csproj.CoreCompileInputs.cache
+C:\Visual Studio Projects\Web2\AmigoDono\AmigoDono.Web\obj\Debug\AmigoDono.Web.csproj.CopyComplete
+C:\Visual Studio Projects\Web2\AmigoDono\AmigoDono.Web\obj\Debug\AmigoDono.Web.dll
+C:\Visual Studio Projects\Web2\AmigoDono\AmigoDono.Web\obj\Debug\AmigoDono.Web.pdb
+C:\Visual Studio Projects\Atual3\Atual\AmigoDono\AmigoDono.Web\bin\ApplicationInsights.config
+C:\Visual Studio Projects\Atual3\Atual\AmigoDono\AmigoDono.Web\bin\AmigoDono.Web.dll.config
+C:\Visual Studio Projects\Atual3\Atual\AmigoDono\AmigoDono.Web\bin\AmigoDono.Web.dll
+C:\Visual Studio Projects\Atual3\Atual\AmigoDono\AmigoDono.Web\bin\AmigoDono.Web.pdb
+C:\Visual Studio Projects\Atual3\Atual\AmigoDono\AmigoDono.Web\bin\roslyn\csc.exe
+C:\Visual Studio Projects\Atual3\Atual\AmigoDono\AmigoDono.Web\bin\roslyn\csc.exe.config
+C:\Visual Studio Projects\Atual3\Atual\AmigoDono\AmigoDono.Web\bin\roslyn\csc.rsp
+C:\Visual Studio Projects\Atual3\Atual\AmigoDono\AmigoDono.Web\bin\roslyn\csi.exe
+C:\Visual Studio Projects\Atual3\Atual\AmigoDono\AmigoDono.Web\bin\roslyn\csi.exe.config
+C:\Visual Studio Projects\Atual3\Atual\AmigoDono\AmigoDono.Web\bin\roslyn\csi.rsp
+C:\Visual Studio Projects\Atual3\Atual\AmigoDono\AmigoDono.Web\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Visual Studio Projects\Atual3\Atual\AmigoDono\AmigoDono.Web\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Visual Studio Projects\Atual3\Atual\AmigoDono\AmigoDono.Web\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Visual Studio Projects\Atual3\Atual\AmigoDono\AmigoDono.Web\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Visual Studio Projects\Atual3\Atual\AmigoDono\AmigoDono.Web\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Visual Studio Projects\Atual3\Atual\AmigoDono\AmigoDono.Web\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Visual Studio Projects\Atual3\Atual\AmigoDono\AmigoDono.Web\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Visual Studio Projects\Atual3\Atual\AmigoDono\AmigoDono.Web\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Visual Studio Projects\Atual3\Atual\AmigoDono\AmigoDono.Web\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Visual Studio Projects\Atual3\Atual\AmigoDono\AmigoDono.Web\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Visual Studio Projects\Atual3\Atual\AmigoDono\AmigoDono.Web\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Visual Studio Projects\Atual3\Atual\AmigoDono\AmigoDono.Web\bin\roslyn\System.AppContext.dll
+C:\Visual Studio Projects\Atual3\Atual\AmigoDono\AmigoDono.Web\bin\roslyn\System.Collections.Immutable.dll
+C:\Visual Studio Projects\Atual3\Atual\AmigoDono\AmigoDono.Web\bin\roslyn\System.Console.dll
+C:\Visual Studio Projects\Atual3\Atual\AmigoDono\AmigoDono.Web\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Visual Studio Projects\Atual3\Atual\AmigoDono\AmigoDono.Web\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Visual Studio Projects\Atual3\Atual\AmigoDono\AmigoDono.Web\bin\roslyn\System.IO.Compression.dll
+C:\Visual Studio Projects\Atual3\Atual\AmigoDono\AmigoDono.Web\bin\roslyn\System.IO.FileSystem.dll
+C:\Visual Studio Projects\Atual3\Atual\AmigoDono\AmigoDono.Web\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Visual Studio Projects\Atual3\Atual\AmigoDono\AmigoDono.Web\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Visual Studio Projects\Atual3\Atual\AmigoDono\AmigoDono.Web\bin\roslyn\System.IO.Pipes.dll
+C:\Visual Studio Projects\Atual3\Atual\AmigoDono\AmigoDono.Web\bin\roslyn\System.Reflection.Metadata.dll
+C:\Visual Studio Projects\Atual3\Atual\AmigoDono\AmigoDono.Web\bin\roslyn\System.Security.AccessControl.dll
+C:\Visual Studio Projects\Atual3\Atual\AmigoDono\AmigoDono.Web\bin\roslyn\System.Security.Claims.dll
+C:\Visual Studio Projects\Atual3\Atual\AmigoDono\AmigoDono.Web\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Visual Studio Projects\Atual3\Atual\AmigoDono\AmigoDono.Web\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Visual Studio Projects\Atual3\Atual\AmigoDono\AmigoDono.Web\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Visual Studio Projects\Atual3\Atual\AmigoDono\AmigoDono.Web\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Visual Studio Projects\Atual3\Atual\AmigoDono\AmigoDono.Web\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Visual Studio Projects\Atual3\Atual\AmigoDono\AmigoDono.Web\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Visual Studio Projects\Atual3\Atual\AmigoDono\AmigoDono.Web\bin\roslyn\System.ValueTuple.dll
+C:\Visual Studio Projects\Atual3\Atual\AmigoDono\AmigoDono.Web\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Visual Studio Projects\Atual3\Atual\AmigoDono\AmigoDono.Web\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Visual Studio Projects\Atual3\Atual\AmigoDono\AmigoDono.Web\bin\roslyn\System.Xml.XPath.dll
+C:\Visual Studio Projects\Atual3\Atual\AmigoDono\AmigoDono.Web\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Visual Studio Projects\Atual3\Atual\AmigoDono\AmigoDono.Web\bin\roslyn\vbc.exe
+C:\Visual Studio Projects\Atual3\Atual\AmigoDono\AmigoDono.Web\bin\roslyn\vbc.exe.config
+C:\Visual Studio Projects\Atual3\Atual\AmigoDono\AmigoDono.Web\bin\roslyn\vbc.rsp
+C:\Visual Studio Projects\Atual3\Atual\AmigoDono\AmigoDono.Web\bin\roslyn\VBCSCompiler.exe
+C:\Visual Studio Projects\Atual3\Atual\AmigoDono\AmigoDono.Web\bin\roslyn\VBCSCompiler.exe.config
+C:\Visual Studio Projects\Atual3\Atual\AmigoDono\AmigoDono.Web\bin\AmigoDono.Control.dll
+C:\Visual Studio Projects\Atual3\Atual\AmigoDono\AmigoDono.Web\bin\AmigoDono.Model.dll
+C:\Visual Studio Projects\Atual3\Atual\AmigoDono\AmigoDono.Web\bin\Antlr3.Runtime.dll
+C:\Visual Studio Projects\Atual3\Atual\AmigoDono\AmigoDono.Web\bin\EntityFramework.dll
+C:\Visual Studio Projects\Atual3\Atual\AmigoDono\AmigoDono.Web\bin\EntityFramework.SqlServer.dll
+C:\Visual Studio Projects\Atual3\Atual\AmigoDono\AmigoDono.Web\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Visual Studio Projects\Atual3\Atual\AmigoDono\AmigoDono.Web\bin\Microsoft.AI.DependencyCollector.dll
+C:\Visual Studio Projects\Atual3\Atual\AmigoDono\AmigoDono.Web\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Visual Studio Projects\Atual3\Atual\AmigoDono\AmigoDono.Web\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Visual Studio Projects\Atual3\Atual\AmigoDono\AmigoDono.Web\bin\Microsoft.AI.Web.dll
+C:\Visual Studio Projects\Atual3\Atual\AmigoDono\AmigoDono.Web\bin\Microsoft.AI.WindowsServer.dll
+C:\Visual Studio Projects\Atual3\Atual\AmigoDono\AmigoDono.Web\bin\Microsoft.ApplicationInsights.dll
+C:\Visual Studio Projects\Atual3\Atual\AmigoDono\AmigoDono.Web\bin\Microsoft.AspNet.TelemetryCorrelation.dll
+C:\Visual Studio Projects\Atual3\Atual\AmigoDono\AmigoDono.Web\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Visual Studio Projects\Atual3\Atual\AmigoDono\AmigoDono.Web\bin\Microsoft.Web.Infrastructure.dll
+C:\Visual Studio Projects\Atual3\Atual\AmigoDono\AmigoDono.Web\bin\Newtonsoft.Json.dll
+C:\Visual Studio Projects\Atual3\Atual\AmigoDono\AmigoDono.Web\bin\System.Diagnostics.DiagnosticSource.dll
+C:\Visual Studio Projects\Atual3\Atual\AmigoDono\AmigoDono.Web\bin\System.Web.Helpers.dll
+C:\Visual Studio Projects\Atual3\Atual\AmigoDono\AmigoDono.Web\bin\System.Web.Mvc.dll
+C:\Visual Studio Projects\Atual3\Atual\AmigoDono\AmigoDono.Web\bin\System.Web.Optimization.dll
+C:\Visual Studio Projects\Atual3\Atual\AmigoDono\AmigoDono.Web\bin\System.Web.Razor.dll
+C:\Visual Studio Projects\Atual3\Atual\AmigoDono\AmigoDono.Web\bin\System.Web.WebPages.Deployment.dll
+C:\Visual Studio Projects\Atual3\Atual\AmigoDono\AmigoDono.Web\bin\System.Web.WebPages.dll
+C:\Visual Studio Projects\Atual3\Atual\AmigoDono\AmigoDono.Web\bin\System.Web.WebPages.Razor.dll
+C:\Visual Studio Projects\Atual3\Atual\AmigoDono\AmigoDono.Web\bin\WebGrease.dll
+C:\Visual Studio Projects\Atual3\Atual\AmigoDono\AmigoDono.Web\bin\AmigoDono.Control.pdb
+C:\Visual Studio Projects\Atual3\Atual\AmigoDono\AmigoDono.Web\bin\AmigoDono.Model.pdb
+C:\Visual Studio Projects\Atual3\Atual\AmigoDono\AmigoDono.Web\bin\AmigoDono.Model.dll.config
+C:\Visual Studio Projects\Atual3\Atual\AmigoDono\AmigoDono.Web\bin\Antlr3.Runtime.pdb
+C:\Visual Studio Projects\Atual3\Atual\AmigoDono\AmigoDono.Web\bin\EntityFramework.xml
+C:\Visual Studio Projects\Atual3\Atual\AmigoDono\AmigoDono.Web\bin\EntityFramework.SqlServer.xml
+C:\Visual Studio Projects\Atual3\Atual\AmigoDono\AmigoDono.Web\bin\Microsoft.AI.DependencyCollector.xml
+C:\Visual Studio Projects\Atual3\Atual\AmigoDono\AmigoDono.Web\bin\Microsoft.AI.Web.xml
+C:\Visual Studio Projects\Atual3\Atual\AmigoDono\AmigoDono.Web\bin\Microsoft.AI.WindowsServer.xml
+C:\Visual Studio Projects\Atual3\Atual\AmigoDono\AmigoDono.Web\bin\Microsoft.AspNet.TelemetryCorrelation.xml
+C:\Visual Studio Projects\Atual3\Atual\AmigoDono\AmigoDono.Web\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Visual Studio Projects\Atual3\Atual\AmigoDono\AmigoDono.Web\bin\Newtonsoft.Json.xml
+C:\Visual Studio Projects\Atual3\Atual\AmigoDono\AmigoDono.Web\bin\System.Diagnostics.DiagnosticSource.xml
+C:\Visual Studio Projects\Atual3\Atual\AmigoDono\AmigoDono.Web\bin\System.Web.Helpers.xml
+C:\Visual Studio Projects\Atual3\Atual\AmigoDono\AmigoDono.Web\bin\System.Web.Mvc.xml
+C:\Visual Studio Projects\Atual3\Atual\AmigoDono\AmigoDono.Web\bin\System.Web.Optimization.xml
+C:\Visual Studio Projects\Atual3\Atual\AmigoDono\AmigoDono.Web\bin\System.Web.Razor.xml
+C:\Visual Studio Projects\Atual3\Atual\AmigoDono\AmigoDono.Web\bin\System.Web.WebPages.xml
+C:\Visual Studio Projects\Atual3\Atual\AmigoDono\AmigoDono.Web\bin\System.Web.WebPages.Deployment.xml
+C:\Visual Studio Projects\Atual3\Atual\AmigoDono\AmigoDono.Web\bin\System.Web.WebPages.Razor.xml
+C:\Visual Studio Projects\Atual3\Atual\AmigoDono\AmigoDono.Web\obj\Debug\AmigoDono.Web.csprojAssemblyReference.cache
+C:\Visual Studio Projects\Atual3\Atual\AmigoDono\AmigoDono.Web\obj\Debug\AmigoDono.Web.csproj.CoreCompileInputs.cache
+C:\Visual Studio Projects\Atual3\Atual\AmigoDono\AmigoDono.Web\obj\Debug\AmigoDono.Web.csproj.CopyComplete
+C:\Visual Studio Projects\Atual3\Atual\AmigoDono\AmigoDono.Web\obj\Debug\AmigoDono.Web.dll
+C:\Visual Studio Projects\Atual3\Atual\AmigoDono\AmigoDono.Web\obj\Debug\AmigoDono.Web.pdb
+E:\Atual3\Atual\AmigoDono\AmigoDono.Web\bin\ApplicationInsights.config
+E:\Atual3\Atual\AmigoDono\AmigoDono.Web\bin\AmigoDono.Web.dll.config
+E:\Atual3\Atual\AmigoDono\AmigoDono.Web\bin\AmigoDono.Web.dll
+E:\Atual3\Atual\AmigoDono\AmigoDono.Web\bin\AmigoDono.Web.pdb
+E:\Atual3\Atual\AmigoDono\AmigoDono.Web\bin\roslyn\csc.exe
+E:\Atual3\Atual\AmigoDono\AmigoDono.Web\bin\roslyn\csc.exe.config
+E:\Atual3\Atual\AmigoDono\AmigoDono.Web\bin\roslyn\csc.rsp
+E:\Atual3\Atual\AmigoDono\AmigoDono.Web\bin\roslyn\csi.exe
+E:\Atual3\Atual\AmigoDono\AmigoDono.Web\bin\roslyn\csi.exe.config
+E:\Atual3\Atual\AmigoDono\AmigoDono.Web\bin\roslyn\csi.rsp
+E:\Atual3\Atual\AmigoDono\AmigoDono.Web\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\Atual3\Atual\AmigoDono\AmigoDono.Web\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\Atual3\Atual\AmigoDono\AmigoDono.Web\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+E:\Atual3\Atual\AmigoDono\AmigoDono.Web\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\Atual3\Atual\AmigoDono\AmigoDono.Web\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+E:\Atual3\Atual\AmigoDono\AmigoDono.Web\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\Atual3\Atual\AmigoDono\AmigoDono.Web\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\Atual3\Atual\AmigoDono\AmigoDono.Web\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+E:\Atual3\Atual\AmigoDono\AmigoDono.Web\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+E:\Atual3\Atual\AmigoDono\AmigoDono.Web\bin\roslyn\Microsoft.Managed.Core.targets
+E:\Atual3\Atual\AmigoDono\AmigoDono.Web\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\Atual3\Atual\AmigoDono\AmigoDono.Web\bin\roslyn\System.AppContext.dll
+E:\Atual3\Atual\AmigoDono\AmigoDono.Web\bin\roslyn\System.Collections.Immutable.dll
+E:\Atual3\Atual\AmigoDono\AmigoDono.Web\bin\roslyn\System.Console.dll
+E:\Atual3\Atual\AmigoDono\AmigoDono.Web\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+E:\Atual3\Atual\AmigoDono\AmigoDono.Web\bin\roslyn\System.Diagnostics.StackTrace.dll
+E:\Atual3\Atual\AmigoDono\AmigoDono.Web\bin\roslyn\System.IO.Compression.dll
+E:\Atual3\Atual\AmigoDono\AmigoDono.Web\bin\roslyn\System.IO.FileSystem.dll
+E:\Atual3\Atual\AmigoDono\AmigoDono.Web\bin\roslyn\System.IO.FileSystem.Primitives.dll
+E:\Atual3\Atual\AmigoDono\AmigoDono.Web\bin\roslyn\System.IO.Pipes.AccessControl.dll
+E:\Atual3\Atual\AmigoDono\AmigoDono.Web\bin\roslyn\System.IO.Pipes.dll
+E:\Atual3\Atual\AmigoDono\AmigoDono.Web\bin\roslyn\System.Reflection.Metadata.dll
+E:\Atual3\Atual\AmigoDono\AmigoDono.Web\bin\roslyn\System.Security.AccessControl.dll
+E:\Atual3\Atual\AmigoDono\AmigoDono.Web\bin\roslyn\System.Security.Claims.dll
+E:\Atual3\Atual\AmigoDono\AmigoDono.Web\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+E:\Atual3\Atual\AmigoDono\AmigoDono.Web\bin\roslyn\System.Security.Cryptography.Encoding.dll
+E:\Atual3\Atual\AmigoDono\AmigoDono.Web\bin\roslyn\System.Security.Cryptography.Primitives.dll
+E:\Atual3\Atual\AmigoDono\AmigoDono.Web\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+E:\Atual3\Atual\AmigoDono\AmigoDono.Web\bin\roslyn\System.Security.Principal.Windows.dll
+E:\Atual3\Atual\AmigoDono\AmigoDono.Web\bin\roslyn\System.Text.Encoding.CodePages.dll
+E:\Atual3\Atual\AmigoDono\AmigoDono.Web\bin\roslyn\System.ValueTuple.dll
+E:\Atual3\Atual\AmigoDono\AmigoDono.Web\bin\roslyn\System.Xml.ReaderWriter.dll
+E:\Atual3\Atual\AmigoDono\AmigoDono.Web\bin\roslyn\System.Xml.XmlDocument.dll
+E:\Atual3\Atual\AmigoDono\AmigoDono.Web\bin\roslyn\System.Xml.XPath.dll
+E:\Atual3\Atual\AmigoDono\AmigoDono.Web\bin\roslyn\System.Xml.XPath.XDocument.dll
+E:\Atual3\Atual\AmigoDono\AmigoDono.Web\bin\roslyn\vbc.exe
+E:\Atual3\Atual\AmigoDono\AmigoDono.Web\bin\roslyn\vbc.exe.config
+E:\Atual3\Atual\AmigoDono\AmigoDono.Web\bin\roslyn\vbc.rsp
+E:\Atual3\Atual\AmigoDono\AmigoDono.Web\bin\roslyn\VBCSCompiler.exe
+E:\Atual3\Atual\AmigoDono\AmigoDono.Web\bin\roslyn\VBCSCompiler.exe.config
+E:\Atual3\Atual\AmigoDono\AmigoDono.Web\bin\AmigoDono.Control.dll
+E:\Atual3\Atual\AmigoDono\AmigoDono.Web\bin\AmigoDono.Model.dll
+E:\Atual3\Atual\AmigoDono\AmigoDono.Web\bin\Antlr3.Runtime.dll
+E:\Atual3\Atual\AmigoDono\AmigoDono.Web\bin\EntityFramework.dll
+E:\Atual3\Atual\AmigoDono\AmigoDono.Web\bin\EntityFramework.SqlServer.dll
+E:\Atual3\Atual\AmigoDono\AmigoDono.Web\bin\Microsoft.AI.Agent.Intercept.dll
+E:\Atual3\Atual\AmigoDono\AmigoDono.Web\bin\Microsoft.AI.DependencyCollector.dll
+E:\Atual3\Atual\AmigoDono\AmigoDono.Web\bin\Microsoft.AI.PerfCounterCollector.dll
+E:\Atual3\Atual\AmigoDono\AmigoDono.Web\bin\Microsoft.AI.ServerTelemetryChannel.dll
+E:\Atual3\Atual\AmigoDono\AmigoDono.Web\bin\Microsoft.AI.Web.dll
+E:\Atual3\Atual\AmigoDono\AmigoDono.Web\bin\Microsoft.AI.WindowsServer.dll
+E:\Atual3\Atual\AmigoDono\AmigoDono.Web\bin\Microsoft.ApplicationInsights.dll
+E:\Atual3\Atual\AmigoDono\AmigoDono.Web\bin\Microsoft.AspNet.TelemetryCorrelation.dll
+E:\Atual3\Atual\AmigoDono\AmigoDono.Web\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\Atual3\Atual\AmigoDono\AmigoDono.Web\bin\Microsoft.Web.Infrastructure.dll
+E:\Atual3\Atual\AmigoDono\AmigoDono.Web\bin\Newtonsoft.Json.dll
+E:\Atual3\Atual\AmigoDono\AmigoDono.Web\bin\System.Diagnostics.DiagnosticSource.dll
+E:\Atual3\Atual\AmigoDono\AmigoDono.Web\bin\System.Web.Helpers.dll
+E:\Atual3\Atual\AmigoDono\AmigoDono.Web\bin\System.Web.Mvc.dll
+E:\Atual3\Atual\AmigoDono\AmigoDono.Web\bin\System.Web.Optimization.dll
+E:\Atual3\Atual\AmigoDono\AmigoDono.Web\bin\System.Web.Razor.dll
+E:\Atual3\Atual\AmigoDono\AmigoDono.Web\bin\System.Web.WebPages.Deployment.dll
+E:\Atual3\Atual\AmigoDono\AmigoDono.Web\bin\System.Web.WebPages.dll
+E:\Atual3\Atual\AmigoDono\AmigoDono.Web\bin\System.Web.WebPages.Razor.dll
+E:\Atual3\Atual\AmigoDono\AmigoDono.Web\bin\WebGrease.dll
+E:\Atual3\Atual\AmigoDono\AmigoDono.Web\bin\AmigoDono.Control.pdb
+E:\Atual3\Atual\AmigoDono\AmigoDono.Web\bin\AmigoDono.Model.pdb
+E:\Atual3\Atual\AmigoDono\AmigoDono.Web\bin\AmigoDono.Model.dll.config
+E:\Atual3\Atual\AmigoDono\AmigoDono.Web\bin\Antlr3.Runtime.pdb
+E:\Atual3\Atual\AmigoDono\AmigoDono.Web\bin\EntityFramework.xml
+E:\Atual3\Atual\AmigoDono\AmigoDono.Web\bin\EntityFramework.SqlServer.xml
+E:\Atual3\Atual\AmigoDono\AmigoDono.Web\bin\Microsoft.AI.DependencyCollector.xml
+E:\Atual3\Atual\AmigoDono\AmigoDono.Web\bin\Microsoft.AI.Web.xml
+E:\Atual3\Atual\AmigoDono\AmigoDono.Web\bin\Microsoft.AI.WindowsServer.xml
+E:\Atual3\Atual\AmigoDono\AmigoDono.Web\bin\Microsoft.AspNet.TelemetryCorrelation.xml
+E:\Atual3\Atual\AmigoDono\AmigoDono.Web\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\Atual3\Atual\AmigoDono\AmigoDono.Web\bin\Newtonsoft.Json.xml
+E:\Atual3\Atual\AmigoDono\AmigoDono.Web\bin\System.Diagnostics.DiagnosticSource.xml
+E:\Atual3\Atual\AmigoDono\AmigoDono.Web\bin\System.Web.Helpers.xml
+E:\Atual3\Atual\AmigoDono\AmigoDono.Web\bin\System.Web.Mvc.xml
+E:\Atual3\Atual\AmigoDono\AmigoDono.Web\bin\System.Web.Optimization.xml
+E:\Atual3\Atual\AmigoDono\AmigoDono.Web\bin\System.Web.Razor.xml
+E:\Atual3\Atual\AmigoDono\AmigoDono.Web\bin\System.Web.WebPages.xml
+E:\Atual3\Atual\AmigoDono\AmigoDono.Web\bin\System.Web.WebPages.Deployment.xml
+E:\Atual3\Atual\AmigoDono\AmigoDono.Web\bin\System.Web.WebPages.Razor.xml
+E:\Atual3\Atual\AmigoDono\AmigoDono.Web\obj\Debug\AmigoDono.Web.csprojAssemblyReference.cache
+E:\Atual3\Atual\AmigoDono\AmigoDono.Web\obj\Debug\AmigoDono.Web.csproj.CoreCompileInputs.cache
+E:\Atual3\Atual\AmigoDono\AmigoDono.Web\obj\Debug\AmigoDono.Web.csproj.CopyComplete
+E:\Atual3\Atual\AmigoDono\AmigoDono.Web\obj\Debug\AmigoDono.Web.dll
+E:\Atual3\Atual\AmigoDono\AmigoDono.Web\obj\Debug\AmigoDono.Web.pdb
+C:\GitHub\AmigoDono\AmigoDono\AmigoDono.Web\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\GitHub\AmigoDono\AmigoDono\AmigoDono.Web\bin\ApplicationInsights.config
+C:\GitHub\AmigoDono\AmigoDono\AmigoDono.Web\bin\AmigoDono.Web.dll.config
+C:\GitHub\AmigoDono\AmigoDono\AmigoDono.Web\bin\AmigoDono.Web.dll
+C:\GitHub\AmigoDono\AmigoDono\AmigoDono.Web\bin\AmigoDono.Web.pdb
+C:\GitHub\AmigoDono\AmigoDono\AmigoDono.Web\bin\roslyn\csc.exe
+C:\GitHub\AmigoDono\AmigoDono\AmigoDono.Web\bin\roslyn\csc.exe.config
+C:\GitHub\AmigoDono\AmigoDono\AmigoDono.Web\bin\roslyn\csc.rsp
+C:\GitHub\AmigoDono\AmigoDono\AmigoDono.Web\bin\roslyn\csi.exe
+C:\GitHub\AmigoDono\AmigoDono\AmigoDono.Web\bin\roslyn\csi.exe.config
+C:\GitHub\AmigoDono\AmigoDono\AmigoDono.Web\bin\roslyn\csi.rsp
+C:\GitHub\AmigoDono\AmigoDono\AmigoDono.Web\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\GitHub\AmigoDono\AmigoDono\AmigoDono.Web\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\GitHub\AmigoDono\AmigoDono\AmigoDono.Web\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\GitHub\AmigoDono\AmigoDono\AmigoDono.Web\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\GitHub\AmigoDono\AmigoDono\AmigoDono.Web\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\GitHub\AmigoDono\AmigoDono\AmigoDono.Web\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\GitHub\AmigoDono\AmigoDono\AmigoDono.Web\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\GitHub\AmigoDono\AmigoDono\AmigoDono.Web\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\GitHub\AmigoDono\AmigoDono\AmigoDono.Web\bin\roslyn\Microsoft.Managed.Core.targets
+C:\GitHub\AmigoDono\AmigoDono\AmigoDono.Web\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\GitHub\AmigoDono\AmigoDono\AmigoDono.Web\bin\roslyn\System.AppContext.dll
+C:\GitHub\AmigoDono\AmigoDono\AmigoDono.Web\bin\roslyn\System.Collections.Immutable.dll
+C:\GitHub\AmigoDono\AmigoDono\AmigoDono.Web\bin\roslyn\System.Console.dll
+C:\GitHub\AmigoDono\AmigoDono\AmigoDono.Web\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\GitHub\AmigoDono\AmigoDono\AmigoDono.Web\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\GitHub\AmigoDono\AmigoDono\AmigoDono.Web\bin\roslyn\System.IO.Compression.dll
+C:\GitHub\AmigoDono\AmigoDono\AmigoDono.Web\bin\roslyn\System.IO.FileSystem.dll
+C:\GitHub\AmigoDono\AmigoDono\AmigoDono.Web\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\GitHub\AmigoDono\AmigoDono\AmigoDono.Web\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\GitHub\AmigoDono\AmigoDono\AmigoDono.Web\bin\roslyn\System.IO.Pipes.dll
+C:\GitHub\AmigoDono\AmigoDono\AmigoDono.Web\bin\roslyn\System.Reflection.Metadata.dll
+C:\GitHub\AmigoDono\AmigoDono\AmigoDono.Web\bin\roslyn\System.Security.AccessControl.dll
+C:\GitHub\AmigoDono\AmigoDono\AmigoDono.Web\bin\roslyn\System.Security.Claims.dll
+C:\GitHub\AmigoDono\AmigoDono\AmigoDono.Web\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\GitHub\AmigoDono\AmigoDono\AmigoDono.Web\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\GitHub\AmigoDono\AmigoDono\AmigoDono.Web\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\GitHub\AmigoDono\AmigoDono\AmigoDono.Web\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\GitHub\AmigoDono\AmigoDono\AmigoDono.Web\bin\roslyn\System.Security.Principal.Windows.dll
+C:\GitHub\AmigoDono\AmigoDono\AmigoDono.Web\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\GitHub\AmigoDono\AmigoDono\AmigoDono.Web\bin\roslyn\System.ValueTuple.dll
+C:\GitHub\AmigoDono\AmigoDono\AmigoDono.Web\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\GitHub\AmigoDono\AmigoDono\AmigoDono.Web\bin\roslyn\System.Xml.XmlDocument.dll
+C:\GitHub\AmigoDono\AmigoDono\AmigoDono.Web\bin\roslyn\System.Xml.XPath.dll
+C:\GitHub\AmigoDono\AmigoDono\AmigoDono.Web\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\GitHub\AmigoDono\AmigoDono\AmigoDono.Web\bin\roslyn\vbc.exe
+C:\GitHub\AmigoDono\AmigoDono\AmigoDono.Web\bin\roslyn\vbc.exe.config
+C:\GitHub\AmigoDono\AmigoDono\AmigoDono.Web\bin\roslyn\vbc.rsp
+C:\GitHub\AmigoDono\AmigoDono\AmigoDono.Web\bin\roslyn\VBCSCompiler.exe
+C:\GitHub\AmigoDono\AmigoDono\AmigoDono.Web\bin\roslyn\VBCSCompiler.exe.config
+C:\GitHub\AmigoDono\AmigoDono\AmigoDono.Web\bin\AmigoDono.Control.dll
+C:\GitHub\AmigoDono\AmigoDono\AmigoDono.Web\bin\AmigoDono.Model.dll
+C:\GitHub\AmigoDono\AmigoDono\AmigoDono.Web\bin\Antlr3.Runtime.dll
+C:\GitHub\AmigoDono\AmigoDono\AmigoDono.Web\bin\EntityFramework.dll
+C:\GitHub\AmigoDono\AmigoDono\AmigoDono.Web\bin\EntityFramework.SqlServer.dll
+C:\GitHub\AmigoDono\AmigoDono\AmigoDono.Web\bin\Microsoft.AI.Agent.Intercept.dll
+C:\GitHub\AmigoDono\AmigoDono\AmigoDono.Web\bin\Microsoft.AI.DependencyCollector.dll
+C:\GitHub\AmigoDono\AmigoDono\AmigoDono.Web\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\GitHub\AmigoDono\AmigoDono\AmigoDono.Web\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\GitHub\AmigoDono\AmigoDono\AmigoDono.Web\bin\Microsoft.AI.Web.dll
+C:\GitHub\AmigoDono\AmigoDono\AmigoDono.Web\bin\Microsoft.AI.WindowsServer.dll
+C:\GitHub\AmigoDono\AmigoDono\AmigoDono.Web\bin\Microsoft.ApplicationInsights.dll
+C:\GitHub\AmigoDono\AmigoDono\AmigoDono.Web\bin\Microsoft.AspNet.TelemetryCorrelation.dll
+C:\GitHub\AmigoDono\AmigoDono\AmigoDono.Web\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\GitHub\AmigoDono\AmigoDono\AmigoDono.Web\bin\Microsoft.Web.Infrastructure.dll
+C:\GitHub\AmigoDono\AmigoDono\AmigoDono.Web\bin\Newtonsoft.Json.dll
+C:\GitHub\AmigoDono\AmigoDono\AmigoDono.Web\bin\System.Diagnostics.DiagnosticSource.dll
+C:\GitHub\AmigoDono\AmigoDono\AmigoDono.Web\bin\System.Web.Helpers.dll
+C:\GitHub\AmigoDono\AmigoDono\AmigoDono.Web\bin\System.Web.Mvc.dll
+C:\GitHub\AmigoDono\AmigoDono\AmigoDono.Web\bin\System.Web.Optimization.dll
+C:\GitHub\AmigoDono\AmigoDono\AmigoDono.Web\bin\System.Web.Razor.dll
+C:\GitHub\AmigoDono\AmigoDono\AmigoDono.Web\bin\System.Web.WebPages.Deployment.dll
+C:\GitHub\AmigoDono\AmigoDono\AmigoDono.Web\bin\System.Web.WebPages.dll
+C:\GitHub\AmigoDono\AmigoDono\AmigoDono.Web\bin\System.Web.WebPages.Razor.dll
+C:\GitHub\AmigoDono\AmigoDono\AmigoDono.Web\bin\WebGrease.dll
+C:\GitHub\AmigoDono\AmigoDono\AmigoDono.Web\bin\AmigoDono.Control.pdb
+C:\GitHub\AmigoDono\AmigoDono\AmigoDono.Web\bin\AmigoDono.Model.pdb
+C:\GitHub\AmigoDono\AmigoDono\AmigoDono.Web\bin\AmigoDono.Model.dll.config
+C:\GitHub\AmigoDono\AmigoDono\AmigoDono.Web\bin\Antlr3.Runtime.pdb
+C:\GitHub\AmigoDono\AmigoDono\AmigoDono.Web\bin\EntityFramework.xml
+C:\GitHub\AmigoDono\AmigoDono\AmigoDono.Web\bin\EntityFramework.SqlServer.xml
+C:\GitHub\AmigoDono\AmigoDono\AmigoDono.Web\bin\Microsoft.AI.DependencyCollector.xml
+C:\GitHub\AmigoDono\AmigoDono\AmigoDono.Web\bin\Microsoft.AI.Web.xml
+C:\GitHub\AmigoDono\AmigoDono\AmigoDono.Web\bin\Microsoft.AI.WindowsServer.xml
+C:\GitHub\AmigoDono\AmigoDono\AmigoDono.Web\bin\Microsoft.AspNet.TelemetryCorrelation.xml
+C:\GitHub\AmigoDono\AmigoDono\AmigoDono.Web\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\GitHub\AmigoDono\AmigoDono\AmigoDono.Web\bin\Newtonsoft.Json.xml
+C:\GitHub\AmigoDono\AmigoDono\AmigoDono.Web\bin\System.Diagnostics.DiagnosticSource.xml
+C:\GitHub\AmigoDono\AmigoDono\AmigoDono.Web\bin\System.Web.Helpers.xml
+C:\GitHub\AmigoDono\AmigoDono\AmigoDono.Web\bin\System.Web.Mvc.xml
+C:\GitHub\AmigoDono\AmigoDono\AmigoDono.Web\bin\System.Web.Optimization.xml
+C:\GitHub\AmigoDono\AmigoDono\AmigoDono.Web\bin\System.Web.Razor.xml
+C:\GitHub\AmigoDono\AmigoDono\AmigoDono.Web\bin\System.Web.WebPages.xml
+C:\GitHub\AmigoDono\AmigoDono\AmigoDono.Web\bin\System.Web.WebPages.Deployment.xml
+C:\GitHub\AmigoDono\AmigoDono\AmigoDono.Web\bin\System.Web.WebPages.Razor.xml
+C:\GitHub\AmigoDono\AmigoDono\AmigoDono.Web\obj\Debug\AmigoDono.Web.csprojAssemblyReference.cache
+C:\GitHub\AmigoDono\AmigoDono\AmigoDono.Web\obj\Debug\AmigoDono.Web.csproj.CoreCompileInputs.cache
+C:\GitHub\AmigoDono\AmigoDono\AmigoDono.Web\obj\Debug\AmigoDono.Web.csproj.CopyComplete
+C:\GitHub\AmigoDono\AmigoDono\AmigoDono.Web\obj\Debug\AmigoDono.Web.dll
+C:\GitHub\AmigoDono\AmigoDono\AmigoDono.Web\obj\Debug\AmigoDono.Web.pdb
+C:\Users\rafin\Documents\Desktop\AmigoDono\AmigoDono\AmigoDono.Web\bin\ApplicationInsights.config
+C:\Users\rafin\Documents\Desktop\AmigoDono\AmigoDono\AmigoDono.Web\bin\AmigoDono.Web.dll.config
+C:\Users\rafin\Documents\Desktop\AmigoDono\AmigoDono\AmigoDono.Web\bin\AmigoDono.Web.dll
+C:\Users\rafin\Documents\Desktop\AmigoDono\AmigoDono\AmigoDono.Web\bin\AmigoDono.Web.pdb
+C:\Users\rafin\Documents\Desktop\AmigoDono\AmigoDono\AmigoDono.Web\bin\roslyn\csc.exe
+C:\Users\rafin\Documents\Desktop\AmigoDono\AmigoDono\AmigoDono.Web\bin\roslyn\csc.exe.config
+C:\Users\rafin\Documents\Desktop\AmigoDono\AmigoDono\AmigoDono.Web\bin\roslyn\csc.rsp
+C:\Users\rafin\Documents\Desktop\AmigoDono\AmigoDono\AmigoDono.Web\bin\roslyn\csi.exe
+C:\Users\rafin\Documents\Desktop\AmigoDono\AmigoDono\AmigoDono.Web\bin\roslyn\csi.exe.config
+C:\Users\rafin\Documents\Desktop\AmigoDono\AmigoDono\AmigoDono.Web\bin\roslyn\csi.rsp
+C:\Users\rafin\Documents\Desktop\AmigoDono\AmigoDono\AmigoDono.Web\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\rafin\Documents\Desktop\AmigoDono\AmigoDono\AmigoDono.Web\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\rafin\Documents\Desktop\AmigoDono\AmigoDono\AmigoDono.Web\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\rafin\Documents\Desktop\AmigoDono\AmigoDono\AmigoDono.Web\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\rafin\Documents\Desktop\AmigoDono\AmigoDono\AmigoDono.Web\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\rafin\Documents\Desktop\AmigoDono\AmigoDono\AmigoDono.Web\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\rafin\Documents\Desktop\AmigoDono\AmigoDono\AmigoDono.Web\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\rafin\Documents\Desktop\AmigoDono\AmigoDono\AmigoDono.Web\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\rafin\Documents\Desktop\AmigoDono\AmigoDono\AmigoDono.Web\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\rafin\Documents\Desktop\AmigoDono\AmigoDono\AmigoDono.Web\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\rafin\Documents\Desktop\AmigoDono\AmigoDono\AmigoDono.Web\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\rafin\Documents\Desktop\AmigoDono\AmigoDono\AmigoDono.Web\bin\roslyn\System.AppContext.dll
+C:\Users\rafin\Documents\Desktop\AmigoDono\AmigoDono\AmigoDono.Web\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\rafin\Documents\Desktop\AmigoDono\AmigoDono\AmigoDono.Web\bin\roslyn\System.Console.dll
+C:\Users\rafin\Documents\Desktop\AmigoDono\AmigoDono\AmigoDono.Web\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\rafin\Documents\Desktop\AmigoDono\AmigoDono\AmigoDono.Web\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\rafin\Documents\Desktop\AmigoDono\AmigoDono\AmigoDono.Web\bin\roslyn\System.IO.Compression.dll
+C:\Users\rafin\Documents\Desktop\AmigoDono\AmigoDono\AmigoDono.Web\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\rafin\Documents\Desktop\AmigoDono\AmigoDono\AmigoDono.Web\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\rafin\Documents\Desktop\AmigoDono\AmigoDono\AmigoDono.Web\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\rafin\Documents\Desktop\AmigoDono\AmigoDono\AmigoDono.Web\bin\roslyn\System.IO.Pipes.dll
+C:\Users\rafin\Documents\Desktop\AmigoDono\AmigoDono\AmigoDono.Web\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\rafin\Documents\Desktop\AmigoDono\AmigoDono\AmigoDono.Web\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\rafin\Documents\Desktop\AmigoDono\AmigoDono\AmigoDono.Web\bin\roslyn\System.Security.Claims.dll
+C:\Users\rafin\Documents\Desktop\AmigoDono\AmigoDono\AmigoDono.Web\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\rafin\Documents\Desktop\AmigoDono\AmigoDono\AmigoDono.Web\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\rafin\Documents\Desktop\AmigoDono\AmigoDono\AmigoDono.Web\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\rafin\Documents\Desktop\AmigoDono\AmigoDono\AmigoDono.Web\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\rafin\Documents\Desktop\AmigoDono\AmigoDono\AmigoDono.Web\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\rafin\Documents\Desktop\AmigoDono\AmigoDono\AmigoDono.Web\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\rafin\Documents\Desktop\AmigoDono\AmigoDono\AmigoDono.Web\bin\roslyn\System.ValueTuple.dll
+C:\Users\rafin\Documents\Desktop\AmigoDono\AmigoDono\AmigoDono.Web\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\rafin\Documents\Desktop\AmigoDono\AmigoDono\AmigoDono.Web\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\rafin\Documents\Desktop\AmigoDono\AmigoDono\AmigoDono.Web\bin\roslyn\System.Xml.XPath.dll
+C:\Users\rafin\Documents\Desktop\AmigoDono\AmigoDono\AmigoDono.Web\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\rafin\Documents\Desktop\AmigoDono\AmigoDono\AmigoDono.Web\bin\roslyn\vbc.exe
+C:\Users\rafin\Documents\Desktop\AmigoDono\AmigoDono\AmigoDono.Web\bin\roslyn\vbc.exe.config
+C:\Users\rafin\Documents\Desktop\AmigoDono\AmigoDono\AmigoDono.Web\bin\roslyn\vbc.rsp
+C:\Users\rafin\Documents\Desktop\AmigoDono\AmigoDono\AmigoDono.Web\bin\roslyn\VBCSCompiler.exe
+C:\Users\rafin\Documents\Desktop\AmigoDono\AmigoDono\AmigoDono.Web\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\rafin\Documents\Desktop\AmigoDono\AmigoDono\AmigoDono.Web\bin\AmigoDono.Control.dll
+C:\Users\rafin\Documents\Desktop\AmigoDono\AmigoDono\AmigoDono.Web\bin\AmigoDono.Model.dll
+C:\Users\rafin\Documents\Desktop\AmigoDono\AmigoDono\AmigoDono.Web\bin\Antlr3.Runtime.dll
+C:\Users\rafin\Documents\Desktop\AmigoDono\AmigoDono\AmigoDono.Web\bin\EntityFramework.dll
+C:\Users\rafin\Documents\Desktop\AmigoDono\AmigoDono\AmigoDono.Web\bin\EntityFramework.SqlServer.dll
+C:\Users\rafin\Documents\Desktop\AmigoDono\AmigoDono\AmigoDono.Web\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\rafin\Documents\Desktop\AmigoDono\AmigoDono\AmigoDono.Web\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\rafin\Documents\Desktop\AmigoDono\AmigoDono\AmigoDono.Web\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\rafin\Documents\Desktop\AmigoDono\AmigoDono\AmigoDono.Web\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\rafin\Documents\Desktop\AmigoDono\AmigoDono\AmigoDono.Web\bin\Microsoft.AI.Web.dll
+C:\Users\rafin\Documents\Desktop\AmigoDono\AmigoDono\AmigoDono.Web\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\rafin\Documents\Desktop\AmigoDono\AmigoDono\AmigoDono.Web\bin\Microsoft.ApplicationInsights.dll
+C:\Users\rafin\Documents\Desktop\AmigoDono\AmigoDono\AmigoDono.Web\bin\Microsoft.AspNet.TelemetryCorrelation.dll
+C:\Users\rafin\Documents\Desktop\AmigoDono\AmigoDono\AmigoDono.Web\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\rafin\Documents\Desktop\AmigoDono\AmigoDono\AmigoDono.Web\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\rafin\Documents\Desktop\AmigoDono\AmigoDono\AmigoDono.Web\bin\Newtonsoft.Json.dll
+C:\Users\rafin\Documents\Desktop\AmigoDono\AmigoDono\AmigoDono.Web\bin\System.Diagnostics.DiagnosticSource.dll
+C:\Users\rafin\Documents\Desktop\AmigoDono\AmigoDono\AmigoDono.Web\bin\System.Web.Helpers.dll
+C:\Users\rafin\Documents\Desktop\AmigoDono\AmigoDono\AmigoDono.Web\bin\System.Web.Mvc.dll
+C:\Users\rafin\Documents\Desktop\AmigoDono\AmigoDono\AmigoDono.Web\bin\System.Web.Optimization.dll
+C:\Users\rafin\Documents\Desktop\AmigoDono\AmigoDono\AmigoDono.Web\bin\System.Web.Razor.dll
+C:\Users\rafin\Documents\Desktop\AmigoDono\AmigoDono\AmigoDono.Web\bin\System.Web.WebPages.Deployment.dll
+C:\Users\rafin\Documents\Desktop\AmigoDono\AmigoDono\AmigoDono.Web\bin\System.Web.WebPages.dll
+C:\Users\rafin\Documents\Desktop\AmigoDono\AmigoDono\AmigoDono.Web\bin\System.Web.WebPages.Razor.dll
+C:\Users\rafin\Documents\Desktop\AmigoDono\AmigoDono\AmigoDono.Web\bin\WebGrease.dll
+C:\Users\rafin\Documents\Desktop\AmigoDono\AmigoDono\AmigoDono.Web\bin\AmigoDono.Control.pdb
+C:\Users\rafin\Documents\Desktop\AmigoDono\AmigoDono\AmigoDono.Web\bin\AmigoDono.Model.pdb
+C:\Users\rafin\Documents\Desktop\AmigoDono\AmigoDono\AmigoDono.Web\bin\AmigoDono.Model.dll.config
+C:\Users\rafin\Documents\Desktop\AmigoDono\AmigoDono\AmigoDono.Web\bin\Antlr3.Runtime.pdb
+C:\Users\rafin\Documents\Desktop\AmigoDono\AmigoDono\AmigoDono.Web\bin\EntityFramework.xml
+C:\Users\rafin\Documents\Desktop\AmigoDono\AmigoDono\AmigoDono.Web\bin\EntityFramework.SqlServer.xml
+C:\Users\rafin\Documents\Desktop\AmigoDono\AmigoDono\AmigoDono.Web\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\rafin\Documents\Desktop\AmigoDono\AmigoDono\AmigoDono.Web\bin\Microsoft.AI.Web.xml
+C:\Users\rafin\Documents\Desktop\AmigoDono\AmigoDono\AmigoDono.Web\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\rafin\Documents\Desktop\AmigoDono\AmigoDono\AmigoDono.Web\bin\Microsoft.AspNet.TelemetryCorrelation.xml
+C:\Users\rafin\Documents\Desktop\AmigoDono\AmigoDono\AmigoDono.Web\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\rafin\Documents\Desktop\AmigoDono\AmigoDono\AmigoDono.Web\bin\Newtonsoft.Json.xml
+C:\Users\rafin\Documents\Desktop\AmigoDono\AmigoDono\AmigoDono.Web\bin\System.Diagnostics.DiagnosticSource.xml
+C:\Users\rafin\Documents\Desktop\AmigoDono\AmigoDono\AmigoDono.Web\bin\System.Web.Helpers.xml
+C:\Users\rafin\Documents\Desktop\AmigoDono\AmigoDono\AmigoDono.Web\bin\System.Web.Mvc.xml
+C:\Users\rafin\Documents\Desktop\AmigoDono\AmigoDono\AmigoDono.Web\bin\System.Web.Optimization.xml
+C:\Users\rafin\Documents\Desktop\AmigoDono\AmigoDono\AmigoDono.Web\bin\System.Web.Razor.xml
+C:\Users\rafin\Documents\Desktop\AmigoDono\AmigoDono\AmigoDono.Web\bin\System.Web.WebPages.xml
+C:\Users\rafin\Documents\Desktop\AmigoDono\AmigoDono\AmigoDono.Web\bin\System.Web.WebPages.Deployment.xml
+C:\Users\rafin\Documents\Desktop\AmigoDono\AmigoDono\AmigoDono.Web\bin\System.Web.WebPages.Razor.xml
+C:\Users\rafin\Documents\Desktop\AmigoDono\AmigoDono\AmigoDono.Web\obj\Debug\AmigoDono.Web.csprojAssemblyReference.cache
+C:\Users\rafin\Documents\Desktop\AmigoDono\AmigoDono\AmigoDono.Web\obj\Debug\AmigoDono.Web.csproj.CoreCompileInputs.cache
+C:\Users\rafin\Documents\Desktop\AmigoDono\AmigoDono\AmigoDono.Web\obj\Debug\AmigoDono.Web.csproj.CopyComplete
+C:\Users\rafin\Documents\Desktop\AmigoDono\AmigoDono\AmigoDono.Web\obj\Debug\AmigoDono.Web.dll
+C:\Users\rafin\Documents\Desktop\AmigoDono\AmigoDono\AmigoDono.Web\obj\Debug\AmigoDono.Web.pdb

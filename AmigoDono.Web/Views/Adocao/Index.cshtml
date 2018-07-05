@@ -1,0 +1,67 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Bootstrap Example</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="~/Content/css/estilo.css" />
+    <link rel="stylesheet" href="~/Content/css/_carousel.scss" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+    <style>
+        /* Make the image fully responsive */
+        
+        .carousel-inner  {
+            width: 100%;
+            height: 100%;
+        }
+
+        .carousel-control-next {
+            background-color: transparent;
+        }
+
+        .carousel-control-prev {
+            background-color: transparent;
+        }
+
+    </style>
+</head>
+<body>
+
+    <div id="demo" class="carousel slide" data-ride="carousel">
+
+        <!-- Indicators -->
+        <ul class="carousel-indicators">
+            <li data-target="#demo" data-slide-to="0" class="active"></li>
+            <li data-target="#demo" data-slide-to="1"></li>
+            <li data-target="#demo" data-slide-to="2"></li>
+        </ul>
+
+        <!-- The slideshow -->
+        <figure>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="~/Content/imagens/Its-a-deal-en.jpg" alt="Its a Deal" width="1000" height="400">
+                </div>
+                <div class="carousel-item">
+                    <img src="~/Content/imagens/A-mercenary-on-the-rise-en.jpg" alt="A Mercenary" width="1000" height="400">
+                </div>
+                <div class="carousel-item">
+                    <img src="~/Content/imagens/Just-around-the-corner-en.jpg" alt="Around the Corner" width="1000" height="400">
+                </div>
+            </div>
+        </figure>
+
+            <!-- Left and right controls -->
+            <a class="carousel-control-prev" href="#demo" data-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+            </a>
+            <a class="carousel-control-next" href="#demo" data-slide="next">
+                <span class="carousel-control-next-icon"></span>
+            </a>
+    </div>
+
+</body>
+</html>
