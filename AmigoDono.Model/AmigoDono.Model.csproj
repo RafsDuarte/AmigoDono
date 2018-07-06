@@ -59,10 +59,10 @@
     <Compile Include="DENUNCIA.cs">
       <DependentUpon>ModelClasses.tt</DependentUpon>
     </Compile>
-    <Compile Include="imagem\Helper\Constantes.cs" />
-    <Compile Include="imagem\Helper\Data.cs" />
-    <Compile Include="imagem\Helper\Mensagens.cs" />
-    <Compile Include="imagem\Helper\VerificaUsuario.cs" />
+    <Compile Include="Helper\Constantes.cs" />
+    <Compile Include="Helper\Data.cs" />
+    <Compile Include="Helper\Mensagens.cs" />
+    <Compile Include="Helper\VerificaUsuario.cs" />
     <Compile Include="ModelClasses.Context.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>

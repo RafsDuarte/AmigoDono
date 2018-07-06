@@ -11,8 +11,8 @@
 <body>
     <header>
         <nav class="navbar navbar-default navbar-fixed-top" style="background-color: #ddbb24">
-                <img alt="Owner's Friend" class="img-responsive navbar-left" src="~/Content/imagens/Logo2.png" width="72" height="72" title="Owner's Friend">
-                <a class="navbar-brand" href="~/Views/Home/Index.cshtml">Owner's Friend</a>
+            <img alt="Owner's Friend" class="img-responsive navbar-left" src="~/Content/imagens/Logo2.png" width="72" height="72" title="Owner's Friend">
+            @Html.ActionLink("Owner's Friend", "Index", "Home", new { area = ""}, new { @class = "navbar-brand" })
             <div class="collapse navbar-collapse" id="navbarCollapse">
                 <ul class="navbar-nav nav">
                     <li>
