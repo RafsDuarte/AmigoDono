@@ -10,8 +10,9 @@
 </head>
 <body>
     <header>
-        <nav class="navbar navbar-inverse navbar-fixed-top">
-            <a class="navbar-brand" href="~/Views/Home/Index.cshtml">Owner's Friend</a>
+        <nav class="navbar navbar-default navbar-fixed-top" style="background-color: #ddbb24">
+                <img alt="Owner's Friend" class="img-responsive navbar-left" src="~/Content/imagens/Logo2.png" width="72" height="72" title="Owner's Friend">
+                <a class="navbar-brand" href="~/Views/Home/Index.cshtml">Owner's Friend</a>
             <div class="collapse navbar-collapse" id="navbarCollapse">
                 <ul class="navbar-nav nav">
                     <li>
@@ -35,7 +36,7 @@
     <div class="container body-content">
         @RenderBody()
         <footer style="border-top: 1px solid black; clear: both; margin-top: 20px" >
-            <p style="text-align: center">&copy; @DateTime.Now.Year -  Friend of the Owner</p>
+            <p style="text-align: center">&copy; @DateTime.Now.Year -  Owner's Friend</p>
         </footer>
     </div>
 
