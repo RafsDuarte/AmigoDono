@@ -23,6 +23,7 @@ namespace AmigoDono.Model
             [DisplayName("Função")]
             public object Funcao { get; set; }
             [DisplayName("Senha")]
+            [DataType(DataType.Password)]
             public object Senha { get; set; }
             [DisplayName("Ajuda")]
             public object Ajuda { get; set; }
