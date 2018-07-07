@@ -21,40 +21,65 @@ namespace AmigoDono.Model
             public DateTime DataCadastro { get; set; }
 
             [DisplayName("Função")]
+            [Required(ErrorMessage = "Inserira uma função válida.")]
             public object Funcao { get; set; }
+
             [DisplayName("Senha")]
-            [DataType(DataType.Password)]
+            [Required(ErrorMessage = "É obrigatório inserir uma senha.")]
             public object Senha { get; set; }
+
             [DisplayName("Ajuda")]
             public object Ajuda { get; set; }
+
             [DisplayName("Data Nascimento")]
+            [Required(ErrorMessage = "É obrigatório inserir uma data de nascimento válida.")]
             public DateTime DataNascimento { get; set; }
-            [DisplayName("CPF")]
+
+            [DisplayName("CPF")]         
+            [Required(ErrorMessage = "É obrigatório inserir um CPF válido.")]
             public object CPF { get; set; }
+            
             [DisplayName("CNPJ")]
+            [Required(ErrorMessage = "É obrigatório inserir um CNPJ válido.")]
             public object CNPJ { get; set; }
+
             [DisplayName("Nome")]
+            [Required(ErrorMessage = "É obrigatório inserir um nome válido.")]         
             public object Nome { get; set; }
+
             [DisplayName("Email")]
+            [Required(ErrorMessage = "Por favor, insira um endereço de email válido.")]
             public object Email { get; set; }
+
             [DisplayName("CEP")]
+            [Required(ErrorMessage = "É obrigatório inserir um CEP válido.")]
             public object CEP { get; set; }
+
             [DisplayName("Logradouro")]
+            [Required(ErrorMessage = "É obrigatório inserir um logradouro.")]
             public object Logradouro { get; set; }
+
             [DisplayName("Nome do Logradouro ")]
+            [Required(ErrorMessage = "É obrigatório inserir um nome de logradouro.")]
             public object NomeLogradouro { get; set; }
-            [DisplayName("Numero")]
+
+            [DisplayName("Número")]
             public object Numero { get; set; }
+
             [DisplayName("Complemento")]
             public object Complemento { get; set; }
+
             [DisplayName("Bairro")]
             public object Bairro { get; set; }
+
             [DisplayName("Cidade")]
+            [Required(ErrorMessage = "Por favor, escolha uma cidade.")]
             public object Cidade { get; set; }
-            [DisplayName("UF")]
-            public object UF { get; set; }
+
             [DisplayName("Telefone")]
+            [Required(ErrorMessage = "Insira um telefone de contato.")]
             public object Telefone { get; set; }
+
             [DisplayName("Celular")]
             public object Celular { get; set; }
             [DisplayName("Imagem")]

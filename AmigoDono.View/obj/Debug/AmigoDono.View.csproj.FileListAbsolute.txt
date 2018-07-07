@@ -1052,9 +1052,9 @@ C:\GitHub\AmigoDono\AmigoDono\AmigoDono.View\bin\Debug\stdole.dll
 C:\GitHub\AmigoDono\AmigoDono\AmigoDono.View\bin\Debug\Microsoft.VisualStudio.OLE.Interop.dll
 C:\GitHub\AmigoDono\AmigoDono\AmigoDono.View\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.dll
 C:\GitHub\AmigoDono\AmigoDono\AmigoDono.View\bin\Debug\Microsoft.VisualStudio.VSHelp.dll
+C:\GitHub\AmigoDono\AmigoDono\AmigoDono.View\bin\Debug\Microsoft.VisualStudio.Shell.Immutable.11.0.dll
 C:\GitHub\AmigoDono\AmigoDono\AmigoDono.View\bin\Debug\Microsoft.VisualStudio.Shell.Immutable.10.0.dll
 C:\GitHub\AmigoDono\AmigoDono\AmigoDono.View\bin\Debug\Microsoft.VisualStudio.Shell.Immutable.14.0.dll
-C:\GitHub\AmigoDono\AmigoDono\AmigoDono.View\bin\Debug\Microsoft.VisualStudio.Shell.Immutable.11.0.dll
 C:\GitHub\AmigoDono\AmigoDono\AmigoDono.View\bin\Debug\Microsoft.VisualStudio.Shell.Interop.9.0.dll
 C:\GitHub\AmigoDono\AmigoDono\AmigoDono.View\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.8.0.dll
 C:\GitHub\AmigoDono\AmigoDono\AmigoDono.View\bin\Debug\Microsoft.VisualStudio.ProjectAggregator.dll
@@ -1086,9 +1086,9 @@ C:\GitHub\AmigoDono\AmigoDono\AmigoDono.View\bin\Debug\AmigoDono.Control.pdb
 C:\GitHub\AmigoDono\AmigoDono\AmigoDono.View\bin\Debug\AmigoDono.Model.pdb
 C:\GitHub\AmigoDono\AmigoDono\AmigoDono.View\bin\Debug\AmigoDono.Model.dll.config
 C:\GitHub\AmigoDono\AmigoDono\AmigoDono.View\bin\Debug\EntityFramework.xml
+C:\GitHub\AmigoDono\AmigoDono\AmigoDono.View\bin\Debug\Microsoft.VisualStudio.Shell.Immutable.11.0.xml
 C:\GitHub\AmigoDono\AmigoDono\AmigoDono.View\bin\Debug\Microsoft.VisualStudio.Shell.Immutable.10.0.xml
 C:\GitHub\AmigoDono\AmigoDono\AmigoDono.View\bin\Debug\Microsoft.VisualStudio.Shell.Immutable.14.0.xml
-C:\GitHub\AmigoDono\AmigoDono\AmigoDono.View\bin\Debug\Microsoft.VisualStudio.Shell.Immutable.11.0.xml
 C:\GitHub\AmigoDono\AmigoDono\AmigoDono.View\bin\Debug\Microsoft.VisualStudio.Shell.Immutable.12.0.xml
 C:\GitHub\AmigoDono\AmigoDono\AmigoDono.View\bin\Debug\Microsoft.VisualStudio.Designer.Interfaces.xml
 C:\GitHub\AmigoDono\AmigoDono\AmigoDono.View\bin\Debug\Microsoft.VisualStudio.TemplateWizardInterface.xml
@@ -1134,6 +1134,7 @@ C:\GitHub\AmigoDono\AmigoDono\AmigoDono.View\bin\Debug\zh-CHS\Microsoft.ReportVi
 C:\GitHub\AmigoDono\AmigoDono\AmigoDono.View\bin\Debug\zh-CHT\Microsoft.ReportViewer.WinForms.resources.dll
 C:\GitHub\AmigoDono\AmigoDono\AmigoDono.View\bin\Debug\pt-BR\Microsoft.VisualStudio.Data.Services.resources.dll
 C:\GitHub\AmigoDono\AmigoDono\AmigoDono.View\bin\Debug\pt-BR\Microsoft.VisualStudio.Data.Core.resources.dll
+C:\GitHub\AmigoDono\AmigoDono\AmigoDono.View\bin\Debug\pt-BR\Microsoft.VisualStudio.GraphModel.resources.dll
 C:\GitHub\AmigoDono\AmigoDono\AmigoDono.View\obj\Debug\AmigoDono.View.csprojAssemblyReference.cache
 C:\GitHub\AmigoDono\AmigoDono\AmigoDono.View\obj\Debug\AmigoDono.View.exe.config
 C:\GitHub\AmigoDono\AmigoDono\AmigoDono.View\obj\Debug\AmigoDono.View.Properties.Resources.resources

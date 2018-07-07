@@ -9,7 +9,8 @@ namespace AmigoDono.Web
         public static void RegisterBundles(BundleCollection bundles)
         {
             bundles.Add(new ScriptBundle("~/bundles/jquery").Include(
-                        "~/Scripts/jquery-{version}.js"));
+                        "~/Scripts/jquery-{version}.js",
+                        "~/Scripts/jquery-3.3.1.slim.js"));
 
             bundles.Add(new ScriptBundle("~/bundles/jqueryval").Include(
                         "~/Scripts/jquery.validate*"));
@@ -20,11 +21,21 @@ namespace AmigoDono.Web
                         "~/Scripts/modernizr-*"));
 
             bundles.Add(new ScriptBundle("~/bundles/bootstrap").Include(
-                      "~/Scripts/bootstrap.js"));
+                      "~/Scripts/bootstrap.js",
+                      "~/Scripts/respond.js",
+                      "~/Scripts/umd/popper.min.js"));
 
             bundles.Add(new StyleBundle("~/Content/css").Include(
                       "~/Content/bootstrap.css",
-                      "~/Content/site.css"));
+                      "~/Content/site.css",
+                      "~/Content/Scripts/jquery-ui-1.12.1.js"));
+
+            bundles.Add(new ScriptBundle("~/bundles/inputmask").Include(
+                    "~/Scripts/jquery.inputmask/inputmask.js",
+                    "~/Scripts/jquery.inputmask/jquery.inputmask.js",
+                                "~/Scripts/jquery.inputmask/inputmask.extensions.js",
+                                "~/Scripts/jquery.inputmask/inputmask.date.extensions.js",
+                                "~/Scripts/jquery.inputmask/inputmask.numeric.extensions.js"));
         }
     }
 }
