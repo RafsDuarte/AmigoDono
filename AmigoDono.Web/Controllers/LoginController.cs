@@ -13,7 +13,7 @@ namespace AmigoDono.Web.Controllers
     {
         RepositoryAmigo repositoryAmigo = new RepositoryAmigo();
         // GET: Login
-        public ActionResult Index()
+        public ActionResult Signin()
         {
             return View();
         }

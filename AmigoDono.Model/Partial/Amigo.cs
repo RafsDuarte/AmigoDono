@@ -31,7 +31,7 @@ namespace AmigoDono.Model
             [DisplayName("Ajuda")]
             public object Ajuda { get; set; }
 
-            [DisplayName("Data Nascimento")]
+            [DisplayName("Data de Nascimento")]
             [Required(ErrorMessage = "É obrigatório inserir uma data de nascimento válida.")]
             public DateTime DataNascimento { get; set; }
 
