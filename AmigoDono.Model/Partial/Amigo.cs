@@ -21,7 +21,7 @@ namespace AmigoDono.Model
             public DateTime DataCadastro { get; set; }
 
             [DisplayName("Função")]
-            [Required(ErrorMessage = "Inserira uma função válida.")]
+            [Required(ErrorMessage = "Insira uma função válida.")]
             public object Funcao { get; set; }
 
             [DisplayName("Senha")]
@@ -32,7 +32,7 @@ namespace AmigoDono.Model
             public object Ajuda { get; set; }
 
             [DisplayName("Data de Nascimento")]
-            [Required(ErrorMessage = "É obrigatório inserir uma data de nascimento válida.")]
+            [Required(ErrorMessage = "É obrigatório inserir uma data de nascimento.")]
             public DateTime DataNascimento { get; set; }
 
             [DisplayName("CPF")]         
@@ -44,7 +44,7 @@ namespace AmigoDono.Model
             public object CNPJ { get; set; }
 
             [DisplayName("Nome")]
-            [Required(ErrorMessage = "É obrigatório inserir um nome válido.")]         
+            [Required(ErrorMessage = "É obrigatório inserir um nome.")]         
             public object Nome { get; set; }
 
             [DisplayName("Email")]

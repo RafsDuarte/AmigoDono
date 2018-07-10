@@ -8,15 +8,22 @@ namespace AmigoDono.Web
         // For more information on bundling, visit https://go.microsoft.com/fwlink/?LinkId=301862
         public static void RegisterBundles(BundleCollection bundles)
         {
+
+            bundles.Add(new ScriptBundle("~/bundles/jqueryui").Include(
+                        "~/Scripts/jquery-ui-{version}.js"));
+
+            bundles.Add(new StyleBundle("~/Content/cssjqryUi").Include(
+                        "~/Content/css/jquery-ui.css"));
+
             bundles.Add(new ScriptBundle("~/bundles/jquery").Include(
-                        "~/Scripts/jquery-3.3.1.js",
-                        "~/Scripts/jquery-ui-1.12.1.js",
+                        "~/Scripts/globalize",
                         "~/Scripts/respond.js",
                         "~/Scripts/umd/popper.js",
                         "~/Scripts/umd/popper.utils.js"));
 
             bundles.Add(new ScriptBundle("~/bundles/jqueryval").Include(
-                        "~/Scripts/jquery.validate*"));
+                        "~/Scripts/jquery.validate*",
+                        "~/Scripts/jquery.validate.pt-br.js"));
 
             // Use the development version of Modernizr to develop with and learn from. Then, when you're
             // ready for production, use the build tool at https://modernizr.com to pick only the tests you need.
@@ -28,15 +35,15 @@ namespace AmigoDono.Web
                       "~/Scripts/bootstrap.bundle.js"));
 
             bundles.Add(new StyleBundle("~/Content/css").Include(
-                      "~/Content/bootstrap.css",
-                      "~/Content/site.css"));
+                      "~/Content/css/bootstrap.css",
+                      "~/Content/css/site.css"));
 
             bundles.Add(new ScriptBundle("~/bundles/addjs").Include(
                         "~/Scripts/bootbox.js"));
 
            bundles.Add(new ScriptBundle("~/bundles/addcss").Include(
-                        "~/Content/fonteawesome.css",
-                        "~/Content/form-validation"));
+                        "~/Content/css/fonteawesome.css",
+                        "~/Content/css/form-validation"));
 
             bundles.Add(new ScriptBundle("~/bundles/inputmask").Include(
                     "~/Scripts/jquery.inputmask/inputmask.js",

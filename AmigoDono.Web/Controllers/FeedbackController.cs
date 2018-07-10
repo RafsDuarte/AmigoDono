@@ -6,10 +6,10 @@ using System.Web.Mvc;
 
 namespace AmigoDono.Web.Controllers
 {
-    public class AdocaoController : Controller
+    public class FeedbackController : Controller
     {
-        // GET: Adocao
-        public ActionResult Index()
+        // GET: Feedback
+        public ActionResult FaleConosco()
         {
             return View();
         }

@@ -7,13 +7,59 @@
     <link href="~/Content/css/pets.css" rel="stylesheet">
     <link href="~/Content/css/fom-validation.css">
     <link rel="stylesheet" href="http://code.jquery.com/ui/1.9.0/themes/base/jquery-ui.css" />
-    <script src="http://code.jquery.com/jquery-1.8.2.js"></script>
-    <script src="http://code.jquery.com/ui/1.9.0/jquery-ui.js"></script>
     <script src="~/Scripts/Mascaras.js"></script>
     <script src="~/Scripts/pets.js"></script>
     <title>@ViewBag.Title</title>
 
-    @*<script>
+    @Scripts.Render("~/bundles/modernizr")
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-default navbar-fixed-top" style="background-color: #ddbb24">
+            <img alt="Owner's Friend" class="img-responsive navbar-left" src="~/Content/imagens/Logo2.png" width="72" height="72" title="Owner's Friend">
+            @Html.ActionLink("Owner's Friend", "Index", "Home", new { area = "" }, new { @class = "navbar-brand" })
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <ul class="navbar-nav nav">
+                    <li>
+                        @Html.ActionLink("Meus Dados", "Signin", "Login")
+                    </li>
+                    <li>
+                        @Html.ActionLink("Apoiadores", "Contact", "Home")
+                    </li>
+                    @*<li>@Html.ActionLink("Adoção", "Index", "Adocao")</li>*@
+                    <li>@Html.ActionLink("Cuidados", "Contact", "Home")</li>
+                    <li>@Html.ActionLink("Denúncias", "Create", "DENUNCIA")</li>
+                    <li>@Html.ActionLink("Fale Conosco", "FaleConosco", "Feedback")</li>
+                </ul>
+                <ul class="nav navbar-nav navbar-right btn-default" style="margin:0px; border-radius: 5px; margin-right: 5px">
+                    <li>@Html.ActionLink("Entrar", "Signin", "Login")</li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <div class="container body-content">
+        @RenderBody()
+        <footer style="border-top: 1px solid black; clear: both; margin-top: 20px">
+            <p style="text-align: center">&copy; @DateTime.Now.Year -  Owner's Friend</p>
+        </footer>
+    </div>
+
+
+        @Scripts.Render("~/bundles/jquery")
+        @Scripts.Render("~/bundles/bootstrap")
+        @Scripts.Render("~/bundles/jqueryval")
+        @RenderSection("scripts", required: false)
+
+
+    @if (ViewBag.Alerta != null)
+    {
+        <script type="text/javascript">
+                bootbox.alert('@ViewBag.Alerta');
+        </script>
+    }
+
+    <script>
         // Exemplo de JavaScript para desativar o envio do formulário, se tiver algum campo inválido.
         (function () {
             'use strict';
@@ -33,64 +79,8 @@
                     }, false);
                 });
             }, false);
-        })();</script>*@
-    <script>
-        $(function () {
-            $("#datepicker").datepicker({
-                dateFormat: 'dd/mm/yy'
-            });
-        })
-    </script>
+        })();</script>
 
-    @Scripts.Render("~/bundles/modernizr")
-</head>
-<body>
-    <header>
-        <nav class="navbar navbar-default navbar-fixed-top" style="background-color: #ddbb24">
-            <img alt="Owner's Friend" class="img-responsive navbar-left" src="~/Content/imagens/Logo2.png" width="72" height="72" title="Owner's Friend">
-            @Html.ActionLink("Owner's Friend", "Index", "Home", new { area = "" }, new { @class = "navbar-brand" })
-            <div class="collapse navbar-collapse" id="navbarCollapse">
-                <ul class="navbar-nav nav">
-                    <li>
-                        @Html.ActionLink("Meus Dados", "teste", "Home")
-                    </li>
-                    <li>
-                        @Html.ActionLink("Apoiadores", "Contact", "Home")
-                    </li>
-                    <li>@Html.ActionLink("Adoção", "Index", "Adocao")</li>
-                    <li>@Html.ActionLink("Cuidados", "Contact", "Home")</li>
-                    <li>@Html.ActionLink("Denúncias", "Create", "DENUNCIA")</li>
-                    <li>@Html.ActionLink("Fale Conosco", "Contact", "Home")</li>
-                </ul>
-                <ul class="nav navbar-nav navbar-right btn-default" style="margin:0px; border-radius: 5px; margin-right: 5px">
-                    <li>@Html.ActionLink("Entrar", "Signin", "Login")</li>
-                </ul>
-            </div>
-        </nav>
-    </header>
-
-    <div class="container body-content">
-        @RenderBody()
-        <footer style="border-top: 1px solid black; clear: both; margin-top: 20px">
-            <p style="text-align: center">&copy; @DateTime.Now.Year -  Owner's Friend</p>
-        </footer>
-    </div>
-
-    @Scripts.Render("~/bundles/jquery")
-    @Scripts.Render("~/bundles/bootstrap")
-    @Scripts.Render("~/bundles/inputmask")
-    @Scripts.Render("~/bundles/jqueryval")
-    @Scripts.Render("~/bundles/addjs")
-    @Scripts.Render("~/bundles/addcss")
-    @RenderSection("scripts", required: false)
-
-
-    @if (ViewBag.Alerta != null)
-    {
-        <script type="text/javascript">
-                bootbox.alert('@ViewBag.Alerta');
-        </script>
-    }
 
 </body>
 </html>
