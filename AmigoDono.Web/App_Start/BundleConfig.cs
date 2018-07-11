@@ -46,11 +46,11 @@ namespace AmigoDono.Web
                         "~/Content/css/form-validation"));
 
             bundles.Add(new ScriptBundle("~/bundles/inputmask").Include(
-                    "~/Scripts/jquery.inputmask/inputmask.js",
-                    "~/Scripts/jquery.inputmask/jquery.inputmask.js",
-                                "~/Scripts/jquery.inputmask/inputmask.extensions.js",
-                                "~/Scripts/jquery.inputmask/inputmask.date.extensions.js",
-                                "~/Scripts/jquery.inputmask/inputmask.numeric.extensions.js"));
+                    "~/Scripts/inputmask/inputmask.js",
+                    "~/Scripts/inputmask/jquery.inputmask.js",
+                                "~/Scripts/inputmask/inputmask.extensions.js",
+                                "~/Scripts/inputmask/inputmask.date.extensions.js",
+                                "~/Scripts/inputmask.numeric.extensions.js"));
         }
     }
 }

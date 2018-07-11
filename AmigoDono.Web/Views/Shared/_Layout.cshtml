@@ -7,6 +7,7 @@
     <link href="~/Content/css/pets.css" rel="stylesheet">
     <link href="~/Content/css/fom-validation.css">
     <link rel="stylesheet" href="http://code.jquery.com/ui/1.9.0/themes/base/jquery-ui.css" />
+    <script src="~/Scripts/jquery-3.3.1.min.js"></script>
     <script src="~/Scripts/Mascaras.js"></script>
     <script src="~/Scripts/pets.js"></script>
     <title>@ViewBag.Title</title>
@@ -26,7 +27,6 @@
                     <li>
                         @Html.ActionLink("Apoiadores", "Contact", "Home")
                     </li>
-                    @*<li>@Html.ActionLink("Adoção", "Index", "Adocao")</li>*@
                     <li>@Html.ActionLink("Cuidados", "Contact", "Home")</li>
                     <li>@Html.ActionLink("Denúncias", "Create", "DENUNCIA")</li>
                     <li>@Html.ActionLink("Fale Conosco", "FaleConosco", "Feedback")</li>
@@ -46,10 +46,12 @@
     </div>
 
 
-        @Scripts.Render("~/bundles/jquery")
-        @Scripts.Render("~/bundles/bootstrap")
-        @Scripts.Render("~/bundles/jqueryval")
-        @RenderSection("scripts", required: false)
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/bootstrap")
+    @Scripts.Render("~/bundles/jqueryval")
+    @Scripts.Render("~/bundles/inputmask")
+    @RenderSection("scripts", required: false)
 
 
     @if (ViewBag.Alerta != null)
