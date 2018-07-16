@@ -7,20 +7,34 @@ using System.Net;
 using System.Web;
 using System.Web.Mvc;
 using AmigoDono.Model;
+using AmigoDono.Model.Repositories;
 
-namespace AmigoDono.Web.Controllers
+namespace AmigoDono.Web.Views
 {
     public class DENUNCIAController : Controller
     {
-        private AmigoDonoEntities db = new AmigoDonoEntities();
+        private RepositoryDenuncia _repositoryDenuncia = new RepositoryDenuncia();
 
         // GET: DENUNCIA
         public ActionResult Index()
         {
-            return View(db.DENUNCIA.ToList());
+            return View(_repositoryDenuncia.SelecionarTodos());
         }
 
-     
+        // GET: DENUNCIA/Details/5
+        //public ActionResult Details(int? id)
+        //{
+        //    if (id == null)
+        //    {
+        //        return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
+        //    }
+        //    DENUNCIA dENUNCIA = db.DENUNCIA.Find(id);
+        //    if (dENUNCIA == null)
+        //    {
+        //        return HttpNotFound();
+        //    }
+        //    return View(dENUNCIA);
+        //}
 
         // GET: DENUNCIA/Create
         public ActionResult Create()
@@ -33,23 +47,26 @@ namespace AmigoDono.Web.Controllers
         // more details see https://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Create([Bind(Include = "IDD,Denunciante,TextoDenuncia,Email,CEP,TipoLogradouro,NomeLogradouro,Numero,Complemento,Bairro,Cidade,UF,Data,DataResposta")] DENUNCIA dENUNCIA)
+        public ActionResult Create([Bind(Include = "IDD,Denunciante,TextoDenuncia,Email,CEP,TipoLogradouro,NomeLogradouro,Numero,Complemento,Bairro,Cidade,UF,Data,DataResposta")] DENUNCIA oDenuncia)
         {
+            
+
             if (ModelState.IsValid)
             {
-                db.DENUNCIA.Add(dENUNCIA);
-                db.SaveChanges();
+                _repositoryDenuncia.Incluir(oDenuncia);
                 return RedirectToAction("Index");
             }
 
-            return View(dENUNCIA);
+            return View(oDenuncia);
         }
+
+        
 
         protected override void Dispose(bool disposing)
         {
             if (disposing)
             {
-                db.Dispose();
+                _repositoryDenuncia.Dispose();
             }
             base.Dispose(disposing);
         }

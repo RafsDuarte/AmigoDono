@@ -2,8 +2,7 @@
     margin: 0;
     padding: 0;
     border: 0;
-    font-size: 100%;
-    font: inherit;
+    font-size: 14px;
     vertical-align: baseline;
 }
 
@@ -143,7 +142,7 @@ p.footer {
         -webkit-transition: 0.5s all;
         -moz-transition: 0.5s all;
         -o-transition: 0.5s all;
-        -ms-transition: 0.5s all;
+        /*-ms-transition: 0.5s all;*/
     }
 
         p.footer a:hover {
@@ -152,7 +151,7 @@ p.footer {
             -webkit-transition: 0.5s all;
             -moz-transition: 0.5s all;
             -o-transition: 0.5s all;
-            -ms-transition: 0.5s all;
+            /*-ms-transition: 0.5s all;*/
         }
 
 .main form input[type="text"], .main form input[type="password"] {
@@ -185,7 +184,7 @@ p.footer {
     -webkit-transition: 0.5s all;
     -moz-transition: 0.5s all;
     -o-transition: 0.5s all;
-    -ms-transition: 0.5s all;
+    /*-ms-transition: 0.5s all;*/
 }
 
 .main form input[type="submit"] {
@@ -210,7 +209,7 @@ p.footer {
         -webkit-transition: 0.5s all;
         -moz-transition: 0.5s all;
         -o-transition: 0.5s all;
-        -ms-transition: 0.5s all;
+        /*-ms-transition: 0.5s all;*/
     }
 
 .main textarea {
@@ -263,7 +262,7 @@ p.footer {
         border-radius: 3px;
         -webkit-border-radius: 3px;
         -moz-border-radius: 3px;
-        -o-border-radius: 3px;
+        /*-o-border-radius: 3px;*/
     }
 
     .checkbox input + i:after {
@@ -271,7 +270,7 @@ p.footer {
         opacity: 0;
         transition: opacity 0.1s;
         -o-transition: opacity 0.1s;
-        -ms-transition: opacity 0.1s;
+        /*-ms-transition: opacity 0.1s;*/
         -moz-transition: opacity 0.1s;
         -webkit-transition: opacity 0.1s;
     }
@@ -348,7 +347,7 @@ p.footer {
     opacity: 0;
     transition: opacity 0.1s;
     -o-transition: opacity 0.1s;
-    -ms-transition: opacity 0.1s;
+    /*-ms-transition: opacity 0.1s;*/
     -moz-transition: opacity 0.1s;
     -webkit-transition: opacity 0.1s;
 }
@@ -362,7 +361,7 @@ p.footer {
     border-radius: 50%;
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
-    -o-border-radius: 50%;
+    /*-o-border-radius: 50%;*/
 }
 
 .radio input:checked + i:after, .radio1 input:checked + i:after, .radio2 input:checked + i:after, .radio3 input:checked + i:after {
@@ -382,7 +381,7 @@ p.footer {
 .radio i, .radio1 i, .radio2 i, .radio3 i {
     transition: border-color 0.3s;
     -o-transition: border-color 0.3s;
-    -ms-transition: border-color 0.3s;
+     /*-ms-transition: border-color 0.3s;*/
     -moz-transition: border-color 0.3s;
     -webkit-transition: border-color 0.3s;
 }

@@ -1045,9 +1045,12 @@ C:\GitHub\AmigoDono\AmigoDono\AmigoDono.View\bin\Debug\Microsoft.ReportViewer.Pr
 C:\GitHub\AmigoDono\AmigoDono\AmigoDono.View\bin\Debug\Microsoft.ReportViewer.WinForms.dll
 C:\GitHub\AmigoDono\AmigoDono\AmigoDono.View\bin\Debug\Microsoft.SqlServer.Types.dll
 C:\GitHub\AmigoDono\AmigoDono\AmigoDono.View\bin\Debug\EntityFramework.dll
+C:\GitHub\AmigoDono\AmigoDono\AmigoDono.View\bin\Debug\System.Web.Mvc.dll
+C:\GitHub\AmigoDono\AmigoDono\AmigoDono.View\bin\Debug\System.Web.WebPages.dll
 C:\GitHub\AmigoDono\AmigoDono\AmigoDono.View\bin\Debug\EnvDTE.dll
 C:\GitHub\AmigoDono\AmigoDono\AmigoDono.View\bin\Debug\Microsoft.VisualStudio.Shell.Interop.dll
 C:\GitHub\AmigoDono\AmigoDono\AmigoDono.View\bin\Debug\Microsoft.VisualStudio.Shell.Interop.8.0.dll
+C:\GitHub\AmigoDono\AmigoDono\AmigoDono.View\bin\Debug\System.Web.WebPages.Deployment.dll
 C:\GitHub\AmigoDono\AmigoDono\AmigoDono.View\bin\Debug\stdole.dll
 C:\GitHub\AmigoDono\AmigoDono\AmigoDono.View\bin\Debug\Microsoft.VisualStudio.OLE.Interop.dll
 C:\GitHub\AmigoDono\AmigoDono\AmigoDono.View\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.dll
@@ -1086,6 +1089,9 @@ C:\GitHub\AmigoDono\AmigoDono\AmigoDono.View\bin\Debug\AmigoDono.Control.pdb
 C:\GitHub\AmigoDono\AmigoDono\AmigoDono.View\bin\Debug\AmigoDono.Model.pdb
 C:\GitHub\AmigoDono\AmigoDono\AmigoDono.View\bin\Debug\AmigoDono.Model.dll.config
 C:\GitHub\AmigoDono\AmigoDono\AmigoDono.View\bin\Debug\EntityFramework.xml
+C:\GitHub\AmigoDono\AmigoDono\AmigoDono.View\bin\Debug\System.Web.Mvc.xml
+C:\GitHub\AmigoDono\AmigoDono\AmigoDono.View\bin\Debug\System.Web.WebPages.xml
+C:\GitHub\AmigoDono\AmigoDono\AmigoDono.View\bin\Debug\System.Web.WebPages.Deployment.xml
 C:\GitHub\AmigoDono\AmigoDono\AmigoDono.View\bin\Debug\Microsoft.VisualStudio.Shell.Immutable.11.0.xml
 C:\GitHub\AmigoDono\AmigoDono\AmigoDono.View\bin\Debug\Microsoft.VisualStudio.Shell.Immutable.10.0.xml
 C:\GitHub\AmigoDono\AmigoDono\AmigoDono.View\bin\Debug\Microsoft.VisualStudio.Shell.Immutable.14.0.xml

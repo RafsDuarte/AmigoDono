@@ -18,15 +18,19 @@ namespace AmigoDono.Model
             public object IDD { get; set; }
 
             [DisplayName("Denunciante")]
+
+            [Required(AllowEmptyStrings = true)]
             public object Denunciante { get; set; }
 
             [DisplayName("Denuncia")]
             public object TextoDenuncia { get; set; }
 
             [DisplayName("Email")]
+            [Required]
             public object Email { get; set; }
 
             [DisplayName("CEP")]
+            [StringLength(9)]
             public object CEP { get; set; }
 
             [DisplayName("Logradouro")]
