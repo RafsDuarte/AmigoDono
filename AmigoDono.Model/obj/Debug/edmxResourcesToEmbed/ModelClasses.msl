@@ -60,6 +60,17 @@
         </MappingFragment>
       </EntityTypeMapping>
     </EntitySetMapping>
+    <EntitySetMapping Name="FEEDBACK">
+      <EntityTypeMapping TypeName="AmigoDonoModel.FEEDBACK">
+        <MappingFragment StoreEntitySet="FEEDBACK">
+          <ScalarProperty Name="IDF" ColumnName="IDF" />
+          <ScalarProperty Name="Nome" ColumnName="Nome" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+          <ScalarProperty Name="Opiniao" ColumnName="Opiniao" />
+          <ScalarProperty Name="Feedback" ColumnName="Feedback" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
     <EntitySetMapping Name="PET">
       <EntityTypeMapping TypeName="AmigoDonoModel.PET">
         <MappingFragment StoreEntitySet="PET">

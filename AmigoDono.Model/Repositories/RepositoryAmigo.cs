@@ -67,21 +67,7 @@ namespace AmigoDono.Model.Repositories
         }
 
         public void Incluir(AMIGO oAmigo)
-        {
-            //var local = odb.Set<AMIGO>()
-
-            //             .Local
-
-            //             .FirstOrDefault(f => f.IDA == oAmigo.IDA);
-
-            //odb.Entry(local).State = System.Data.Entity.EntityState.Detached;
-
-            //odb.Entry(oAmigo).State = System.Data.Entity.EntityState.Added;
-
-            //odb.SaveChanges();
-
-
-            //odb.Entry(oAmigo).State = System.Data.Entity.EntityState.Added;
+        {        
             odb.AMIGO.Add(oAmigo);
             odb.SaveChanges();
         }

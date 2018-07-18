@@ -4,10 +4,11 @@
   <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
     <!-- Diagram content (shape and connector positions) -->
     <edmx:Diagrams>
-      <Diagram DiagramId="a056c96a63104324a21beed4fe574130" Name="Diagram1">
+      <Diagram DiagramId="bf5183be97db49a98cb2620bc4d4b393" Name="Diagram1" ZoomLevel="93">
         <EntityTypeShape EntityType="AmigoDonoModel.AMIGO" Width="1.5" PointX="0.75" PointY="1.375" IsExpanded="true" />
         <EntityTypeShape EntityType="AmigoDonoModel.CONTROLE" Width="1.5" PointX="3" PointY="2.875" IsExpanded="true" />
         <EntityTypeShape EntityType="AmigoDonoModel.DENUNCIA" Width="1.5" PointX="2.75" PointY="6.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="AmigoDonoModel.FEEDBACK" Width="1.5" PointX="4.75" PointY="6.75" IsExpanded="true" />
         <EntityTypeShape EntityType="AmigoDonoModel.PET" Width="1.5" PointX="0.75" PointY="8.25" IsExpanded="true" />
         <EntityTypeShape EntityType="AmigoDonoModel.TRATAMENTO" Width="1.5" PointX="6" PointY="2.75" IsExpanded="true" />
         <AssociationConnector Association="AmigoDonoModel.FK_CONTROLE_AMIGO" ManuallyRouted="false" />

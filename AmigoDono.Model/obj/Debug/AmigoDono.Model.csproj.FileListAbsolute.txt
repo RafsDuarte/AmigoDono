@@ -189,4 +189,3 @@ C:\GitHub\AmigoDono\AmigoDono\AmigoDono.Model\obj\Debug\AmigoDono.Model.csproj.C
 C:\GitHub\AmigoDono\AmigoDono\AmigoDono.Model\obj\Debug\AmigoDono.Model.csproj.CopyComplete
 C:\GitHub\AmigoDono\AmigoDono\AmigoDono.Model\obj\Debug\AmigoDono.Model.dll
 C:\GitHub\AmigoDono\AmigoDono\AmigoDono.Model\obj\Debug\AmigoDono.Model.pdb
-C:\GitHub\AmigoDono\AmigoDono\AmigoDono.Model\obj\Debug\AmigoDono.Model.csprojAssemblyReference.cache

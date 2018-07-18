@@ -56,6 +56,16 @@
     <Property Name="Data" Type="date" Nullable="false" />
     <Property Name="DataResposta" Type="date" />
   </EntityType>
+  <EntityType Name="FEEDBACK">
+    <Key>
+      <PropertyRef Name="IDF" />
+    </Key>
+    <Property Name="IDF" Type="int" Nullable="false" />
+    <Property Name="Nome" Type="varchar(max)" Nullable="false" />
+    <Property Name="Email" Type="varchar" MaxLength="100" Nullable="false" />
+    <Property Name="Opiniao" Type="varchar(max)" Nullable="false" />
+    <Property Name="Feedback" Type="varchar(max)" Nullable="false" />
+  </EntityType>
   <EntityType Name="PET">
     <Key>
       <PropertyRef Name="IDP" />
@@ -138,6 +148,7 @@
     <EntitySet Name="AMIGO" EntityType="Self.AMIGO" Schema="dbo" store:Type="Tables" />
     <EntitySet Name="CONTROLE" EntityType="Self.CONTROLE" Schema="dbo" store:Type="Tables" />
     <EntitySet Name="DENUNCIA" EntityType="Self.DENUNCIA" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="FEEDBACK" EntityType="Self.FEEDBACK" Schema="dbo" store:Type="Tables" />
     <EntitySet Name="PET" EntityType="Self.PET" Schema="dbo" store:Type="Tables" />
     <EntitySet Name="TRATAMENTO" EntityType="Self.TRATAMENTO" Schema="dbo" store:Type="Tables" />
     <AssociationSet Name="FK_adocao_Animal" Association="Self.FK_adocao_Animal">

@@ -175,6 +175,7 @@
     <Reference Include="System.Web.WebPages.Razor, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <HintPath>..\packages\Microsoft.AspNet.WebPages.3.2.6\lib\net45\System.Web.WebPages.Razor.dll</HintPath>
     </Reference>
+    <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Web" />
     <Reference Include="System.Web.Extensions" />
@@ -197,7 +198,6 @@
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
-    <Compile Include="Controllers\FeedbackController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\LoginController.cs" />
     <Compile Include="Global.asax.cs">
@@ -206,6 +206,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Controllers\DENUNCIAController.cs" />
     <Compile Include="Controllers\AMIGOController.cs" />
+    <Compile Include="Controllers\FEEDBACKController.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Content\css\bootstrap-grid.css" />
@@ -220,12 +221,24 @@
     <Content Include="Content\css\fom-validation.css" />
     <Content Include="Content\css\pets.css" />
     <Content Include="Content\css\signin.css" />
+    <Content Include="Content\imagens\Batatinha.png" />
     <Content Include="Content\imagens\cachorro.jpg" />
     <Content Include="Content\imagens\capturar.png" />
+    <Content Include="Content\imagens\Cash.png" />
     <Content Include="Content\imagens\foto1.jpg" />
     <Content Include="Content\imagens\foto2.jpg" />
+    <Content Include="Content\imagens\Hermes.png" />
+    <Content Include="Content\imagens\Juice.png" />
+    <Content Include="Content\imagens\Kito.png" />
     <Content Include="Content\imagens\Logo.png" />
     <Content Include="Content\imagens\Logo2.png" />
+    <Content Include="Content\imagens\Sasha.png" />
+    <Content Include="Content\imagens\Snow.png" />
+    <Content Include="Content\imagens\Van Gogh.png" />
+    <Content Include="Content\imagens\Vidinha.png" />
+    <Content Include="Content\imagens\Vivi.png" />
+    <Content Include="Content\imagens\Will.png" />
+    <Content Include="Content\imagens\Wolf.png" />
     <Content Include="Content\images\ui-icons_444444_256x240.png" />
     <Content Include="Content\images\ui-icons_555555_256x240.png" />
     <Content Include="Content\images\ui-icons_777620_256x240.png" />
@@ -293,6 +306,7 @@
     <Content Include="Scripts\cldr\event.js" />
     <Content Include="Scripts\cldr\supplemental.js" />
     <Content Include="Scripts\cldr\unresolved.js" />
+    <Content Include="Scripts\denuncia.js" />
     <Content Include="Scripts\esm\popper-utils.js" />
     <Content Include="Scripts\esm\popper-utils.min.js" />
     <Content Include="Scripts\esm\popper.js" />
@@ -406,7 +420,6 @@
     <Content Include="Scripts\popper-utils.js.map" />
     <Content Include="Views\Login\Signin.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
-    <Content Include="Views\Feedback\FaleConosco.cshtml" />
     <Content Include="Views\DENUNCIA\Create.cshtml" />
     <Content Include="Views\DENUNCIA\Delete.cshtml" />
     <Content Include="Views\DENUNCIA\Details.cshtml" />
@@ -417,6 +430,7 @@
     <Content Include="Views\AMIGO\Details.cshtml" />
     <Content Include="Views\AMIGO\Edit.cshtml" />
     <Content Include="Views\AMIGO\Index.cshtml" />
+    <Content Include="Views\FEEDBACK\FaleConosco.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

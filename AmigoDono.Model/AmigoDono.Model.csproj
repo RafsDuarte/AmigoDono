@@ -125,6 +125,9 @@
     <Compile Include="DENUNCIA.cs">
       <DependentUpon>ModelClasses.tt</DependentUpon>
     </Compile>
+    <Compile Include="FEEDBACK.cs">
+      <DependentUpon>ModelClasses.tt</DependentUpon>
+    </Compile>
     <Compile Include="Helper\Constantes.cs" />
     <Compile Include="Helper\CustomValidator\CustomValidatorCPFAttribute.cs" />
     <Compile Include="Helper\CustomValidator\Util.cs" />
@@ -149,6 +152,7 @@
     <Compile Include="Partial\Amigo.cs" />
     <Compile Include="Partial\Controle.cs" />
     <Compile Include="Partial\Denuncia.cs" />
+    <Compile Include="Partial\Feedback.cs" />
     <Compile Include="Partial\Pet.cs" />
     <Compile Include="Partial\Tratamentos.cs" />
     <Compile Include="PET.cs">
@@ -158,6 +162,7 @@
     <Compile Include="Repositories\RepositoryAmigo.cs" />
     <Compile Include="Repositories\RepositoryControle.cs" />
     <Compile Include="Repositories\RepositoryDenuncia.cs" />
+    <Compile Include="Repositories\RepositoryFeedback.cs" />
     <Compile Include="Repositories\RepositoryPet.cs" />
     <Compile Include="Repositories\RepositoryTratamento.cs" />
     <Compile Include="TRATAMENTO.cs">

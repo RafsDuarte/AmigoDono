@@ -18,8 +18,6 @@ namespace AmigoDono.Model
             public object IDD { get; set; }
 
             [DisplayName("Denunciante")]
-
-            [Required(AllowEmptyStrings = true)]
             public object Denunciante { get; set; }
 
             [DisplayName("Denuncia")]

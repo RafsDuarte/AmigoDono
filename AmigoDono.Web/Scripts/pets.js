@@ -1,24 +1,15 @@
-﻿function verificarProtocolo() {
-    if (window.location.protocol == 'https:')
-        window.location = 'http://www.esteio.rs.gov.br/catioro';
-}
-function confirmarCaptura(catioroId, localId) {
-    if (confirm("Deseja realmente adotar o catioro selecionado?")) {
-        //Checa conexÃ£o para realizar a captura
-        FB.login(function (response) {
-            if (response.status === 'connected') {
-                //Indica usuÃ¡rio como candidato Ã  adoÃ§Ã£o
-                capturar(catioroId, localId);
-            } else if (response.status === 'not_authorized') {
-                //O usuÃ¡rio nÃ£o permitiu acesso
-                alert('VocÃª precisa permitir acesso pelo aplicativo para capturar o Catioro!');
-            }
-        }, { scope: 'public_profile,email' });
+﻿//function verificarProtocolo() {
+//    if (window.location.protocol == 'https:')
+//        window.location = 'http://www.esteio.rs.gov.br/catioro';
+//}
+function confirmarCaptura(animalid, localId) {
+    if (confirm("Deseja realmente adotar o animal selecionado?")) {
+        window.open("Login/Signin", "_self")
     }
 }
 
-function capturar(catioroId, localId) {
-    //Verifica se a ID do catioro Ã© vÃ¡lida
+function capturar(animalId, localId) {
+    //Verifica se a ID do animal Ã© vÃ¡lida
     if (isNaN(catioroId) || catioroId == 0) {
         alert('Amigo nÃ£o localizado. Tente mais tarde.');
         return false;
@@ -31,14 +22,14 @@ function capturar(catioroId, localId) {
 
     //Busca dados do usuÃ¡rio
     FB.api('/me?fields=id,name,email,picture', function (response) {
-        var retorno = verificarDiponibilidade(catioroId, localId, response);
+        var retorno = verificarDiponibilidade(animalId, localId, response);
         if (retorno != undefined) alert(retorno);
     });
 }
 
-function verificarDiponibilidade(catioroId, localId, response) {
+function verificarDiponibilidade(animalId, localId, response) {
     //Valida dados
-    if (isNaN(catioroId) || catioroId == 0) return 'Amigo nÃ£o localizado';
+    if (isNaN(catioroId) || animalId == 0) return 'Amigo nÃ£o localizado';
     if (isNaN(localId) || localId == 0) return 'Local nÃ£o localizado';
     if (response.id == undefined) return 'NÃ£o conseguimos te identificar';
     if (response.name == undefined) return 'Teu nome nÃ£o foi recebido';
@@ -49,8 +40,8 @@ function verificarDiponibilidade(catioroId, localId, response) {
     var contato = prompt("Por favor, informe um nÃºmero de telefone / celular para contato");
 
     //Monta dados
-    var catioro =
-        '{"catioro_id":"' + catioroId +
+    var animal =
+        '{"animal_id":"' + animalId +
         '","usuario_id":"' + response.id +
         '","usuario_nome":"' + response.name +
         '","usuario_email":"' + response.email +
@@ -59,7 +50,7 @@ function verificarDiponibilidade(catioroId, localId, response) {
         '"}';
 
     //Prepara dados
-    var cadastro = $.parseJSON(catioro);
+    var cadastro = $.parseJSON(animal);
 
     //Envia dados
     $.post("capturar.php", cadastro,

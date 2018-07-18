@@ -61,6 +61,16 @@
           <Property Name="Data" Type="date" Nullable="false" />
           <Property Name="DataResposta" Type="date" />
         </EntityType>
+        <EntityType Name="FEEDBACK">
+          <Key>
+            <PropertyRef Name="IDF" />
+          </Key>
+          <Property Name="IDF" Type="int" Nullable="false" />
+          <Property Name="Nome" Type="varchar(max)" Nullable="false" />
+          <Property Name="Email" Type="varchar" MaxLength="100" Nullable="false" />
+          <Property Name="Opiniao" Type="varchar(max)" Nullable="false" />
+          <Property Name="Feedback" Type="varchar(max)" Nullable="false" />
+        </EntityType>
         <EntityType Name="PET">
           <Key>
             <PropertyRef Name="IDP" />
@@ -143,6 +153,7 @@
           <EntitySet Name="AMIGO" EntityType="Self.AMIGO" Schema="dbo" store:Type="Tables" />
           <EntitySet Name="CONTROLE" EntityType="Self.CONTROLE" Schema="dbo" store:Type="Tables" />
           <EntitySet Name="DENUNCIA" EntityType="Self.DENUNCIA" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="FEEDBACK" EntityType="Self.FEEDBACK" Schema="dbo" store:Type="Tables" />
           <EntitySet Name="PET" EntityType="Self.PET" Schema="dbo" store:Type="Tables" />
           <EntitySet Name="TRATAMENTO" EntityType="Self.TRATAMENTO" Schema="dbo" store:Type="Tables" />
           <AssociationSet Name="FK_adocao_Animal" Association="Self.FK_adocao_Animal">
@@ -226,6 +237,16 @@
           <Property Name="UF" Type="String" MaxLength="2" FixedLength="false" Unicode="false" />
           <Property Name="Data" Type="DateTime" Nullable="false" Precision="0" />
           <Property Name="DataResposta" Type="DateTime" Precision="0" />
+        </EntityType>
+        <EntityType Name="FEEDBACK">
+          <Key>
+            <PropertyRef Name="IDF" />
+          </Key>
+          <Property Name="IDF" Type="Int32" Nullable="false" />
+          <Property Name="Nome" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="Email" Type="String" MaxLength="100" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="Opiniao" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="Feedback" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" Nullable="false" />
         </EntityType>
         <EntityType Name="PET">
           <Key>
@@ -313,6 +334,7 @@
           <EntitySet Name="AMIGO" EntityType="Self.AMIGO" />
           <EntitySet Name="CONTROLE" EntityType="Self.CONTROLE" />
           <EntitySet Name="DENUNCIA" EntityType="Self.DENUNCIA" />
+          <EntitySet Name="FEEDBACK" EntityType="Self.FEEDBACK" />
           <EntitySet Name="PET" EntityType="Self.PET" />
           <EntitySet Name="TRATAMENTO" EntityType="Self.TRATAMENTO" />
           <AssociationSet Name="FK_CONTROLE_AMIGO" Association="Self.FK_CONTROLE_AMIGO">
@@ -394,6 +416,17 @@
                 <ScalarProperty Name="UF" ColumnName="UF" />
                 <ScalarProperty Name="Data" ColumnName="Data" />
                 <ScalarProperty Name="DataResposta" ColumnName="DataResposta" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="FEEDBACK">
+            <EntityTypeMapping TypeName="AmigoDonoModel.FEEDBACK">
+              <MappingFragment StoreEntitySet="FEEDBACK">
+                <ScalarProperty Name="IDF" ColumnName="IDF" />
+                <ScalarProperty Name="Nome" ColumnName="Nome" />
+                <ScalarProperty Name="Email" ColumnName="Email" />
+                <ScalarProperty Name="Opiniao" ColumnName="Opiniao" />
+                <ScalarProperty Name="Feedback" ColumnName="Feedback" />
               </MappingFragment>
             </EntityTypeMapping>
           </EntitySetMapping>

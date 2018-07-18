@@ -60,6 +60,16 @@
     <Property Name="Data" Type="DateTime" Nullable="false" Precision="0" />
     <Property Name="DataResposta" Type="DateTime" Precision="0" />
   </EntityType>
+  <EntityType Name="FEEDBACK">
+    <Key>
+      <PropertyRef Name="IDF" />
+    </Key>
+    <Property Name="IDF" Type="Int32" Nullable="false" />
+    <Property Name="Nome" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Email" Type="String" MaxLength="100" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Opiniao" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Feedback" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" Nullable="false" />
+  </EntityType>
   <EntityType Name="PET">
     <Key>
       <PropertyRef Name="IDP" />
@@ -146,6 +156,7 @@
     <EntitySet Name="AMIGO" EntityType="Self.AMIGO" />
     <EntitySet Name="CONTROLE" EntityType="Self.CONTROLE" />
     <EntitySet Name="DENUNCIA" EntityType="Self.DENUNCIA" />
+    <EntitySet Name="FEEDBACK" EntityType="Self.FEEDBACK" />
     <EntitySet Name="PET" EntityType="Self.PET" />
     <EntitySet Name="TRATAMENTO" EntityType="Self.TRATAMENTO" />
     <AssociationSet Name="FK_CONTROLE_AMIGO" Association="Self.FK_CONTROLE_AMIGO">

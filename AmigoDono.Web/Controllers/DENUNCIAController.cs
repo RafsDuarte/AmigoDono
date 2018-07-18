@@ -6,6 +6,8 @@ using System.Linq;
 using System.Net;
 using System.Web;
 using System.Web.Mvc;
+using System.Web.Services.Description;
+using System.Windows.Forms;
 using AmigoDono.Model;
 using AmigoDono.Model.Repositories;
 
@@ -54,7 +56,7 @@ namespace AmigoDono.Web.Views
             if (ModelState.IsValid)
             {
                 _repositoryDenuncia.Incluir(oDenuncia);
-                return RedirectToAction("Index");
+                return RedirectToAction("Index", "Home");
             }
 
             return View(oDenuncia);

@@ -77,6 +77,10 @@ namespace AmigoDono.Model
             [Required(ErrorMessage = "Por favor, escolha uma cidade.")]
             public object Cidade { get; set; }
 
+            [DisplayName("UF")]
+            [Required(ErrorMessage = "Por favor, escolha um UF.")]
+            public object UF { get; set; }
+
             [DisplayName("Telefone")]
             [Required(ErrorMessage = "Insira um telefone de contato.")]
             public object Telefone { get; set; }

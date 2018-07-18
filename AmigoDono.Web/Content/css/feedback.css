@@ -90,7 +90,6 @@ img {
 body {
     padding: 0;
     margin: 0;
-    background: #4cc2c4;
     font-family: 'Open Sans', sans-serif !important;
 }
 
@@ -165,7 +164,7 @@ p.footer {
 }
 
 .main h5 {
-    color: #ff7700;
+    color: #ddbb24;
     margin-bottom: 8px;
     font-size: 19px;
     font-family: 'Josefin Slab', serif;
@@ -178,7 +177,7 @@ p.footer {
     }
 
 .main form input[type="text"]:hover, .main textarea:hover {
-    border: 1px solid #4cc2c4;
+    border: 1px solid #ddbb24;
     color: #000;
     transition: 0.5s all;
     -webkit-transition: 0.5s all;
@@ -188,12 +187,10 @@ p.footer {
 }
 
 .main form input[type="submit"] {
-    background: #ff7700;
+    background: #ddbb24;
     color: #FFFFFF;
     text-align: center;
     padding: 14px 0;
-    border: none;
-    border-bottom: 4px solid #CA6106;
     font-size: 16px;
     outline: none;
     width: 100%;
@@ -277,7 +274,6 @@ p.footer {
 
     .checkbox input + i:after {
         content: '';
-        background: url("../images/tick-mark1.png") no-repeat center;
         top: -6px;
         left: 0px;
         width: 18px;
@@ -336,7 +332,7 @@ p.footer {
     width: 12px;
     height: 12px;
     outline: none;
-    border: 3px solid #ff7700;
+    border: 3px solid #ddbb24;
     background: #fff;
     cursor: pointer;
     border-radius: 100%;
@@ -388,7 +384,6 @@ p.footer {
 /*** checked state ***/
 .radio input + i:after, .radio1 input + i:after, .radio2 input + i:after, .radio3 input + i:after {
     content: '';
-    background: url("../images/tick-mark1.png") no-repeat -1px -1px;
     top: 3px;
     left: 3px;
     width: 6.5px;
@@ -398,7 +393,7 @@ p.footer {
 }
 
 .radio input:checked + i, .radio1 input:checked + i, .radio2 input:checked + i, .radio3 input:checked + i {
-    border: 3px solid #ff7700;
+    border: 3px solid #ddbb24;
     background: #fff;
 }
 
@@ -406,47 +401,6 @@ p.footer {
     margin-bottom: 30px;
 }
 
-span.starRating {
-    margin: 5px 0 30px;
-}
-
-.starRating:not(old) {
-    display: inline-block;
-    width: 7.5em;
-    height: 1.5em;
-    overflow: hidden;
-    vertical-align: bottom;
-}
-
-    .starRating:not(old) > input {
-        margin-right: -100%;
-        opacity: 0;
-    }
-
-    .starRating:not(old) > label {
-        display: block;
-        float: right;
-        position: relative;
-        background: url('../images/star-off.png');
-        background-size: contain;
-    }
-
-        .starRating:not(old) > label:before {
-            content: '';
-            display: block;
-            width: 1.5em;
-            height: 1.5em;
-            background: url('../images/star-on.png');
-            background-size: contain;
-            opacity: 0;
-            transition: opacity 0.2s linear;
-        }
-
-        .starRating:not(old) > label:hover:before,
-        .starRating:not(old) > label:hover ~ label:before,
-        .starRating:not(:hover) > :checked ~ label:before {
-            opacity: 1;
-        }
 /*-- responsive media queries --*/
 @media (max-width: 1440px) {
     .main {
