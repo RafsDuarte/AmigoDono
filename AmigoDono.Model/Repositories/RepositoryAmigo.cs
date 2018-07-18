@@ -49,7 +49,12 @@ namespace AmigoDono.Model.Repositories
             return (from p in odb.AMIGO where p.IDA == ID select p).FirstOrDefault();
         }
         // ok
-        public List<AMIGO> SelecionarTodos(string amigo)
+        public List<AMIGO> SelecionarTodos()
+        {     
+             return (from p in odb.AMIGO orderby p.Nome select p).ToList();
+            
+        }
+            public List<AMIGO> SelecionarTodos(string amigo)
         {
             if(amigo.Trim() == "")
             {
