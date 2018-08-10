@@ -8,14 +8,14 @@ namespace AmigoDono.Model.Repositories
 {
     public class RepositoryPet :IDisposable
     {
-        private AmigoDonoEntities odb;
+        private Amigos_do_DonoEntities odb;
         private bool LiberaContexto = false;
         public RepositoryPet()
         {
             odb = Helper.Data.getContexto();
             LiberaContexto = true;
         }
-        public RepositoryPet(AmigoDonoEntities _obd) { _obd = odb; }
+        public RepositoryPet(Amigos_do_DonoEntities _obd) { _obd = odb; }
         public PET Selecionar(int? ID)
         {
             return (from p in odb.PET where p.IDP == ID select p).FirstOrDefault();

@@ -24,10 +24,10 @@ namespace AmigoDono.Control
         //    _Repository.Alterar(oTratamento, attach);
         //}
 
-        //public void Excluir(TRATAMENTO oTratamento)
-        //{
-        //    _Repository.Excluir(oTratamento);
-        //}
+        public void Excluir(TRATAMENTO oTratamento)
+        {
+            _Repository.Excluir(oTratamento);
+        }
         //public List<TRATAMENTO> SelecionarTodos(string Tratamento)
         //{
         //    return _Repository.SelecionarTodos(Tratamento);

@@ -13,10 +13,10 @@ namespace AmigoDono.Model
     using System.Data.Entity;
     using System.Data.Entity.Infrastructure;
     
-    public partial class AmigoDonoEntities : DbContext
+    public partial class Amigos_do_DonoEntities : DbContext
     {
-        public AmigoDonoEntities()
-            : base("name=AmigoDonoEntities")
+        public Amigos_do_DonoEntities()
+            : base("name=Amigos_do_DonoEntities")
         {
         }
     
@@ -30,6 +30,8 @@ namespace AmigoDono.Model
         public virtual DbSet<DENUNCIA> DENUNCIA { get; set; }
         public virtual DbSet<FEEDBACK> FEEDBACK { get; set; }
         public virtual DbSet<PET> PET { get; set; }
+        public virtual DbSet<RAÇA> RAÇA { get; set; }
+        public virtual DbSet<TIPOTRATAMENTO> TIPOTRATAMENTO { get; set; }
         public virtual DbSet<TRATAMENTO> TRATAMENTO { get; set; }
     }
 }

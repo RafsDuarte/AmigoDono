@@ -20,6 +20,8 @@ namespace AmigoDono.View
     public partial class TelaCadastroAmigo : Form
     {
         private Control.CAmigo _Control = new CAmigo();
+        //Bitmap bmp;
+        //Thread nt;
         public string teste;
         AMIGO _amigo=null;
         AMIGO amigoAlterar = new AMIGO();
@@ -175,7 +177,7 @@ namespace AmigoDono.View
             MskCelular.Text = "";
             TxtAjuda.Text = "";
             //PbFoto.Load(".\\imagem\\Caricatura.jpg");
-            PbFoto.Load( "C:\\Amigo_do_Dono\\Atual2\\Atual1\\Atual1\\Atual\\AmigoDono\\AmigoDono.Model\\imagem\\Caricatura.jpg");
+            PbFoto.Load("C:\\Amigo_do_Dono\\AmigoDono-master\\AmigoDono.Model\\imagem\\Caricatura.jpg");
         }
         private bool ValidaControles()
         {

@@ -8,9 +8,9 @@ namespace AmigoDono.Model.Helper
 {
     public class Data
     {
-        public static AmigoDonoEntities getContexto()
+        public static Amigos_do_DonoEntities getContexto()
         {
-            AmigoDonoEntities odb = new AmigoDonoEntities(); // instancia a conexão com o Banco de dados
+            Amigos_do_DonoEntities odb = new Amigos_do_DonoEntities(); // instancia a conexão com o Banco de dados
             odb.Configuration.ProxyCreationEnabled = false; // desabilita o proxy
             return odb; // retorna a conexão com Banco de Dados
         }

@@ -21,8 +21,10 @@ namespace AmigoDono.Model
         public System.DateTime Data { get; set; }
         public string OBS { get; set; }
         public string Descricao { get; set; }
+        public Nullable<int> IDDescricao { get; set; }
     
         public virtual AMIGO AMIGO { get; set; }
         public virtual PET PET { get; set; }
+        public virtual TIPOTRATAMENTO TIPOTRATAMENTO { get; set; }
     }
 }

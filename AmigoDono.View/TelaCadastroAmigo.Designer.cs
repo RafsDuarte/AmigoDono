@@ -629,6 +629,7 @@
             this.Controls.Add(this.LblTipoLogradouro);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.BtnSalvar);
+            this.MinimizeBox = false;
             this.Name = "TelaCadastroAmigo";
             this.Text = "Cadastro de Amigos";
             this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.TelaCadastroAmigo_FormClosed);

@@ -14,7 +14,7 @@
         protected override void Dispose(bool disposing)
         {
             if (disposing && (components != null))
-            {
+           {
                 components.Dispose();
             }
             base.Dispose(disposing);
@@ -34,12 +34,12 @@
             this.BtnSair = new System.Windows.Forms.Button();
             this.LblNome = new System.Windows.Forms.Label();
             this.GrdPet = new System.Windows.Forms.DataGridView();
-            this.pETBindingSource = new System.Windows.Forms.BindingSource(this.components);
-            this.amigos_do_DonoDataSet = new AmigoDono.View.Amigos_do_DonoDataSet();
-            this.pETTableAdapter = new AmigoDono.View.Amigos_do_DonoDataSetTableAdapters.PETTableAdapter();
             this.BtnEscolher = new System.Windows.Forms.DataGridViewButtonColumn();
             this.dataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dataGridViewTextBoxColumn2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.pETBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.amigos_do_DonoDataSet = new AmigoDono.View.Amigos_do_DonoDataSet();
+            this.pETTableAdapter = new AmigoDono.View.Amigos_do_DonoDataSetTableAdapters.PETTableAdapter();
             ((System.ComponentModel.ISupportInitialize)(this.GrdPet)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pETBindingSource)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.amigos_do_DonoDataSet)).BeginInit();
@@ -118,20 +118,6 @@
             this.GrdPet.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.GrdPet_CellClick);
             this.GrdPet.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.GrdPet_CellContentClick);
             // 
-            // pETBindingSource
-            // 
-            this.pETBindingSource.DataMember = "PET";
-            this.pETBindingSource.DataSource = this.amigos_do_DonoDataSet;
-            // 
-            // amigos_do_DonoDataSet
-            // 
-            this.amigos_do_DonoDataSet.DataSetName = "Amigos_do_DonoDataSet";
-            this.amigos_do_DonoDataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
-            // 
-            // pETTableAdapter
-            // 
-            this.pETTableAdapter.ClearBeforeFill = true;
-            // 
             // BtnEscolher
             // 
             this.BtnEscolher.HeaderText = "Escolher";
@@ -152,6 +138,20 @@
             this.dataGridViewTextBoxColumn2.Name = "dataGridViewTextBoxColumn2";
             this.dataGridViewTextBoxColumn2.Width = 150;
             // 
+            // pETBindingSource
+            // 
+            this.pETBindingSource.DataMember = "PET";
+            this.pETBindingSource.DataSource = this.amigos_do_DonoDataSet;
+            // 
+            // amigos_do_DonoDataSet
+            // 
+            this.amigos_do_DonoDataSet.DataSetName = "Amigos_do_DonoDataSet";
+            this.amigos_do_DonoDataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
+            // 
+            // pETTableAdapter
+            // 
+            this.pETTableAdapter.ClearBeforeFill = true;
+            // 
             // TelaPesquisarPet
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -167,6 +167,7 @@
             this.Name = "TelaPesquisarPet";
             this.Text = "TelaPesquisarPet";
             this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.TelaPesquisarPet_FormClosed);
+            this.Load += new System.EventHandler(this.TelaPesquisarPet_Load);
             ((System.ComponentModel.ISupportInitialize)(this.GrdPet)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pETBindingSource)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.amigos_do_DonoDataSet)).EndInit();
@@ -176,6 +177,7 @@
         }
 
         #endregion
+
         private System.Windows.Forms.Button BtnOK;
         private System.Windows.Forms.TextBox TxtPesquisaNome;
         private System.Windows.Forms.Button BtnSair;

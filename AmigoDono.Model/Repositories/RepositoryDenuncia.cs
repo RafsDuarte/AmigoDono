@@ -10,7 +10,7 @@ namespace AmigoDono.Model.Repositories
 {
     public class RepositoryDenuncia :IDisposable
     {
-        private AmigoDonoEntities odb;
+        private Amigos_do_DonoEntities odb;
         private bool LiberaContexto = false;
         //private bool attach = false;
 
@@ -21,7 +21,7 @@ namespace AmigoDono.Model.Repositories
             LiberaContexto = true;
         }
 
-        public RepositoryDenuncia(AmigoDonoEntities _obd)
+        public RepositoryDenuncia(Amigos_do_DonoEntities _obd)
         {
             _obd = odb;
         }

@@ -15,10 +15,22 @@ namespace AmigoDono.Model
         {
             [DisplayName("ID")]
             public object IDC { get; set; }
+
             [DisplayName("Id do Pet")]
             public object IDPet { get; set; }
-            [DisplayName("Id do Amigo")]
-            public object IDAmigo { get; set; }
+            [DisplayName("Nome do Pet")]
+            public object NomePet { get; set; }
+
+            [DisplayName("Id do Dono")]
+            public object IDDono { get; set; }
+            [DisplayName("Id do Dono")]
+            public object NomeDono { get; set; }
+
+            [DisplayName("Id do Doador")]
+            public object IDDoador { get; set; }
+            [DisplayName("Id do Doador")]
+            public object NomeDoador { get; set; }
+
             [DisplayName("Data da Adocao")]
             public object DataAdocao { get; set; }
             [DisplayName("Status")]

@@ -162,6 +162,9 @@ C:\Amigo_do_Dono\Atual2\Atual1\Atual1\Atual\AmigoDono\AmigoDono.View\bin\Debug\A
 C:\Amigo_do_Dono\Atual2\Atual1\Atual1\Atual\AmigoDono\AmigoDono.View\bin\Debug\AmigoDono.View.pdb
 C:\Amigo_do_Dono\Atual2\Atual1\Atual1\Atual\AmigoDono\AmigoDono.View\bin\Debug\AmigoDono.Control.dll
 C:\Amigo_do_Dono\Atual2\Atual1\Atual1\Atual\AmigoDono\AmigoDono.View\bin\Debug\AmigoDono.Model.dll
+C:\Amigo_do_Dono\Atual2\Atual1\Atual1\Atual\AmigoDono\AmigoDono.View\bin\Debug\CrystalDecisions.CrystalReports.Engine.dll
+C:\Amigo_do_Dono\Atual2\Atual1\Atual1\Atual\AmigoDono\AmigoDono.View\bin\Debug\CrystalDecisions.ReportSource.dll
+C:\Amigo_do_Dono\Atual2\Atual1\Atual1\Atual\AmigoDono\AmigoDono.View\bin\Debug\CrystalDecisions.Shared.dll
 C:\Amigo_do_Dono\Atual2\Atual1\Atual1\Atual\AmigoDono\AmigoDono.View\bin\Debug\Microsoft.ReportViewer.Common.dll
 C:\Amigo_do_Dono\Atual2\Atual1\Atual1\Atual\AmigoDono\AmigoDono.View\bin\Debug\Microsoft.ReportViewer.DataVisualization.dll
 C:\Amigo_do_Dono\Atual2\Atual1\Atual1\Atual\AmigoDono\AmigoDono.View\bin\Debug\Microsoft.ReportViewer.Design.dll
@@ -169,9 +172,21 @@ C:\Amigo_do_Dono\Atual2\Atual1\Atual1\Atual\AmigoDono\AmigoDono.View\bin\Debug\M
 C:\Amigo_do_Dono\Atual2\Atual1\Atual1\Atual\AmigoDono\AmigoDono.View\bin\Debug\Microsoft.ReportViewer.WinForms.dll
 C:\Amigo_do_Dono\Atual2\Atual1\Atual1\Atual\AmigoDono\AmigoDono.View\bin\Debug\Microsoft.SqlServer.Types.dll
 C:\Amigo_do_Dono\Atual2\Atual1\Atual1\Atual\AmigoDono\AmigoDono.View\bin\Debug\EntityFramework.dll
+C:\Amigo_do_Dono\Atual2\Atual1\Atual1\Atual\AmigoDono\AmigoDono.View\bin\Debug\CrystalDecisions.ReportAppServer.DataDefModel.dll
+C:\Amigo_do_Dono\Atual2\Atual1\Atual1\Atual\AmigoDono\AmigoDono.View\bin\Debug\CrystalDecisions.ReportAppServer.ClientDoc.dll
+C:\Amigo_do_Dono\Atual2\Atual1\Atual1\Atual\AmigoDono\AmigoDono.View\bin\Debug\CrystalDecisions.ReportAppServer.ReportDefModel.dll
+C:\Amigo_do_Dono\Atual2\Atual1\Atual1\Atual\AmigoDono\AmigoDono.View\bin\Debug\CrystalDecisions.ReportAppServer.Controllers.dll
+C:\Amigo_do_Dono\Atual2\Atual1\Atual1\Atual\AmigoDono\AmigoDono.View\bin\Debug\CrystalDecisions.ReportAppServer.CommLayer.dll
+C:\Amigo_do_Dono\Atual2\Atual1\Atual1\Atual\AmigoDono\AmigoDono.View\bin\Debug\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+C:\Amigo_do_Dono\Atual2\Atual1\Atual1\Atual\AmigoDono\AmigoDono.View\bin\Debug\CrystalDecisions.ReportAppServer.Prompting.dll
+C:\Amigo_do_Dono\Atual2\Atual1\Atual1\Atual\AmigoDono\AmigoDono.View\bin\Debug\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+C:\Amigo_do_Dono\Atual2\Atual1\Atual1\Atual\AmigoDono\AmigoDono.View\bin\Debug\CrystalDecisions.ReportAppServer.CubeDefModel.dll
+C:\Amigo_do_Dono\Atual2\Atual1\Atual1\Atual\AmigoDono\AmigoDono.View\bin\Debug\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
+C:\Amigo_do_Dono\Atual2\Atual1\Atual1\Atual\AmigoDono\AmigoDono.View\bin\Debug\CrystalDecisions.ReportAppServer.ObjectFactory.dll
 C:\Amigo_do_Dono\Atual2\Atual1\Atual1\Atual\AmigoDono\AmigoDono.View\bin\Debug\EnvDTE.dll
 C:\Amigo_do_Dono\Atual2\Atual1\Atual1\Atual\AmigoDono\AmigoDono.View\bin\Debug\Microsoft.VisualStudio.Shell.Interop.dll
 C:\Amigo_do_Dono\Atual2\Atual1\Atual1\Atual\AmigoDono\AmigoDono.View\bin\Debug\Microsoft.VisualStudio.Shell.Interop.8.0.dll
+C:\Amigo_do_Dono\Atual2\Atual1\Atual1\Atual\AmigoDono\AmigoDono.View\bin\Debug\CrystalDecisions.ReportAppServer.CommonControls.dll
 C:\Amigo_do_Dono\Atual2\Atual1\Atual1\Atual\AmigoDono\AmigoDono.View\bin\Debug\stdole.dll
 C:\Amigo_do_Dono\Atual2\Atual1\Atual1\Atual\AmigoDono\AmigoDono.View\bin\Debug\Microsoft.VisualStudio.OLE.Interop.dll
 C:\Amigo_do_Dono\Atual2\Atual1\Atual1\Atual\AmigoDono\AmigoDono.View\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.dll
@@ -249,13 +264,15 @@ C:\Amigo_do_Dono\Atual2\Atual1\Atual1\Atual\AmigoDono\AmigoDono.View\bin\Debug\z
 C:\Amigo_do_Dono\Atual2\Atual1\Atual1\Atual\AmigoDono\AmigoDono.View\bin\Debug\pt-BR\Microsoft.VisualStudio.Data.Services.resources.dll
 C:\Amigo_do_Dono\Atual2\Atual1\Atual1\Atual\AmigoDono\AmigoDono.View\bin\Debug\pt-BR\Microsoft.VisualStudio.Data.Core.resources.dll
 C:\Amigo_do_Dono\Atual2\Atual1\Atual1\Atual\AmigoDono\AmigoDono.View\bin\Debug\pt-BR\Microsoft.VisualStudio.GraphModel.resources.dll
-C:\Amigo_do_Dono\Atual2\Atual1\Atual1\Atual\AmigoDono\AmigoDono.View\obj\Debug\AmigoDono.View.csprojResolveAssemblyReference.cache
+C:\Amigo_do_Dono\Atual2\Atual1\Atual1\Atual\AmigoDono\AmigoDono.View\obj\Debug\AmigoDono.View.csprojAssemblyReference.cache
 C:\Amigo_do_Dono\Atual2\Atual1\Atual1\Atual\AmigoDono\AmigoDono.View\obj\Debug\AmigoDono.View.exe.config
 C:\Amigo_do_Dono\Atual2\Atual1\Atual1\Atual\AmigoDono\AmigoDono.View\obj\Debug\AmigoDono.View.Properties.Resources.resources
-C:\Amigo_do_Dono\Atual2\Atual1\Atual1\Atual\AmigoDono\AmigoDono.View\obj\Debug\AmigoDono.View.RelatorioAmigo.resources
+C:\Amigo_do_Dono\Atual2\Atual1\Atual1\Atual\AmigoDono\AmigoDono.View\obj\Debug\AmigoDono.View.TelaBuscarPet.resources
 C:\Amigo_do_Dono\Atual2\Atual1\Atual1\Atual\AmigoDono\AmigoDono.View\obj\Debug\AmigoDono.View.TelaCadastroAmigo.resources
 C:\Amigo_do_Dono\Atual2\Atual1\Atual1\Atual\AmigoDono\AmigoDono.View\obj\Debug\AmigoDono.View.TelaCadastroPet.resources
 C:\Amigo_do_Dono\Atual2\Atual1\Atual1\Atual\AmigoDono\AmigoDono.View\obj\Debug\AmigoDono.View.TelaControle.resources
+C:\Amigo_do_Dono\Atual2\Atual1\Atual1\Atual\AmigoDono\AmigoDono.View\obj\Debug\AmigoDono.View.TelaControleBuscarPet.resources
+C:\Amigo_do_Dono\Atual2\Atual1\Atual1\Atual\AmigoDono\AmigoDono.View\obj\Debug\AmigoDono.View.TelaControleBuscarProp.resources
 C:\Amigo_do_Dono\Atual2\Atual1\Atual1\Atual\AmigoDono\AmigoDono.View\obj\Debug\AmigoDono.View.TelaPesquisaControle.resources
 C:\Amigo_do_Dono\Atual2\Atual1\Atual1\Atual\AmigoDono\AmigoDono.View\obj\Debug\AmigoDono.View.TelaPesquisaDenuncia.resources
 C:\Amigo_do_Dono\Atual2\Atual1\Atual1\Atual\AmigoDono\AmigoDono.View\obj\Debug\AmigoDono.View.TelaPesquisarAmigo.resources
@@ -266,900 +283,288 @@ C:\Amigo_do_Dono\Atual2\Atual1\Atual1\Atual\AmigoDono\AmigoDono.View\obj\Debug\A
 C:\Amigo_do_Dono\Atual2\Atual1\Atual1\Atual\AmigoDono\AmigoDono.View\obj\Debug\AmigoDono.View.TelaDenuncia.resources
 C:\Amigo_do_Dono\Atual2\Atual1\Atual1\Atual\AmigoDono\AmigoDono.View\obj\Debug\AmigoDono.View.TelaLogin.resources
 C:\Amigo_do_Dono\Atual2\Atual1\Atual1\Atual\AmigoDono\AmigoDono.View\obj\Debug\AmigoDono.View.TelaPrincipal.resources
+C:\Amigo_do_Dono\Atual2\Atual1\Atual1\Atual\AmigoDono\AmigoDono.View\obj\Debug\AmigoDono.View.TelaTratamentoBuscarPet.resources
+C:\Amigo_do_Dono\Atual2\Atual1\Atual1\Atual\AmigoDono\AmigoDono.View\obj\Debug\AmigoDono.View.TelaTratamentoBuscarProp.resources
 C:\Amigo_do_Dono\Atual2\Atual1\Atual1\Atual\AmigoDono\AmigoDono.View\obj\Debug\AmigoDono.View.csproj.GenerateResource.cache
 C:\Amigo_do_Dono\Atual2\Atual1\Atual1\Atual\AmigoDono\AmigoDono.View\obj\Debug\AmigoDono.View.csproj.CoreCompileInputs.cache
 C:\Amigo_do_Dono\Atual2\Atual1\Atual1\Atual\AmigoDono\AmigoDono.View\obj\Debug\AmigoDono.View.csproj.CopyComplete
 C:\Amigo_do_Dono\Atual2\Atual1\Atual1\Atual\AmigoDono\AmigoDono.View\obj\Debug\AmigoDono.View.exe
 C:\Amigo_do_Dono\Atual2\Atual1\Atual1\Atual\AmigoDono\AmigoDono.View\obj\Debug\AmigoDono.View.pdb
-C:\Amigo_do_Dono\Atual2\Atual1\Atual1\Atual\AmigoDono\AmigoDono.View\obj\Debug\AmigoDono.View.TelaBuscarPet.resources
-C:\Users\rafin\Documents\Desktop\Atual3\Atual2\Atual1\Atual1\Atual\AmigoDono\AmigoDono.View\bin\Debug\AmigoDono.View.exe.config
-C:\Users\rafin\Documents\Desktop\Atual3\Atual2\Atual1\Atual1\Atual\AmigoDono\AmigoDono.View\bin\Debug\AmigoDono.View.exe
-C:\Users\rafin\Documents\Desktop\Atual3\Atual2\Atual1\Atual1\Atual\AmigoDono\AmigoDono.View\bin\Debug\AmigoDono.View.pdb
-C:\Users\rafin\Documents\Desktop\Atual3\Atual2\Atual1\Atual1\Atual\AmigoDono\AmigoDono.View\bin\Debug\AmigoDono.Control.dll
-C:\Users\rafin\Documents\Desktop\Atual3\Atual2\Atual1\Atual1\Atual\AmigoDono\AmigoDono.View\bin\Debug\AmigoDono.Model.dll
-C:\Users\rafin\Documents\Desktop\Atual3\Atual2\Atual1\Atual1\Atual\AmigoDono\AmigoDono.View\bin\Debug\Microsoft.ReportViewer.Common.dll
-C:\Users\rafin\Documents\Desktop\Atual3\Atual2\Atual1\Atual1\Atual\AmigoDono\AmigoDono.View\bin\Debug\Microsoft.ReportViewer.DataVisualization.dll
-C:\Users\rafin\Documents\Desktop\Atual3\Atual2\Atual1\Atual1\Atual\AmigoDono\AmigoDono.View\bin\Debug\Microsoft.ReportViewer.Design.dll
-C:\Users\rafin\Documents\Desktop\Atual3\Atual2\Atual1\Atual1\Atual\AmigoDono\AmigoDono.View\bin\Debug\Microsoft.ReportViewer.ProcessingObjectModel.dll
-C:\Users\rafin\Documents\Desktop\Atual3\Atual2\Atual1\Atual1\Atual\AmigoDono\AmigoDono.View\bin\Debug\Microsoft.ReportViewer.WinForms.dll
-C:\Users\rafin\Documents\Desktop\Atual3\Atual2\Atual1\Atual1\Atual\AmigoDono\AmigoDono.View\bin\Debug\Microsoft.SqlServer.Types.dll
-C:\Users\rafin\Documents\Desktop\Atual3\Atual2\Atual1\Atual1\Atual\AmigoDono\AmigoDono.View\bin\Debug\EntityFramework.dll
-C:\Users\rafin\Documents\Desktop\Atual3\Atual2\Atual1\Atual1\Atual\AmigoDono\AmigoDono.View\bin\Debug\EnvDTE.dll
-C:\Users\rafin\Documents\Desktop\Atual3\Atual2\Atual1\Atual1\Atual\AmigoDono\AmigoDono.View\bin\Debug\Microsoft.VisualStudio.Shell.Interop.dll
-C:\Users\rafin\Documents\Desktop\Atual3\Atual2\Atual1\Atual1\Atual\AmigoDono\AmigoDono.View\bin\Debug\Microsoft.VisualStudio.Shell.Interop.8.0.dll
-C:\Users\rafin\Documents\Desktop\Atual3\Atual2\Atual1\Atual1\Atual\AmigoDono\AmigoDono.View\bin\Debug\stdole.dll
-C:\Users\rafin\Documents\Desktop\Atual3\Atual2\Atual1\Atual1\Atual\AmigoDono\AmigoDono.View\bin\Debug\Microsoft.VisualStudio.OLE.Interop.dll
-C:\Users\rafin\Documents\Desktop\Atual3\Atual2\Atual1\Atual1\Atual\AmigoDono\AmigoDono.View\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.dll
-C:\Users\rafin\Documents\Desktop\Atual3\Atual2\Atual1\Atual1\Atual\AmigoDono\AmigoDono.View\bin\Debug\Microsoft.VisualStudio.VSHelp.dll
-C:\Users\rafin\Documents\Desktop\Atual3\Atual2\Atual1\Atual1\Atual\AmigoDono\AmigoDono.View\bin\Debug\Microsoft.VisualStudio.Shell.Immutable.10.0.dll
-C:\Users\rafin\Documents\Desktop\Atual3\Atual2\Atual1\Atual1\Atual\AmigoDono\AmigoDono.View\bin\Debug\Microsoft.VisualStudio.Shell.Immutable.14.0.dll
-C:\Users\rafin\Documents\Desktop\Atual3\Atual2\Atual1\Atual1\Atual\AmigoDono\AmigoDono.View\bin\Debug\Microsoft.VisualStudio.Shell.Immutable.11.0.dll
-C:\Users\rafin\Documents\Desktop\Atual3\Atual2\Atual1\Atual1\Atual\AmigoDono\AmigoDono.View\bin\Debug\Microsoft.VisualStudio.Shell.Interop.9.0.dll
-C:\Users\rafin\Documents\Desktop\Atual3\Atual2\Atual1\Atual1\Atual\AmigoDono\AmigoDono.View\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.8.0.dll
-C:\Users\rafin\Documents\Desktop\Atual3\Atual2\Atual1\Atual1\Atual\AmigoDono\AmigoDono.View\bin\Debug\Microsoft.VisualStudio.ProjectAggregator.dll
-C:\Users\rafin\Documents\Desktop\Atual3\Atual2\Atual1\Atual1\Atual\AmigoDono\AmigoDono.View\bin\Debug\Microsoft.VisualStudio.Shell.Immutable.12.0.dll
-C:\Users\rafin\Documents\Desktop\Atual3\Atual2\Atual1\Atual1\Atual\AmigoDono\AmigoDono.View\bin\Debug\Microsoft.VisualStudio.ComponentModelHost.dll
-C:\Users\rafin\Documents\Desktop\Atual3\Atual2\Atual1\Atual1\Atual\AmigoDono\AmigoDono.View\bin\Debug\Microsoft.VisualStudio.Designer.Interfaces.dll
-C:\Users\rafin\Documents\Desktop\Atual3\Atual2\Atual1\Atual1\Atual\AmigoDono\AmigoDono.View\bin\Debug\Microsoft.VisualStudio.TemplateWizardInterface.dll
-C:\Users\rafin\Documents\Desktop\Atual3\Atual2\Atual1\Atual1\Atual\AmigoDono\AmigoDono.View\bin\Debug\Microsoft.VisualStudio.Debugger.InteropA.dll
-C:\Users\rafin\Documents\Desktop\Atual3\Atual2\Atual1\Atual1\Atual\AmigoDono\AmigoDono.View\bin\Debug\EnvDTE80.dll
-C:\Users\rafin\Documents\Desktop\Atual3\Atual2\Atual1\Atual1\Atual\AmigoDono\AmigoDono.View\bin\Debug\Microsoft.Build.Tasks.Core.dll
-C:\Users\rafin\Documents\Desktop\Atual3\Atual2\Atual1\Atual1\Atual\AmigoDono\AmigoDono.View\bin\Debug\Microsoft.VisualStudio.Data.Services.dll
-C:\Users\rafin\Documents\Desktop\Atual3\Atual2\Atual1\Atual1\Atual\AmigoDono\AmigoDono.View\bin\Debug\VSLangProj.dll
-C:\Users\rafin\Documents\Desktop\Atual3\Atual2\Atual1\Atual1\Atual\AmigoDono\AmigoDono.View\bin\Debug\Microsoft.VisualStudio.Shell.Interop.11.0.dll
-C:\Users\rafin\Documents\Desktop\Atual3\Atual2\Atual1\Atual1\Atual\AmigoDono\AmigoDono.View\bin\Debug\Microsoft.VisualStudio.Data.Core.dll
-C:\Users\rafin\Documents\Desktop\Atual3\Atual2\Atual1\Atual1\Atual\AmigoDono\AmigoDono.View\bin\Debug\Microsoft.VisualStudio.Shell.Interop.10.0.dll
-C:\Users\rafin\Documents\Desktop\Atual3\Atual2\Atual1\Atual1\Atual\AmigoDono\AmigoDono.View\bin\Debug\VSLangProj80.dll
-C:\Users\rafin\Documents\Desktop\Atual3\Atual2\Atual1\Atual1\Atual\AmigoDono\AmigoDono.View\bin\Debug\Microsoft.VisualStudio.ManagedInterfaces.dll
-C:\Users\rafin\Documents\Desktop\Atual3\Atual2\Atual1\Atual1\Atual\AmigoDono\AmigoDono.View\bin\Debug\Microsoft.VisualStudio.WCFReference.Interop.dll
-C:\Users\rafin\Documents\Desktop\Atual3\Atual2\Atual1\Atual1\Atual\AmigoDono\AmigoDono.View\bin\Debug\Microsoft.VisualStudio.Debugger.Interop.11.0.dll
-C:\Users\rafin\Documents\Desktop\Atual3\Atual2\Atual1\Atual1\Atual\AmigoDono\AmigoDono.View\bin\Debug\Newtonsoft.Json.dll
-C:\Users\rafin\Documents\Desktop\Atual3\Atual2\Atual1\Atual1\Atual\AmigoDono\AmigoDono.View\bin\Debug\System.Threading.Tasks.Dataflow.dll
-C:\Users\rafin\Documents\Desktop\Atual3\Atual2\Atual1\Atual1\Atual\AmigoDono\AmigoDono.View\bin\Debug\Microsoft.VisualStudio.GraphModel.dll
-C:\Users\rafin\Documents\Desktop\Atual3\Atual2\Atual1\Atual1\Atual\AmigoDono\AmigoDono.View\bin\Debug\Microsoft.MSXML.dll
-C:\Users\rafin\Documents\Desktop\Atual3\Atual2\Atual1\Atual1\Atual\AmigoDono\AmigoDono.View\bin\Debug\Microsoft.Build.Utilities.Core.dll
-C:\Users\rafin\Documents\Desktop\Atual3\Atual2\Atual1\Atual1\Atual\AmigoDono\AmigoDono.View\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.10.0.dll
-C:\Users\rafin\Documents\Desktop\Atual3\Atual2\Atual1\Atual1\Atual\AmigoDono\AmigoDono.View\bin\Debug\Microsoft.Build.Framework.dll
-C:\Users\rafin\Documents\Desktop\Atual3\Atual2\Atual1\Atual1\Atual\AmigoDono\AmigoDono.View\bin\Debug\VSLangProj2.dll
-C:\Users\rafin\Documents\Desktop\Atual3\Atual2\Atual1\Atual1\Atual\AmigoDono\AmigoDono.View\bin\Debug\AmigoDono.Control.pdb
-C:\Users\rafin\Documents\Desktop\Atual3\Atual2\Atual1\Atual1\Atual\AmigoDono\AmigoDono.View\bin\Debug\AmigoDono.Model.pdb
-C:\Users\rafin\Documents\Desktop\Atual3\Atual2\Atual1\Atual1\Atual\AmigoDono\AmigoDono.View\bin\Debug\AmigoDono.Model.dll.config
-C:\Users\rafin\Documents\Desktop\Atual3\Atual2\Atual1\Atual1\Atual\AmigoDono\AmigoDono.View\bin\Debug\EntityFramework.xml
-C:\Users\rafin\Documents\Desktop\Atual3\Atual2\Atual1\Atual1\Atual\AmigoDono\AmigoDono.View\bin\Debug\Microsoft.VisualStudio.Shell.Immutable.10.0.xml
-C:\Users\rafin\Documents\Desktop\Atual3\Atual2\Atual1\Atual1\Atual\AmigoDono\AmigoDono.View\bin\Debug\Microsoft.VisualStudio.Shell.Immutable.14.0.xml
-C:\Users\rafin\Documents\Desktop\Atual3\Atual2\Atual1\Atual1\Atual\AmigoDono\AmigoDono.View\bin\Debug\Microsoft.VisualStudio.Shell.Immutable.11.0.xml
-C:\Users\rafin\Documents\Desktop\Atual3\Atual2\Atual1\Atual1\Atual\AmigoDono\AmigoDono.View\bin\Debug\Microsoft.VisualStudio.Shell.Immutable.12.0.xml
-C:\Users\rafin\Documents\Desktop\Atual3\Atual2\Atual1\Atual1\Atual\AmigoDono\AmigoDono.View\bin\Debug\Microsoft.VisualStudio.Designer.Interfaces.xml
-C:\Users\rafin\Documents\Desktop\Atual3\Atual2\Atual1\Atual1\Atual\AmigoDono\AmigoDono.View\bin\Debug\Microsoft.VisualStudio.TemplateWizardInterface.xml
-C:\Users\rafin\Documents\Desktop\Atual3\Atual2\Atual1\Atual1\Atual\AmigoDono\AmigoDono.View\bin\Debug\de\Microsoft.ReportViewer.Common.resources.dll
-C:\Users\rafin\Documents\Desktop\Atual3\Atual2\Atual1\Atual1\Atual\AmigoDono\AmigoDono.View\bin\Debug\es\Microsoft.ReportViewer.Common.resources.dll
-C:\Users\rafin\Documents\Desktop\Atual3\Atual2\Atual1\Atual1\Atual\AmigoDono\AmigoDono.View\bin\Debug\fr\Microsoft.ReportViewer.Common.resources.dll
-C:\Users\rafin\Documents\Desktop\Atual3\Atual2\Atual1\Atual1\Atual\AmigoDono\AmigoDono.View\bin\Debug\it\Microsoft.ReportViewer.Common.resources.dll
-C:\Users\rafin\Documents\Desktop\Atual3\Atual2\Atual1\Atual1\Atual\AmigoDono\AmigoDono.View\bin\Debug\ja\Microsoft.ReportViewer.Common.resources.dll
-C:\Users\rafin\Documents\Desktop\Atual3\Atual2\Atual1\Atual1\Atual\AmigoDono\AmigoDono.View\bin\Debug\ko\Microsoft.ReportViewer.Common.resources.dll
-C:\Users\rafin\Documents\Desktop\Atual3\Atual2\Atual1\Atual1\Atual\AmigoDono\AmigoDono.View\bin\Debug\pt\Microsoft.ReportViewer.Common.resources.dll
-C:\Users\rafin\Documents\Desktop\Atual3\Atual2\Atual1\Atual1\Atual\AmigoDono\AmigoDono.View\bin\Debug\ru\Microsoft.ReportViewer.Common.resources.dll
-C:\Users\rafin\Documents\Desktop\Atual3\Atual2\Atual1\Atual1\Atual\AmigoDono\AmigoDono.View\bin\Debug\zh-CHS\Microsoft.ReportViewer.Common.resources.dll
-C:\Users\rafin\Documents\Desktop\Atual3\Atual2\Atual1\Atual1\Atual\AmigoDono\AmigoDono.View\bin\Debug\zh-CHT\Microsoft.ReportViewer.Common.resources.dll
-C:\Users\rafin\Documents\Desktop\Atual3\Atual2\Atual1\Atual1\Atual\AmigoDono\AmigoDono.View\bin\Debug\de\Microsoft.ReportViewer.DataVisualization.resources.dll
-C:\Users\rafin\Documents\Desktop\Atual3\Atual2\Atual1\Atual1\Atual\AmigoDono\AmigoDono.View\bin\Debug\es\Microsoft.ReportViewer.DataVisualization.resources.dll
-C:\Users\rafin\Documents\Desktop\Atual3\Atual2\Atual1\Atual1\Atual\AmigoDono\AmigoDono.View\bin\Debug\fr\Microsoft.ReportViewer.DataVisualization.resources.dll
-C:\Users\rafin\Documents\Desktop\Atual3\Atual2\Atual1\Atual1\Atual\AmigoDono\AmigoDono.View\bin\Debug\it\Microsoft.ReportViewer.DataVisualization.resources.dll
-C:\Users\rafin\Documents\Desktop\Atual3\Atual2\Atual1\Atual1\Atual\AmigoDono\AmigoDono.View\bin\Debug\ja\Microsoft.ReportViewer.DataVisualization.resources.dll
-C:\Users\rafin\Documents\Desktop\Atual3\Atual2\Atual1\Atual1\Atual\AmigoDono\AmigoDono.View\bin\Debug\ko\Microsoft.ReportViewer.DataVisualization.resources.dll
-C:\Users\rafin\Documents\Desktop\Atual3\Atual2\Atual1\Atual1\Atual\AmigoDono\AmigoDono.View\bin\Debug\pt\Microsoft.ReportViewer.DataVisualization.resources.dll
-C:\Users\rafin\Documents\Desktop\Atual3\Atual2\Atual1\Atual1\Atual\AmigoDono\AmigoDono.View\bin\Debug\ru\Microsoft.ReportViewer.DataVisualization.resources.dll
-C:\Users\rafin\Documents\Desktop\Atual3\Atual2\Atual1\Atual1\Atual\AmigoDono\AmigoDono.View\bin\Debug\zh-CHS\Microsoft.ReportViewer.DataVisualization.resources.dll
-C:\Users\rafin\Documents\Desktop\Atual3\Atual2\Atual1\Atual1\Atual\AmigoDono\AmigoDono.View\bin\Debug\zh-CHT\Microsoft.ReportViewer.DataVisualization.resources.dll
-C:\Users\rafin\Documents\Desktop\Atual3\Atual2\Atual1\Atual1\Atual\AmigoDono\AmigoDono.View\bin\Debug\de\Microsoft.ReportViewer.Design.resources.dll
-C:\Users\rafin\Documents\Desktop\Atual3\Atual2\Atual1\Atual1\Atual\AmigoDono\AmigoDono.View\bin\Debug\es\Microsoft.ReportViewer.Design.resources.dll
-C:\Users\rafin\Documents\Desktop\Atual3\Atual2\Atual1\Atual1\Atual\AmigoDono\AmigoDono.View\bin\Debug\fr\Microsoft.ReportViewer.Design.resources.dll
-C:\Users\rafin\Documents\Desktop\Atual3\Atual2\Atual1\Atual1\Atual\AmigoDono\AmigoDono.View\bin\Debug\it\Microsoft.ReportViewer.Design.resources.dll
-C:\Users\rafin\Documents\Desktop\Atual3\Atual2\Atual1\Atual1\Atual\AmigoDono\AmigoDono.View\bin\Debug\ja\Microsoft.ReportViewer.Design.resources.dll
-C:\Users\rafin\Documents\Desktop\Atual3\Atual2\Atual1\Atual1\Atual\AmigoDono\AmigoDono.View\bin\Debug\ko\Microsoft.ReportViewer.Design.resources.dll
-C:\Users\rafin\Documents\Desktop\Atual3\Atual2\Atual1\Atual1\Atual\AmigoDono\AmigoDono.View\bin\Debug\pt\Microsoft.ReportViewer.Design.resources.dll
-C:\Users\rafin\Documents\Desktop\Atual3\Atual2\Atual1\Atual1\Atual\AmigoDono\AmigoDono.View\bin\Debug\ru\Microsoft.ReportViewer.Design.resources.dll
-C:\Users\rafin\Documents\Desktop\Atual3\Atual2\Atual1\Atual1\Atual\AmigoDono\AmigoDono.View\bin\Debug\zh-CHS\Microsoft.ReportViewer.Design.resources.dll
-C:\Users\rafin\Documents\Desktop\Atual3\Atual2\Atual1\Atual1\Atual\AmigoDono\AmigoDono.View\bin\Debug\zh-CHT\Microsoft.ReportViewer.Design.resources.dll
-C:\Users\rafin\Documents\Desktop\Atual3\Atual2\Atual1\Atual1\Atual\AmigoDono\AmigoDono.View\bin\Debug\de\Microsoft.ReportViewer.WinForms.resources.dll
-C:\Users\rafin\Documents\Desktop\Atual3\Atual2\Atual1\Atual1\Atual\AmigoDono\AmigoDono.View\bin\Debug\es\Microsoft.ReportViewer.WinForms.resources.dll
-C:\Users\rafin\Documents\Desktop\Atual3\Atual2\Atual1\Atual1\Atual\AmigoDono\AmigoDono.View\bin\Debug\fr\Microsoft.ReportViewer.WinForms.resources.dll
-C:\Users\rafin\Documents\Desktop\Atual3\Atual2\Atual1\Atual1\Atual\AmigoDono\AmigoDono.View\bin\Debug\it\Microsoft.ReportViewer.WinForms.resources.dll
-C:\Users\rafin\Documents\Desktop\Atual3\Atual2\Atual1\Atual1\Atual\AmigoDono\AmigoDono.View\bin\Debug\ja\Microsoft.ReportViewer.WinForms.resources.dll
-C:\Users\rafin\Documents\Desktop\Atual3\Atual2\Atual1\Atual1\Atual\AmigoDono\AmigoDono.View\bin\Debug\ko\Microsoft.ReportViewer.WinForms.resources.dll
-C:\Users\rafin\Documents\Desktop\Atual3\Atual2\Atual1\Atual1\Atual\AmigoDono\AmigoDono.View\bin\Debug\pt\Microsoft.ReportViewer.WinForms.resources.dll
-C:\Users\rafin\Documents\Desktop\Atual3\Atual2\Atual1\Atual1\Atual\AmigoDono\AmigoDono.View\bin\Debug\ru\Microsoft.ReportViewer.WinForms.resources.dll
-C:\Users\rafin\Documents\Desktop\Atual3\Atual2\Atual1\Atual1\Atual\AmigoDono\AmigoDono.View\bin\Debug\zh-CHS\Microsoft.ReportViewer.WinForms.resources.dll
-C:\Users\rafin\Documents\Desktop\Atual3\Atual2\Atual1\Atual1\Atual\AmigoDono\AmigoDono.View\bin\Debug\zh-CHT\Microsoft.ReportViewer.WinForms.resources.dll
-C:\Users\rafin\Documents\Desktop\Atual3\Atual2\Atual1\Atual1\Atual\AmigoDono\AmigoDono.View\bin\Debug\pt-BR\Microsoft.VisualStudio.Data.Services.resources.dll
-C:\Users\rafin\Documents\Desktop\Atual3\Atual2\Atual1\Atual1\Atual\AmigoDono\AmigoDono.View\bin\Debug\pt-BR\Microsoft.VisualStudio.Data.Core.resources.dll
-C:\Users\rafin\Documents\Desktop\Atual3\Atual2\Atual1\Atual1\Atual\AmigoDono\AmigoDono.View\obj\Debug\AmigoDono.View.csprojAssemblyReference.cache
-C:\Users\rafin\Documents\Desktop\Atual3\Atual2\Atual1\Atual1\Atual\AmigoDono\AmigoDono.View\obj\Debug\AmigoDono.View.exe.config
-C:\Users\rafin\Documents\Desktop\Atual3\Atual2\Atual1\Atual1\Atual\AmigoDono\AmigoDono.View\obj\Debug\AmigoDono.View.Properties.Resources.resources
-C:\Users\rafin\Documents\Desktop\Atual3\Atual2\Atual1\Atual1\Atual\AmigoDono\AmigoDono.View\obj\Debug\AmigoDono.View.TelaBuscarPet.resources
-C:\Users\rafin\Documents\Desktop\Atual3\Atual2\Atual1\Atual1\Atual\AmigoDono\AmigoDono.View\obj\Debug\AmigoDono.View.TelaCadastroAmigo.resources
-C:\Users\rafin\Documents\Desktop\Atual3\Atual2\Atual1\Atual1\Atual\AmigoDono\AmigoDono.View\obj\Debug\AmigoDono.View.TelaCadastroPet.resources
-C:\Users\rafin\Documents\Desktop\Atual3\Atual2\Atual1\Atual1\Atual\AmigoDono\AmigoDono.View\obj\Debug\AmigoDono.View.TelaControle.resources
-C:\Users\rafin\Documents\Desktop\Atual3\Atual2\Atual1\Atual1\Atual\AmigoDono\AmigoDono.View\obj\Debug\AmigoDono.View.TelaPesquisaControle.resources
-C:\Users\rafin\Documents\Desktop\Atual3\Atual2\Atual1\Atual1\Atual\AmigoDono\AmigoDono.View\obj\Debug\AmigoDono.View.TelaPesquisaDenuncia.resources
-C:\Users\rafin\Documents\Desktop\Atual3\Atual2\Atual1\Atual1\Atual\AmigoDono\AmigoDono.View\obj\Debug\AmigoDono.View.TelaPesquisarAmigo.resources
-C:\Users\rafin\Documents\Desktop\Atual3\Atual2\Atual1\Atual1\Atual\AmigoDono\AmigoDono.View\obj\Debug\AmigoDono.View.TelaPesquisarPet.resources
-C:\Users\rafin\Documents\Desktop\Atual3\Atual2\Atual1\Atual1\Atual\AmigoDono\AmigoDono.View\obj\Debug\AmigoDono.View.TelaPesquisaTratamento.resources
-C:\Users\rafin\Documents\Desktop\Atual3\Atual2\Atual1\Atual1\Atual\AmigoDono\AmigoDono.View\obj\Debug\AmigoDono.View.TelaRelatorio.resources
-C:\Users\rafin\Documents\Desktop\Atual3\Atual2\Atual1\Atual1\Atual\AmigoDono\AmigoDono.View\obj\Debug\AmigoDono.View.TelaTratamento.resources
-C:\Users\rafin\Documents\Desktop\Atual3\Atual2\Atual1\Atual1\Atual\AmigoDono\AmigoDono.View\obj\Debug\AmigoDono.View.TelaDenuncia.resources
-C:\Users\rafin\Documents\Desktop\Atual3\Atual2\Atual1\Atual1\Atual\AmigoDono\AmigoDono.View\obj\Debug\AmigoDono.View.TelaLogin.resources
-C:\Users\rafin\Documents\Desktop\Atual3\Atual2\Atual1\Atual1\Atual\AmigoDono\AmigoDono.View\obj\Debug\AmigoDono.View.TelaPrincipal.resources
-C:\Users\rafin\Documents\Desktop\Atual3\Atual2\Atual1\Atual1\Atual\AmigoDono\AmigoDono.View\obj\Debug\AmigoDono.View.csproj.GenerateResource.cache
-C:\Users\rafin\Documents\Desktop\Atual3\Atual2\Atual1\Atual1\Atual\AmigoDono\AmigoDono.View\obj\Debug\AmigoDono.View.csproj.CoreCompileInputs.cache
-C:\Users\rafin\Documents\Desktop\Atual3\Atual2\Atual1\Atual1\Atual\AmigoDono\AmigoDono.View\obj\Debug\AmigoDono.View.csproj.CopyComplete
-C:\Users\rafin\Documents\Desktop\Atual3\Atual2\Atual1\Atual1\Atual\AmigoDono\AmigoDono.View\obj\Debug\AmigoDono.View.exe
-C:\Users\rafin\Documents\Desktop\Atual3\Atual2\Atual1\Atual1\Atual\AmigoDono\AmigoDono.View\obj\Debug\AmigoDono.View.pdb
-C:\Visual Studio Projects\Atual3\Atual2\Atual1\Atual1\Atual\AmigoDono\AmigoDono.View\bin\Debug\AmigoDono.View.exe.config
-C:\Visual Studio Projects\Atual3\Atual2\Atual1\Atual1\Atual\AmigoDono\AmigoDono.View\bin\Debug\AmigoDono.View.exe
-C:\Visual Studio Projects\Atual3\Atual2\Atual1\Atual1\Atual\AmigoDono\AmigoDono.View\bin\Debug\AmigoDono.View.pdb
-C:\Visual Studio Projects\Atual3\Atual2\Atual1\Atual1\Atual\AmigoDono\AmigoDono.View\bin\Debug\AmigoDono.Control.dll
-C:\Visual Studio Projects\Atual3\Atual2\Atual1\Atual1\Atual\AmigoDono\AmigoDono.View\bin\Debug\AmigoDono.Model.dll
-C:\Visual Studio Projects\Atual3\Atual2\Atual1\Atual1\Atual\AmigoDono\AmigoDono.View\bin\Debug\Microsoft.ReportViewer.Common.dll
-C:\Visual Studio Projects\Atual3\Atual2\Atual1\Atual1\Atual\AmigoDono\AmigoDono.View\bin\Debug\Microsoft.ReportViewer.DataVisualization.dll
-C:\Visual Studio Projects\Atual3\Atual2\Atual1\Atual1\Atual\AmigoDono\AmigoDono.View\bin\Debug\Microsoft.ReportViewer.Design.dll
-C:\Visual Studio Projects\Atual3\Atual2\Atual1\Atual1\Atual\AmigoDono\AmigoDono.View\bin\Debug\Microsoft.ReportViewer.ProcessingObjectModel.dll
-C:\Visual Studio Projects\Atual3\Atual2\Atual1\Atual1\Atual\AmigoDono\AmigoDono.View\bin\Debug\Microsoft.ReportViewer.WinForms.dll
-C:\Visual Studio Projects\Atual3\Atual2\Atual1\Atual1\Atual\AmigoDono\AmigoDono.View\bin\Debug\Microsoft.SqlServer.Types.dll
-C:\Visual Studio Projects\Atual3\Atual2\Atual1\Atual1\Atual\AmigoDono\AmigoDono.View\bin\Debug\EntityFramework.dll
-C:\Visual Studio Projects\Atual3\Atual2\Atual1\Atual1\Atual\AmigoDono\AmigoDono.View\bin\Debug\EnvDTE.dll
-C:\Visual Studio Projects\Atual3\Atual2\Atual1\Atual1\Atual\AmigoDono\AmigoDono.View\bin\Debug\Microsoft.VisualStudio.Shell.Interop.dll
-C:\Visual Studio Projects\Atual3\Atual2\Atual1\Atual1\Atual\AmigoDono\AmigoDono.View\bin\Debug\Microsoft.VisualStudio.Shell.Interop.8.0.dll
-C:\Visual Studio Projects\Atual3\Atual2\Atual1\Atual1\Atual\AmigoDono\AmigoDono.View\bin\Debug\stdole.dll
-C:\Visual Studio Projects\Atual3\Atual2\Atual1\Atual1\Atual\AmigoDono\AmigoDono.View\bin\Debug\Microsoft.VisualStudio.OLE.Interop.dll
-C:\Visual Studio Projects\Atual3\Atual2\Atual1\Atual1\Atual\AmigoDono\AmigoDono.View\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.dll
-C:\Visual Studio Projects\Atual3\Atual2\Atual1\Atual1\Atual\AmigoDono\AmigoDono.View\bin\Debug\Microsoft.VisualStudio.VSHelp.dll
-C:\Visual Studio Projects\Atual3\Atual2\Atual1\Atual1\Atual\AmigoDono\AmigoDono.View\bin\Debug\Microsoft.VisualStudio.Shell.Immutable.11.0.dll
-C:\Visual Studio Projects\Atual3\Atual2\Atual1\Atual1\Atual\AmigoDono\AmigoDono.View\bin\Debug\Microsoft.VisualStudio.Shell.Immutable.10.0.dll
-C:\Visual Studio Projects\Atual3\Atual2\Atual1\Atual1\Atual\AmigoDono\AmigoDono.View\bin\Debug\Microsoft.VisualStudio.Shell.Immutable.14.0.dll
-C:\Visual Studio Projects\Atual3\Atual2\Atual1\Atual1\Atual\AmigoDono\AmigoDono.View\bin\Debug\Microsoft.VisualStudio.Shell.Interop.9.0.dll
-C:\Visual Studio Projects\Atual3\Atual2\Atual1\Atual1\Atual\AmigoDono\AmigoDono.View\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.8.0.dll
-C:\Visual Studio Projects\Atual3\Atual2\Atual1\Atual1\Atual\AmigoDono\AmigoDono.View\bin\Debug\Microsoft.VisualStudio.ProjectAggregator.dll
-C:\Visual Studio Projects\Atual3\Atual2\Atual1\Atual1\Atual\AmigoDono\AmigoDono.View\bin\Debug\Microsoft.VisualStudio.Shell.Immutable.12.0.dll
-C:\Visual Studio Projects\Atual3\Atual2\Atual1\Atual1\Atual\AmigoDono\AmigoDono.View\bin\Debug\Microsoft.VisualStudio.ComponentModelHost.dll
-C:\Visual Studio Projects\Atual3\Atual2\Atual1\Atual1\Atual\AmigoDono\AmigoDono.View\bin\Debug\Microsoft.VisualStudio.Designer.Interfaces.dll
-C:\Visual Studio Projects\Atual3\Atual2\Atual1\Atual1\Atual\AmigoDono\AmigoDono.View\bin\Debug\Microsoft.VisualStudio.TemplateWizardInterface.dll
-C:\Visual Studio Projects\Atual3\Atual2\Atual1\Atual1\Atual\AmigoDono\AmigoDono.View\bin\Debug\Microsoft.VisualStudio.Debugger.InteropA.dll
-C:\Visual Studio Projects\Atual3\Atual2\Atual1\Atual1\Atual\AmigoDono\AmigoDono.View\bin\Debug\EnvDTE80.dll
-C:\Visual Studio Projects\Atual3\Atual2\Atual1\Atual1\Atual\AmigoDono\AmigoDono.View\bin\Debug\Microsoft.Build.Tasks.Core.dll
-C:\Visual Studio Projects\Atual3\Atual2\Atual1\Atual1\Atual\AmigoDono\AmigoDono.View\bin\Debug\Microsoft.VisualStudio.Data.Services.dll
-C:\Visual Studio Projects\Atual3\Atual2\Atual1\Atual1\Atual\AmigoDono\AmigoDono.View\bin\Debug\VSLangProj.dll
-C:\Visual Studio Projects\Atual3\Atual2\Atual1\Atual1\Atual\AmigoDono\AmigoDono.View\bin\Debug\Microsoft.VisualStudio.Shell.Interop.11.0.dll
-C:\Visual Studio Projects\Atual3\Atual2\Atual1\Atual1\Atual\AmigoDono\AmigoDono.View\bin\Debug\Microsoft.VisualStudio.Data.Core.dll
-C:\Visual Studio Projects\Atual3\Atual2\Atual1\Atual1\Atual\AmigoDono\AmigoDono.View\bin\Debug\Microsoft.VisualStudio.Shell.Interop.10.0.dll
-C:\Visual Studio Projects\Atual3\Atual2\Atual1\Atual1\Atual\AmigoDono\AmigoDono.View\bin\Debug\VSLangProj80.dll
-C:\Visual Studio Projects\Atual3\Atual2\Atual1\Atual1\Atual\AmigoDono\AmigoDono.View\bin\Debug\Microsoft.VisualStudio.ManagedInterfaces.dll
-C:\Visual Studio Projects\Atual3\Atual2\Atual1\Atual1\Atual\AmigoDono\AmigoDono.View\bin\Debug\Microsoft.VisualStudio.WCFReference.Interop.dll
-C:\Visual Studio Projects\Atual3\Atual2\Atual1\Atual1\Atual\AmigoDono\AmigoDono.View\bin\Debug\Microsoft.VisualStudio.Debugger.Interop.11.0.dll
-C:\Visual Studio Projects\Atual3\Atual2\Atual1\Atual1\Atual\AmigoDono\AmigoDono.View\bin\Debug\Newtonsoft.Json.dll
-C:\Visual Studio Projects\Atual3\Atual2\Atual1\Atual1\Atual\AmigoDono\AmigoDono.View\bin\Debug\System.Threading.Tasks.Dataflow.dll
-C:\Visual Studio Projects\Atual3\Atual2\Atual1\Atual1\Atual\AmigoDono\AmigoDono.View\bin\Debug\Microsoft.VisualStudio.GraphModel.dll
-C:\Visual Studio Projects\Atual3\Atual2\Atual1\Atual1\Atual\AmigoDono\AmigoDono.View\bin\Debug\Microsoft.MSXML.dll
-C:\Visual Studio Projects\Atual3\Atual2\Atual1\Atual1\Atual\AmigoDono\AmigoDono.View\bin\Debug\Microsoft.Build.Utilities.Core.dll
-C:\Visual Studio Projects\Atual3\Atual2\Atual1\Atual1\Atual\AmigoDono\AmigoDono.View\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.10.0.dll
-C:\Visual Studio Projects\Atual3\Atual2\Atual1\Atual1\Atual\AmigoDono\AmigoDono.View\bin\Debug\Microsoft.Build.Framework.dll
-C:\Visual Studio Projects\Atual3\Atual2\Atual1\Atual1\Atual\AmigoDono\AmigoDono.View\bin\Debug\VSLangProj2.dll
-C:\Visual Studio Projects\Atual3\Atual2\Atual1\Atual1\Atual\AmigoDono\AmigoDono.View\bin\Debug\AmigoDono.Control.pdb
-C:\Visual Studio Projects\Atual3\Atual2\Atual1\Atual1\Atual\AmigoDono\AmigoDono.View\bin\Debug\AmigoDono.Model.pdb
-C:\Visual Studio Projects\Atual3\Atual2\Atual1\Atual1\Atual\AmigoDono\AmigoDono.View\bin\Debug\AmigoDono.Model.dll.config
-C:\Visual Studio Projects\Atual3\Atual2\Atual1\Atual1\Atual\AmigoDono\AmigoDono.View\bin\Debug\EntityFramework.xml
-C:\Visual Studio Projects\Atual3\Atual2\Atual1\Atual1\Atual\AmigoDono\AmigoDono.View\bin\Debug\Microsoft.VisualStudio.Shell.Immutable.11.0.xml
-C:\Visual Studio Projects\Atual3\Atual2\Atual1\Atual1\Atual\AmigoDono\AmigoDono.View\bin\Debug\Microsoft.VisualStudio.Shell.Immutable.10.0.xml
-C:\Visual Studio Projects\Atual3\Atual2\Atual1\Atual1\Atual\AmigoDono\AmigoDono.View\bin\Debug\Microsoft.VisualStudio.Shell.Immutable.14.0.xml
-C:\Visual Studio Projects\Atual3\Atual2\Atual1\Atual1\Atual\AmigoDono\AmigoDono.View\bin\Debug\Microsoft.VisualStudio.Shell.Immutable.12.0.xml
-C:\Visual Studio Projects\Atual3\Atual2\Atual1\Atual1\Atual\AmigoDono\AmigoDono.View\bin\Debug\Microsoft.VisualStudio.Designer.Interfaces.xml
-C:\Visual Studio Projects\Atual3\Atual2\Atual1\Atual1\Atual\AmigoDono\AmigoDono.View\bin\Debug\Microsoft.VisualStudio.TemplateWizardInterface.xml
-C:\Visual Studio Projects\Atual3\Atual2\Atual1\Atual1\Atual\AmigoDono\AmigoDono.View\bin\Debug\de\Microsoft.ReportViewer.Common.resources.dll
-C:\Visual Studio Projects\Atual3\Atual2\Atual1\Atual1\Atual\AmigoDono\AmigoDono.View\bin\Debug\es\Microsoft.ReportViewer.Common.resources.dll
-C:\Visual Studio Projects\Atual3\Atual2\Atual1\Atual1\Atual\AmigoDono\AmigoDono.View\bin\Debug\fr\Microsoft.ReportViewer.Common.resources.dll
-C:\Visual Studio Projects\Atual3\Atual2\Atual1\Atual1\Atual\AmigoDono\AmigoDono.View\bin\Debug\it\Microsoft.ReportViewer.Common.resources.dll
-C:\Visual Studio Projects\Atual3\Atual2\Atual1\Atual1\Atual\AmigoDono\AmigoDono.View\bin\Debug\ja\Microsoft.ReportViewer.Common.resources.dll
-C:\Visual Studio Projects\Atual3\Atual2\Atual1\Atual1\Atual\AmigoDono\AmigoDono.View\bin\Debug\ko\Microsoft.ReportViewer.Common.resources.dll
-C:\Visual Studio Projects\Atual3\Atual2\Atual1\Atual1\Atual\AmigoDono\AmigoDono.View\bin\Debug\pt\Microsoft.ReportViewer.Common.resources.dll
-C:\Visual Studio Projects\Atual3\Atual2\Atual1\Atual1\Atual\AmigoDono\AmigoDono.View\bin\Debug\ru\Microsoft.ReportViewer.Common.resources.dll
-C:\Visual Studio Projects\Atual3\Atual2\Atual1\Atual1\Atual\AmigoDono\AmigoDono.View\bin\Debug\zh-CHS\Microsoft.ReportViewer.Common.resources.dll
-C:\Visual Studio Projects\Atual3\Atual2\Atual1\Atual1\Atual\AmigoDono\AmigoDono.View\bin\Debug\zh-CHT\Microsoft.ReportViewer.Common.resources.dll
-C:\Visual Studio Projects\Atual3\Atual2\Atual1\Atual1\Atual\AmigoDono\AmigoDono.View\bin\Debug\de\Microsoft.ReportViewer.DataVisualization.resources.dll
-C:\Visual Studio Projects\Atual3\Atual2\Atual1\Atual1\Atual\AmigoDono\AmigoDono.View\bin\Debug\es\Microsoft.ReportViewer.DataVisualization.resources.dll
-C:\Visual Studio Projects\Atual3\Atual2\Atual1\Atual1\Atual\AmigoDono\AmigoDono.View\bin\Debug\fr\Microsoft.ReportViewer.DataVisualization.resources.dll
-C:\Visual Studio Projects\Atual3\Atual2\Atual1\Atual1\Atual\AmigoDono\AmigoDono.View\bin\Debug\it\Microsoft.ReportViewer.DataVisualization.resources.dll
-C:\Visual Studio Projects\Atual3\Atual2\Atual1\Atual1\Atual\AmigoDono\AmigoDono.View\bin\Debug\ja\Microsoft.ReportViewer.DataVisualization.resources.dll
-C:\Visual Studio Projects\Atual3\Atual2\Atual1\Atual1\Atual\AmigoDono\AmigoDono.View\bin\Debug\ko\Microsoft.ReportViewer.DataVisualization.resources.dll
-C:\Visual Studio Projects\Atual3\Atual2\Atual1\Atual1\Atual\AmigoDono\AmigoDono.View\bin\Debug\pt\Microsoft.ReportViewer.DataVisualization.resources.dll
-C:\Visual Studio Projects\Atual3\Atual2\Atual1\Atual1\Atual\AmigoDono\AmigoDono.View\bin\Debug\ru\Microsoft.ReportViewer.DataVisualization.resources.dll
-C:\Visual Studio Projects\Atual3\Atual2\Atual1\Atual1\Atual\AmigoDono\AmigoDono.View\bin\Debug\zh-CHS\Microsoft.ReportViewer.DataVisualization.resources.dll
-C:\Visual Studio Projects\Atual3\Atual2\Atual1\Atual1\Atual\AmigoDono\AmigoDono.View\bin\Debug\zh-CHT\Microsoft.ReportViewer.DataVisualization.resources.dll
-C:\Visual Studio Projects\Atual3\Atual2\Atual1\Atual1\Atual\AmigoDono\AmigoDono.View\bin\Debug\de\Microsoft.ReportViewer.Design.resources.dll
-C:\Visual Studio Projects\Atual3\Atual2\Atual1\Atual1\Atual\AmigoDono\AmigoDono.View\bin\Debug\es\Microsoft.ReportViewer.Design.resources.dll
-C:\Visual Studio Projects\Atual3\Atual2\Atual1\Atual1\Atual\AmigoDono\AmigoDono.View\bin\Debug\fr\Microsoft.ReportViewer.Design.resources.dll
-C:\Visual Studio Projects\Atual3\Atual2\Atual1\Atual1\Atual\AmigoDono\AmigoDono.View\bin\Debug\it\Microsoft.ReportViewer.Design.resources.dll
-C:\Visual Studio Projects\Atual3\Atual2\Atual1\Atual1\Atual\AmigoDono\AmigoDono.View\bin\Debug\ja\Microsoft.ReportViewer.Design.resources.dll
-C:\Visual Studio Projects\Atual3\Atual2\Atual1\Atual1\Atual\AmigoDono\AmigoDono.View\bin\Debug\ko\Microsoft.ReportViewer.Design.resources.dll
-C:\Visual Studio Projects\Atual3\Atual2\Atual1\Atual1\Atual\AmigoDono\AmigoDono.View\bin\Debug\pt\Microsoft.ReportViewer.Design.resources.dll
-C:\Visual Studio Projects\Atual3\Atual2\Atual1\Atual1\Atual\AmigoDono\AmigoDono.View\bin\Debug\ru\Microsoft.ReportViewer.Design.resources.dll
-C:\Visual Studio Projects\Atual3\Atual2\Atual1\Atual1\Atual\AmigoDono\AmigoDono.View\bin\Debug\zh-CHS\Microsoft.ReportViewer.Design.resources.dll
-C:\Visual Studio Projects\Atual3\Atual2\Atual1\Atual1\Atual\AmigoDono\AmigoDono.View\bin\Debug\zh-CHT\Microsoft.ReportViewer.Design.resources.dll
-C:\Visual Studio Projects\Atual3\Atual2\Atual1\Atual1\Atual\AmigoDono\AmigoDono.View\bin\Debug\de\Microsoft.ReportViewer.WinForms.resources.dll
-C:\Visual Studio Projects\Atual3\Atual2\Atual1\Atual1\Atual\AmigoDono\AmigoDono.View\bin\Debug\es\Microsoft.ReportViewer.WinForms.resources.dll
-C:\Visual Studio Projects\Atual3\Atual2\Atual1\Atual1\Atual\AmigoDono\AmigoDono.View\bin\Debug\fr\Microsoft.ReportViewer.WinForms.resources.dll
-C:\Visual Studio Projects\Atual3\Atual2\Atual1\Atual1\Atual\AmigoDono\AmigoDono.View\bin\Debug\it\Microsoft.ReportViewer.WinForms.resources.dll
-C:\Visual Studio Projects\Atual3\Atual2\Atual1\Atual1\Atual\AmigoDono\AmigoDono.View\bin\Debug\ja\Microsoft.ReportViewer.WinForms.resources.dll
-C:\Visual Studio Projects\Atual3\Atual2\Atual1\Atual1\Atual\AmigoDono\AmigoDono.View\bin\Debug\ko\Microsoft.ReportViewer.WinForms.resources.dll
-C:\Visual Studio Projects\Atual3\Atual2\Atual1\Atual1\Atual\AmigoDono\AmigoDono.View\bin\Debug\pt\Microsoft.ReportViewer.WinForms.resources.dll
-C:\Visual Studio Projects\Atual3\Atual2\Atual1\Atual1\Atual\AmigoDono\AmigoDono.View\bin\Debug\ru\Microsoft.ReportViewer.WinForms.resources.dll
-C:\Visual Studio Projects\Atual3\Atual2\Atual1\Atual1\Atual\AmigoDono\AmigoDono.View\bin\Debug\zh-CHS\Microsoft.ReportViewer.WinForms.resources.dll
-C:\Visual Studio Projects\Atual3\Atual2\Atual1\Atual1\Atual\AmigoDono\AmigoDono.View\bin\Debug\zh-CHT\Microsoft.ReportViewer.WinForms.resources.dll
-C:\Visual Studio Projects\Atual3\Atual2\Atual1\Atual1\Atual\AmigoDono\AmigoDono.View\bin\Debug\pt-BR\Microsoft.VisualStudio.Data.Services.resources.dll
-C:\Visual Studio Projects\Atual3\Atual2\Atual1\Atual1\Atual\AmigoDono\AmigoDono.View\bin\Debug\pt-BR\Microsoft.VisualStudio.Data.Core.resources.dll
-C:\Visual Studio Projects\Atual3\Atual2\Atual1\Atual1\Atual\AmigoDono\AmigoDono.View\bin\Debug\pt-BR\Microsoft.VisualStudio.GraphModel.resources.dll
-C:\Visual Studio Projects\Atual3\Atual2\Atual1\Atual1\Atual\AmigoDono\AmigoDono.View\obj\Debug\AmigoDono.View.csprojAssemblyReference.cache
-C:\Visual Studio Projects\Atual3\Atual2\Atual1\Atual1\Atual\AmigoDono\AmigoDono.View\obj\Debug\AmigoDono.View.exe.config
-C:\Visual Studio Projects\Atual3\Atual2\Atual1\Atual1\Atual\AmigoDono\AmigoDono.View\obj\Debug\AmigoDono.View.Properties.Resources.resources
-C:\Visual Studio Projects\Atual3\Atual2\Atual1\Atual1\Atual\AmigoDono\AmigoDono.View\obj\Debug\AmigoDono.View.TelaBuscarPet.resources
-C:\Visual Studio Projects\Atual3\Atual2\Atual1\Atual1\Atual\AmigoDono\AmigoDono.View\obj\Debug\AmigoDono.View.TelaCadastroAmigo.resources
-C:\Visual Studio Projects\Atual3\Atual2\Atual1\Atual1\Atual\AmigoDono\AmigoDono.View\obj\Debug\AmigoDono.View.TelaCadastroPet.resources
-C:\Visual Studio Projects\Atual3\Atual2\Atual1\Atual1\Atual\AmigoDono\AmigoDono.View\obj\Debug\AmigoDono.View.TelaControle.resources
-C:\Visual Studio Projects\Atual3\Atual2\Atual1\Atual1\Atual\AmigoDono\AmigoDono.View\obj\Debug\AmigoDono.View.TelaPesquisaControle.resources
-C:\Visual Studio Projects\Atual3\Atual2\Atual1\Atual1\Atual\AmigoDono\AmigoDono.View\obj\Debug\AmigoDono.View.TelaPesquisaDenuncia.resources
-C:\Visual Studio Projects\Atual3\Atual2\Atual1\Atual1\Atual\AmigoDono\AmigoDono.View\obj\Debug\AmigoDono.View.TelaPesquisarAmigo.resources
-C:\Visual Studio Projects\Atual3\Atual2\Atual1\Atual1\Atual\AmigoDono\AmigoDono.View\obj\Debug\AmigoDono.View.TelaPesquisarPet.resources
-C:\Visual Studio Projects\Atual3\Atual2\Atual1\Atual1\Atual\AmigoDono\AmigoDono.View\obj\Debug\AmigoDono.View.TelaPesquisaTratamento.resources
-C:\Visual Studio Projects\Atual3\Atual2\Atual1\Atual1\Atual\AmigoDono\AmigoDono.View\obj\Debug\AmigoDono.View.TelaRelatorio.resources
-C:\Visual Studio Projects\Atual3\Atual2\Atual1\Atual1\Atual\AmigoDono\AmigoDono.View\obj\Debug\AmigoDono.View.TelaTratamento.resources
-C:\Visual Studio Projects\Atual3\Atual2\Atual1\Atual1\Atual\AmigoDono\AmigoDono.View\obj\Debug\AmigoDono.View.TelaDenuncia.resources
-C:\Visual Studio Projects\Atual3\Atual2\Atual1\Atual1\Atual\AmigoDono\AmigoDono.View\obj\Debug\AmigoDono.View.TelaLogin.resources
-C:\Visual Studio Projects\Atual3\Atual2\Atual1\Atual1\Atual\AmigoDono\AmigoDono.View\obj\Debug\AmigoDono.View.TelaPrincipal.resources
-C:\Visual Studio Projects\Atual3\Atual2\Atual1\Atual1\Atual\AmigoDono\AmigoDono.View\obj\Debug\AmigoDono.View.csproj.GenerateResource.cache
-C:\Visual Studio Projects\Atual3\Atual2\Atual1\Atual1\Atual\AmigoDono\AmigoDono.View\obj\Debug\AmigoDono.View.csproj.CoreCompileInputs.cache
-C:\Visual Studio Projects\Atual3\Atual2\Atual1\Atual1\Atual\AmigoDono\AmigoDono.View\obj\Debug\AmigoDono.View.csproj.CopyComplete
-C:\Visual Studio Projects\Atual3\Atual2\Atual1\Atual1\Atual\AmigoDono\AmigoDono.View\obj\Debug\AmigoDono.View.exe
-C:\Visual Studio Projects\Atual3\Atual2\Atual1\Atual1\Atual\AmigoDono\AmigoDono.View\obj\Debug\AmigoDono.View.pdb
-C:\Visual Studio Projects\Atual3\Atual\AmigoDono\AmigoDono.View\bin\Debug\SqlServerTypes\x64\msvcr120.dll
-C:\Visual Studio Projects\Atual3\Atual\AmigoDono\AmigoDono.View\bin\Debug\SqlServerTypes\x64\SqlServerSpatial140.dll
-C:\Visual Studio Projects\Atual3\Atual\AmigoDono\AmigoDono.View\bin\Debug\SqlServerTypes\x86\msvcr120.dll
-C:\Visual Studio Projects\Atual3\Atual\AmigoDono\AmigoDono.View\bin\Debug\SqlServerTypes\x86\SqlServerSpatial140.dll
-C:\Visual Studio Projects\Atual3\Atual\AmigoDono\AmigoDono.View\bin\Debug\AmigoDono.View.exe.config
-C:\Visual Studio Projects\Atual3\Atual\AmigoDono\AmigoDono.View\bin\Debug\AmigoDono.View.exe
-C:\Visual Studio Projects\Atual3\Atual\AmigoDono\AmigoDono.View\bin\Debug\AmigoDono.View.pdb
-C:\Visual Studio Projects\Atual3\Atual\AmigoDono\AmigoDono.View\bin\Debug\AmigoDono.Control.dll
-C:\Visual Studio Projects\Atual3\Atual\AmigoDono\AmigoDono.View\bin\Debug\AmigoDono.Model.dll
-C:\Visual Studio Projects\Atual3\Atual\AmigoDono\AmigoDono.View\bin\Debug\Microsoft.ReportViewer.Common.dll
-C:\Visual Studio Projects\Atual3\Atual\AmigoDono\AmigoDono.View\bin\Debug\Microsoft.ReportViewer.DataVisualization.dll
-C:\Visual Studio Projects\Atual3\Atual\AmigoDono\AmigoDono.View\bin\Debug\Microsoft.ReportViewer.Design.dll
-C:\Visual Studio Projects\Atual3\Atual\AmigoDono\AmigoDono.View\bin\Debug\Microsoft.ReportViewer.ProcessingObjectModel.dll
-C:\Visual Studio Projects\Atual3\Atual\AmigoDono\AmigoDono.View\bin\Debug\Microsoft.ReportViewer.WinForms.dll
-C:\Visual Studio Projects\Atual3\Atual\AmigoDono\AmigoDono.View\bin\Debug\Microsoft.SqlServer.Types.dll
-C:\Visual Studio Projects\Atual3\Atual\AmigoDono\AmigoDono.View\bin\Debug\EntityFramework.dll
-C:\Visual Studio Projects\Atual3\Atual\AmigoDono\AmigoDono.View\bin\Debug\EnvDTE.dll
-C:\Visual Studio Projects\Atual3\Atual\AmigoDono\AmigoDono.View\bin\Debug\Microsoft.VisualStudio.Shell.Interop.dll
-C:\Visual Studio Projects\Atual3\Atual\AmigoDono\AmigoDono.View\bin\Debug\Microsoft.VisualStudio.Shell.Interop.8.0.dll
-C:\Visual Studio Projects\Atual3\Atual\AmigoDono\AmigoDono.View\bin\Debug\stdole.dll
-C:\Visual Studio Projects\Atual3\Atual\AmigoDono\AmigoDono.View\bin\Debug\Microsoft.VisualStudio.OLE.Interop.dll
-C:\Visual Studio Projects\Atual3\Atual\AmigoDono\AmigoDono.View\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.dll
-C:\Visual Studio Projects\Atual3\Atual\AmigoDono\AmigoDono.View\bin\Debug\Microsoft.VisualStudio.VSHelp.dll
-C:\Visual Studio Projects\Atual3\Atual\AmigoDono\AmigoDono.View\bin\Debug\Microsoft.VisualStudio.Shell.Immutable.11.0.dll
-C:\Visual Studio Projects\Atual3\Atual\AmigoDono\AmigoDono.View\bin\Debug\Microsoft.VisualStudio.Shell.Immutable.10.0.dll
-C:\Visual Studio Projects\Atual3\Atual\AmigoDono\AmigoDono.View\bin\Debug\Microsoft.VisualStudio.Shell.Immutable.14.0.dll
-C:\Visual Studio Projects\Atual3\Atual\AmigoDono\AmigoDono.View\bin\Debug\Microsoft.VisualStudio.Shell.Interop.9.0.dll
-C:\Visual Studio Projects\Atual3\Atual\AmigoDono\AmigoDono.View\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.8.0.dll
-C:\Visual Studio Projects\Atual3\Atual\AmigoDono\AmigoDono.View\bin\Debug\Microsoft.VisualStudio.ProjectAggregator.dll
-C:\Visual Studio Projects\Atual3\Atual\AmigoDono\AmigoDono.View\bin\Debug\Microsoft.VisualStudio.Shell.Immutable.12.0.dll
-C:\Visual Studio Projects\Atual3\Atual\AmigoDono\AmigoDono.View\bin\Debug\Microsoft.VisualStudio.ComponentModelHost.dll
-C:\Visual Studio Projects\Atual3\Atual\AmigoDono\AmigoDono.View\bin\Debug\Microsoft.VisualStudio.Designer.Interfaces.dll
-C:\Visual Studio Projects\Atual3\Atual\AmigoDono\AmigoDono.View\bin\Debug\Microsoft.VisualStudio.TemplateWizardInterface.dll
-C:\Visual Studio Projects\Atual3\Atual\AmigoDono\AmigoDono.View\bin\Debug\Microsoft.VisualStudio.Debugger.InteropA.dll
-C:\Visual Studio Projects\Atual3\Atual\AmigoDono\AmigoDono.View\bin\Debug\EnvDTE80.dll
-C:\Visual Studio Projects\Atual3\Atual\AmigoDono\AmigoDono.View\bin\Debug\Microsoft.Build.Tasks.Core.dll
-C:\Visual Studio Projects\Atual3\Atual\AmigoDono\AmigoDono.View\bin\Debug\Microsoft.VisualStudio.Data.Services.dll
-C:\Visual Studio Projects\Atual3\Atual\AmigoDono\AmigoDono.View\bin\Debug\VSLangProj.dll
-C:\Visual Studio Projects\Atual3\Atual\AmigoDono\AmigoDono.View\bin\Debug\Microsoft.VisualStudio.Shell.Interop.11.0.dll
-C:\Visual Studio Projects\Atual3\Atual\AmigoDono\AmigoDono.View\bin\Debug\Microsoft.VisualStudio.Data.Core.dll
-C:\Visual Studio Projects\Atual3\Atual\AmigoDono\AmigoDono.View\bin\Debug\Microsoft.VisualStudio.Shell.Interop.10.0.dll
-C:\Visual Studio Projects\Atual3\Atual\AmigoDono\AmigoDono.View\bin\Debug\VSLangProj80.dll
-C:\Visual Studio Projects\Atual3\Atual\AmigoDono\AmigoDono.View\bin\Debug\Microsoft.VisualStudio.ManagedInterfaces.dll
-C:\Visual Studio Projects\Atual3\Atual\AmigoDono\AmigoDono.View\bin\Debug\Microsoft.VisualStudio.WCFReference.Interop.dll
-C:\Visual Studio Projects\Atual3\Atual\AmigoDono\AmigoDono.View\bin\Debug\Microsoft.VisualStudio.Debugger.Interop.11.0.dll
-C:\Visual Studio Projects\Atual3\Atual\AmigoDono\AmigoDono.View\bin\Debug\Newtonsoft.Json.dll
-C:\Visual Studio Projects\Atual3\Atual\AmigoDono\AmigoDono.View\bin\Debug\System.Threading.Tasks.Dataflow.dll
-C:\Visual Studio Projects\Atual3\Atual\AmigoDono\AmigoDono.View\bin\Debug\Microsoft.VisualStudio.GraphModel.dll
-C:\Visual Studio Projects\Atual3\Atual\AmigoDono\AmigoDono.View\bin\Debug\Microsoft.MSXML.dll
-C:\Visual Studio Projects\Atual3\Atual\AmigoDono\AmigoDono.View\bin\Debug\Microsoft.Build.Utilities.Core.dll
-C:\Visual Studio Projects\Atual3\Atual\AmigoDono\AmigoDono.View\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.10.0.dll
-C:\Visual Studio Projects\Atual3\Atual\AmigoDono\AmigoDono.View\bin\Debug\Microsoft.Build.Framework.dll
-C:\Visual Studio Projects\Atual3\Atual\AmigoDono\AmigoDono.View\bin\Debug\VSLangProj2.dll
-C:\Visual Studio Projects\Atual3\Atual\AmigoDono\AmigoDono.View\bin\Debug\AmigoDono.Control.pdb
-C:\Visual Studio Projects\Atual3\Atual\AmigoDono\AmigoDono.View\bin\Debug\AmigoDono.Model.pdb
-C:\Visual Studio Projects\Atual3\Atual\AmigoDono\AmigoDono.View\bin\Debug\AmigoDono.Model.dll.config
-C:\Visual Studio Projects\Atual3\Atual\AmigoDono\AmigoDono.View\bin\Debug\EntityFramework.xml
-C:\Visual Studio Projects\Atual3\Atual\AmigoDono\AmigoDono.View\bin\Debug\Microsoft.VisualStudio.Shell.Immutable.11.0.xml
-C:\Visual Studio Projects\Atual3\Atual\AmigoDono\AmigoDono.View\bin\Debug\Microsoft.VisualStudio.Shell.Immutable.10.0.xml
-C:\Visual Studio Projects\Atual3\Atual\AmigoDono\AmigoDono.View\bin\Debug\Microsoft.VisualStudio.Shell.Immutable.14.0.xml
-C:\Visual Studio Projects\Atual3\Atual\AmigoDono\AmigoDono.View\bin\Debug\Microsoft.VisualStudio.Shell.Immutable.12.0.xml
-C:\Visual Studio Projects\Atual3\Atual\AmigoDono\AmigoDono.View\bin\Debug\Microsoft.VisualStudio.Designer.Interfaces.xml
-C:\Visual Studio Projects\Atual3\Atual\AmigoDono\AmigoDono.View\bin\Debug\Microsoft.VisualStudio.TemplateWizardInterface.xml
-C:\Visual Studio Projects\Atual3\Atual\AmigoDono\AmigoDono.View\bin\Debug\de\Microsoft.ReportViewer.Common.resources.dll
-C:\Visual Studio Projects\Atual3\Atual\AmigoDono\AmigoDono.View\bin\Debug\es\Microsoft.ReportViewer.Common.resources.dll
-C:\Visual Studio Projects\Atual3\Atual\AmigoDono\AmigoDono.View\bin\Debug\fr\Microsoft.ReportViewer.Common.resources.dll
-C:\Visual Studio Projects\Atual3\Atual\AmigoDono\AmigoDono.View\bin\Debug\it\Microsoft.ReportViewer.Common.resources.dll
-C:\Visual Studio Projects\Atual3\Atual\AmigoDono\AmigoDono.View\bin\Debug\ja\Microsoft.ReportViewer.Common.resources.dll
-C:\Visual Studio Projects\Atual3\Atual\AmigoDono\AmigoDono.View\bin\Debug\ko\Microsoft.ReportViewer.Common.resources.dll
-C:\Visual Studio Projects\Atual3\Atual\AmigoDono\AmigoDono.View\bin\Debug\pt\Microsoft.ReportViewer.Common.resources.dll
-C:\Visual Studio Projects\Atual3\Atual\AmigoDono\AmigoDono.View\bin\Debug\ru\Microsoft.ReportViewer.Common.resources.dll
-C:\Visual Studio Projects\Atual3\Atual\AmigoDono\AmigoDono.View\bin\Debug\zh-CHS\Microsoft.ReportViewer.Common.resources.dll
-C:\Visual Studio Projects\Atual3\Atual\AmigoDono\AmigoDono.View\bin\Debug\zh-CHT\Microsoft.ReportViewer.Common.resources.dll
-C:\Visual Studio Projects\Atual3\Atual\AmigoDono\AmigoDono.View\bin\Debug\de\Microsoft.ReportViewer.DataVisualization.resources.dll
-C:\Visual Studio Projects\Atual3\Atual\AmigoDono\AmigoDono.View\bin\Debug\es\Microsoft.ReportViewer.DataVisualization.resources.dll
-C:\Visual Studio Projects\Atual3\Atual\AmigoDono\AmigoDono.View\bin\Debug\fr\Microsoft.ReportViewer.DataVisualization.resources.dll
-C:\Visual Studio Projects\Atual3\Atual\AmigoDono\AmigoDono.View\bin\Debug\it\Microsoft.ReportViewer.DataVisualization.resources.dll
-C:\Visual Studio Projects\Atual3\Atual\AmigoDono\AmigoDono.View\bin\Debug\ja\Microsoft.ReportViewer.DataVisualization.resources.dll
-C:\Visual Studio Projects\Atual3\Atual\AmigoDono\AmigoDono.View\bin\Debug\ko\Microsoft.ReportViewer.DataVisualization.resources.dll
-C:\Visual Studio Projects\Atual3\Atual\AmigoDono\AmigoDono.View\bin\Debug\pt\Microsoft.ReportViewer.DataVisualization.resources.dll
-C:\Visual Studio Projects\Atual3\Atual\AmigoDono\AmigoDono.View\bin\Debug\ru\Microsoft.ReportViewer.DataVisualization.resources.dll
-C:\Visual Studio Projects\Atual3\Atual\AmigoDono\AmigoDono.View\bin\Debug\zh-CHS\Microsoft.ReportViewer.DataVisualization.resources.dll
-C:\Visual Studio Projects\Atual3\Atual\AmigoDono\AmigoDono.View\bin\Debug\zh-CHT\Microsoft.ReportViewer.DataVisualization.resources.dll
-C:\Visual Studio Projects\Atual3\Atual\AmigoDono\AmigoDono.View\bin\Debug\de\Microsoft.ReportViewer.Design.resources.dll
-C:\Visual Studio Projects\Atual3\Atual\AmigoDono\AmigoDono.View\bin\Debug\es\Microsoft.ReportViewer.Design.resources.dll
-C:\Visual Studio Projects\Atual3\Atual\AmigoDono\AmigoDono.View\bin\Debug\fr\Microsoft.ReportViewer.Design.resources.dll
-C:\Visual Studio Projects\Atual3\Atual\AmigoDono\AmigoDono.View\bin\Debug\it\Microsoft.ReportViewer.Design.resources.dll
-C:\Visual Studio Projects\Atual3\Atual\AmigoDono\AmigoDono.View\bin\Debug\ja\Microsoft.ReportViewer.Design.resources.dll
-C:\Visual Studio Projects\Atual3\Atual\AmigoDono\AmigoDono.View\bin\Debug\ko\Microsoft.ReportViewer.Design.resources.dll
-C:\Visual Studio Projects\Atual3\Atual\AmigoDono\AmigoDono.View\bin\Debug\pt\Microsoft.ReportViewer.Design.resources.dll
-C:\Visual Studio Projects\Atual3\Atual\AmigoDono\AmigoDono.View\bin\Debug\ru\Microsoft.ReportViewer.Design.resources.dll
-C:\Visual Studio Projects\Atual3\Atual\AmigoDono\AmigoDono.View\bin\Debug\zh-CHS\Microsoft.ReportViewer.Design.resources.dll
-C:\Visual Studio Projects\Atual3\Atual\AmigoDono\AmigoDono.View\bin\Debug\zh-CHT\Microsoft.ReportViewer.Design.resources.dll
-C:\Visual Studio Projects\Atual3\Atual\AmigoDono\AmigoDono.View\bin\Debug\de\Microsoft.ReportViewer.WinForms.resources.dll
-C:\Visual Studio Projects\Atual3\Atual\AmigoDono\AmigoDono.View\bin\Debug\es\Microsoft.ReportViewer.WinForms.resources.dll
-C:\Visual Studio Projects\Atual3\Atual\AmigoDono\AmigoDono.View\bin\Debug\fr\Microsoft.ReportViewer.WinForms.resources.dll
-C:\Visual Studio Projects\Atual3\Atual\AmigoDono\AmigoDono.View\bin\Debug\it\Microsoft.ReportViewer.WinForms.resources.dll
-C:\Visual Studio Projects\Atual3\Atual\AmigoDono\AmigoDono.View\bin\Debug\ja\Microsoft.ReportViewer.WinForms.resources.dll
-C:\Visual Studio Projects\Atual3\Atual\AmigoDono\AmigoDono.View\bin\Debug\ko\Microsoft.ReportViewer.WinForms.resources.dll
-C:\Visual Studio Projects\Atual3\Atual\AmigoDono\AmigoDono.View\bin\Debug\pt\Microsoft.ReportViewer.WinForms.resources.dll
-C:\Visual Studio Projects\Atual3\Atual\AmigoDono\AmigoDono.View\bin\Debug\ru\Microsoft.ReportViewer.WinForms.resources.dll
-C:\Visual Studio Projects\Atual3\Atual\AmigoDono\AmigoDono.View\bin\Debug\zh-CHS\Microsoft.ReportViewer.WinForms.resources.dll
-C:\Visual Studio Projects\Atual3\Atual\AmigoDono\AmigoDono.View\bin\Debug\zh-CHT\Microsoft.ReportViewer.WinForms.resources.dll
-C:\Visual Studio Projects\Atual3\Atual\AmigoDono\AmigoDono.View\bin\Debug\pt-BR\Microsoft.VisualStudio.Data.Services.resources.dll
-C:\Visual Studio Projects\Atual3\Atual\AmigoDono\AmigoDono.View\bin\Debug\pt-BR\Microsoft.VisualStudio.Data.Core.resources.dll
-C:\Visual Studio Projects\Atual3\Atual\AmigoDono\AmigoDono.View\bin\Debug\pt-BR\Microsoft.VisualStudio.GraphModel.resources.dll
-C:\Visual Studio Projects\Atual3\Atual\AmigoDono\AmigoDono.View\obj\Debug\AmigoDono.View.csprojAssemblyReference.cache
-C:\Visual Studio Projects\Atual3\Atual\AmigoDono\AmigoDono.View\obj\Debug\AmigoDono.View.exe.config
-C:\Visual Studio Projects\Atual3\Atual\AmigoDono\AmigoDono.View\obj\Debug\AmigoDono.View.Properties.Resources.resources
-C:\Visual Studio Projects\Atual3\Atual\AmigoDono\AmigoDono.View\obj\Debug\AmigoDono.View.TelaBuscarPet.resources
-C:\Visual Studio Projects\Atual3\Atual\AmigoDono\AmigoDono.View\obj\Debug\AmigoDono.View.TelaCadastroAmigo.resources
-C:\Visual Studio Projects\Atual3\Atual\AmigoDono\AmigoDono.View\obj\Debug\AmigoDono.View.TelaCadastroPet.resources
-C:\Visual Studio Projects\Atual3\Atual\AmigoDono\AmigoDono.View\obj\Debug\AmigoDono.View.TelaControle.resources
-C:\Visual Studio Projects\Atual3\Atual\AmigoDono\AmigoDono.View\obj\Debug\AmigoDono.View.TelaPesquisaControle.resources
-C:\Visual Studio Projects\Atual3\Atual\AmigoDono\AmigoDono.View\obj\Debug\AmigoDono.View.TelaPesquisaDenuncia.resources
-C:\Visual Studio Projects\Atual3\Atual\AmigoDono\AmigoDono.View\obj\Debug\AmigoDono.View.TelaPesquisarAmigo.resources
-C:\Visual Studio Projects\Atual3\Atual\AmigoDono\AmigoDono.View\obj\Debug\AmigoDono.View.TelaPesquisarPet.resources
-C:\Visual Studio Projects\Atual3\Atual\AmigoDono\AmigoDono.View\obj\Debug\AmigoDono.View.TelaPesquisaTratamento.resources
-C:\Visual Studio Projects\Atual3\Atual\AmigoDono\AmigoDono.View\obj\Debug\AmigoDono.View.TelaRelatorio.resources
-C:\Visual Studio Projects\Atual3\Atual\AmigoDono\AmigoDono.View\obj\Debug\AmigoDono.View.TelaTratamento.resources
-C:\Visual Studio Projects\Atual3\Atual\AmigoDono\AmigoDono.View\obj\Debug\AmigoDono.View.TelaDenuncia.resources
-C:\Visual Studio Projects\Atual3\Atual\AmigoDono\AmigoDono.View\obj\Debug\AmigoDono.View.TelaLogin.resources
-C:\Visual Studio Projects\Atual3\Atual\AmigoDono\AmigoDono.View\obj\Debug\AmigoDono.View.TelaPrincipal.resources
-C:\Visual Studio Projects\Atual3\Atual\AmigoDono\AmigoDono.View\obj\Debug\AmigoDono.View.csproj.GenerateResource.cache
-C:\Visual Studio Projects\Atual3\Atual\AmigoDono\AmigoDono.View\obj\Debug\AmigoDono.View.csproj.CoreCompileInputs.cache
-C:\Visual Studio Projects\Atual3\Atual\AmigoDono\AmigoDono.View\obj\Debug\AmigoDono.View.csproj.CopyComplete
-C:\Visual Studio Projects\Atual3\Atual\AmigoDono\AmigoDono.View\obj\Debug\AmigoDono.View.exe
-C:\Visual Studio Projects\Atual3\Atual\AmigoDono\AmigoDono.View\obj\Debug\AmigoDono.View.pdb
-E:\Atual3\Atual\AmigoDono\AmigoDono.View\bin\Debug\SqlServerTypes\x64\msvcr120.dll
-E:\Atual3\Atual\AmigoDono\AmigoDono.View\bin\Debug\SqlServerTypes\x64\SqlServerSpatial140.dll
-E:\Atual3\Atual\AmigoDono\AmigoDono.View\bin\Debug\SqlServerTypes\x86\msvcr120.dll
-E:\Atual3\Atual\AmigoDono\AmigoDono.View\bin\Debug\SqlServerTypes\x86\SqlServerSpatial140.dll
-E:\Atual3\Atual\AmigoDono\AmigoDono.View\bin\Debug\AmigoDono.View.exe.config
-E:\Atual3\Atual\AmigoDono\AmigoDono.View\bin\Debug\AmigoDono.View.exe
-E:\Atual3\Atual\AmigoDono\AmigoDono.View\bin\Debug\AmigoDono.View.pdb
-E:\Atual3\Atual\AmigoDono\AmigoDono.View\bin\Debug\AmigoDono.Control.dll
-E:\Atual3\Atual\AmigoDono\AmigoDono.View\bin\Debug\AmigoDono.Model.dll
-E:\Atual3\Atual\AmigoDono\AmigoDono.View\bin\Debug\Microsoft.ReportViewer.Common.dll
-E:\Atual3\Atual\AmigoDono\AmigoDono.View\bin\Debug\Microsoft.ReportViewer.DataVisualization.dll
-E:\Atual3\Atual\AmigoDono\AmigoDono.View\bin\Debug\Microsoft.ReportViewer.Design.dll
-E:\Atual3\Atual\AmigoDono\AmigoDono.View\bin\Debug\Microsoft.ReportViewer.ProcessingObjectModel.dll
-E:\Atual3\Atual\AmigoDono\AmigoDono.View\bin\Debug\Microsoft.ReportViewer.WinForms.dll
-E:\Atual3\Atual\AmigoDono\AmigoDono.View\bin\Debug\Microsoft.SqlServer.Types.dll
-E:\Atual3\Atual\AmigoDono\AmigoDono.View\bin\Debug\EntityFramework.dll
-E:\Atual3\Atual\AmigoDono\AmigoDono.View\bin\Debug\EnvDTE.dll
-E:\Atual3\Atual\AmigoDono\AmigoDono.View\bin\Debug\Microsoft.VisualStudio.Shell.Interop.dll
-E:\Atual3\Atual\AmigoDono\AmigoDono.View\bin\Debug\Microsoft.VisualStudio.Shell.Interop.8.0.dll
-E:\Atual3\Atual\AmigoDono\AmigoDono.View\bin\Debug\stdole.dll
-E:\Atual3\Atual\AmigoDono\AmigoDono.View\bin\Debug\Microsoft.VisualStudio.OLE.Interop.dll
-E:\Atual3\Atual\AmigoDono\AmigoDono.View\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.dll
-E:\Atual3\Atual\AmigoDono\AmigoDono.View\bin\Debug\Microsoft.VisualStudio.VSHelp.dll
-E:\Atual3\Atual\AmigoDono\AmigoDono.View\bin\Debug\Microsoft.VisualStudio.Shell.Immutable.10.0.dll
-E:\Atual3\Atual\AmigoDono\AmigoDono.View\bin\Debug\Microsoft.VisualStudio.Shell.Immutable.14.0.dll
-E:\Atual3\Atual\AmigoDono\AmigoDono.View\bin\Debug\Microsoft.VisualStudio.Shell.Immutable.11.0.dll
-E:\Atual3\Atual\AmigoDono\AmigoDono.View\bin\Debug\Microsoft.VisualStudio.Shell.Interop.9.0.dll
-E:\Atual3\Atual\AmigoDono\AmigoDono.View\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.8.0.dll
-E:\Atual3\Atual\AmigoDono\AmigoDono.View\bin\Debug\Microsoft.VisualStudio.ProjectAggregator.dll
-E:\Atual3\Atual\AmigoDono\AmigoDono.View\bin\Debug\Microsoft.VisualStudio.Shell.Immutable.12.0.dll
-E:\Atual3\Atual\AmigoDono\AmigoDono.View\bin\Debug\Microsoft.VisualStudio.ComponentModelHost.dll
-E:\Atual3\Atual\AmigoDono\AmigoDono.View\bin\Debug\Microsoft.VisualStudio.Designer.Interfaces.dll
-E:\Atual3\Atual\AmigoDono\AmigoDono.View\bin\Debug\Microsoft.VisualStudio.TemplateWizardInterface.dll
-E:\Atual3\Atual\AmigoDono\AmigoDono.View\bin\Debug\Microsoft.VisualStudio.Debugger.InteropA.dll
-E:\Atual3\Atual\AmigoDono\AmigoDono.View\bin\Debug\EnvDTE80.dll
-E:\Atual3\Atual\AmigoDono\AmigoDono.View\bin\Debug\Microsoft.Build.Tasks.Core.dll
-E:\Atual3\Atual\AmigoDono\AmigoDono.View\bin\Debug\Microsoft.VisualStudio.Data.Services.dll
-E:\Atual3\Atual\AmigoDono\AmigoDono.View\bin\Debug\VSLangProj.dll
-E:\Atual3\Atual\AmigoDono\AmigoDono.View\bin\Debug\Microsoft.VisualStudio.Shell.Interop.11.0.dll
-E:\Atual3\Atual\AmigoDono\AmigoDono.View\bin\Debug\Microsoft.VisualStudio.Data.Core.dll
-E:\Atual3\Atual\AmigoDono\AmigoDono.View\bin\Debug\Microsoft.VisualStudio.Shell.Interop.10.0.dll
-E:\Atual3\Atual\AmigoDono\AmigoDono.View\bin\Debug\VSLangProj80.dll
-E:\Atual3\Atual\AmigoDono\AmigoDono.View\bin\Debug\Microsoft.VisualStudio.ManagedInterfaces.dll
-E:\Atual3\Atual\AmigoDono\AmigoDono.View\bin\Debug\Microsoft.VisualStudio.WCFReference.Interop.dll
-E:\Atual3\Atual\AmigoDono\AmigoDono.View\bin\Debug\Microsoft.VisualStudio.Debugger.Interop.11.0.dll
-E:\Atual3\Atual\AmigoDono\AmigoDono.View\bin\Debug\Newtonsoft.Json.dll
-E:\Atual3\Atual\AmigoDono\AmigoDono.View\bin\Debug\System.Threading.Tasks.Dataflow.dll
-E:\Atual3\Atual\AmigoDono\AmigoDono.View\bin\Debug\Microsoft.VisualStudio.GraphModel.dll
-E:\Atual3\Atual\AmigoDono\AmigoDono.View\bin\Debug\Microsoft.MSXML.dll
-E:\Atual3\Atual\AmigoDono\AmigoDono.View\bin\Debug\Microsoft.Build.Utilities.Core.dll
-E:\Atual3\Atual\AmigoDono\AmigoDono.View\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.10.0.dll
-E:\Atual3\Atual\AmigoDono\AmigoDono.View\bin\Debug\Microsoft.Build.Framework.dll
-E:\Atual3\Atual\AmigoDono\AmigoDono.View\bin\Debug\VSLangProj2.dll
-E:\Atual3\Atual\AmigoDono\AmigoDono.View\bin\Debug\AmigoDono.Control.pdb
-E:\Atual3\Atual\AmigoDono\AmigoDono.View\bin\Debug\AmigoDono.Model.pdb
-E:\Atual3\Atual\AmigoDono\AmigoDono.View\bin\Debug\AmigoDono.Model.dll.config
-E:\Atual3\Atual\AmigoDono\AmigoDono.View\bin\Debug\EntityFramework.xml
-E:\Atual3\Atual\AmigoDono\AmigoDono.View\bin\Debug\Microsoft.VisualStudio.Shell.Immutable.10.0.xml
-E:\Atual3\Atual\AmigoDono\AmigoDono.View\bin\Debug\Microsoft.VisualStudio.Shell.Immutable.14.0.xml
-E:\Atual3\Atual\AmigoDono\AmigoDono.View\bin\Debug\Microsoft.VisualStudio.Shell.Immutable.11.0.xml
-E:\Atual3\Atual\AmigoDono\AmigoDono.View\bin\Debug\Microsoft.VisualStudio.Shell.Immutable.12.0.xml
-E:\Atual3\Atual\AmigoDono\AmigoDono.View\bin\Debug\Microsoft.VisualStudio.Designer.Interfaces.xml
-E:\Atual3\Atual\AmigoDono\AmigoDono.View\bin\Debug\Microsoft.VisualStudio.TemplateWizardInterface.xml
-E:\Atual3\Atual\AmigoDono\AmigoDono.View\bin\Debug\de\Microsoft.ReportViewer.Common.resources.dll
-E:\Atual3\Atual\AmigoDono\AmigoDono.View\bin\Debug\es\Microsoft.ReportViewer.Common.resources.dll
-E:\Atual3\Atual\AmigoDono\AmigoDono.View\bin\Debug\fr\Microsoft.ReportViewer.Common.resources.dll
-E:\Atual3\Atual\AmigoDono\AmigoDono.View\bin\Debug\it\Microsoft.ReportViewer.Common.resources.dll
-E:\Atual3\Atual\AmigoDono\AmigoDono.View\bin\Debug\ja\Microsoft.ReportViewer.Common.resources.dll
-E:\Atual3\Atual\AmigoDono\AmigoDono.View\bin\Debug\ko\Microsoft.ReportViewer.Common.resources.dll
-E:\Atual3\Atual\AmigoDono\AmigoDono.View\bin\Debug\pt\Microsoft.ReportViewer.Common.resources.dll
-E:\Atual3\Atual\AmigoDono\AmigoDono.View\bin\Debug\ru\Microsoft.ReportViewer.Common.resources.dll
-E:\Atual3\Atual\AmigoDono\AmigoDono.View\bin\Debug\zh-CHS\Microsoft.ReportViewer.Common.resources.dll
-E:\Atual3\Atual\AmigoDono\AmigoDono.View\bin\Debug\zh-CHT\Microsoft.ReportViewer.Common.resources.dll
-E:\Atual3\Atual\AmigoDono\AmigoDono.View\bin\Debug\de\Microsoft.ReportViewer.DataVisualization.resources.dll
-E:\Atual3\Atual\AmigoDono\AmigoDono.View\bin\Debug\es\Microsoft.ReportViewer.DataVisualization.resources.dll
-E:\Atual3\Atual\AmigoDono\AmigoDono.View\bin\Debug\fr\Microsoft.ReportViewer.DataVisualization.resources.dll
-E:\Atual3\Atual\AmigoDono\AmigoDono.View\bin\Debug\it\Microsoft.ReportViewer.DataVisualization.resources.dll
-E:\Atual3\Atual\AmigoDono\AmigoDono.View\bin\Debug\ja\Microsoft.ReportViewer.DataVisualization.resources.dll
-E:\Atual3\Atual\AmigoDono\AmigoDono.View\bin\Debug\ko\Microsoft.ReportViewer.DataVisualization.resources.dll
-E:\Atual3\Atual\AmigoDono\AmigoDono.View\bin\Debug\pt\Microsoft.ReportViewer.DataVisualization.resources.dll
-E:\Atual3\Atual\AmigoDono\AmigoDono.View\bin\Debug\ru\Microsoft.ReportViewer.DataVisualization.resources.dll
-E:\Atual3\Atual\AmigoDono\AmigoDono.View\bin\Debug\zh-CHS\Microsoft.ReportViewer.DataVisualization.resources.dll
-E:\Atual3\Atual\AmigoDono\AmigoDono.View\bin\Debug\zh-CHT\Microsoft.ReportViewer.DataVisualization.resources.dll
-E:\Atual3\Atual\AmigoDono\AmigoDono.View\bin\Debug\de\Microsoft.ReportViewer.Design.resources.dll
-E:\Atual3\Atual\AmigoDono\AmigoDono.View\bin\Debug\es\Microsoft.ReportViewer.Design.resources.dll
-E:\Atual3\Atual\AmigoDono\AmigoDono.View\bin\Debug\fr\Microsoft.ReportViewer.Design.resources.dll
-E:\Atual3\Atual\AmigoDono\AmigoDono.View\bin\Debug\it\Microsoft.ReportViewer.Design.resources.dll
-E:\Atual3\Atual\AmigoDono\AmigoDono.View\bin\Debug\ja\Microsoft.ReportViewer.Design.resources.dll
-E:\Atual3\Atual\AmigoDono\AmigoDono.View\bin\Debug\ko\Microsoft.ReportViewer.Design.resources.dll
-E:\Atual3\Atual\AmigoDono\AmigoDono.View\bin\Debug\pt\Microsoft.ReportViewer.Design.resources.dll
-E:\Atual3\Atual\AmigoDono\AmigoDono.View\bin\Debug\ru\Microsoft.ReportViewer.Design.resources.dll
-E:\Atual3\Atual\AmigoDono\AmigoDono.View\bin\Debug\zh-CHS\Microsoft.ReportViewer.Design.resources.dll
-E:\Atual3\Atual\AmigoDono\AmigoDono.View\bin\Debug\zh-CHT\Microsoft.ReportViewer.Design.resources.dll
-E:\Atual3\Atual\AmigoDono\AmigoDono.View\bin\Debug\de\Microsoft.ReportViewer.WinForms.resources.dll
-E:\Atual3\Atual\AmigoDono\AmigoDono.View\bin\Debug\es\Microsoft.ReportViewer.WinForms.resources.dll
-E:\Atual3\Atual\AmigoDono\AmigoDono.View\bin\Debug\fr\Microsoft.ReportViewer.WinForms.resources.dll
-E:\Atual3\Atual\AmigoDono\AmigoDono.View\bin\Debug\it\Microsoft.ReportViewer.WinForms.resources.dll
-E:\Atual3\Atual\AmigoDono\AmigoDono.View\bin\Debug\ja\Microsoft.ReportViewer.WinForms.resources.dll
-E:\Atual3\Atual\AmigoDono\AmigoDono.View\bin\Debug\ko\Microsoft.ReportViewer.WinForms.resources.dll
-E:\Atual3\Atual\AmigoDono\AmigoDono.View\bin\Debug\pt\Microsoft.ReportViewer.WinForms.resources.dll
-E:\Atual3\Atual\AmigoDono\AmigoDono.View\bin\Debug\ru\Microsoft.ReportViewer.WinForms.resources.dll
-E:\Atual3\Atual\AmigoDono\AmigoDono.View\bin\Debug\zh-CHS\Microsoft.ReportViewer.WinForms.resources.dll
-E:\Atual3\Atual\AmigoDono\AmigoDono.View\bin\Debug\zh-CHT\Microsoft.ReportViewer.WinForms.resources.dll
-E:\Atual3\Atual\AmigoDono\AmigoDono.View\bin\Debug\pt-BR\Microsoft.VisualStudio.Data.Services.resources.dll
-E:\Atual3\Atual\AmigoDono\AmigoDono.View\bin\Debug\pt-BR\Microsoft.VisualStudio.Data.Core.resources.dll
-E:\Atual3\Atual\AmigoDono\AmigoDono.View\obj\Debug\AmigoDono.View.csprojAssemblyReference.cache
-E:\Atual3\Atual\AmigoDono\AmigoDono.View\obj\Debug\AmigoDono.View.exe.config
-E:\Atual3\Atual\AmigoDono\AmigoDono.View\obj\Debug\AmigoDono.View.Properties.Resources.resources
-E:\Atual3\Atual\AmigoDono\AmigoDono.View\obj\Debug\AmigoDono.View.TelaBuscarPet.resources
-E:\Atual3\Atual\AmigoDono\AmigoDono.View\obj\Debug\AmigoDono.View.TelaCadastroAmigo.resources
-E:\Atual3\Atual\AmigoDono\AmigoDono.View\obj\Debug\AmigoDono.View.TelaCadastroPet.resources
-E:\Atual3\Atual\AmigoDono\AmigoDono.View\obj\Debug\AmigoDono.View.TelaControle.resources
-E:\Atual3\Atual\AmigoDono\AmigoDono.View\obj\Debug\AmigoDono.View.TelaPesquisaControle.resources
-E:\Atual3\Atual\AmigoDono\AmigoDono.View\obj\Debug\AmigoDono.View.TelaPesquisaDenuncia.resources
-E:\Atual3\Atual\AmigoDono\AmigoDono.View\obj\Debug\AmigoDono.View.TelaPesquisarAmigo.resources
-E:\Atual3\Atual\AmigoDono\AmigoDono.View\obj\Debug\AmigoDono.View.TelaPesquisarPet.resources
-E:\Atual3\Atual\AmigoDono\AmigoDono.View\obj\Debug\AmigoDono.View.TelaPesquisaTratamento.resources
-E:\Atual3\Atual\AmigoDono\AmigoDono.View\obj\Debug\AmigoDono.View.TelaRelatorio.resources
-E:\Atual3\Atual\AmigoDono\AmigoDono.View\obj\Debug\AmigoDono.View.TelaTratamento.resources
-E:\Atual3\Atual\AmigoDono\AmigoDono.View\obj\Debug\AmigoDono.View.TelaDenuncia.resources
-E:\Atual3\Atual\AmigoDono\AmigoDono.View\obj\Debug\AmigoDono.View.TelaLogin.resources
-E:\Atual3\Atual\AmigoDono\AmigoDono.View\obj\Debug\AmigoDono.View.TelaPrincipal.resources
-E:\Atual3\Atual\AmigoDono\AmigoDono.View\obj\Debug\AmigoDono.View.csproj.GenerateResource.cache
-E:\Atual3\Atual\AmigoDono\AmigoDono.View\obj\Debug\AmigoDono.View.csproj.CoreCompileInputs.cache
-E:\Atual3\Atual\AmigoDono\AmigoDono.View\obj\Debug\AmigoDono.View.csproj.CopyComplete
-E:\Atual3\Atual\AmigoDono\AmigoDono.View\obj\Debug\AmigoDono.View.exe
-E:\Atual3\Atual\AmigoDono\AmigoDono.View\obj\Debug\AmigoDono.View.pdb
-C:\Users\rafin\Documents\Desktop\AmigoDono\AmigoDono\AmigoDono.View\bin\Debug\SqlServerTypes\x64\msvcr120.dll
-C:\Users\rafin\Documents\Desktop\AmigoDono\AmigoDono\AmigoDono.View\bin\Debug\SqlServerTypes\x64\SqlServerSpatial140.dll
-C:\Users\rafin\Documents\Desktop\AmigoDono\AmigoDono\AmigoDono.View\bin\Debug\SqlServerTypes\x86\msvcr120.dll
-C:\Users\rafin\Documents\Desktop\AmigoDono\AmigoDono\AmigoDono.View\bin\Debug\SqlServerTypes\x86\SqlServerSpatial140.dll
-C:\Users\rafin\Documents\Desktop\AmigoDono\AmigoDono\AmigoDono.View\bin\Debug\AmigoDono.View.exe.config
-C:\Users\rafin\Documents\Desktop\AmigoDono\AmigoDono\AmigoDono.View\bin\Debug\AmigoDono.View.exe
-C:\Users\rafin\Documents\Desktop\AmigoDono\AmigoDono\AmigoDono.View\bin\Debug\AmigoDono.View.pdb
-C:\Users\rafin\Documents\Desktop\AmigoDono\AmigoDono\AmigoDono.View\bin\Debug\AmigoDono.Control.dll
-C:\Users\rafin\Documents\Desktop\AmigoDono\AmigoDono\AmigoDono.View\bin\Debug\AmigoDono.Model.dll
-C:\Users\rafin\Documents\Desktop\AmigoDono\AmigoDono\AmigoDono.View\bin\Debug\Microsoft.ReportViewer.Common.dll
-C:\Users\rafin\Documents\Desktop\AmigoDono\AmigoDono\AmigoDono.View\bin\Debug\Microsoft.ReportViewer.DataVisualization.dll
-C:\Users\rafin\Documents\Desktop\AmigoDono\AmigoDono\AmigoDono.View\bin\Debug\Microsoft.ReportViewer.Design.dll
-C:\Users\rafin\Documents\Desktop\AmigoDono\AmigoDono\AmigoDono.View\bin\Debug\Microsoft.ReportViewer.ProcessingObjectModel.dll
-C:\Users\rafin\Documents\Desktop\AmigoDono\AmigoDono\AmigoDono.View\bin\Debug\Microsoft.ReportViewer.WinForms.dll
-C:\Users\rafin\Documents\Desktop\AmigoDono\AmigoDono\AmigoDono.View\bin\Debug\Microsoft.SqlServer.Types.dll
-C:\Users\rafin\Documents\Desktop\AmigoDono\AmigoDono\AmigoDono.View\bin\Debug\EntityFramework.dll
-C:\Users\rafin\Documents\Desktop\AmigoDono\AmigoDono\AmigoDono.View\bin\Debug\EnvDTE.dll
-C:\Users\rafin\Documents\Desktop\AmigoDono\AmigoDono\AmigoDono.View\bin\Debug\Microsoft.VisualStudio.Shell.Interop.dll
-C:\Users\rafin\Documents\Desktop\AmigoDono\AmigoDono\AmigoDono.View\bin\Debug\Microsoft.VisualStudio.Shell.Interop.8.0.dll
-C:\Users\rafin\Documents\Desktop\AmigoDono\AmigoDono\AmigoDono.View\bin\Debug\stdole.dll
-C:\Users\rafin\Documents\Desktop\AmigoDono\AmigoDono\AmigoDono.View\bin\Debug\Microsoft.VisualStudio.OLE.Interop.dll
-C:\Users\rafin\Documents\Desktop\AmigoDono\AmigoDono\AmigoDono.View\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.dll
-C:\Users\rafin\Documents\Desktop\AmigoDono\AmigoDono\AmigoDono.View\bin\Debug\Microsoft.VisualStudio.VSHelp.dll
-C:\Users\rafin\Documents\Desktop\AmigoDono\AmigoDono\AmigoDono.View\bin\Debug\Microsoft.VisualStudio.Shell.Immutable.10.0.dll
-C:\Users\rafin\Documents\Desktop\AmigoDono\AmigoDono\AmigoDono.View\bin\Debug\Microsoft.VisualStudio.Shell.Immutable.14.0.dll
-C:\Users\rafin\Documents\Desktop\AmigoDono\AmigoDono\AmigoDono.View\bin\Debug\Microsoft.VisualStudio.Shell.Immutable.11.0.dll
-C:\Users\rafin\Documents\Desktop\AmigoDono\AmigoDono\AmigoDono.View\bin\Debug\Microsoft.VisualStudio.Shell.Interop.9.0.dll
-C:\Users\rafin\Documents\Desktop\AmigoDono\AmigoDono\AmigoDono.View\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.8.0.dll
-C:\Users\rafin\Documents\Desktop\AmigoDono\AmigoDono\AmigoDono.View\bin\Debug\Microsoft.VisualStudio.ProjectAggregator.dll
-C:\Users\rafin\Documents\Desktop\AmigoDono\AmigoDono\AmigoDono.View\bin\Debug\Microsoft.VisualStudio.Shell.Immutable.12.0.dll
-C:\Users\rafin\Documents\Desktop\AmigoDono\AmigoDono\AmigoDono.View\bin\Debug\Microsoft.VisualStudio.ComponentModelHost.dll
-C:\Users\rafin\Documents\Desktop\AmigoDono\AmigoDono\AmigoDono.View\bin\Debug\Microsoft.VisualStudio.Designer.Interfaces.dll
-C:\Users\rafin\Documents\Desktop\AmigoDono\AmigoDono\AmigoDono.View\bin\Debug\Microsoft.VisualStudio.TemplateWizardInterface.dll
-C:\Users\rafin\Documents\Desktop\AmigoDono\AmigoDono\AmigoDono.View\bin\Debug\Microsoft.VisualStudio.Debugger.InteropA.dll
-C:\Users\rafin\Documents\Desktop\AmigoDono\AmigoDono\AmigoDono.View\bin\Debug\EnvDTE80.dll
-C:\Users\rafin\Documents\Desktop\AmigoDono\AmigoDono\AmigoDono.View\bin\Debug\Microsoft.Build.Tasks.Core.dll
-C:\Users\rafin\Documents\Desktop\AmigoDono\AmigoDono\AmigoDono.View\bin\Debug\Microsoft.VisualStudio.Data.Services.dll
-C:\Users\rafin\Documents\Desktop\AmigoDono\AmigoDono\AmigoDono.View\bin\Debug\VSLangProj.dll
-C:\Users\rafin\Documents\Desktop\AmigoDono\AmigoDono\AmigoDono.View\bin\Debug\Microsoft.VisualStudio.Shell.Interop.11.0.dll
-C:\Users\rafin\Documents\Desktop\AmigoDono\AmigoDono\AmigoDono.View\bin\Debug\Microsoft.VisualStudio.Data.Core.dll
-C:\Users\rafin\Documents\Desktop\AmigoDono\AmigoDono\AmigoDono.View\bin\Debug\Microsoft.VisualStudio.Shell.Interop.10.0.dll
-C:\Users\rafin\Documents\Desktop\AmigoDono\AmigoDono\AmigoDono.View\bin\Debug\VSLangProj80.dll
-C:\Users\rafin\Documents\Desktop\AmigoDono\AmigoDono\AmigoDono.View\bin\Debug\Microsoft.VisualStudio.ManagedInterfaces.dll
-C:\Users\rafin\Documents\Desktop\AmigoDono\AmigoDono\AmigoDono.View\bin\Debug\Microsoft.VisualStudio.WCFReference.Interop.dll
-C:\Users\rafin\Documents\Desktop\AmigoDono\AmigoDono\AmigoDono.View\bin\Debug\Microsoft.VisualStudio.Debugger.Interop.11.0.dll
-C:\Users\rafin\Documents\Desktop\AmigoDono\AmigoDono\AmigoDono.View\bin\Debug\Newtonsoft.Json.dll
-C:\Users\rafin\Documents\Desktop\AmigoDono\AmigoDono\AmigoDono.View\bin\Debug\System.Threading.Tasks.Dataflow.dll
-C:\Users\rafin\Documents\Desktop\AmigoDono\AmigoDono\AmigoDono.View\bin\Debug\Microsoft.VisualStudio.GraphModel.dll
-C:\Users\rafin\Documents\Desktop\AmigoDono\AmigoDono\AmigoDono.View\bin\Debug\Microsoft.MSXML.dll
-C:\Users\rafin\Documents\Desktop\AmigoDono\AmigoDono\AmigoDono.View\bin\Debug\Microsoft.Build.Utilities.Core.dll
-C:\Users\rafin\Documents\Desktop\AmigoDono\AmigoDono\AmigoDono.View\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.10.0.dll
-C:\Users\rafin\Documents\Desktop\AmigoDono\AmigoDono\AmigoDono.View\bin\Debug\Microsoft.Build.Framework.dll
-C:\Users\rafin\Documents\Desktop\AmigoDono\AmigoDono\AmigoDono.View\bin\Debug\VSLangProj2.dll
-C:\Users\rafin\Documents\Desktop\AmigoDono\AmigoDono\AmigoDono.View\bin\Debug\AmigoDono.Control.pdb
-C:\Users\rafin\Documents\Desktop\AmigoDono\AmigoDono\AmigoDono.View\bin\Debug\AmigoDono.Model.pdb
-C:\Users\rafin\Documents\Desktop\AmigoDono\AmigoDono\AmigoDono.View\bin\Debug\AmigoDono.Model.dll.config
-C:\Users\rafin\Documents\Desktop\AmigoDono\AmigoDono\AmigoDono.View\bin\Debug\EntityFramework.xml
-C:\Users\rafin\Documents\Desktop\AmigoDono\AmigoDono\AmigoDono.View\bin\Debug\Microsoft.VisualStudio.Shell.Immutable.10.0.xml
-C:\Users\rafin\Documents\Desktop\AmigoDono\AmigoDono\AmigoDono.View\bin\Debug\Microsoft.VisualStudio.Shell.Immutable.14.0.xml
-C:\Users\rafin\Documents\Desktop\AmigoDono\AmigoDono\AmigoDono.View\bin\Debug\Microsoft.VisualStudio.Shell.Immutable.11.0.xml
-C:\Users\rafin\Documents\Desktop\AmigoDono\AmigoDono\AmigoDono.View\bin\Debug\Microsoft.VisualStudio.Shell.Immutable.12.0.xml
-C:\Users\rafin\Documents\Desktop\AmigoDono\AmigoDono\AmigoDono.View\bin\Debug\Microsoft.VisualStudio.Designer.Interfaces.xml
-C:\Users\rafin\Documents\Desktop\AmigoDono\AmigoDono\AmigoDono.View\bin\Debug\Microsoft.VisualStudio.TemplateWizardInterface.xml
-C:\Users\rafin\Documents\Desktop\AmigoDono\AmigoDono\AmigoDono.View\bin\Debug\de\Microsoft.ReportViewer.Common.resources.dll
-C:\Users\rafin\Documents\Desktop\AmigoDono\AmigoDono\AmigoDono.View\bin\Debug\es\Microsoft.ReportViewer.Common.resources.dll
-C:\Users\rafin\Documents\Desktop\AmigoDono\AmigoDono\AmigoDono.View\bin\Debug\fr\Microsoft.ReportViewer.Common.resources.dll
-C:\Users\rafin\Documents\Desktop\AmigoDono\AmigoDono\AmigoDono.View\bin\Debug\it\Microsoft.ReportViewer.Common.resources.dll
-C:\Users\rafin\Documents\Desktop\AmigoDono\AmigoDono\AmigoDono.View\bin\Debug\ja\Microsoft.ReportViewer.Common.resources.dll
-C:\Users\rafin\Documents\Desktop\AmigoDono\AmigoDono\AmigoDono.View\bin\Debug\ko\Microsoft.ReportViewer.Common.resources.dll
-C:\Users\rafin\Documents\Desktop\AmigoDono\AmigoDono\AmigoDono.View\bin\Debug\pt\Microsoft.ReportViewer.Common.resources.dll
-C:\Users\rafin\Documents\Desktop\AmigoDono\AmigoDono\AmigoDono.View\bin\Debug\ru\Microsoft.ReportViewer.Common.resources.dll
-C:\Users\rafin\Documents\Desktop\AmigoDono\AmigoDono\AmigoDono.View\bin\Debug\zh-CHS\Microsoft.ReportViewer.Common.resources.dll
-C:\Users\rafin\Documents\Desktop\AmigoDono\AmigoDono\AmigoDono.View\bin\Debug\zh-CHT\Microsoft.ReportViewer.Common.resources.dll
-C:\Users\rafin\Documents\Desktop\AmigoDono\AmigoDono\AmigoDono.View\bin\Debug\de\Microsoft.ReportViewer.DataVisualization.resources.dll
-C:\Users\rafin\Documents\Desktop\AmigoDono\AmigoDono\AmigoDono.View\bin\Debug\es\Microsoft.ReportViewer.DataVisualization.resources.dll
-C:\Users\rafin\Documents\Desktop\AmigoDono\AmigoDono\AmigoDono.View\bin\Debug\fr\Microsoft.ReportViewer.DataVisualization.resources.dll
-C:\Users\rafin\Documents\Desktop\AmigoDono\AmigoDono\AmigoDono.View\bin\Debug\it\Microsoft.ReportViewer.DataVisualization.resources.dll
-C:\Users\rafin\Documents\Desktop\AmigoDono\AmigoDono\AmigoDono.View\bin\Debug\ja\Microsoft.ReportViewer.DataVisualization.resources.dll
-C:\Users\rafin\Documents\Desktop\AmigoDono\AmigoDono\AmigoDono.View\bin\Debug\ko\Microsoft.ReportViewer.DataVisualization.resources.dll
-C:\Users\rafin\Documents\Desktop\AmigoDono\AmigoDono\AmigoDono.View\bin\Debug\pt\Microsoft.ReportViewer.DataVisualization.resources.dll
-C:\Users\rafin\Documents\Desktop\AmigoDono\AmigoDono\AmigoDono.View\bin\Debug\ru\Microsoft.ReportViewer.DataVisualization.resources.dll
-C:\Users\rafin\Documents\Desktop\AmigoDono\AmigoDono\AmigoDono.View\bin\Debug\zh-CHS\Microsoft.ReportViewer.DataVisualization.resources.dll
-C:\Users\rafin\Documents\Desktop\AmigoDono\AmigoDono\AmigoDono.View\bin\Debug\zh-CHT\Microsoft.ReportViewer.DataVisualization.resources.dll
-C:\Users\rafin\Documents\Desktop\AmigoDono\AmigoDono\AmigoDono.View\bin\Debug\de\Microsoft.ReportViewer.Design.resources.dll
-C:\Users\rafin\Documents\Desktop\AmigoDono\AmigoDono\AmigoDono.View\bin\Debug\es\Microsoft.ReportViewer.Design.resources.dll
-C:\Users\rafin\Documents\Desktop\AmigoDono\AmigoDono\AmigoDono.View\bin\Debug\fr\Microsoft.ReportViewer.Design.resources.dll
-C:\Users\rafin\Documents\Desktop\AmigoDono\AmigoDono\AmigoDono.View\bin\Debug\it\Microsoft.ReportViewer.Design.resources.dll
-C:\Users\rafin\Documents\Desktop\AmigoDono\AmigoDono\AmigoDono.View\bin\Debug\ja\Microsoft.ReportViewer.Design.resources.dll
-C:\Users\rafin\Documents\Desktop\AmigoDono\AmigoDono\AmigoDono.View\bin\Debug\ko\Microsoft.ReportViewer.Design.resources.dll
-C:\Users\rafin\Documents\Desktop\AmigoDono\AmigoDono\AmigoDono.View\bin\Debug\pt\Microsoft.ReportViewer.Design.resources.dll
-C:\Users\rafin\Documents\Desktop\AmigoDono\AmigoDono\AmigoDono.View\bin\Debug\ru\Microsoft.ReportViewer.Design.resources.dll
-C:\Users\rafin\Documents\Desktop\AmigoDono\AmigoDono\AmigoDono.View\bin\Debug\zh-CHS\Microsoft.ReportViewer.Design.resources.dll
-C:\Users\rafin\Documents\Desktop\AmigoDono\AmigoDono\AmigoDono.View\bin\Debug\zh-CHT\Microsoft.ReportViewer.Design.resources.dll
-C:\Users\rafin\Documents\Desktop\AmigoDono\AmigoDono\AmigoDono.View\bin\Debug\de\Microsoft.ReportViewer.WinForms.resources.dll
-C:\Users\rafin\Documents\Desktop\AmigoDono\AmigoDono\AmigoDono.View\bin\Debug\es\Microsoft.ReportViewer.WinForms.resources.dll
-C:\Users\rafin\Documents\Desktop\AmigoDono\AmigoDono\AmigoDono.View\bin\Debug\fr\Microsoft.ReportViewer.WinForms.resources.dll
-C:\Users\rafin\Documents\Desktop\AmigoDono\AmigoDono\AmigoDono.View\bin\Debug\it\Microsoft.ReportViewer.WinForms.resources.dll
-C:\Users\rafin\Documents\Desktop\AmigoDono\AmigoDono\AmigoDono.View\bin\Debug\ja\Microsoft.ReportViewer.WinForms.resources.dll
-C:\Users\rafin\Documents\Desktop\AmigoDono\AmigoDono\AmigoDono.View\bin\Debug\ko\Microsoft.ReportViewer.WinForms.resources.dll
-C:\Users\rafin\Documents\Desktop\AmigoDono\AmigoDono\AmigoDono.View\bin\Debug\pt\Microsoft.ReportViewer.WinForms.resources.dll
-C:\Users\rafin\Documents\Desktop\AmigoDono\AmigoDono\AmigoDono.View\bin\Debug\ru\Microsoft.ReportViewer.WinForms.resources.dll
-C:\Users\rafin\Documents\Desktop\AmigoDono\AmigoDono\AmigoDono.View\bin\Debug\zh-CHS\Microsoft.ReportViewer.WinForms.resources.dll
-C:\Users\rafin\Documents\Desktop\AmigoDono\AmigoDono\AmigoDono.View\bin\Debug\zh-CHT\Microsoft.ReportViewer.WinForms.resources.dll
-C:\Users\rafin\Documents\Desktop\AmigoDono\AmigoDono\AmigoDono.View\bin\Debug\pt-BR\Microsoft.VisualStudio.Data.Services.resources.dll
-C:\Users\rafin\Documents\Desktop\AmigoDono\AmigoDono\AmigoDono.View\bin\Debug\pt-BR\Microsoft.VisualStudio.Data.Core.resources.dll
-C:\Users\rafin\Documents\Desktop\AmigoDono\AmigoDono\AmigoDono.View\obj\Debug\AmigoDono.View.csprojAssemblyReference.cache
-C:\Users\rafin\Documents\Desktop\AmigoDono\AmigoDono\AmigoDono.View\obj\Debug\AmigoDono.View.exe.config
-C:\Users\rafin\Documents\Desktop\AmigoDono\AmigoDono\AmigoDono.View\obj\Debug\AmigoDono.View.Properties.Resources.resources
-C:\Users\rafin\Documents\Desktop\AmigoDono\AmigoDono\AmigoDono.View\obj\Debug\AmigoDono.View.TelaBuscarPet.resources
-C:\Users\rafin\Documents\Desktop\AmigoDono\AmigoDono\AmigoDono.View\obj\Debug\AmigoDono.View.TelaCadastroAmigo.resources
-C:\Users\rafin\Documents\Desktop\AmigoDono\AmigoDono\AmigoDono.View\obj\Debug\AmigoDono.View.TelaCadastroPet.resources
-C:\Users\rafin\Documents\Desktop\AmigoDono\AmigoDono\AmigoDono.View\obj\Debug\AmigoDono.View.TelaControle.resources
-C:\Users\rafin\Documents\Desktop\AmigoDono\AmigoDono\AmigoDono.View\obj\Debug\AmigoDono.View.TelaPesquisaControle.resources
-C:\Users\rafin\Documents\Desktop\AmigoDono\AmigoDono\AmigoDono.View\obj\Debug\AmigoDono.View.TelaPesquisaDenuncia.resources
-C:\Users\rafin\Documents\Desktop\AmigoDono\AmigoDono\AmigoDono.View\obj\Debug\AmigoDono.View.TelaPesquisarAmigo.resources
-C:\Users\rafin\Documents\Desktop\AmigoDono\AmigoDono\AmigoDono.View\obj\Debug\AmigoDono.View.TelaPesquisarPet.resources
-C:\Users\rafin\Documents\Desktop\AmigoDono\AmigoDono\AmigoDono.View\obj\Debug\AmigoDono.View.TelaPesquisaTratamento.resources
-C:\Users\rafin\Documents\Desktop\AmigoDono\AmigoDono\AmigoDono.View\obj\Debug\AmigoDono.View.TelaRelatorio.resources
-C:\Users\rafin\Documents\Desktop\AmigoDono\AmigoDono\AmigoDono.View\obj\Debug\AmigoDono.View.TelaTratamento.resources
-C:\Users\rafin\Documents\Desktop\AmigoDono\AmigoDono\AmigoDono.View\obj\Debug\AmigoDono.View.TelaDenuncia.resources
-C:\Users\rafin\Documents\Desktop\AmigoDono\AmigoDono\AmigoDono.View\obj\Debug\AmigoDono.View.TelaLogin.resources
-C:\Users\rafin\Documents\Desktop\AmigoDono\AmigoDono\AmigoDono.View\obj\Debug\AmigoDono.View.TelaPrincipal.resources
-C:\Users\rafin\Documents\Desktop\AmigoDono\AmigoDono\AmigoDono.View\obj\Debug\AmigoDono.View.csproj.GenerateResource.cache
-C:\Users\rafin\Documents\Desktop\AmigoDono\AmigoDono\AmigoDono.View\obj\Debug\AmigoDono.View.csproj.CoreCompileInputs.cache
-C:\Users\rafin\Documents\Desktop\AmigoDono\AmigoDono\AmigoDono.View\obj\Debug\AmigoDono.View.csproj.CopyComplete
-C:\Users\rafin\Documents\Desktop\AmigoDono\AmigoDono\AmigoDono.View\obj\Debug\AmigoDono.View.exe
-C:\Users\rafin\Documents\Desktop\AmigoDono\AmigoDono\AmigoDono.View\obj\Debug\AmigoDono.View.pdb
-C:\GitHub\AmigoDono\AmigoDono.View\bin\Debug\SqlServerTypes\x64\msvcr120.dll
-C:\GitHub\AmigoDono\AmigoDono.View\bin\Debug\SqlServerTypes\x64\SqlServerSpatial140.dll
-C:\GitHub\AmigoDono\AmigoDono.View\bin\Debug\SqlServerTypes\x86\msvcr120.dll
-C:\GitHub\AmigoDono\AmigoDono.View\bin\Debug\SqlServerTypes\x86\SqlServerSpatial140.dll
-C:\GitHub\AmigoDono\AmigoDono.View\bin\Debug\AmigoDono.View.exe.config
-C:\GitHub\AmigoDono\AmigoDono.View\bin\Debug\AmigoDono.View.exe
-C:\GitHub\AmigoDono\AmigoDono.View\bin\Debug\AmigoDono.View.pdb
-C:\GitHub\AmigoDono\AmigoDono.View\bin\Debug\AmigoDono.Control.dll
-C:\GitHub\AmigoDono\AmigoDono.View\bin\Debug\AmigoDono.Model.dll
-C:\GitHub\AmigoDono\AmigoDono.View\bin\Debug\Microsoft.ReportViewer.Common.dll
-C:\GitHub\AmigoDono\AmigoDono.View\bin\Debug\Microsoft.ReportViewer.DataVisualization.dll
-C:\GitHub\AmigoDono\AmigoDono.View\bin\Debug\Microsoft.ReportViewer.Design.dll
-C:\GitHub\AmigoDono\AmigoDono.View\bin\Debug\Microsoft.ReportViewer.ProcessingObjectModel.dll
-C:\GitHub\AmigoDono\AmigoDono.View\bin\Debug\Microsoft.ReportViewer.WinForms.dll
-C:\GitHub\AmigoDono\AmigoDono.View\bin\Debug\Microsoft.SqlServer.Types.dll
-C:\GitHub\AmigoDono\AmigoDono.View\bin\Debug\EntityFramework.dll
-C:\GitHub\AmigoDono\AmigoDono.View\bin\Debug\EnvDTE.dll
-C:\GitHub\AmigoDono\AmigoDono.View\bin\Debug\Microsoft.VisualStudio.Shell.Interop.dll
-C:\GitHub\AmigoDono\AmigoDono.View\bin\Debug\Microsoft.VisualStudio.Shell.Interop.8.0.dll
-C:\GitHub\AmigoDono\AmigoDono.View\bin\Debug\stdole.dll
-C:\GitHub\AmigoDono\AmigoDono.View\bin\Debug\Microsoft.VisualStudio.OLE.Interop.dll
-C:\GitHub\AmigoDono\AmigoDono.View\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.dll
-C:\GitHub\AmigoDono\AmigoDono.View\bin\Debug\Microsoft.VisualStudio.VSHelp.dll
-C:\GitHub\AmigoDono\AmigoDono.View\bin\Debug\Microsoft.VisualStudio.Shell.Immutable.11.0.dll
-C:\GitHub\AmigoDono\AmigoDono.View\bin\Debug\Microsoft.VisualStudio.Shell.Immutable.10.0.dll
-C:\GitHub\AmigoDono\AmigoDono.View\bin\Debug\Microsoft.VisualStudio.Shell.Immutable.14.0.dll
-C:\GitHub\AmigoDono\AmigoDono.View\bin\Debug\Microsoft.VisualStudio.Shell.Interop.9.0.dll
-C:\GitHub\AmigoDono\AmigoDono.View\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.8.0.dll
-C:\GitHub\AmigoDono\AmigoDono.View\bin\Debug\Microsoft.VisualStudio.ProjectAggregator.dll
-C:\GitHub\AmigoDono\AmigoDono.View\bin\Debug\Microsoft.VisualStudio.Shell.Immutable.12.0.dll
-C:\GitHub\AmigoDono\AmigoDono.View\bin\Debug\Microsoft.VisualStudio.ComponentModelHost.dll
-C:\GitHub\AmigoDono\AmigoDono.View\bin\Debug\Microsoft.VisualStudio.Designer.Interfaces.dll
-C:\GitHub\AmigoDono\AmigoDono.View\bin\Debug\Microsoft.VisualStudio.TemplateWizardInterface.dll
-C:\GitHub\AmigoDono\AmigoDono.View\bin\Debug\Microsoft.VisualStudio.Debugger.InteropA.dll
-C:\GitHub\AmigoDono\AmigoDono.View\bin\Debug\EnvDTE80.dll
-C:\GitHub\AmigoDono\AmigoDono.View\bin\Debug\Microsoft.Build.Tasks.Core.dll
-C:\GitHub\AmigoDono\AmigoDono.View\bin\Debug\Microsoft.VisualStudio.Data.Services.dll
-C:\GitHub\AmigoDono\AmigoDono.View\bin\Debug\VSLangProj.dll
-C:\GitHub\AmigoDono\AmigoDono.View\bin\Debug\Microsoft.VisualStudio.Shell.Interop.11.0.dll
-C:\GitHub\AmigoDono\AmigoDono.View\bin\Debug\Microsoft.VisualStudio.Data.Core.dll
-C:\GitHub\AmigoDono\AmigoDono.View\bin\Debug\Microsoft.VisualStudio.Shell.Interop.10.0.dll
-C:\GitHub\AmigoDono\AmigoDono.View\bin\Debug\VSLangProj80.dll
-C:\GitHub\AmigoDono\AmigoDono.View\bin\Debug\Microsoft.VisualStudio.ManagedInterfaces.dll
-C:\GitHub\AmigoDono\AmigoDono.View\bin\Debug\Microsoft.VisualStudio.WCFReference.Interop.dll
-C:\GitHub\AmigoDono\AmigoDono.View\bin\Debug\Microsoft.VisualStudio.Debugger.Interop.11.0.dll
-C:\GitHub\AmigoDono\AmigoDono.View\bin\Debug\Newtonsoft.Json.dll
-C:\GitHub\AmigoDono\AmigoDono.View\bin\Debug\System.Threading.Tasks.Dataflow.dll
-C:\GitHub\AmigoDono\AmigoDono.View\bin\Debug\Microsoft.VisualStudio.GraphModel.dll
-C:\GitHub\AmigoDono\AmigoDono.View\bin\Debug\Microsoft.MSXML.dll
-C:\GitHub\AmigoDono\AmigoDono.View\bin\Debug\Microsoft.Build.Utilities.Core.dll
-C:\GitHub\AmigoDono\AmigoDono.View\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.10.0.dll
-C:\GitHub\AmigoDono\AmigoDono.View\bin\Debug\Microsoft.Build.Framework.dll
-C:\GitHub\AmigoDono\AmigoDono.View\bin\Debug\VSLangProj2.dll
-C:\GitHub\AmigoDono\AmigoDono.View\bin\Debug\AmigoDono.Control.pdb
-C:\GitHub\AmigoDono\AmigoDono.View\bin\Debug\AmigoDono.Model.pdb
-C:\GitHub\AmigoDono\AmigoDono.View\bin\Debug\AmigoDono.Model.dll.config
-C:\GitHub\AmigoDono\AmigoDono.View\bin\Debug\EntityFramework.xml
-C:\GitHub\AmigoDono\AmigoDono.View\bin\Debug\Microsoft.VisualStudio.Shell.Immutable.11.0.xml
-C:\GitHub\AmigoDono\AmigoDono.View\bin\Debug\Microsoft.VisualStudio.Shell.Immutable.10.0.xml
-C:\GitHub\AmigoDono\AmigoDono.View\bin\Debug\Microsoft.VisualStudio.Shell.Immutable.14.0.xml
-C:\GitHub\AmigoDono\AmigoDono.View\bin\Debug\Microsoft.VisualStudio.Shell.Immutable.12.0.xml
-C:\GitHub\AmigoDono\AmigoDono.View\bin\Debug\Microsoft.VisualStudio.Designer.Interfaces.xml
-C:\GitHub\AmigoDono\AmigoDono.View\bin\Debug\Microsoft.VisualStudio.TemplateWizardInterface.xml
-C:\GitHub\AmigoDono\AmigoDono.View\bin\Debug\de\Microsoft.ReportViewer.Common.resources.dll
-C:\GitHub\AmigoDono\AmigoDono.View\bin\Debug\es\Microsoft.ReportViewer.Common.resources.dll
-C:\GitHub\AmigoDono\AmigoDono.View\bin\Debug\fr\Microsoft.ReportViewer.Common.resources.dll
-C:\GitHub\AmigoDono\AmigoDono.View\bin\Debug\it\Microsoft.ReportViewer.Common.resources.dll
-C:\GitHub\AmigoDono\AmigoDono.View\bin\Debug\ja\Microsoft.ReportViewer.Common.resources.dll
-C:\GitHub\AmigoDono\AmigoDono.View\bin\Debug\ko\Microsoft.ReportViewer.Common.resources.dll
-C:\GitHub\AmigoDono\AmigoDono.View\bin\Debug\pt\Microsoft.ReportViewer.Common.resources.dll
-C:\GitHub\AmigoDono\AmigoDono.View\bin\Debug\ru\Microsoft.ReportViewer.Common.resources.dll
-C:\GitHub\AmigoDono\AmigoDono.View\bin\Debug\zh-CHS\Microsoft.ReportViewer.Common.resources.dll
-C:\GitHub\AmigoDono\AmigoDono.View\bin\Debug\zh-CHT\Microsoft.ReportViewer.Common.resources.dll
-C:\GitHub\AmigoDono\AmigoDono.View\bin\Debug\de\Microsoft.ReportViewer.DataVisualization.resources.dll
-C:\GitHub\AmigoDono\AmigoDono.View\bin\Debug\es\Microsoft.ReportViewer.DataVisualization.resources.dll
-C:\GitHub\AmigoDono\AmigoDono.View\bin\Debug\fr\Microsoft.ReportViewer.DataVisualization.resources.dll
-C:\GitHub\AmigoDono\AmigoDono.View\bin\Debug\it\Microsoft.ReportViewer.DataVisualization.resources.dll
-C:\GitHub\AmigoDono\AmigoDono.View\bin\Debug\ja\Microsoft.ReportViewer.DataVisualization.resources.dll
-C:\GitHub\AmigoDono\AmigoDono.View\bin\Debug\ko\Microsoft.ReportViewer.DataVisualization.resources.dll
-C:\GitHub\AmigoDono\AmigoDono.View\bin\Debug\pt\Microsoft.ReportViewer.DataVisualization.resources.dll
-C:\GitHub\AmigoDono\AmigoDono.View\bin\Debug\ru\Microsoft.ReportViewer.DataVisualization.resources.dll
-C:\GitHub\AmigoDono\AmigoDono.View\bin\Debug\zh-CHS\Microsoft.ReportViewer.DataVisualization.resources.dll
-C:\GitHub\AmigoDono\AmigoDono.View\bin\Debug\zh-CHT\Microsoft.ReportViewer.DataVisualization.resources.dll
-C:\GitHub\AmigoDono\AmigoDono.View\bin\Debug\de\Microsoft.ReportViewer.Design.resources.dll
-C:\GitHub\AmigoDono\AmigoDono.View\bin\Debug\es\Microsoft.ReportViewer.Design.resources.dll
-C:\GitHub\AmigoDono\AmigoDono.View\bin\Debug\fr\Microsoft.ReportViewer.Design.resources.dll
-C:\GitHub\AmigoDono\AmigoDono.View\bin\Debug\it\Microsoft.ReportViewer.Design.resources.dll
-C:\GitHub\AmigoDono\AmigoDono.View\bin\Debug\ja\Microsoft.ReportViewer.Design.resources.dll
-C:\GitHub\AmigoDono\AmigoDono.View\bin\Debug\ko\Microsoft.ReportViewer.Design.resources.dll
-C:\GitHub\AmigoDono\AmigoDono.View\bin\Debug\pt\Microsoft.ReportViewer.Design.resources.dll
-C:\GitHub\AmigoDono\AmigoDono.View\bin\Debug\ru\Microsoft.ReportViewer.Design.resources.dll
-C:\GitHub\AmigoDono\AmigoDono.View\bin\Debug\zh-CHS\Microsoft.ReportViewer.Design.resources.dll
-C:\GitHub\AmigoDono\AmigoDono.View\bin\Debug\zh-CHT\Microsoft.ReportViewer.Design.resources.dll
-C:\GitHub\AmigoDono\AmigoDono.View\bin\Debug\de\Microsoft.ReportViewer.WinForms.resources.dll
-C:\GitHub\AmigoDono\AmigoDono.View\bin\Debug\es\Microsoft.ReportViewer.WinForms.resources.dll
-C:\GitHub\AmigoDono\AmigoDono.View\bin\Debug\fr\Microsoft.ReportViewer.WinForms.resources.dll
-C:\GitHub\AmigoDono\AmigoDono.View\bin\Debug\it\Microsoft.ReportViewer.WinForms.resources.dll
-C:\GitHub\AmigoDono\AmigoDono.View\bin\Debug\ja\Microsoft.ReportViewer.WinForms.resources.dll
-C:\GitHub\AmigoDono\AmigoDono.View\bin\Debug\ko\Microsoft.ReportViewer.WinForms.resources.dll
-C:\GitHub\AmigoDono\AmigoDono.View\bin\Debug\pt\Microsoft.ReportViewer.WinForms.resources.dll
-C:\GitHub\AmigoDono\AmigoDono.View\bin\Debug\ru\Microsoft.ReportViewer.WinForms.resources.dll
-C:\GitHub\AmigoDono\AmigoDono.View\bin\Debug\zh-CHS\Microsoft.ReportViewer.WinForms.resources.dll
-C:\GitHub\AmigoDono\AmigoDono.View\bin\Debug\zh-CHT\Microsoft.ReportViewer.WinForms.resources.dll
-C:\GitHub\AmigoDono\AmigoDono.View\bin\Debug\pt-BR\Microsoft.VisualStudio.Data.Services.resources.dll
-C:\GitHub\AmigoDono\AmigoDono.View\bin\Debug\pt-BR\Microsoft.VisualStudio.Data.Core.resources.dll
-C:\GitHub\AmigoDono\AmigoDono.View\bin\Debug\pt-BR\Microsoft.VisualStudio.GraphModel.resources.dll
-C:\GitHub\AmigoDono\AmigoDono.View\obj\Debug\AmigoDono.View.csprojAssemblyReference.cache
-C:\GitHub\AmigoDono\AmigoDono.View\obj\Debug\AmigoDono.View.exe.config
-C:\GitHub\AmigoDono\AmigoDono.View\obj\Debug\AmigoDono.View.Properties.Resources.resources
-C:\GitHub\AmigoDono\AmigoDono.View\obj\Debug\AmigoDono.View.TelaBuscarPet.resources
-C:\GitHub\AmigoDono\AmigoDono.View\obj\Debug\AmigoDono.View.TelaCadastroAmigo.resources
-C:\GitHub\AmigoDono\AmigoDono.View\obj\Debug\AmigoDono.View.TelaCadastroPet.resources
-C:\GitHub\AmigoDono\AmigoDono.View\obj\Debug\AmigoDono.View.TelaControle.resources
-C:\GitHub\AmigoDono\AmigoDono.View\obj\Debug\AmigoDono.View.TelaPesquisaControle.resources
-C:\GitHub\AmigoDono\AmigoDono.View\obj\Debug\AmigoDono.View.TelaPesquisaDenuncia.resources
-C:\GitHub\AmigoDono\AmigoDono.View\obj\Debug\AmigoDono.View.TelaPesquisarAmigo.resources
-C:\GitHub\AmigoDono\AmigoDono.View\obj\Debug\AmigoDono.View.TelaPesquisarPet.resources
-C:\GitHub\AmigoDono\AmigoDono.View\obj\Debug\AmigoDono.View.TelaPesquisaTratamento.resources
-C:\GitHub\AmigoDono\AmigoDono.View\obj\Debug\AmigoDono.View.TelaRelatorio.resources
-C:\GitHub\AmigoDono\AmigoDono.View\obj\Debug\AmigoDono.View.TelaTratamento.resources
-C:\GitHub\AmigoDono\AmigoDono.View\obj\Debug\AmigoDono.View.TelaDenuncia.resources
-C:\GitHub\AmigoDono\AmigoDono.View\obj\Debug\AmigoDono.View.TelaLogin.resources
-C:\GitHub\AmigoDono\AmigoDono.View\obj\Debug\AmigoDono.View.TelaPrincipal.resources
-C:\GitHub\AmigoDono\AmigoDono.View\obj\Debug\AmigoDono.View.csproj.GenerateResource.cache
-C:\GitHub\AmigoDono\AmigoDono.View\obj\Debug\AmigoDono.View.csproj.CoreCompileInputs.cache
-C:\GitHub\AmigoDono\AmigoDono.View\obj\Debug\AmigoDono.View.csproj.CopyComplete
-C:\GitHub\AmigoDono\AmigoDono.View\obj\Debug\AmigoDono.View.exe
-C:\GitHub\AmigoDono\AmigoDono.View\obj\Debug\AmigoDono.View.pdb
-C:\GitHub\AmigoDono\AmigoDono\AmigoDono.View\bin\Debug\SqlServerTypes\x64\msvcr120.dll
-C:\GitHub\AmigoDono\AmigoDono\AmigoDono.View\bin\Debug\SqlServerTypes\x64\SqlServerSpatial140.dll
-C:\GitHub\AmigoDono\AmigoDono\AmigoDono.View\bin\Debug\SqlServerTypes\x86\msvcr120.dll
-C:\GitHub\AmigoDono\AmigoDono\AmigoDono.View\bin\Debug\SqlServerTypes\x86\SqlServerSpatial140.dll
-C:\GitHub\AmigoDono\AmigoDono\AmigoDono.View\bin\Debug\AmigoDono.View.exe.config
-C:\GitHub\AmigoDono\AmigoDono\AmigoDono.View\bin\Debug\AmigoDono.View.exe
-C:\GitHub\AmigoDono\AmigoDono\AmigoDono.View\bin\Debug\AmigoDono.View.pdb
-C:\GitHub\AmigoDono\AmigoDono\AmigoDono.View\bin\Debug\AmigoDono.Control.dll
-C:\GitHub\AmigoDono\AmigoDono\AmigoDono.View\bin\Debug\AmigoDono.Model.dll
-C:\GitHub\AmigoDono\AmigoDono\AmigoDono.View\bin\Debug\Microsoft.ReportViewer.Common.dll
-C:\GitHub\AmigoDono\AmigoDono\AmigoDono.View\bin\Debug\Microsoft.ReportViewer.DataVisualization.dll
-C:\GitHub\AmigoDono\AmigoDono\AmigoDono.View\bin\Debug\Microsoft.ReportViewer.Design.dll
-C:\GitHub\AmigoDono\AmigoDono\AmigoDono.View\bin\Debug\Microsoft.ReportViewer.ProcessingObjectModel.dll
-C:\GitHub\AmigoDono\AmigoDono\AmigoDono.View\bin\Debug\Microsoft.ReportViewer.WinForms.dll
-C:\GitHub\AmigoDono\AmigoDono\AmigoDono.View\bin\Debug\Microsoft.SqlServer.Types.dll
-C:\GitHub\AmigoDono\AmigoDono\AmigoDono.View\bin\Debug\EntityFramework.dll
-C:\GitHub\AmigoDono\AmigoDono\AmigoDono.View\bin\Debug\System.Web.Mvc.dll
-C:\GitHub\AmigoDono\AmigoDono\AmigoDono.View\bin\Debug\System.Web.WebPages.dll
-C:\GitHub\AmigoDono\AmigoDono\AmigoDono.View\bin\Debug\EnvDTE.dll
-C:\GitHub\AmigoDono\AmigoDono\AmigoDono.View\bin\Debug\Microsoft.VisualStudio.Shell.Interop.dll
-C:\GitHub\AmigoDono\AmigoDono\AmigoDono.View\bin\Debug\Microsoft.VisualStudio.Shell.Interop.8.0.dll
-C:\GitHub\AmigoDono\AmigoDono\AmigoDono.View\bin\Debug\System.Web.WebPages.Deployment.dll
-C:\GitHub\AmigoDono\AmigoDono\AmigoDono.View\bin\Debug\stdole.dll
-C:\GitHub\AmigoDono\AmigoDono\AmigoDono.View\bin\Debug\Microsoft.VisualStudio.OLE.Interop.dll
-C:\GitHub\AmigoDono\AmigoDono\AmigoDono.View\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.dll
-C:\GitHub\AmigoDono\AmigoDono\AmigoDono.View\bin\Debug\Microsoft.VisualStudio.VSHelp.dll
-C:\GitHub\AmigoDono\AmigoDono\AmigoDono.View\bin\Debug\Microsoft.VisualStudio.Shell.Immutable.11.0.dll
-C:\GitHub\AmigoDono\AmigoDono\AmigoDono.View\bin\Debug\Microsoft.VisualStudio.Shell.Immutable.10.0.dll
-C:\GitHub\AmigoDono\AmigoDono\AmigoDono.View\bin\Debug\Microsoft.VisualStudio.Shell.Immutable.14.0.dll
-C:\GitHub\AmigoDono\AmigoDono\AmigoDono.View\bin\Debug\Microsoft.VisualStudio.Shell.Interop.9.0.dll
-C:\GitHub\AmigoDono\AmigoDono\AmigoDono.View\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.8.0.dll
-C:\GitHub\AmigoDono\AmigoDono\AmigoDono.View\bin\Debug\Microsoft.VisualStudio.ProjectAggregator.dll
-C:\GitHub\AmigoDono\AmigoDono\AmigoDono.View\bin\Debug\Microsoft.VisualStudio.Shell.Immutable.12.0.dll
-C:\GitHub\AmigoDono\AmigoDono\AmigoDono.View\bin\Debug\Microsoft.VisualStudio.ComponentModelHost.dll
-C:\GitHub\AmigoDono\AmigoDono\AmigoDono.View\bin\Debug\Microsoft.VisualStudio.Designer.Interfaces.dll
-C:\GitHub\AmigoDono\AmigoDono\AmigoDono.View\bin\Debug\Microsoft.VisualStudio.TemplateWizardInterface.dll
-C:\GitHub\AmigoDono\AmigoDono\AmigoDono.View\bin\Debug\Microsoft.VisualStudio.Debugger.InteropA.dll
-C:\GitHub\AmigoDono\AmigoDono\AmigoDono.View\bin\Debug\EnvDTE80.dll
-C:\GitHub\AmigoDono\AmigoDono\AmigoDono.View\bin\Debug\Microsoft.Build.Tasks.Core.dll
-C:\GitHub\AmigoDono\AmigoDono\AmigoDono.View\bin\Debug\Microsoft.VisualStudio.Data.Services.dll
-C:\GitHub\AmigoDono\AmigoDono\AmigoDono.View\bin\Debug\VSLangProj.dll
-C:\GitHub\AmigoDono\AmigoDono\AmigoDono.View\bin\Debug\Microsoft.VisualStudio.Shell.Interop.11.0.dll
-C:\GitHub\AmigoDono\AmigoDono\AmigoDono.View\bin\Debug\Microsoft.VisualStudio.Data.Core.dll
-C:\GitHub\AmigoDono\AmigoDono\AmigoDono.View\bin\Debug\Microsoft.VisualStudio.Shell.Interop.10.0.dll
-C:\GitHub\AmigoDono\AmigoDono\AmigoDono.View\bin\Debug\VSLangProj80.dll
-C:\GitHub\AmigoDono\AmigoDono\AmigoDono.View\bin\Debug\Microsoft.VisualStudio.ManagedInterfaces.dll
-C:\GitHub\AmigoDono\AmigoDono\AmigoDono.View\bin\Debug\Microsoft.VisualStudio.WCFReference.Interop.dll
-C:\GitHub\AmigoDono\AmigoDono\AmigoDono.View\bin\Debug\Microsoft.VisualStudio.Debugger.Interop.11.0.dll
-C:\GitHub\AmigoDono\AmigoDono\AmigoDono.View\bin\Debug\Newtonsoft.Json.dll
-C:\GitHub\AmigoDono\AmigoDono\AmigoDono.View\bin\Debug\System.Threading.Tasks.Dataflow.dll
-C:\GitHub\AmigoDono\AmigoDono\AmigoDono.View\bin\Debug\Microsoft.VisualStudio.GraphModel.dll
-C:\GitHub\AmigoDono\AmigoDono\AmigoDono.View\bin\Debug\Microsoft.MSXML.dll
-C:\GitHub\AmigoDono\AmigoDono\AmigoDono.View\bin\Debug\Microsoft.Build.Utilities.Core.dll
-C:\GitHub\AmigoDono\AmigoDono\AmigoDono.View\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.10.0.dll
-C:\GitHub\AmigoDono\AmigoDono\AmigoDono.View\bin\Debug\Microsoft.Build.Framework.dll
-C:\GitHub\AmigoDono\AmigoDono\AmigoDono.View\bin\Debug\VSLangProj2.dll
-C:\GitHub\AmigoDono\AmigoDono\AmigoDono.View\bin\Debug\AmigoDono.Control.pdb
-C:\GitHub\AmigoDono\AmigoDono\AmigoDono.View\bin\Debug\AmigoDono.Model.pdb
-C:\GitHub\AmigoDono\AmigoDono\AmigoDono.View\bin\Debug\AmigoDono.Model.dll.config
-C:\GitHub\AmigoDono\AmigoDono\AmigoDono.View\bin\Debug\EntityFramework.xml
-C:\GitHub\AmigoDono\AmigoDono\AmigoDono.View\bin\Debug\System.Web.Mvc.xml
-C:\GitHub\AmigoDono\AmigoDono\AmigoDono.View\bin\Debug\System.Web.WebPages.xml
-C:\GitHub\AmigoDono\AmigoDono\AmigoDono.View\bin\Debug\System.Web.WebPages.Deployment.xml
-C:\GitHub\AmigoDono\AmigoDono\AmigoDono.View\bin\Debug\Microsoft.VisualStudio.Shell.Immutable.11.0.xml
-C:\GitHub\AmigoDono\AmigoDono\AmigoDono.View\bin\Debug\Microsoft.VisualStudio.Shell.Immutable.10.0.xml
-C:\GitHub\AmigoDono\AmigoDono\AmigoDono.View\bin\Debug\Microsoft.VisualStudio.Shell.Immutable.14.0.xml
-C:\GitHub\AmigoDono\AmigoDono\AmigoDono.View\bin\Debug\Microsoft.VisualStudio.Shell.Immutable.12.0.xml
-C:\GitHub\AmigoDono\AmigoDono\AmigoDono.View\bin\Debug\Microsoft.VisualStudio.Designer.Interfaces.xml
-C:\GitHub\AmigoDono\AmigoDono\AmigoDono.View\bin\Debug\Microsoft.VisualStudio.TemplateWizardInterface.xml
-C:\GitHub\AmigoDono\AmigoDono\AmigoDono.View\bin\Debug\de\Microsoft.ReportViewer.Common.resources.dll
-C:\GitHub\AmigoDono\AmigoDono\AmigoDono.View\bin\Debug\es\Microsoft.ReportViewer.Common.resources.dll
-C:\GitHub\AmigoDono\AmigoDono\AmigoDono.View\bin\Debug\fr\Microsoft.ReportViewer.Common.resources.dll
-C:\GitHub\AmigoDono\AmigoDono\AmigoDono.View\bin\Debug\it\Microsoft.ReportViewer.Common.resources.dll
-C:\GitHub\AmigoDono\AmigoDono\AmigoDono.View\bin\Debug\ja\Microsoft.ReportViewer.Common.resources.dll
-C:\GitHub\AmigoDono\AmigoDono\AmigoDono.View\bin\Debug\ko\Microsoft.ReportViewer.Common.resources.dll
-C:\GitHub\AmigoDono\AmigoDono\AmigoDono.View\bin\Debug\pt\Microsoft.ReportViewer.Common.resources.dll
-C:\GitHub\AmigoDono\AmigoDono\AmigoDono.View\bin\Debug\ru\Microsoft.ReportViewer.Common.resources.dll
-C:\GitHub\AmigoDono\AmigoDono\AmigoDono.View\bin\Debug\zh-CHS\Microsoft.ReportViewer.Common.resources.dll
-C:\GitHub\AmigoDono\AmigoDono\AmigoDono.View\bin\Debug\zh-CHT\Microsoft.ReportViewer.Common.resources.dll
-C:\GitHub\AmigoDono\AmigoDono\AmigoDono.View\bin\Debug\de\Microsoft.ReportViewer.DataVisualization.resources.dll
-C:\GitHub\AmigoDono\AmigoDono\AmigoDono.View\bin\Debug\es\Microsoft.ReportViewer.DataVisualization.resources.dll
-C:\GitHub\AmigoDono\AmigoDono\AmigoDono.View\bin\Debug\fr\Microsoft.ReportViewer.DataVisualization.resources.dll
-C:\GitHub\AmigoDono\AmigoDono\AmigoDono.View\bin\Debug\it\Microsoft.ReportViewer.DataVisualization.resources.dll
-C:\GitHub\AmigoDono\AmigoDono\AmigoDono.View\bin\Debug\ja\Microsoft.ReportViewer.DataVisualization.resources.dll
-C:\GitHub\AmigoDono\AmigoDono\AmigoDono.View\bin\Debug\ko\Microsoft.ReportViewer.DataVisualization.resources.dll
-C:\GitHub\AmigoDono\AmigoDono\AmigoDono.View\bin\Debug\pt\Microsoft.ReportViewer.DataVisualization.resources.dll
-C:\GitHub\AmigoDono\AmigoDono\AmigoDono.View\bin\Debug\ru\Microsoft.ReportViewer.DataVisualization.resources.dll
-C:\GitHub\AmigoDono\AmigoDono\AmigoDono.View\bin\Debug\zh-CHS\Microsoft.ReportViewer.DataVisualization.resources.dll
-C:\GitHub\AmigoDono\AmigoDono\AmigoDono.View\bin\Debug\zh-CHT\Microsoft.ReportViewer.DataVisualization.resources.dll
-C:\GitHub\AmigoDono\AmigoDono\AmigoDono.View\bin\Debug\de\Microsoft.ReportViewer.Design.resources.dll
-C:\GitHub\AmigoDono\AmigoDono\AmigoDono.View\bin\Debug\es\Microsoft.ReportViewer.Design.resources.dll
-C:\GitHub\AmigoDono\AmigoDono\AmigoDono.View\bin\Debug\fr\Microsoft.ReportViewer.Design.resources.dll
-C:\GitHub\AmigoDono\AmigoDono\AmigoDono.View\bin\Debug\it\Microsoft.ReportViewer.Design.resources.dll
-C:\GitHub\AmigoDono\AmigoDono\AmigoDono.View\bin\Debug\ja\Microsoft.ReportViewer.Design.resources.dll
-C:\GitHub\AmigoDono\AmigoDono\AmigoDono.View\bin\Debug\ko\Microsoft.ReportViewer.Design.resources.dll
-C:\GitHub\AmigoDono\AmigoDono\AmigoDono.View\bin\Debug\pt\Microsoft.ReportViewer.Design.resources.dll
-C:\GitHub\AmigoDono\AmigoDono\AmigoDono.View\bin\Debug\ru\Microsoft.ReportViewer.Design.resources.dll
-C:\GitHub\AmigoDono\AmigoDono\AmigoDono.View\bin\Debug\zh-CHS\Microsoft.ReportViewer.Design.resources.dll
-C:\GitHub\AmigoDono\AmigoDono\AmigoDono.View\bin\Debug\zh-CHT\Microsoft.ReportViewer.Design.resources.dll
-C:\GitHub\AmigoDono\AmigoDono\AmigoDono.View\bin\Debug\de\Microsoft.ReportViewer.WinForms.resources.dll
-C:\GitHub\AmigoDono\AmigoDono\AmigoDono.View\bin\Debug\es\Microsoft.ReportViewer.WinForms.resources.dll
-C:\GitHub\AmigoDono\AmigoDono\AmigoDono.View\bin\Debug\fr\Microsoft.ReportViewer.WinForms.resources.dll
-C:\GitHub\AmigoDono\AmigoDono\AmigoDono.View\bin\Debug\it\Microsoft.ReportViewer.WinForms.resources.dll
-C:\GitHub\AmigoDono\AmigoDono\AmigoDono.View\bin\Debug\ja\Microsoft.ReportViewer.WinForms.resources.dll
-C:\GitHub\AmigoDono\AmigoDono\AmigoDono.View\bin\Debug\ko\Microsoft.ReportViewer.WinForms.resources.dll
-C:\GitHub\AmigoDono\AmigoDono\AmigoDono.View\bin\Debug\pt\Microsoft.ReportViewer.WinForms.resources.dll
-C:\GitHub\AmigoDono\AmigoDono\AmigoDono.View\bin\Debug\ru\Microsoft.ReportViewer.WinForms.resources.dll
-C:\GitHub\AmigoDono\AmigoDono\AmigoDono.View\bin\Debug\zh-CHS\Microsoft.ReportViewer.WinForms.resources.dll
-C:\GitHub\AmigoDono\AmigoDono\AmigoDono.View\bin\Debug\zh-CHT\Microsoft.ReportViewer.WinForms.resources.dll
-C:\GitHub\AmigoDono\AmigoDono\AmigoDono.View\bin\Debug\pt-BR\Microsoft.VisualStudio.Data.Services.resources.dll
-C:\GitHub\AmigoDono\AmigoDono\AmigoDono.View\bin\Debug\pt-BR\Microsoft.VisualStudio.Data.Core.resources.dll
-C:\GitHub\AmigoDono\AmigoDono\AmigoDono.View\bin\Debug\pt-BR\Microsoft.VisualStudio.GraphModel.resources.dll
-C:\GitHub\AmigoDono\AmigoDono\AmigoDono.View\obj\Debug\AmigoDono.View.csprojAssemblyReference.cache
-C:\GitHub\AmigoDono\AmigoDono\AmigoDono.View\obj\Debug\AmigoDono.View.exe.config
-C:\GitHub\AmigoDono\AmigoDono\AmigoDono.View\obj\Debug\AmigoDono.View.Properties.Resources.resources
-C:\GitHub\AmigoDono\AmigoDono\AmigoDono.View\obj\Debug\AmigoDono.View.TelaBuscarPet.resources
-C:\GitHub\AmigoDono\AmigoDono\AmigoDono.View\obj\Debug\AmigoDono.View.TelaCadastroAmigo.resources
-C:\GitHub\AmigoDono\AmigoDono\AmigoDono.View\obj\Debug\AmigoDono.View.TelaCadastroPet.resources
-C:\GitHub\AmigoDono\AmigoDono\AmigoDono.View\obj\Debug\AmigoDono.View.TelaControle.resources
-C:\GitHub\AmigoDono\AmigoDono\AmigoDono.View\obj\Debug\AmigoDono.View.TelaPesquisaControle.resources
-C:\GitHub\AmigoDono\AmigoDono\AmigoDono.View\obj\Debug\AmigoDono.View.TelaPesquisaDenuncia.resources
-C:\GitHub\AmigoDono\AmigoDono\AmigoDono.View\obj\Debug\AmigoDono.View.TelaPesquisarAmigo.resources
-C:\GitHub\AmigoDono\AmigoDono\AmigoDono.View\obj\Debug\AmigoDono.View.TelaPesquisarPet.resources
-C:\GitHub\AmigoDono\AmigoDono\AmigoDono.View\obj\Debug\AmigoDono.View.TelaPesquisaTratamento.resources
-C:\GitHub\AmigoDono\AmigoDono\AmigoDono.View\obj\Debug\AmigoDono.View.TelaRelatorio.resources
-C:\GitHub\AmigoDono\AmigoDono\AmigoDono.View\obj\Debug\AmigoDono.View.TelaTratamento.resources
-C:\GitHub\AmigoDono\AmigoDono\AmigoDono.View\obj\Debug\AmigoDono.View.TelaDenuncia.resources
-C:\GitHub\AmigoDono\AmigoDono\AmigoDono.View\obj\Debug\AmigoDono.View.TelaLogin.resources
-C:\GitHub\AmigoDono\AmigoDono\AmigoDono.View\obj\Debug\AmigoDono.View.TelaPrincipal.resources
-C:\GitHub\AmigoDono\AmigoDono\AmigoDono.View\obj\Debug\AmigoDono.View.csproj.GenerateResource.cache
-C:\GitHub\AmigoDono\AmigoDono\AmigoDono.View\obj\Debug\AmigoDono.View.csproj.CoreCompileInputs.cache
-C:\GitHub\AmigoDono\AmigoDono\AmigoDono.View\obj\Debug\AmigoDono.View.csproj.CopyComplete
-C:\GitHub\AmigoDono\AmigoDono\AmigoDono.View\obj\Debug\AmigoDono.View.exe
-C:\GitHub\AmigoDono\AmigoDono\AmigoDono.View\obj\Debug\AmigoDono.View.pdb
+C:\Amigo_do_Dono\Atual2\Atual1\Atual1\Atual\AmigoDono1\AmigoDono.View\obj\Debug\AmigoDono.View.csprojAssemblyReference.cache
+C:\Amigo_do_Dono\Atual2\Atual1\Atual1\Atual\AmigoDono1\AmigoDono.View\obj\Debug\AmigoDono.View.exe.config
+C:\Amigo_do_Dono\Atual2\Atual1\Atual1\Atual\AmigoDono1\AmigoDono.View\obj\Debug\AmigoDono.View.Properties.Resources.resources
+C:\Amigo_do_Dono\Atual2\Atual1\Atual1\Atual\AmigoDono1\AmigoDono.View\obj\Debug\AmigoDono.View.TelaBuscarPet.resources
+C:\Amigo_do_Dono\Atual2\Atual1\Atual1\Atual\AmigoDono1\AmigoDono.View\obj\Debug\AmigoDono.View.TelaCadastroAmigo.resources
+C:\Amigo_do_Dono\Atual2\Atual1\Atual1\Atual\AmigoDono1\AmigoDono.View\obj\Debug\AmigoDono.View.TelaCadastroPet.resources
+C:\Amigo_do_Dono\Atual2\Atual1\Atual1\Atual\AmigoDono1\AmigoDono.View\obj\Debug\AmigoDono.View.TelaControle.resources
+C:\Amigo_do_Dono\Atual2\Atual1\Atual1\Atual\AmigoDono1\AmigoDono.View\obj\Debug\AmigoDono.View.TelaPesquisaControle.resources
+C:\Amigo_do_Dono\Atual2\Atual1\Atual1\Atual\AmigoDono1\AmigoDono.View\obj\Debug\AmigoDono.View.TelaPesquisaDenuncia.resources
+C:\Amigo_do_Dono\Atual2\Atual1\Atual1\Atual\AmigoDono1\AmigoDono.View\obj\Debug\AmigoDono.View.TelaPesquisarAmigo.resources
+C:\Amigo_do_Dono\Atual2\Atual1\Atual1\Atual\AmigoDono1\AmigoDono.View\obj\Debug\AmigoDono.View.TelaPesquisarPet.resources
+C:\Amigo_do_Dono\Atual2\Atual1\Atual1\Atual\AmigoDono1\AmigoDono.View\obj\Debug\AmigoDono.View.TelaPesquisaTratamento.resources
+C:\Amigo_do_Dono\Atual2\Atual1\Atual1\Atual\AmigoDono1\AmigoDono.View\obj\Debug\AmigoDono.View.TelaRelatorio.resources
+C:\Amigo_do_Dono\Atual2\Atual1\Atual1\Atual\AmigoDono1\AmigoDono.View\obj\Debug\AmigoDono.View.TelaTratamento.resources
+C:\Amigo_do_Dono\Atual2\Atual1\Atual1\Atual\AmigoDono1\AmigoDono.View\obj\Debug\AmigoDono.View.TelaDenuncia.resources
+C:\Amigo_do_Dono\Atual2\Atual1\Atual1\Atual\AmigoDono1\AmigoDono.View\obj\Debug\AmigoDono.View.TelaLogin.resources
+C:\Amigo_do_Dono\Atual2\Atual1\Atual1\Atual\AmigoDono1\AmigoDono.View\obj\Debug\AmigoDono.View.TelaPrincipal.resources
+C:\Amigo_do_Dono\Atual2\Atual1\Atual1\Atual\AmigoDono1\AmigoDono.View\obj\Debug\AmigoDono.View.csproj.GenerateResource.cache
+C:\Amigo_do_Dono\Atual2\Atual1\Atual1\Atual\AmigoDono1\AmigoDono.View\obj\Debug\AmigoDono.View.csproj.CoreCompileInputs.cache
+C:\Amigo_do_Dono\Atual2\Atual1\Atual1\Atual\AmigoDono1\AmigoDono.View\obj\Debug\AmigoDono.View.exe
+C:\Amigo_do_Dono\Atual2\Atual1\Atual1\Atual\AmigoDono1\AmigoDono.View\obj\Debug\AmigoDono.View.pdb
+C:\Amigo_do_Dono\Atual2\Atual1\Atual1\Atual\AmigoDono1\AmigoDono.View\bin\Debug\SqlServerTypes\x64\msvcr120.dll
+C:\Amigo_do_Dono\Atual2\Atual1\Atual1\Atual\AmigoDono1\AmigoDono.View\bin\Debug\SqlServerTypes\x64\SqlServerSpatial140.dll
+C:\Amigo_do_Dono\Atual2\Atual1\Atual1\Atual\AmigoDono1\AmigoDono.View\bin\Debug\SqlServerTypes\x86\msvcr120.dll
+C:\Amigo_do_Dono\Atual2\Atual1\Atual1\Atual\AmigoDono1\AmigoDono.View\bin\Debug\SqlServerTypes\x86\SqlServerSpatial140.dll
+C:\Amigo_do_Dono\Atual2\Atual1\Atual1\Atual\AmigoDono1\AmigoDono.View\bin\Debug\AmigoDono.View.exe.config
+C:\Amigo_do_Dono\Atual2\Atual1\Atual1\Atual\AmigoDono1\AmigoDono.View\bin\Debug\AmigoDono.View.exe
+C:\Amigo_do_Dono\Atual2\Atual1\Atual1\Atual\AmigoDono1\AmigoDono.View\bin\Debug\AmigoDono.View.pdb
+C:\Amigo_do_Dono\Atual2\Atual1\Atual1\Atual\AmigoDono1\AmigoDono.View\bin\Debug\AmigoDono.Control.dll
+C:\Amigo_do_Dono\Atual2\Atual1\Atual1\Atual\AmigoDono1\AmigoDono.View\bin\Debug\AmigoDono.Model.dll
+C:\Amigo_do_Dono\Atual2\Atual1\Atual1\Atual\AmigoDono1\AmigoDono.View\bin\Debug\Microsoft.ReportViewer.Common.dll
+C:\Amigo_do_Dono\Atual2\Atual1\Atual1\Atual\AmigoDono1\AmigoDono.View\bin\Debug\Microsoft.ReportViewer.DataVisualization.dll
+C:\Amigo_do_Dono\Atual2\Atual1\Atual1\Atual\AmigoDono1\AmigoDono.View\bin\Debug\Microsoft.ReportViewer.Design.dll
+C:\Amigo_do_Dono\Atual2\Atual1\Atual1\Atual\AmigoDono1\AmigoDono.View\bin\Debug\Microsoft.ReportViewer.ProcessingObjectModel.dll
+C:\Amigo_do_Dono\Atual2\Atual1\Atual1\Atual\AmigoDono1\AmigoDono.View\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+C:\Amigo_do_Dono\Atual2\Atual1\Atual1\Atual\AmigoDono1\AmigoDono.View\bin\Debug\Microsoft.SqlServer.Types.dll
+C:\Amigo_do_Dono\Atual2\Atual1\Atual1\Atual\AmigoDono1\AmigoDono.View\bin\Debug\EntityFramework.dll
+C:\Amigo_do_Dono\Atual2\Atual1\Atual1\Atual\AmigoDono1\AmigoDono.View\bin\Debug\CrystalDecisions.ReportAppServer.DataDefModel.dll
+C:\Amigo_do_Dono\Atual2\Atual1\Atual1\Atual\AmigoDono1\AmigoDono.View\bin\Debug\CrystalDecisions.ReportAppServer.ClientDoc.dll
+C:\Amigo_do_Dono\Atual2\Atual1\Atual1\Atual\AmigoDono1\AmigoDono.View\bin\Debug\CrystalDecisions.ReportAppServer.ReportDefModel.dll
+C:\Amigo_do_Dono\Atual2\Atual1\Atual1\Atual\AmigoDono1\AmigoDono.View\bin\Debug\CrystalDecisions.ReportAppServer.Controllers.dll
+C:\Amigo_do_Dono\Atual2\Atual1\Atual1\Atual\AmigoDono1\AmigoDono.View\bin\Debug\CrystalDecisions.ReportAppServer.CommLayer.dll
+C:\Amigo_do_Dono\Atual2\Atual1\Atual1\Atual\AmigoDono1\AmigoDono.View\bin\Debug\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+C:\Amigo_do_Dono\Atual2\Atual1\Atual1\Atual\AmigoDono1\AmigoDono.View\bin\Debug\CrystalDecisions.ReportAppServer.Prompting.dll
+C:\Amigo_do_Dono\Atual2\Atual1\Atual1\Atual\AmigoDono1\AmigoDono.View\bin\Debug\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+C:\Amigo_do_Dono\Atual2\Atual1\Atual1\Atual\AmigoDono1\AmigoDono.View\bin\Debug\CrystalDecisions.ReportAppServer.CubeDefModel.dll
+C:\Amigo_do_Dono\Atual2\Atual1\Atual1\Atual\AmigoDono1\AmigoDono.View\bin\Debug\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
+C:\Amigo_do_Dono\Atual2\Atual1\Atual1\Atual\AmigoDono1\AmigoDono.View\bin\Debug\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+C:\Amigo_do_Dono\Atual2\Atual1\Atual1\Atual\AmigoDono1\AmigoDono.View\bin\Debug\EnvDTE.dll
+C:\Amigo_do_Dono\Atual2\Atual1\Atual1\Atual\AmigoDono1\AmigoDono.View\bin\Debug\Microsoft.VisualStudio.Shell.Interop.dll
+C:\Amigo_do_Dono\Atual2\Atual1\Atual1\Atual\AmigoDono1\AmigoDono.View\bin\Debug\Microsoft.VisualStudio.Shell.Interop.8.0.dll
+C:\Amigo_do_Dono\Atual2\Atual1\Atual1\Atual\AmigoDono1\AmigoDono.View\bin\Debug\CrystalDecisions.ReportAppServer.CommonControls.dll
+C:\Amigo_do_Dono\Atual2\Atual1\Atual1\Atual\AmigoDono1\AmigoDono.View\bin\Debug\stdole.dll
+C:\Amigo_do_Dono\Atual2\Atual1\Atual1\Atual\AmigoDono1\AmigoDono.View\bin\Debug\Microsoft.VisualStudio.OLE.Interop.dll
+C:\Amigo_do_Dono\Atual2\Atual1\Atual1\Atual\AmigoDono1\AmigoDono.View\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.dll
+C:\Amigo_do_Dono\Atual2\Atual1\Atual1\Atual\AmigoDono1\AmigoDono.View\bin\Debug\Microsoft.VisualStudio.VSHelp.dll
+C:\Amigo_do_Dono\Atual2\Atual1\Atual1\Atual\AmigoDono1\AmigoDono.View\bin\Debug\Microsoft.VisualStudio.Shell.Interop.9.0.dll
+C:\Amigo_do_Dono\Atual2\Atual1\Atual1\Atual\AmigoDono1\AmigoDono.View\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.8.0.dll
+C:\Amigo_do_Dono\Atual2\Atual1\Atual1\Atual\AmigoDono1\AmigoDono.View\bin\Debug\Microsoft.VisualStudio.ProjectAggregator.dll
+C:\Amigo_do_Dono\Atual2\Atual1\Atual1\Atual\AmigoDono1\AmigoDono.View\bin\Debug\Microsoft.VisualStudio.ComponentModelHost.dll
+C:\Amigo_do_Dono\Atual2\Atual1\Atual1\Atual\AmigoDono1\AmigoDono.View\bin\Debug\Microsoft.VisualStudio.TemplateWizardInterface.dll
+C:\Amigo_do_Dono\Atual2\Atual1\Atual1\Atual\AmigoDono1\AmigoDono.View\bin\Debug\Microsoft.VisualStudio.Debugger.InteropA.dll
+C:\Amigo_do_Dono\Atual2\Atual1\Atual1\Atual\AmigoDono1\AmigoDono.View\bin\Debug\EnvDTE80.dll
+C:\Amigo_do_Dono\Atual2\Atual1\Atual1\Atual\AmigoDono1\AmigoDono.View\bin\Debug\Microsoft.Build.Tasks.Core.dll
+C:\Amigo_do_Dono\Atual2\Atual1\Atual1\Atual\AmigoDono1\AmigoDono.View\bin\Debug\Microsoft.VisualStudio.Data.Services.dll
+C:\Amigo_do_Dono\Atual2\Atual1\Atual1\Atual\AmigoDono1\AmigoDono.View\bin\Debug\VSLangProj.dll
+C:\Amigo_do_Dono\Atual2\Atual1\Atual1\Atual\AmigoDono1\AmigoDono.View\bin\Debug\Microsoft.VisualStudio.Shell.Interop.11.0.dll
+C:\Amigo_do_Dono\Atual2\Atual1\Atual1\Atual\AmigoDono1\AmigoDono.View\bin\Debug\Microsoft.VisualStudio.Data.Core.dll
+C:\Amigo_do_Dono\Atual2\Atual1\Atual1\Atual\AmigoDono1\AmigoDono.View\bin\Debug\Microsoft.VisualStudio.Shell.Interop.10.0.dll
+C:\Amigo_do_Dono\Atual2\Atual1\Atual1\Atual\AmigoDono1\AmigoDono.View\bin\Debug\VSLangProj80.dll
+C:\Amigo_do_Dono\Atual2\Atual1\Atual1\Atual\AmigoDono1\AmigoDono.View\bin\Debug\Microsoft.VisualStudio.ManagedInterfaces.dll
+C:\Amigo_do_Dono\Atual2\Atual1\Atual1\Atual\AmigoDono1\AmigoDono.View\bin\Debug\Microsoft.VisualStudio.WCFReference.Interop.dll
+C:\Amigo_do_Dono\Atual2\Atual1\Atual1\Atual\AmigoDono1\AmigoDono.View\bin\Debug\Microsoft.VisualStudio.Debugger.Interop.11.0.dll
+C:\Amigo_do_Dono\Atual2\Atual1\Atual1\Atual\AmigoDono1\AmigoDono.View\bin\Debug\Newtonsoft.Json.dll
+C:\Amigo_do_Dono\Atual2\Atual1\Atual1\Atual\AmigoDono1\AmigoDono.View\bin\Debug\System.Threading.Tasks.Dataflow.dll
+C:\Amigo_do_Dono\Atual2\Atual1\Atual1\Atual\AmigoDono1\AmigoDono.View\bin\Debug\Microsoft.VisualStudio.GraphModel.dll
+C:\Amigo_do_Dono\Atual2\Atual1\Atual1\Atual\AmigoDono1\AmigoDono.View\bin\Debug\Microsoft.MSXML.dll
+C:\Amigo_do_Dono\Atual2\Atual1\Atual1\Atual\AmigoDono1\AmigoDono.View\bin\Debug\Microsoft.Build.Utilities.Core.dll
+C:\Amigo_do_Dono\Atual2\Atual1\Atual1\Atual\AmigoDono1\AmigoDono.View\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.10.0.dll
+C:\Amigo_do_Dono\Atual2\Atual1\Atual1\Atual\AmigoDono1\AmigoDono.View\bin\Debug\Microsoft.Build.Framework.dll
+C:\Amigo_do_Dono\Atual2\Atual1\Atual1\Atual\AmigoDono1\AmigoDono.View\bin\Debug\VSLangProj2.dll
+C:\Amigo_do_Dono\Atual2\Atual1\Atual1\Atual\AmigoDono1\AmigoDono.View\bin\Debug\AmigoDono.Control.pdb
+C:\Amigo_do_Dono\Atual2\Atual1\Atual1\Atual\AmigoDono1\AmigoDono.View\bin\Debug\AmigoDono.Model.pdb
+C:\Amigo_do_Dono\Atual2\Atual1\Atual1\Atual\AmigoDono1\AmigoDono.View\bin\Debug\AmigoDono.Model.dll.config
+C:\Amigo_do_Dono\Atual2\Atual1\Atual1\Atual\AmigoDono1\AmigoDono.View\bin\Debug\EntityFramework.xml
+C:\Amigo_do_Dono\Atual2\Atual1\Atual1\Atual\AmigoDono1\AmigoDono.View\bin\Debug\Microsoft.VisualStudio.TemplateWizardInterface.xml
+C:\Amigo_do_Dono\Atual2\Atual1\Atual1\Atual\AmigoDono1\AmigoDono.View\bin\Debug\de\Microsoft.ReportViewer.Common.resources.dll
+C:\Amigo_do_Dono\Atual2\Atual1\Atual1\Atual\AmigoDono1\AmigoDono.View\bin\Debug\es\Microsoft.ReportViewer.Common.resources.dll
+C:\Amigo_do_Dono\Atual2\Atual1\Atual1\Atual\AmigoDono1\AmigoDono.View\bin\Debug\fr\Microsoft.ReportViewer.Common.resources.dll
+C:\Amigo_do_Dono\Atual2\Atual1\Atual1\Atual\AmigoDono1\AmigoDono.View\bin\Debug\it\Microsoft.ReportViewer.Common.resources.dll
+C:\Amigo_do_Dono\Atual2\Atual1\Atual1\Atual\AmigoDono1\AmigoDono.View\bin\Debug\ja\Microsoft.ReportViewer.Common.resources.dll
+C:\Amigo_do_Dono\Atual2\Atual1\Atual1\Atual\AmigoDono1\AmigoDono.View\bin\Debug\ko\Microsoft.ReportViewer.Common.resources.dll
+C:\Amigo_do_Dono\Atual2\Atual1\Atual1\Atual\AmigoDono1\AmigoDono.View\bin\Debug\pt\Microsoft.ReportViewer.Common.resources.dll
+C:\Amigo_do_Dono\Atual2\Atual1\Atual1\Atual\AmigoDono1\AmigoDono.View\bin\Debug\ru\Microsoft.ReportViewer.Common.resources.dll
+C:\Amigo_do_Dono\Atual2\Atual1\Atual1\Atual\AmigoDono1\AmigoDono.View\bin\Debug\zh-CHS\Microsoft.ReportViewer.Common.resources.dll
+C:\Amigo_do_Dono\Atual2\Atual1\Atual1\Atual\AmigoDono1\AmigoDono.View\bin\Debug\zh-CHT\Microsoft.ReportViewer.Common.resources.dll
+C:\Amigo_do_Dono\Atual2\Atual1\Atual1\Atual\AmigoDono1\AmigoDono.View\bin\Debug\de\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Amigo_do_Dono\Atual2\Atual1\Atual1\Atual\AmigoDono1\AmigoDono.View\bin\Debug\es\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Amigo_do_Dono\Atual2\Atual1\Atual1\Atual\AmigoDono1\AmigoDono.View\bin\Debug\fr\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Amigo_do_Dono\Atual2\Atual1\Atual1\Atual\AmigoDono1\AmigoDono.View\bin\Debug\it\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Amigo_do_Dono\Atual2\Atual1\Atual1\Atual\AmigoDono1\AmigoDono.View\bin\Debug\ja\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Amigo_do_Dono\Atual2\Atual1\Atual1\Atual\AmigoDono1\AmigoDono.View\bin\Debug\ko\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Amigo_do_Dono\Atual2\Atual1\Atual1\Atual\AmigoDono1\AmigoDono.View\bin\Debug\pt\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Amigo_do_Dono\Atual2\Atual1\Atual1\Atual\AmigoDono1\AmigoDono.View\bin\Debug\ru\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Amigo_do_Dono\Atual2\Atual1\Atual1\Atual\AmigoDono1\AmigoDono.View\bin\Debug\zh-CHS\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Amigo_do_Dono\Atual2\Atual1\Atual1\Atual\AmigoDono1\AmigoDono.View\bin\Debug\zh-CHT\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Amigo_do_Dono\Atual2\Atual1\Atual1\Atual\AmigoDono1\AmigoDono.View\bin\Debug\de\Microsoft.ReportViewer.Design.resources.dll
+C:\Amigo_do_Dono\Atual2\Atual1\Atual1\Atual\AmigoDono1\AmigoDono.View\bin\Debug\es\Microsoft.ReportViewer.Design.resources.dll
+C:\Amigo_do_Dono\Atual2\Atual1\Atual1\Atual\AmigoDono1\AmigoDono.View\bin\Debug\fr\Microsoft.ReportViewer.Design.resources.dll
+C:\Amigo_do_Dono\Atual2\Atual1\Atual1\Atual\AmigoDono1\AmigoDono.View\bin\Debug\it\Microsoft.ReportViewer.Design.resources.dll
+C:\Amigo_do_Dono\Atual2\Atual1\Atual1\Atual\AmigoDono1\AmigoDono.View\bin\Debug\ja\Microsoft.ReportViewer.Design.resources.dll
+C:\Amigo_do_Dono\Atual2\Atual1\Atual1\Atual\AmigoDono1\AmigoDono.View\bin\Debug\ko\Microsoft.ReportViewer.Design.resources.dll
+C:\Amigo_do_Dono\Atual2\Atual1\Atual1\Atual\AmigoDono1\AmigoDono.View\bin\Debug\pt\Microsoft.ReportViewer.Design.resources.dll
+C:\Amigo_do_Dono\Atual2\Atual1\Atual1\Atual\AmigoDono1\AmigoDono.View\bin\Debug\ru\Microsoft.ReportViewer.Design.resources.dll
+C:\Amigo_do_Dono\Atual2\Atual1\Atual1\Atual\AmigoDono1\AmigoDono.View\bin\Debug\zh-CHS\Microsoft.ReportViewer.Design.resources.dll
+C:\Amigo_do_Dono\Atual2\Atual1\Atual1\Atual\AmigoDono1\AmigoDono.View\bin\Debug\zh-CHT\Microsoft.ReportViewer.Design.resources.dll
+C:\Amigo_do_Dono\Atual2\Atual1\Atual1\Atual\AmigoDono1\AmigoDono.View\bin\Debug\de\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Amigo_do_Dono\Atual2\Atual1\Atual1\Atual\AmigoDono1\AmigoDono.View\bin\Debug\es\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Amigo_do_Dono\Atual2\Atual1\Atual1\Atual\AmigoDono1\AmigoDono.View\bin\Debug\fr\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Amigo_do_Dono\Atual2\Atual1\Atual1\Atual\AmigoDono1\AmigoDono.View\bin\Debug\it\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Amigo_do_Dono\Atual2\Atual1\Atual1\Atual\AmigoDono1\AmigoDono.View\bin\Debug\ja\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Amigo_do_Dono\Atual2\Atual1\Atual1\Atual\AmigoDono1\AmigoDono.View\bin\Debug\ko\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Amigo_do_Dono\Atual2\Atual1\Atual1\Atual\AmigoDono1\AmigoDono.View\bin\Debug\pt\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Amigo_do_Dono\Atual2\Atual1\Atual1\Atual\AmigoDono1\AmigoDono.View\bin\Debug\ru\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Amigo_do_Dono\Atual2\Atual1\Atual1\Atual\AmigoDono1\AmigoDono.View\bin\Debug\zh-CHS\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Amigo_do_Dono\Atual2\Atual1\Atual1\Atual\AmigoDono1\AmigoDono.View\bin\Debug\zh-CHT\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Amigo_do_Dono\Atual2\Atual1\Atual1\Atual\AmigoDono1\AmigoDono.View\bin\Debug\pt-BR\Microsoft.VisualStudio.Data.Services.resources.dll
+C:\Amigo_do_Dono\Atual2\Atual1\Atual1\Atual\AmigoDono1\AmigoDono.View\bin\Debug\pt-BR\Microsoft.VisualStudio.Data.Core.resources.dll
+C:\Amigo_do_Dono\Atual2\Atual1\Atual1\Atual\AmigoDono1\AmigoDono.View\bin\Debug\pt-BR\Microsoft.VisualStudio.GraphModel.resources.dll
+C:\Amigo_do_Dono\Atual2\Atual1\Atual1\Atual\AmigoDono1\AmigoDono.View\obj\Debug\AmigoDono.View.csproj.CopyComplete
+C:\Amigo_do_Dono\AmigoDono-master\AmigoDono.View\obj\Debug\AmigoDono.View.csprojAssemblyReference.cache
+C:\Amigo_do_Dono\AmigoDono-master\AmigoDono.View\obj\Debug\AmigoDono.View.exe.config
+C:\Amigo_do_Dono\AmigoDono-master\AmigoDono.View\obj\Debug\AmigoDono.View.Properties.Resources.resources
+C:\Amigo_do_Dono\AmigoDono-master\AmigoDono.View\obj\Debug\AmigoDono.View.TelaBuscarPet.resources
+C:\Amigo_do_Dono\AmigoDono-master\AmigoDono.View\obj\Debug\AmigoDono.View.TelaCadastroAmigo.resources
+C:\Amigo_do_Dono\AmigoDono-master\AmigoDono.View\obj\Debug\AmigoDono.View.TelaCadastroPet.resources
+C:\Amigo_do_Dono\AmigoDono-master\AmigoDono.View\obj\Debug\AmigoDono.View.TelaControle.resources
+C:\Amigo_do_Dono\AmigoDono-master\AmigoDono.View\obj\Debug\AmigoDono.View.TelaPesquisaControle.resources
+C:\Amigo_do_Dono\AmigoDono-master\AmigoDono.View\obj\Debug\AmigoDono.View.TelaPesquisaDenuncia.resources
+C:\Amigo_do_Dono\AmigoDono-master\AmigoDono.View\obj\Debug\AmigoDono.View.TelaPesquisarAmigo.resources
+C:\Amigo_do_Dono\AmigoDono-master\AmigoDono.View\obj\Debug\AmigoDono.View.TelaPesquisarPet.resources
+C:\Amigo_do_Dono\AmigoDono-master\AmigoDono.View\obj\Debug\AmigoDono.View.TelaPesquisaTratamento.resources
+C:\Amigo_do_Dono\AmigoDono-master\AmigoDono.View\obj\Debug\AmigoDono.View.TelaRelatorio.resources
+C:\Amigo_do_Dono\AmigoDono-master\AmigoDono.View\obj\Debug\AmigoDono.View.TelaTipoTratamento.resources
+C:\Amigo_do_Dono\AmigoDono-master\AmigoDono.View\obj\Debug\AmigoDono.View.TelaTratamento.resources
+C:\Amigo_do_Dono\AmigoDono-master\AmigoDono.View\obj\Debug\AmigoDono.View.TelaDenuncia.resources
+C:\Amigo_do_Dono\AmigoDono-master\AmigoDono.View\obj\Debug\AmigoDono.View.TelaLogin.resources
+C:\Amigo_do_Dono\AmigoDono-master\AmigoDono.View\obj\Debug\AmigoDono.View.TelaPrincipal.resources
+C:\Amigo_do_Dono\AmigoDono-master\AmigoDono.View\obj\Debug\AmigoDono.View.csproj.GenerateResource.cache
+C:\Amigo_do_Dono\AmigoDono-master\AmigoDono.View\obj\Debug\AmigoDono.View.csproj.CoreCompileInputs.cache
+C:\Users\rafin\Documents\Desktop\AmigoDono-master\AmigoDono-master\AmigoDono.View\bin\Debug\SqlServerTypes\x64\msvcr120.dll
+C:\Users\rafin\Documents\Desktop\AmigoDono-master\AmigoDono-master\AmigoDono.View\bin\Debug\SqlServerTypes\x64\SqlServerSpatial140.dll
+C:\Users\rafin\Documents\Desktop\AmigoDono-master\AmigoDono-master\AmigoDono.View\bin\Debug\SqlServerTypes\x86\msvcr120.dll
+C:\Users\rafin\Documents\Desktop\AmigoDono-master\AmigoDono-master\AmigoDono.View\bin\Debug\SqlServerTypes\x86\SqlServerSpatial140.dll
+C:\Users\rafin\Documents\Desktop\AmigoDono-master\AmigoDono-master\AmigoDono.View\bin\Debug\AmigoDono.View.exe.config
+C:\Users\rafin\Documents\Desktop\AmigoDono-master\AmigoDono-master\AmigoDono.View\bin\Debug\AmigoDono.View.exe
+C:\Users\rafin\Documents\Desktop\AmigoDono-master\AmigoDono-master\AmigoDono.View\bin\Debug\AmigoDono.View.pdb
+C:\Users\rafin\Documents\Desktop\AmigoDono-master\AmigoDono-master\AmigoDono.View\bin\Debug\AmigoDono.Control.dll
+C:\Users\rafin\Documents\Desktop\AmigoDono-master\AmigoDono-master\AmigoDono.View\bin\Debug\AmigoDono.Model.dll
+C:\Users\rafin\Documents\Desktop\AmigoDono-master\AmigoDono-master\AmigoDono.View\bin\Debug\Microsoft.ReportViewer.Common.dll
+C:\Users\rafin\Documents\Desktop\AmigoDono-master\AmigoDono-master\AmigoDono.View\bin\Debug\Microsoft.ReportViewer.DataVisualization.dll
+C:\Users\rafin\Documents\Desktop\AmigoDono-master\AmigoDono-master\AmigoDono.View\bin\Debug\Microsoft.ReportViewer.Design.dll
+C:\Users\rafin\Documents\Desktop\AmigoDono-master\AmigoDono-master\AmigoDono.View\bin\Debug\Microsoft.ReportViewer.ProcessingObjectModel.dll
+C:\Users\rafin\Documents\Desktop\AmigoDono-master\AmigoDono-master\AmigoDono.View\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+C:\Users\rafin\Documents\Desktop\AmigoDono-master\AmigoDono-master\AmigoDono.View\bin\Debug\Microsoft.SqlServer.Types.dll
+C:\Users\rafin\Documents\Desktop\AmigoDono-master\AmigoDono-master\AmigoDono.View\bin\Debug\EntityFramework.dll
+C:\Users\rafin\Documents\Desktop\AmigoDono-master\AmigoDono-master\AmigoDono.View\bin\Debug\EnvDTE.dll
+C:\Users\rafin\Documents\Desktop\AmigoDono-master\AmigoDono-master\AmigoDono.View\bin\Debug\Microsoft.VisualStudio.Shell.Interop.dll
+C:\Users\rafin\Documents\Desktop\AmigoDono-master\AmigoDono-master\AmigoDono.View\bin\Debug\Microsoft.VisualStudio.Shell.Interop.8.0.dll
+C:\Users\rafin\Documents\Desktop\AmigoDono-master\AmigoDono-master\AmigoDono.View\bin\Debug\stdole.dll
+C:\Users\rafin\Documents\Desktop\AmigoDono-master\AmigoDono-master\AmigoDono.View\bin\Debug\Microsoft.VisualStudio.OLE.Interop.dll
+C:\Users\rafin\Documents\Desktop\AmigoDono-master\AmigoDono-master\AmigoDono.View\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.dll
+C:\Users\rafin\Documents\Desktop\AmigoDono-master\AmigoDono-master\AmigoDono.View\bin\Debug\Microsoft.VisualStudio.VSHelp.dll
+C:\Users\rafin\Documents\Desktop\AmigoDono-master\AmigoDono-master\AmigoDono.View\bin\Debug\Microsoft.VisualStudio.Shell.Immutable.10.0.dll
+C:\Users\rafin\Documents\Desktop\AmigoDono-master\AmigoDono-master\AmigoDono.View\bin\Debug\Microsoft.VisualStudio.Shell.Immutable.14.0.dll
+C:\Users\rafin\Documents\Desktop\AmigoDono-master\AmigoDono-master\AmigoDono.View\bin\Debug\Microsoft.VisualStudio.Shell.Immutable.11.0.dll
+C:\Users\rafin\Documents\Desktop\AmigoDono-master\AmigoDono-master\AmigoDono.View\bin\Debug\Microsoft.VisualStudio.Shell.Interop.9.0.dll
+C:\Users\rafin\Documents\Desktop\AmigoDono-master\AmigoDono-master\AmigoDono.View\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.8.0.dll
+C:\Users\rafin\Documents\Desktop\AmigoDono-master\AmigoDono-master\AmigoDono.View\bin\Debug\Microsoft.VisualStudio.ProjectAggregator.dll
+C:\Users\rafin\Documents\Desktop\AmigoDono-master\AmigoDono-master\AmigoDono.View\bin\Debug\Microsoft.VisualStudio.Shell.Immutable.12.0.dll
+C:\Users\rafin\Documents\Desktop\AmigoDono-master\AmigoDono-master\AmigoDono.View\bin\Debug\Microsoft.VisualStudio.ComponentModelHost.dll
+C:\Users\rafin\Documents\Desktop\AmigoDono-master\AmigoDono-master\AmigoDono.View\bin\Debug\Microsoft.VisualStudio.Designer.Interfaces.dll
+C:\Users\rafin\Documents\Desktop\AmigoDono-master\AmigoDono-master\AmigoDono.View\bin\Debug\Microsoft.VisualStudio.TemplateWizardInterface.dll
+C:\Users\rafin\Documents\Desktop\AmigoDono-master\AmigoDono-master\AmigoDono.View\bin\Debug\Microsoft.VisualStudio.Debugger.InteropA.dll
+C:\Users\rafin\Documents\Desktop\AmigoDono-master\AmigoDono-master\AmigoDono.View\bin\Debug\EnvDTE80.dll
+C:\Users\rafin\Documents\Desktop\AmigoDono-master\AmigoDono-master\AmigoDono.View\bin\Debug\Microsoft.Build.Tasks.Core.dll
+C:\Users\rafin\Documents\Desktop\AmigoDono-master\AmigoDono-master\AmigoDono.View\bin\Debug\Microsoft.VisualStudio.Data.Services.dll
+C:\Users\rafin\Documents\Desktop\AmigoDono-master\AmigoDono-master\AmigoDono.View\bin\Debug\VSLangProj.dll
+C:\Users\rafin\Documents\Desktop\AmigoDono-master\AmigoDono-master\AmigoDono.View\bin\Debug\Microsoft.VisualStudio.Shell.Interop.11.0.dll
+C:\Users\rafin\Documents\Desktop\AmigoDono-master\AmigoDono-master\AmigoDono.View\bin\Debug\Microsoft.VisualStudio.Data.Core.dll
+C:\Users\rafin\Documents\Desktop\AmigoDono-master\AmigoDono-master\AmigoDono.View\bin\Debug\Microsoft.VisualStudio.Shell.Interop.10.0.dll
+C:\Users\rafin\Documents\Desktop\AmigoDono-master\AmigoDono-master\AmigoDono.View\bin\Debug\VSLangProj80.dll
+C:\Users\rafin\Documents\Desktop\AmigoDono-master\AmigoDono-master\AmigoDono.View\bin\Debug\Microsoft.VisualStudio.ManagedInterfaces.dll
+C:\Users\rafin\Documents\Desktop\AmigoDono-master\AmigoDono-master\AmigoDono.View\bin\Debug\Microsoft.VisualStudio.WCFReference.Interop.dll
+C:\Users\rafin\Documents\Desktop\AmigoDono-master\AmigoDono-master\AmigoDono.View\bin\Debug\Microsoft.VisualStudio.Debugger.Interop.11.0.dll
+C:\Users\rafin\Documents\Desktop\AmigoDono-master\AmigoDono-master\AmigoDono.View\bin\Debug\Newtonsoft.Json.dll
+C:\Users\rafin\Documents\Desktop\AmigoDono-master\AmigoDono-master\AmigoDono.View\bin\Debug\System.Threading.Tasks.Dataflow.dll
+C:\Users\rafin\Documents\Desktop\AmigoDono-master\AmigoDono-master\AmigoDono.View\bin\Debug\Microsoft.VisualStudio.GraphModel.dll
+C:\Users\rafin\Documents\Desktop\AmigoDono-master\AmigoDono-master\AmigoDono.View\bin\Debug\Microsoft.MSXML.dll
+C:\Users\rafin\Documents\Desktop\AmigoDono-master\AmigoDono-master\AmigoDono.View\bin\Debug\Microsoft.Build.Utilities.Core.dll
+C:\Users\rafin\Documents\Desktop\AmigoDono-master\AmigoDono-master\AmigoDono.View\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.10.0.dll
+C:\Users\rafin\Documents\Desktop\AmigoDono-master\AmigoDono-master\AmigoDono.View\bin\Debug\Microsoft.Build.Framework.dll
+C:\Users\rafin\Documents\Desktop\AmigoDono-master\AmigoDono-master\AmigoDono.View\bin\Debug\VSLangProj2.dll
+C:\Users\rafin\Documents\Desktop\AmigoDono-master\AmigoDono-master\AmigoDono.View\bin\Debug\AmigoDono.Control.pdb
+C:\Users\rafin\Documents\Desktop\AmigoDono-master\AmigoDono-master\AmigoDono.View\bin\Debug\AmigoDono.Model.pdb
+C:\Users\rafin\Documents\Desktop\AmigoDono-master\AmigoDono-master\AmigoDono.View\bin\Debug\AmigoDono.Model.dll.config
+C:\Users\rafin\Documents\Desktop\AmigoDono-master\AmigoDono-master\AmigoDono.View\bin\Debug\EntityFramework.xml
+C:\Users\rafin\Documents\Desktop\AmigoDono-master\AmigoDono-master\AmigoDono.View\bin\Debug\Microsoft.VisualStudio.Shell.Immutable.10.0.xml
+C:\Users\rafin\Documents\Desktop\AmigoDono-master\AmigoDono-master\AmigoDono.View\bin\Debug\Microsoft.VisualStudio.Shell.Immutable.14.0.xml
+C:\Users\rafin\Documents\Desktop\AmigoDono-master\AmigoDono-master\AmigoDono.View\bin\Debug\Microsoft.VisualStudio.Shell.Immutable.11.0.xml
+C:\Users\rafin\Documents\Desktop\AmigoDono-master\AmigoDono-master\AmigoDono.View\bin\Debug\Microsoft.VisualStudio.Shell.Immutable.12.0.xml
+C:\Users\rafin\Documents\Desktop\AmigoDono-master\AmigoDono-master\AmigoDono.View\bin\Debug\Microsoft.VisualStudio.Designer.Interfaces.xml
+C:\Users\rafin\Documents\Desktop\AmigoDono-master\AmigoDono-master\AmigoDono.View\bin\Debug\Microsoft.VisualStudio.TemplateWizardInterface.xml
+C:\Users\rafin\Documents\Desktop\AmigoDono-master\AmigoDono-master\AmigoDono.View\bin\Debug\de\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\rafin\Documents\Desktop\AmigoDono-master\AmigoDono-master\AmigoDono.View\bin\Debug\es\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\rafin\Documents\Desktop\AmigoDono-master\AmigoDono-master\AmigoDono.View\bin\Debug\fr\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\rafin\Documents\Desktop\AmigoDono-master\AmigoDono-master\AmigoDono.View\bin\Debug\it\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\rafin\Documents\Desktop\AmigoDono-master\AmigoDono-master\AmigoDono.View\bin\Debug\ja\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\rafin\Documents\Desktop\AmigoDono-master\AmigoDono-master\AmigoDono.View\bin\Debug\ko\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\rafin\Documents\Desktop\AmigoDono-master\AmigoDono-master\AmigoDono.View\bin\Debug\pt\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\rafin\Documents\Desktop\AmigoDono-master\AmigoDono-master\AmigoDono.View\bin\Debug\ru\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\rafin\Documents\Desktop\AmigoDono-master\AmigoDono-master\AmigoDono.View\bin\Debug\zh-CHS\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\rafin\Documents\Desktop\AmigoDono-master\AmigoDono-master\AmigoDono.View\bin\Debug\zh-CHT\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\rafin\Documents\Desktop\AmigoDono-master\AmigoDono-master\AmigoDono.View\bin\Debug\de\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\rafin\Documents\Desktop\AmigoDono-master\AmigoDono-master\AmigoDono.View\bin\Debug\es\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\rafin\Documents\Desktop\AmigoDono-master\AmigoDono-master\AmigoDono.View\bin\Debug\fr\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\rafin\Documents\Desktop\AmigoDono-master\AmigoDono-master\AmigoDono.View\bin\Debug\it\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\rafin\Documents\Desktop\AmigoDono-master\AmigoDono-master\AmigoDono.View\bin\Debug\ja\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\rafin\Documents\Desktop\AmigoDono-master\AmigoDono-master\AmigoDono.View\bin\Debug\ko\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\rafin\Documents\Desktop\AmigoDono-master\AmigoDono-master\AmigoDono.View\bin\Debug\pt\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\rafin\Documents\Desktop\AmigoDono-master\AmigoDono-master\AmigoDono.View\bin\Debug\ru\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\rafin\Documents\Desktop\AmigoDono-master\AmigoDono-master\AmigoDono.View\bin\Debug\zh-CHS\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\rafin\Documents\Desktop\AmigoDono-master\AmigoDono-master\AmigoDono.View\bin\Debug\zh-CHT\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\rafin\Documents\Desktop\AmigoDono-master\AmigoDono-master\AmigoDono.View\bin\Debug\de\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\rafin\Documents\Desktop\AmigoDono-master\AmigoDono-master\AmigoDono.View\bin\Debug\es\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\rafin\Documents\Desktop\AmigoDono-master\AmigoDono-master\AmigoDono.View\bin\Debug\fr\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\rafin\Documents\Desktop\AmigoDono-master\AmigoDono-master\AmigoDono.View\bin\Debug\it\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\rafin\Documents\Desktop\AmigoDono-master\AmigoDono-master\AmigoDono.View\bin\Debug\ja\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\rafin\Documents\Desktop\AmigoDono-master\AmigoDono-master\AmigoDono.View\bin\Debug\ko\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\rafin\Documents\Desktop\AmigoDono-master\AmigoDono-master\AmigoDono.View\bin\Debug\pt\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\rafin\Documents\Desktop\AmigoDono-master\AmigoDono-master\AmigoDono.View\bin\Debug\ru\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\rafin\Documents\Desktop\AmigoDono-master\AmigoDono-master\AmigoDono.View\bin\Debug\zh-CHS\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\rafin\Documents\Desktop\AmigoDono-master\AmigoDono-master\AmigoDono.View\bin\Debug\zh-CHT\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\rafin\Documents\Desktop\AmigoDono-master\AmigoDono-master\AmigoDono.View\bin\Debug\de\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\rafin\Documents\Desktop\AmigoDono-master\AmigoDono-master\AmigoDono.View\bin\Debug\es\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\rafin\Documents\Desktop\AmigoDono-master\AmigoDono-master\AmigoDono.View\bin\Debug\fr\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\rafin\Documents\Desktop\AmigoDono-master\AmigoDono-master\AmigoDono.View\bin\Debug\it\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\rafin\Documents\Desktop\AmigoDono-master\AmigoDono-master\AmigoDono.View\bin\Debug\ja\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\rafin\Documents\Desktop\AmigoDono-master\AmigoDono-master\AmigoDono.View\bin\Debug\ko\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\rafin\Documents\Desktop\AmigoDono-master\AmigoDono-master\AmigoDono.View\bin\Debug\pt\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\rafin\Documents\Desktop\AmigoDono-master\AmigoDono-master\AmigoDono.View\bin\Debug\ru\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\rafin\Documents\Desktop\AmigoDono-master\AmigoDono-master\AmigoDono.View\bin\Debug\zh-CHS\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\rafin\Documents\Desktop\AmigoDono-master\AmigoDono-master\AmigoDono.View\bin\Debug\zh-CHT\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\rafin\Documents\Desktop\AmigoDono-master\AmigoDono-master\AmigoDono.View\bin\Debug\pt-BR\Microsoft.VisualStudio.Data.Services.resources.dll
+C:\Users\rafin\Documents\Desktop\AmigoDono-master\AmigoDono-master\AmigoDono.View\bin\Debug\pt-BR\Microsoft.VisualStudio.Data.Core.resources.dll
+C:\Users\rafin\Documents\Desktop\AmigoDono-master\AmigoDono-master\AmigoDono.View\obj\Debug\AmigoDono.View.csprojAssemblyReference.cache
+C:\Users\rafin\Documents\Desktop\AmigoDono-master\AmigoDono-master\AmigoDono.View\obj\Debug\AmigoDono.View.exe.config
+C:\Users\rafin\Documents\Desktop\AmigoDono-master\AmigoDono-master\AmigoDono.View\obj\Debug\AmigoDono.View.Properties.Resources.resources
+C:\Users\rafin\Documents\Desktop\AmigoDono-master\AmigoDono-master\AmigoDono.View\obj\Debug\AmigoDono.View.TelaBuscarPet.resources
+C:\Users\rafin\Documents\Desktop\AmigoDono-master\AmigoDono-master\AmigoDono.View\obj\Debug\AmigoDono.View.TelaCadastroAmigo.resources
+C:\Users\rafin\Documents\Desktop\AmigoDono-master\AmigoDono-master\AmigoDono.View\obj\Debug\AmigoDono.View.TelaCadastroPet.resources
+C:\Users\rafin\Documents\Desktop\AmigoDono-master\AmigoDono-master\AmigoDono.View\obj\Debug\AmigoDono.View.TelaControle.resources
+C:\Users\rafin\Documents\Desktop\AmigoDono-master\AmigoDono-master\AmigoDono.View\obj\Debug\AmigoDono.View.TelaPesquisaControle.resources
+C:\Users\rafin\Documents\Desktop\AmigoDono-master\AmigoDono-master\AmigoDono.View\obj\Debug\AmigoDono.View.TelaPesquisaDenuncia.resources
+C:\Users\rafin\Documents\Desktop\AmigoDono-master\AmigoDono-master\AmigoDono.View\obj\Debug\AmigoDono.View.TelaPesquisarAmigo.resources
+C:\Users\rafin\Documents\Desktop\AmigoDono-master\AmigoDono-master\AmigoDono.View\obj\Debug\AmigoDono.View.TelaPesquisarPet.resources
+C:\Users\rafin\Documents\Desktop\AmigoDono-master\AmigoDono-master\AmigoDono.View\obj\Debug\AmigoDono.View.TelaPesquisaTratamento.resources
+C:\Users\rafin\Documents\Desktop\AmigoDono-master\AmigoDono-master\AmigoDono.View\obj\Debug\AmigoDono.View.TelaRelatorio.resources
+C:\Users\rafin\Documents\Desktop\AmigoDono-master\AmigoDono-master\AmigoDono.View\obj\Debug\AmigoDono.View.TelaTipoTratamento.resources
+C:\Users\rafin\Documents\Desktop\AmigoDono-master\AmigoDono-master\AmigoDono.View\obj\Debug\AmigoDono.View.TelaTratamento.resources
+C:\Users\rafin\Documents\Desktop\AmigoDono-master\AmigoDono-master\AmigoDono.View\obj\Debug\AmigoDono.View.TelaDenuncia.resources
+C:\Users\rafin\Documents\Desktop\AmigoDono-master\AmigoDono-master\AmigoDono.View\obj\Debug\AmigoDono.View.TelaLogin.resources
+C:\Users\rafin\Documents\Desktop\AmigoDono-master\AmigoDono-master\AmigoDono.View\obj\Debug\AmigoDono.View.TelaPrincipal.resources
+C:\Users\rafin\Documents\Desktop\AmigoDono-master\AmigoDono-master\AmigoDono.View\obj\Debug\AmigoDono.View.csproj.GenerateResource.cache
+C:\Users\rafin\Documents\Desktop\AmigoDono-master\AmigoDono-master\AmigoDono.View\obj\Debug\AmigoDono.View.csproj.CoreCompileInputs.cache
+C:\Users\rafin\Documents\Desktop\AmigoDono-master\AmigoDono-master\AmigoDono.View\obj\Debug\AmigoDono.View.csproj.CopyComplete
+C:\Users\rafin\Documents\Desktop\AmigoDono-master\AmigoDono-master\AmigoDono.View\obj\Debug\AmigoDono.View.exe
+C:\Users\rafin\Documents\Desktop\AmigoDono-master\AmigoDono-master\AmigoDono.View\obj\Debug\AmigoDono.View.pdb

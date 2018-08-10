@@ -49,6 +49,8 @@
             this.tratamentoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.denúnciasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.MnuSair = new System.Windows.Forms.ToolStripMenuItem();
+            this.tipoDeTratamentoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.tToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -72,7 +74,9 @@
             // 
             this.MnuCadastro.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.MnuAmigo,
-            this.MnuPet});
+            this.MnuPet,
+            this.tipoDeTratamentoToolStripMenuItem,
+            this.tToolStripMenuItem});
             this.MnuCadastro.Name = "MnuCadastro";
             this.MnuCadastro.Size = new System.Drawing.Size(71, 20);
             this.MnuCadastro.Text = "Cadastros";
@@ -81,14 +85,14 @@
             // MnuAmigo
             // 
             this.MnuAmigo.Name = "MnuAmigo";
-            this.MnuAmigo.Size = new System.Drawing.Size(110, 22);
+            this.MnuAmigo.Size = new System.Drawing.Size(180, 22);
             this.MnuAmigo.Text = "Amigo";
             this.MnuAmigo.Click += new System.EventHandler(this.MnuAmigo_Click);
             // 
             // MnuPet
             // 
             this.MnuPet.Name = "MnuPet";
-            this.MnuPet.Size = new System.Drawing.Size(110, 22);
+            this.MnuPet.Size = new System.Drawing.Size(180, 22);
             this.MnuPet.Text = "Pet";
             this.MnuPet.Click += new System.EventHandler(this.MnuPet_Click);
             // 
@@ -108,34 +112,34 @@
             // MnuPesquisarAmigo
             // 
             this.MnuPesquisarAmigo.Name = "MnuPesquisarAmigo";
-            this.MnuPesquisarAmigo.Size = new System.Drawing.Size(180, 22);
+            this.MnuPesquisarAmigo.Size = new System.Drawing.Size(135, 22);
             this.MnuPesquisarAmigo.Text = "Amigo";
             this.MnuPesquisarAmigo.Click += new System.EventHandler(this.MnuPesquisarAmigo_Click);
             // 
             // MnuPesquisarPet
             // 
             this.MnuPesquisarPet.Name = "MnuPesquisarPet";
-            this.MnuPesquisarPet.Size = new System.Drawing.Size(180, 22);
+            this.MnuPesquisarPet.Size = new System.Drawing.Size(135, 22);
             this.MnuPesquisarPet.Text = "Pet";
             this.MnuPesquisarPet.Click += new System.EventHandler(this.MnuPesquisarPet_Click);
             // 
             // MnuPesquisarTratamento
             // 
             this.MnuPesquisarTratamento.Name = "MnuPesquisarTratamento";
-            this.MnuPesquisarTratamento.Size = new System.Drawing.Size(180, 22);
+            this.MnuPesquisarTratamento.Size = new System.Drawing.Size(135, 22);
             this.MnuPesquisarTratamento.Text = "Tratamento";
             // 
             // MnuPesquisarDenuncia
             // 
             this.MnuPesquisarDenuncia.Name = "MnuPesquisarDenuncia";
-            this.MnuPesquisarDenuncia.Size = new System.Drawing.Size(180, 22);
+            this.MnuPesquisarDenuncia.Size = new System.Drawing.Size(135, 22);
             this.MnuPesquisarDenuncia.Text = "Denuncia";
             this.MnuPesquisarDenuncia.Click += new System.EventHandler(this.MnuPesquisarDenuncia_Click);
             // 
             // MnuPesqusaControle
             // 
             this.MnuPesqusaControle.Name = "MnuPesqusaControle";
-            this.MnuPesqusaControle.Size = new System.Drawing.Size(180, 22);
+            this.MnuPesqusaControle.Size = new System.Drawing.Size(135, 22);
             this.MnuPesqusaControle.Text = "Controle";
             // 
             // MnuControle
@@ -216,6 +220,19 @@
             this.MnuSair.Text = "Sair";
             this.MnuSair.Click += new System.EventHandler(this.MnuSair_Click);
             // 
+            // tipoDeTratamentoToolStripMenuItem
+            // 
+            this.tipoDeTratamentoToolStripMenuItem.Name = "tipoDeTratamentoToolStripMenuItem";
+            this.tipoDeTratamentoToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.tipoDeTratamentoToolStripMenuItem.Text = "Tipo de Tratamento";
+            this.tipoDeTratamentoToolStripMenuItem.Click += new System.EventHandler(this.tipoDeTratamentoToolStripMenuItem_Click);
+            // 
+            // tToolStripMenuItem
+            // 
+            this.tToolStripMenuItem.Name = "tToolStripMenuItem";
+            this.tToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.tToolStripMenuItem.Text = "Tipo de Raça";
+            // 
             // TelaPrincipal
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -258,6 +275,8 @@
         private System.Windows.Forms.ToolStripMenuItem MnuPesquisarTratamento;
         private System.Windows.Forms.ToolStripMenuItem MnuPesqusaControle;
         public System.Windows.Forms.ToolStripMenuItem MnuPesquisarDenuncia;
+        private System.Windows.Forms.ToolStripMenuItem tipoDeTratamentoToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem tToolStripMenuItem;
     }
 }
 

@@ -17,12 +17,9 @@ namespace AmigoDono.View
         public string amigo = null;
         AMIGO amigoPesquisado = new AMIGO();
         public TelaPesquisarAmigo() {InitializeComponent();}
-        private void CarregaGrid(string amigo="")
-        {
-            GrdAmigos.DataSource = _Control.SelecionarTodos(amigo);
-        }
-        private void TelaPesquisar_Load(object sender, EventArgs e)   { }
-        private void CboNome_SelectedIndexChanged(object sender, EventArgs e)   { }
+        private void CarregaGrid(string amigo=""){ GrdAmigos.DataSource = _Control.SelecionarTodos(amigo); }
+        private void TelaPesquisar_Load(object sender, EventArgs e) { }
+        private void CboNome_SelectedIndexChanged(object sender, EventArgs e) { }
         private void TxtPesquisaNome_TextChanged(object sender, EventArgs e) { }
         private void GrdAmigos_CellContentClick(object sender, DataGridViewCellEventArgs e){ }
         private void BtnSair_Click(object sender, EventArgs e){ Close(); }

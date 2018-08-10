@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Schema Namespace="AmigoDonoModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+<Schema Namespace="Amigos_do_DonoModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
   <EntityType Name="AMIGO">
     <Key>
       <PropertyRef Name="IDA" />
@@ -32,7 +32,11 @@
     </Key>
     <Property Name="IDC" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
     <Property Name="IDPet" Type="int" Nullable="false" />
-    <Property Name="IDAmigo" Type="int" Nullable="false" />
+    <Property Name="NomePet" Type="varchar" MaxLength="80" />
+    <Property Name="IDDono" Type="int" Nullable="false" />
+    <Property Name="NomeDono" Type="varchar" MaxLength="100" Nullable="false" />
+    <Property Name="IDDoador" Type="int" Nullable="false" />
+    <Property Name="NomeDoador" Type="varchar" MaxLength="100" />
     <Property Name="DataAdocao" Type="date" />
     <Property Name="Status" Type="varchar" MaxLength="50" Nullable="false" />
     <Property Name="OBS" Type="varchar(max)" />
@@ -83,6 +87,21 @@
     <Property Name="DataNascimento" Type="date" />
     <Property Name="OBS" Type="varchar(max)" />
     <Property Name="Imagem" Type="image" />
+    <Property Name="IDRaça" Type="int" />
+  </EntityType>
+  <EntityType Name="RAÇA">
+    <Key>
+      <PropertyRef Name="IDR" />
+    </Key>
+    <Property Name="IDR" Type="int" Nullable="false" />
+    <Property Name="NomeRaça" Type="varchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="TIPOTRATAMENTO">
+    <Key>
+      <PropertyRef Name="IDTT" />
+    </Key>
+    <Property Name="IDTT" Type="int" Nullable="false" />
+    <Property Name="Descricao" Type="varchar(max)" />
   </EntityType>
   <EntityType Name="TRATAMENTO">
     <Key>
@@ -95,6 +114,7 @@
     <Property Name="Data" Type="date" Nullable="false" />
     <Property Name="OBS" Type="varchar(max)" />
     <Property Name="Descricao" Type="varchar(max)" />
+    <Property Name="IDDescricao" Type="int" />
   </EntityType>
   <Association Name="FK_adocao_Animal">
     <End Role="PET" Type="Self.PET" Multiplicity="1" />
@@ -116,7 +136,31 @@
         <PropertyRef Name="IDA" />
       </Principal>
       <Dependent Role="CONTROLE">
-        <PropertyRef Name="IDAmigo" />
+        <PropertyRef Name="IDDono" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_CONTROLE_AMIGO1">
+    <End Role="AMIGO" Type="Self.AMIGO" Multiplicity="1" />
+    <End Role="CONTROLE" Type="Self.CONTROLE" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="AMIGO">
+        <PropertyRef Name="IDA" />
+      </Principal>
+      <Dependent Role="CONTROLE">
+        <PropertyRef Name="IDDoador" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_PET_RAÇA">
+    <End Role="RAÇA" Type="Self.RAÇA" Multiplicity="0..1" />
+    <End Role="PET" Type="Self.PET" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="RAÇA">
+        <PropertyRef Name="IDR" />
+      </Principal>
+      <Dependent Role="PET">
+        <PropertyRef Name="IDRaça" />
       </Dependent>
     </ReferentialConstraint>
   </Association>
@@ -144,12 +188,26 @@
       </Dependent>
     </ReferentialConstraint>
   </Association>
-  <EntityContainer Name="AmigoDonoModelStoreContainer">
+  <Association Name="FK_TRATAMENTO_TIPOTRATAMENTO">
+    <End Role="TIPOTRATAMENTO" Type="Self.TIPOTRATAMENTO" Multiplicity="0..1" />
+    <End Role="TRATAMENTO" Type="Self.TRATAMENTO" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="TIPOTRATAMENTO">
+        <PropertyRef Name="IDTT" />
+      </Principal>
+      <Dependent Role="TRATAMENTO">
+        <PropertyRef Name="IDDescricao" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="Amigos_do_DonoModelStoreContainer">
     <EntitySet Name="AMIGO" EntityType="Self.AMIGO" Schema="dbo" store:Type="Tables" />
     <EntitySet Name="CONTROLE" EntityType="Self.CONTROLE" Schema="dbo" store:Type="Tables" />
     <EntitySet Name="DENUNCIA" EntityType="Self.DENUNCIA" Schema="dbo" store:Type="Tables" />
     <EntitySet Name="FEEDBACK" EntityType="Self.FEEDBACK" Schema="dbo" store:Type="Tables" />
     <EntitySet Name="PET" EntityType="Self.PET" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="RAÇA" EntityType="Self.RAÇA" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="TIPOTRATAMENTO" EntityType="Self.TIPOTRATAMENTO" Schema="dbo" store:Type="Tables" />
     <EntitySet Name="TRATAMENTO" EntityType="Self.TRATAMENTO" Schema="dbo" store:Type="Tables" />
     <AssociationSet Name="FK_adocao_Animal" Association="Self.FK_adocao_Animal">
       <End Role="PET" EntitySet="PET" />
@@ -159,12 +217,24 @@
       <End Role="AMIGO" EntitySet="AMIGO" />
       <End Role="CONTROLE" EntitySet="CONTROLE" />
     </AssociationSet>
+    <AssociationSet Name="FK_CONTROLE_AMIGO1" Association="Self.FK_CONTROLE_AMIGO1">
+      <End Role="AMIGO" EntitySet="AMIGO" />
+      <End Role="CONTROLE" EntitySet="CONTROLE" />
+    </AssociationSet>
+    <AssociationSet Name="FK_PET_RAÇA" Association="Self.FK_PET_RAÇA">
+      <End Role="RAÇA" EntitySet="RAÇA" />
+      <End Role="PET" EntitySet="PET" />
+    </AssociationSet>
     <AssociationSet Name="FK_TRATAMENTO_AMIGO" Association="Self.FK_TRATAMENTO_AMIGO">
       <End Role="AMIGO" EntitySet="AMIGO" />
       <End Role="TRATAMENTO" EntitySet="TRATAMENTO" />
     </AssociationSet>
     <AssociationSet Name="FK_TRATAMENTO_PET" Association="Self.FK_TRATAMENTO_PET">
       <End Role="PET" EntitySet="PET" />
+      <End Role="TRATAMENTO" EntitySet="TRATAMENTO" />
+    </AssociationSet>
+    <AssociationSet Name="FK_TRATAMENTO_TIPOTRATAMENTO" Association="Self.FK_TRATAMENTO_TIPOTRATAMENTO">
+      <End Role="TIPOTRATAMENTO" EntitySet="TIPOTRATAMENTO" />
       <End Role="TRATAMENTO" EntitySet="TRATAMENTO" />
     </AssociationSet>
   </EntityContainer>

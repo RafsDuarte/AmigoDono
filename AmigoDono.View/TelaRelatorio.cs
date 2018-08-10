@@ -17,10 +17,10 @@ namespace AmigoDono.View
             InitializeComponent();
         }
 
-        //private void button1_Click(object sender, EventArgs e)
-        //{
-        //    RelatorioAmigo relatorio = new RelatorioAmigo();
-        //    relatorio.ShowDialog();
-        //}
+        private void button1_Click(object sender, EventArgs e)
+        {
+            //RelatorioAmigo relatorio = new RelatorioAmigo();
+            //relatorio.ShowDialog();
+        }
     }
 }

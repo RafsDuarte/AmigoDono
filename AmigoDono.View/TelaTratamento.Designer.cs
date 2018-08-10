@@ -86,6 +86,7 @@
             this.BtnIncluir.TabIndex = 14;
             this.BtnIncluir.Text = "Incluir";
             this.BtnIncluir.UseVisualStyleBackColor = true;
+            this.BtnIncluir.Click += new System.EventHandler(this.BtnIncluir_Click);
             // 
             // BtnExcluir
             // 
@@ -95,6 +96,7 @@
             this.BtnExcluir.TabIndex = 15;
             this.BtnExcluir.Text = "Excluir";
             this.BtnExcluir.UseVisualStyleBackColor = true;
+            this.BtnExcluir.Click += new System.EventHandler(this.BtnExcluir_Click);
             // 
             // TxtNomeResponsavel
             // 
@@ -109,6 +111,7 @@
             this.TxtIdResponsavel.Name = "TxtIdResponsavel";
             this.TxtIdResponsavel.Size = new System.Drawing.Size(57, 20);
             this.TxtIdResponsavel.TabIndex = 13;
+            this.TxtIdResponsavel.Visible = false;
             // 
             // LblResponsavel
             // 
@@ -159,6 +162,7 @@
             this.TxtIdPet.Name = "TxtIdPet";
             this.TxtIdPet.Size = new System.Drawing.Size(57, 20);
             this.TxtIdPet.TabIndex = 5;
+            this.TxtIdPet.Visible = false;
             // 
             // LblPet
             // 
@@ -215,6 +219,7 @@
             this.BtnBuscarPet.TabIndex = 4;
             this.BtnBuscarPet.Text = "Buscar";
             this.BtnBuscarPet.UseVisualStyleBackColor = true;
+            this.BtnBuscarPet.Click += new System.EventHandler(this.BtnBuscarPet_Click);
             // 
             // BtnBuscarResp
             // 
@@ -224,6 +229,7 @@
             this.BtnBuscarResp.TabIndex = 12;
             this.BtnBuscarResp.Text = "Buscar";
             this.BtnBuscarResp.UseVisualStyleBackColor = true;
+            this.BtnBuscarResp.Click += new System.EventHandler(this.BtnBuscarResp_Click);
             // 
             // TelaTratamento
             // 

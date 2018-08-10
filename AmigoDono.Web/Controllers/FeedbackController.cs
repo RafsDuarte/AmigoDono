@@ -12,7 +12,7 @@ namespace AmigoDono.Web.Views
 {
     public class FEEDBACKController : Controller
     {
-        private AmigoDonoEntities db = new AmigoDonoEntities();
+        private Amigos_do_DonoEntities db = new Amigos_do_DonoEntities();
 
         // GET: FEEDBACK
         public ActionResult Index()

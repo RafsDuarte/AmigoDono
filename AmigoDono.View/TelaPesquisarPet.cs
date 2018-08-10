@@ -20,10 +20,12 @@ namespace AmigoDono.View
         public TelaPesquisarPet(){InitializeComponent();}
         private void CarregaGrid(string pet = ""){GrdPet.DataSource = _Control.SelecionarTodos(pet);}
         private void TelaPesquisar_Load(object sender, EventArgs e){}
+        private void TelaPesquisarPet_Load(object sender, EventArgs e) { }
         private void CboNome_SelectedIndexChanged(object sender, EventArgs e) {}
         private void TxtPesquisaNome_TextChanged(object sender, EventArgs e){}
         private void GrdPet_CellContentClick(object sender, DataGridViewCellEventArgs e){}
         private void BtnSair_Click(object sender, EventArgs e){Close();}
+        private void TelaPesquisarPet_FormClosed(object sender, FormClosedEventArgs e) { ((TelaPrincipal)this.MdiParent).MnuPesquisarPet.Enabled = true; }
         private void GrdPet_CellClick(object sender, DataGridViewCellEventArgs e)
         {
             PET oPet = ((PET)GrdPet.Rows[e.RowIndex].DataBoundItem);
@@ -37,11 +39,7 @@ namespace AmigoDono.View
                     this.Close();
                 }
             }
-        }
-        private void TelaPesquisarPet_FormClosed(object sender, FormClosedEventArgs e)
-        {
-            ((TelaPrincipal)this.MdiParent).MnuPesquisarPet.Enabled = true;
-        }
+        }        
         private void BtnOK_Click(object sender, EventArgs e)
         {
             string procura = TxtPesquisaNome.Text;
@@ -58,6 +56,7 @@ namespace AmigoDono.View
                     Mensagens.MsgRegInexistente();
                 }
             }
-        }      
+        }
+
     }
 }

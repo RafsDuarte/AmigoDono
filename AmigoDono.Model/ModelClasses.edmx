@@ -4,7 +4,7 @@
   <edmx:Runtime>
     <!-- SSDL content -->
     <edmx:StorageModels>
-      <Schema Namespace="AmigoDonoModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+    <Schema Namespace="Amigos_do_DonoModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
         <EntityType Name="AMIGO">
           <Key>
             <PropertyRef Name="IDA" />
@@ -37,7 +37,11 @@
           </Key>
           <Property Name="IDC" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
           <Property Name="IDPet" Type="int" Nullable="false" />
-          <Property Name="IDAmigo" Type="int" Nullable="false" />
+          <Property Name="NomePet" Type="varchar" MaxLength="80" />
+          <Property Name="IDDono" Type="int" Nullable="false" />
+          <Property Name="NomeDono" Type="varchar" MaxLength="100" Nullable="false" />
+          <Property Name="IDDoador" Type="int" Nullable="false" />
+          <Property Name="NomeDoador" Type="varchar" MaxLength="100" />
           <Property Name="DataAdocao" Type="date" />
           <Property Name="Status" Type="varchar" MaxLength="50" Nullable="false" />
           <Property Name="OBS" Type="varchar(max)" />
@@ -88,6 +92,21 @@
           <Property Name="DataNascimento" Type="date" />
           <Property Name="OBS" Type="varchar(max)" />
           <Property Name="Imagem" Type="image" />
+          <Property Name="IDRaça" Type="int" />
+        </EntityType>
+        <EntityType Name="RAÇA">
+          <Key>
+            <PropertyRef Name="IDR" />
+          </Key>
+          <Property Name="IDR" Type="int" Nullable="false" />
+          <Property Name="NomeRaça" Type="varchar" MaxLength="50" />
+        </EntityType>
+        <EntityType Name="TIPOTRATAMENTO">
+          <Key>
+            <PropertyRef Name="IDTT" />
+          </Key>
+          <Property Name="IDTT" Type="int" Nullable="false" />
+          <Property Name="Descricao" Type="varchar(max)" />
         </EntityType>
         <EntityType Name="TRATAMENTO">
           <Key>
@@ -100,6 +119,7 @@
           <Property Name="Data" Type="date" Nullable="false" />
           <Property Name="OBS" Type="varchar(max)" />
           <Property Name="Descricao" Type="varchar(max)" />
+          <Property Name="IDDescricao" Type="int" />
         </EntityType>
         <Association Name="FK_adocao_Animal">
           <End Role="PET" Type="Self.PET" Multiplicity="1" />
@@ -121,7 +141,31 @@
               <PropertyRef Name="IDA" />
             </Principal>
             <Dependent Role="CONTROLE">
-              <PropertyRef Name="IDAmigo" />
+              <PropertyRef Name="IDDono" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_CONTROLE_AMIGO1">
+          <End Role="AMIGO" Type="Self.AMIGO" Multiplicity="1" />
+          <End Role="CONTROLE" Type="Self.CONTROLE" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="AMIGO">
+              <PropertyRef Name="IDA" />
+            </Principal>
+            <Dependent Role="CONTROLE">
+              <PropertyRef Name="IDDoador" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_PET_RAÇA">
+          <End Role="RAÇA" Type="Self.RAÇA" Multiplicity="0..1" />
+          <End Role="PET" Type="Self.PET" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="RAÇA">
+              <PropertyRef Name="IDR" />
+            </Principal>
+            <Dependent Role="PET">
+              <PropertyRef Name="IDRaça" />
             </Dependent>
           </ReferentialConstraint>
         </Association>
@@ -149,12 +193,26 @@
             </Dependent>
           </ReferentialConstraint>
         </Association>
-        <EntityContainer Name="AmigoDonoModelStoreContainer">
+        <Association Name="FK_TRATAMENTO_TIPOTRATAMENTO">
+          <End Role="TIPOTRATAMENTO" Type="Self.TIPOTRATAMENTO" Multiplicity="0..1" />
+          <End Role="TRATAMENTO" Type="Self.TRATAMENTO" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="TIPOTRATAMENTO">
+              <PropertyRef Name="IDTT" />
+            </Principal>
+            <Dependent Role="TRATAMENTO">
+              <PropertyRef Name="IDDescricao" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityContainer Name="Amigos_do_DonoModelStoreContainer">
           <EntitySet Name="AMIGO" EntityType="Self.AMIGO" Schema="dbo" store:Type="Tables" />
           <EntitySet Name="CONTROLE" EntityType="Self.CONTROLE" Schema="dbo" store:Type="Tables" />
           <EntitySet Name="DENUNCIA" EntityType="Self.DENUNCIA" Schema="dbo" store:Type="Tables" />
           <EntitySet Name="FEEDBACK" EntityType="Self.FEEDBACK" Schema="dbo" store:Type="Tables" />
           <EntitySet Name="PET" EntityType="Self.PET" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="RAÇA" EntityType="Self.RAÇA" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="TIPOTRATAMENTO" EntityType="Self.TIPOTRATAMENTO" Schema="dbo" store:Type="Tables" />
           <EntitySet Name="TRATAMENTO" EntityType="Self.TRATAMENTO" Schema="dbo" store:Type="Tables" />
           <AssociationSet Name="FK_adocao_Animal" Association="Self.FK_adocao_Animal">
             <End Role="PET" EntitySet="PET" />
@@ -164,6 +222,14 @@
             <End Role="AMIGO" EntitySet="AMIGO" />
             <End Role="CONTROLE" EntitySet="CONTROLE" />
           </AssociationSet>
+          <AssociationSet Name="FK_CONTROLE_AMIGO1" Association="Self.FK_CONTROLE_AMIGO1">
+            <End Role="AMIGO" EntitySet="AMIGO" />
+            <End Role="CONTROLE" EntitySet="CONTROLE" />
+          </AssociationSet>
+          <AssociationSet Name="FK_PET_RAÇA" Association="Self.FK_PET_RAÇA">
+            <End Role="RAÇA" EntitySet="RAÇA" />
+            <End Role="PET" EntitySet="PET" />
+          </AssociationSet>
           <AssociationSet Name="FK_TRATAMENTO_AMIGO" Association="Self.FK_TRATAMENTO_AMIGO">
             <End Role="AMIGO" EntitySet="AMIGO" />
             <End Role="TRATAMENTO" EntitySet="TRATAMENTO" />
@@ -172,39 +238,81 @@
             <End Role="PET" EntitySet="PET" />
             <End Role="TRATAMENTO" EntitySet="TRATAMENTO" />
           </AssociationSet>
+          <AssociationSet Name="FK_TRATAMENTO_TIPOTRATAMENTO" Association="Self.FK_TRATAMENTO_TIPOTRATAMENTO">
+            <End Role="TIPOTRATAMENTO" EntitySet="TIPOTRATAMENTO" />
+            <End Role="TRATAMENTO" EntitySet="TRATAMENTO" />
+          </AssociationSet>
         </EntityContainer>
-      </Schema>
-    </edmx:StorageModels>
+      </Schema></edmx:StorageModels>
     <!-- CSDL content -->
     <edmx:ConceptualModels>
-      <Schema Namespace="AmigoDonoModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+      <Schema Namespace="Amigos_do_DonoModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityContainer Name="Amigos_do_DonoEntities" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="AMIGO" EntityType="Amigos_do_DonoModel.AMIGO" />
+          <EntitySet Name="CONTROLE" EntityType="Amigos_do_DonoModel.CONTROLE" />
+          <EntitySet Name="DENUNCIA" EntityType="Amigos_do_DonoModel.DENUNCIA" />
+          <EntitySet Name="FEEDBACK" EntityType="Amigos_do_DonoModel.FEEDBACK" />
+          <EntitySet Name="PET" EntityType="Amigos_do_DonoModel.PET" />
+          <EntitySet Name="RAÇA" EntityType="Amigos_do_DonoModel.RAÇA" />
+          <EntitySet Name="TIPOTRATAMENTO" EntityType="Amigos_do_DonoModel.TIPOTRATAMENTO" />
+          <EntitySet Name="TRATAMENTO" EntityType="Amigos_do_DonoModel.TRATAMENTO" />
+          <AssociationSet Name="FK_CONTROLE_AMIGO" Association="Amigos_do_DonoModel.FK_CONTROLE_AMIGO">
+            <End Role="AMIGO" EntitySet="AMIGO" />
+            <End Role="CONTROLE" EntitySet="CONTROLE" />
+          </AssociationSet>
+          <AssociationSet Name="FK_CONTROLE_AMIGO1" Association="Amigos_do_DonoModel.FK_CONTROLE_AMIGO1">
+            <End Role="AMIGO" EntitySet="AMIGO" />
+            <End Role="CONTROLE" EntitySet="CONTROLE" />
+          </AssociationSet>
+          <AssociationSet Name="FK_TRATAMENTO_AMIGO" Association="Amigos_do_DonoModel.FK_TRATAMENTO_AMIGO">
+            <End Role="AMIGO" EntitySet="AMIGO" />
+            <End Role="TRATAMENTO" EntitySet="TRATAMENTO" />
+          </AssociationSet>
+          <AssociationSet Name="FK_adocao_Animal" Association="Amigos_do_DonoModel.FK_adocao_Animal">
+            <End Role="PET" EntitySet="PET" />
+            <End Role="CONTROLE" EntitySet="CONTROLE" />
+          </AssociationSet>
+          <AssociationSet Name="FK_PET_RAÇA" Association="Amigos_do_DonoModel.FK_PET_RAÇA">
+            <End Role="RAÇA" EntitySet="RAÇA" />
+            <End Role="PET" EntitySet="PET" />
+          </AssociationSet>
+          <AssociationSet Name="FK_TRATAMENTO_PET" Association="Amigos_do_DonoModel.FK_TRATAMENTO_PET">
+            <End Role="PET" EntitySet="PET" />
+            <End Role="TRATAMENTO" EntitySet="TRATAMENTO" />
+          </AssociationSet>
+          <AssociationSet Name="FK_TRATAMENTO_TIPOTRATAMENTO" Association="Amigos_do_DonoModel.FK_TRATAMENTO_TIPOTRATAMENTO">
+            <End Role="TIPOTRATAMENTO" EntitySet="TIPOTRATAMENTO" />
+            <End Role="TRATAMENTO" EntitySet="TRATAMENTO" />
+          </AssociationSet>
+        </EntityContainer>
         <EntityType Name="AMIGO">
           <Key>
             <PropertyRef Name="IDA" />
           </Key>
           <Property Name="IDA" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
-          <Property Name="Nome" Type="String" MaxLength="100" FixedLength="false" Unicode="false" Nullable="false" />
-          <Property Name="Funcao" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
-          <Property Name="Senha" Type="String" MaxLength="20" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="Nome" Type="String" Nullable="false" MaxLength="100" FixedLength="false" Unicode="false" />
+          <Property Name="Funcao" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="Senha" Type="String" Nullable="false" MaxLength="20" FixedLength="false" Unicode="false" />
           <Property Name="CPF" Type="String" MaxLength="14" FixedLength="false" Unicode="false" />
           <Property Name="CNPJ" Type="String" MaxLength="18" FixedLength="false" Unicode="false" />
           <Property Name="DataNascimento" Type="DateTime" Nullable="false" Precision="0" />
           <Property Name="DataCadastro" Type="DateTime" Nullable="false" Precision="0" />
           <Property Name="Email" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
-          <Property Name="CEP" Type="String" MaxLength="9" FixedLength="false" Unicode="false" Nullable="false" />
-          <Property Name="Logradouro" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
-          <Property Name="NomeLogradouro" Type="String" MaxLength="100" FixedLength="false" Unicode="false" Nullable="false" />
-          <Property Name="Numero" Type="String" MaxLength="5" FixedLength="false" Unicode="false" Nullable="false" />
-          <Property Name="Complemento" Type="String" MaxLength="100" FixedLength="false" Unicode="false" Nullable="false" />
-          <Property Name="Bairro" Type="String" MaxLength="100" FixedLength="false" Unicode="false" Nullable="false" />
-          <Property Name="Cidade" Type="String" MaxLength="100" FixedLength="false" Unicode="false" Nullable="false" />
-          <Property Name="UF" Type="String" MaxLength="2" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="CEP" Type="String" Nullable="false" MaxLength="9" FixedLength="false" Unicode="false" />
+          <Property Name="Logradouro" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="NomeLogradouro" Type="String" Nullable="false" MaxLength="100" FixedLength="false" Unicode="false" />
+          <Property Name="Numero" Type="String" Nullable="false" MaxLength="5" FixedLength="false" Unicode="false" />
+          <Property Name="Complemento" Type="String" Nullable="false" MaxLength="100" FixedLength="false" Unicode="false" />
+          <Property Name="Bairro" Type="String" Nullable="false" MaxLength="100" FixedLength="false" Unicode="false" />
+          <Property Name="Cidade" Type="String" Nullable="false" MaxLength="100" FixedLength="false" Unicode="false" />
+          <Property Name="UF" Type="String" Nullable="false" MaxLength="2" FixedLength="false" Unicode="false" />
           <Property Name="Telefone" Type="String" MaxLength="13" FixedLength="false" Unicode="false" />
           <Property Name="Celular" Type="String" MaxLength="14" FixedLength="false" Unicode="false" />
           <Property Name="Ajuda" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
           <Property Name="Imagem" Type="Binary" MaxLength="Max" FixedLength="false" />
-          <NavigationProperty Name="CONTROLE" Relationship="Self.FK_CONTROLE_AMIGO" FromRole="AMIGO" ToRole="CONTROLE" />
-          <NavigationProperty Name="TRATAMENTO" Relationship="Self.FK_TRATAMENTO_AMIGO" FromRole="AMIGO" ToRole="TRATAMENTO" />
+          <NavigationProperty Name="CONTROLE" Relationship="Amigos_do_DonoModel.FK_CONTROLE_AMIGO" FromRole="AMIGO" ToRole="CONTROLE" />
+          <NavigationProperty Name="CONTROLE1" Relationship="Amigos_do_DonoModel.FK_CONTROLE_AMIGO1" FromRole="AMIGO" ToRole="CONTROLE" />
+          <NavigationProperty Name="TRATAMENTO" Relationship="Amigos_do_DonoModel.FK_TRATAMENTO_AMIGO" FromRole="AMIGO" ToRole="TRATAMENTO" />
         </EntityType>
         <EntityType Name="CONTROLE">
           <Key>
@@ -212,12 +320,17 @@
           </Key>
           <Property Name="IDC" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
           <Property Name="IDPet" Type="Int32" Nullable="false" />
-          <Property Name="IDAmigo" Type="Int32" Nullable="false" />
+          <Property Name="NomePet" Type="String" MaxLength="80" FixedLength="false" Unicode="false" />
+          <Property Name="IDDono" Type="Int32" Nullable="false" />
+          <Property Name="NomeDono" Type="String" Nullable="false" MaxLength="100" FixedLength="false" Unicode="false" />
+          <Property Name="IDDoador" Type="Int32" Nullable="false" />
+          <Property Name="NomeDoador" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
           <Property Name="DataAdocao" Type="DateTime" Precision="0" />
-          <Property Name="Status" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="Status" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
           <Property Name="OBS" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
-          <NavigationProperty Name="AMIGO" Relationship="Self.FK_CONTROLE_AMIGO" FromRole="CONTROLE" ToRole="AMIGO" />
-          <NavigationProperty Name="PET" Relationship="Self.FK_adocao_Animal" FromRole="CONTROLE" ToRole="PET" />
+          <NavigationProperty Name="AMIGO" Relationship="Amigos_do_DonoModel.FK_CONTROLE_AMIGO" FromRole="CONTROLE" ToRole="AMIGO" />
+          <NavigationProperty Name="AMIGO1" Relationship="Amigos_do_DonoModel.FK_CONTROLE_AMIGO1" FromRole="CONTROLE" ToRole="AMIGO" />
+          <NavigationProperty Name="PET" Relationship="Amigos_do_DonoModel.FK_adocao_Animal" FromRole="CONTROLE" ToRole="PET" />
         </EntityType>
         <EntityType Name="DENUNCIA">
           <Key>
@@ -225,8 +338,8 @@
           </Key>
           <Property Name="IDD" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
           <Property Name="Denunciante" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
-          <Property Name="TextoDenuncia" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" Nullable="false" />
-          <Property Name="Email" Type="String" MaxLength="100" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="TextoDenuncia" Type="String" Nullable="false" MaxLength="Max" FixedLength="false" Unicode="false" />
+          <Property Name="Email" Type="String" Nullable="false" MaxLength="100" FixedLength="false" Unicode="false" />
           <Property Name="CEP" Type="String" MaxLength="9" FixedLength="false" Unicode="false" />
           <Property Name="TipoLogradouro" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
           <Property Name="NomeLogradouro" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
@@ -243,10 +356,10 @@
             <PropertyRef Name="IDF" />
           </Key>
           <Property Name="IDF" Type="Int32" Nullable="false" />
-          <Property Name="Nome" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" Nullable="false" />
-          <Property Name="Email" Type="String" MaxLength="100" FixedLength="false" Unicode="false" Nullable="false" />
-          <Property Name="Opiniao" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" Nullable="false" />
-          <Property Name="Feedback" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="Nome" Type="String" Nullable="false" MaxLength="Max" FixedLength="false" Unicode="false" />
+          <Property Name="Email" Type="String" Nullable="false" MaxLength="100" FixedLength="false" Unicode="false" />
+          <Property Name="Opiniao" Type="String" Nullable="false" MaxLength="Max" FixedLength="false" Unicode="false" />
+          <Property Name="Feedback" Type="String" Nullable="false" MaxLength="Max" FixedLength="false" Unicode="false" />
         </EntityType>
         <EntityType Name="PET">
           <Key>
@@ -254,19 +367,37 @@
           </Key>
           <Property Name="IDP" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
           <Property Name="Cadastro" Type="DateTime" Nullable="false" Precision="0" />
-          <Property Name="NomePet" Type="String" MaxLength="80" FixedLength="false" Unicode="false" Nullable="false" />
-          <Property Name="TipoPet" Type="String" MaxLength="10" FixedLength="false" Unicode="false" Nullable="false" />
-          <Property Name="Situacao" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
-          <Property Name="Idade" Type="String" MaxLength="10" FixedLength="false" Unicode="false" Nullable="false" />
-          <Property Name="Raca" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
-          <Property Name="Sexo" Type="String" MaxLength="10" FixedLength="false" Unicode="false" Nullable="false" />
-          <Property Name="Porte" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
-          <Property Name="Castrado" Type="String" MaxLength="3" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="NomePet" Type="String" Nullable="false" MaxLength="80" FixedLength="false" Unicode="false" />
+          <Property Name="TipoPet" Type="String" Nullable="false" MaxLength="10" FixedLength="false" Unicode="false" />
+          <Property Name="Situacao" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="Idade" Type="String" Nullable="false" MaxLength="10" FixedLength="false" Unicode="false" />
+          <Property Name="Raca" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="Sexo" Type="String" Nullable="false" MaxLength="10" FixedLength="false" Unicode="false" />
+          <Property Name="Porte" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="Castrado" Type="String" Nullable="false" MaxLength="3" FixedLength="false" Unicode="false" />
           <Property Name="DataNascimento" Type="DateTime" Precision="0" />
           <Property Name="OBS" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
           <Property Name="Imagem" Type="Binary" MaxLength="Max" FixedLength="false" />
-          <NavigationProperty Name="CONTROLE" Relationship="Self.FK_adocao_Animal" FromRole="PET" ToRole="CONTROLE" />
-          <NavigationProperty Name="TRATAMENTO" Relationship="Self.FK_TRATAMENTO_PET" FromRole="PET" ToRole="TRATAMENTO" />
+          <Property Name="IDRaça" Type="Int32" />
+          <NavigationProperty Name="CONTROLE" Relationship="Amigos_do_DonoModel.FK_adocao_Animal" FromRole="PET" ToRole="CONTROLE" />
+          <NavigationProperty Name="RAÇA" Relationship="Amigos_do_DonoModel.FK_PET_RAÇA" FromRole="PET" ToRole="RAÇA" />
+          <NavigationProperty Name="TRATAMENTO" Relationship="Amigos_do_DonoModel.FK_TRATAMENTO_PET" FromRole="PET" ToRole="TRATAMENTO" />
+        </EntityType>
+        <EntityType Name="RAÇA">
+          <Key>
+            <PropertyRef Name="IDR" />
+          </Key>
+          <Property Name="IDR" Type="Int32" Nullable="false" />
+          <Property Name="NomeRaça" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <NavigationProperty Name="PET" Relationship="Amigos_do_DonoModel.FK_PET_RAÇA" FromRole="RAÇA" ToRole="PET" />
+        </EntityType>
+        <EntityType Name="TIPOTRATAMENTO">
+          <Key>
+            <PropertyRef Name="IDTT" />
+          </Key>
+          <Property Name="IDTT" Type="Int32" Nullable="false" />
+          <Property Name="Descricao" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+          <NavigationProperty Name="TRATAMENTO" Relationship="Amigos_do_DonoModel.FK_TRATAMENTO_TIPOTRATAMENTO" FromRole="TIPOTRATAMENTO" ToRole="TRATAMENTO" />
         </EntityType>
         <EntityType Name="TRATAMENTO">
           <Key>
@@ -275,28 +406,42 @@
           <Property Name="IDT" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
           <Property Name="IDResponsavel" Type="Int32" Nullable="false" />
           <Property Name="IDPet" Type="Int32" Nullable="false" />
-          <Property Name="Tipo" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="Tipo" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
           <Property Name="Data" Type="DateTime" Nullable="false" Precision="0" />
           <Property Name="OBS" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
           <Property Name="Descricao" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
-          <NavigationProperty Name="AMIGO" Relationship="Self.FK_TRATAMENTO_AMIGO" FromRole="TRATAMENTO" ToRole="AMIGO" />
-          <NavigationProperty Name="PET" Relationship="Self.FK_TRATAMENTO_PET" FromRole="TRATAMENTO" ToRole="PET" />
+          <Property Name="IDDescricao" Type="Int32" />
+          <NavigationProperty Name="AMIGO" Relationship="Amigos_do_DonoModel.FK_TRATAMENTO_AMIGO" FromRole="TRATAMENTO" ToRole="AMIGO" />
+          <NavigationProperty Name="PET" Relationship="Amigos_do_DonoModel.FK_TRATAMENTO_PET" FromRole="TRATAMENTO" ToRole="PET" />
+          <NavigationProperty Name="TIPOTRATAMENTO" Relationship="Amigos_do_DonoModel.FK_TRATAMENTO_TIPOTRATAMENTO" FromRole="TRATAMENTO" ToRole="TIPOTRATAMENTO" />
         </EntityType>
         <Association Name="FK_CONTROLE_AMIGO">
-          <End Role="AMIGO" Type="Self.AMIGO" Multiplicity="1" />
-          <End Role="CONTROLE" Type="Self.CONTROLE" Multiplicity="*" />
+          <End Type="Amigos_do_DonoModel.AMIGO" Role="AMIGO" Multiplicity="1" />
+          <End Type="Amigos_do_DonoModel.CONTROLE" Role="CONTROLE" Multiplicity="*" />
           <ReferentialConstraint>
             <Principal Role="AMIGO">
               <PropertyRef Name="IDA" />
             </Principal>
             <Dependent Role="CONTROLE">
-              <PropertyRef Name="IDAmigo" />
+              <PropertyRef Name="IDDono" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_CONTROLE_AMIGO1">
+          <End Type="Amigos_do_DonoModel.AMIGO" Role="AMIGO" Multiplicity="1" />
+          <End Type="Amigos_do_DonoModel.CONTROLE" Role="CONTROLE" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="AMIGO">
+              <PropertyRef Name="IDA" />
+            </Principal>
+            <Dependent Role="CONTROLE">
+              <PropertyRef Name="IDDoador" />
             </Dependent>
           </ReferentialConstraint>
         </Association>
         <Association Name="FK_TRATAMENTO_AMIGO">
-          <End Role="AMIGO" Type="Self.AMIGO" Multiplicity="1" />
-          <End Role="TRATAMENTO" Type="Self.TRATAMENTO" Multiplicity="*" />
+          <End Type="Amigos_do_DonoModel.AMIGO" Role="AMIGO" Multiplicity="1" />
+          <End Type="Amigos_do_DonoModel.TRATAMENTO" Role="TRATAMENTO" Multiplicity="*" />
           <ReferentialConstraint>
             <Principal Role="AMIGO">
               <PropertyRef Name="IDA" />
@@ -307,8 +452,8 @@
           </ReferentialConstraint>
         </Association>
         <Association Name="FK_adocao_Animal">
-          <End Role="PET" Type="Self.PET" Multiplicity="1" />
-          <End Role="CONTROLE" Type="Self.CONTROLE" Multiplicity="*" />
+          <End Type="Amigos_do_DonoModel.PET" Role="PET" Multiplicity="1" />
+          <End Type="Amigos_do_DonoModel.CONTROLE" Role="CONTROLE" Multiplicity="*" />
           <ReferentialConstraint>
             <Principal Role="PET">
               <PropertyRef Name="IDP" />
@@ -318,9 +463,21 @@
             </Dependent>
           </ReferentialConstraint>
         </Association>
+        <Association Name="FK_PET_RAÇA">
+          <End Type="Amigos_do_DonoModel.RAÇA" Role="RAÇA" Multiplicity="0..1" />
+          <End Type="Amigos_do_DonoModel.PET" Role="PET" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="RAÇA">
+              <PropertyRef Name="IDR" />
+            </Principal>
+            <Dependent Role="PET">
+              <PropertyRef Name="IDRaça" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
         <Association Name="FK_TRATAMENTO_PET">
-          <End Role="PET" Type="Self.PET" Multiplicity="1" />
-          <End Role="TRATAMENTO" Type="Self.TRATAMENTO" Multiplicity="*" />
+          <End Type="Amigos_do_DonoModel.PET" Role="PET" Multiplicity="1" />
+          <End Type="Amigos_do_DonoModel.TRATAMENTO" Role="TRATAMENTO" Multiplicity="*" />
           <ReferentialConstraint>
             <Principal Role="PET">
               <PropertyRef Name="IDP" />
@@ -330,135 +487,145 @@
             </Dependent>
           </ReferentialConstraint>
         </Association>
-        <EntityContainer Name="AmigoDonoEntities" annotation:LazyLoadingEnabled="true">
-          <EntitySet Name="AMIGO" EntityType="Self.AMIGO" />
-          <EntitySet Name="CONTROLE" EntityType="Self.CONTROLE" />
-          <EntitySet Name="DENUNCIA" EntityType="Self.DENUNCIA" />
-          <EntitySet Name="FEEDBACK" EntityType="Self.FEEDBACK" />
-          <EntitySet Name="PET" EntityType="Self.PET" />
-          <EntitySet Name="TRATAMENTO" EntityType="Self.TRATAMENTO" />
-          <AssociationSet Name="FK_CONTROLE_AMIGO" Association="Self.FK_CONTROLE_AMIGO">
-            <End Role="AMIGO" EntitySet="AMIGO" />
-            <End Role="CONTROLE" EntitySet="CONTROLE" />
-          </AssociationSet>
-          <AssociationSet Name="FK_TRATAMENTO_AMIGO" Association="Self.FK_TRATAMENTO_AMIGO">
-            <End Role="AMIGO" EntitySet="AMIGO" />
-            <End Role="TRATAMENTO" EntitySet="TRATAMENTO" />
-          </AssociationSet>
-          <AssociationSet Name="FK_adocao_Animal" Association="Self.FK_adocao_Animal">
-            <End Role="PET" EntitySet="PET" />
-            <End Role="CONTROLE" EntitySet="CONTROLE" />
-          </AssociationSet>
-          <AssociationSet Name="FK_TRATAMENTO_PET" Association="Self.FK_TRATAMENTO_PET">
-            <End Role="PET" EntitySet="PET" />
-            <End Role="TRATAMENTO" EntitySet="TRATAMENTO" />
-          </AssociationSet>
-        </EntityContainer>
+        <Association Name="FK_TRATAMENTO_TIPOTRATAMENTO">
+          <End Type="Amigos_do_DonoModel.TIPOTRATAMENTO" Role="TIPOTRATAMENTO" Multiplicity="0..1" />
+          <End Type="Amigos_do_DonoModel.TRATAMENTO" Role="TRATAMENTO" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="TIPOTRATAMENTO">
+              <PropertyRef Name="IDTT" />
+            </Principal>
+            <Dependent Role="TRATAMENTO">
+              <PropertyRef Name="IDDescricao" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
       </Schema>
     </edmx:ConceptualModels>
     <!-- C-S mapping content -->
     <edmx:Mappings>
       <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
-        <EntityContainerMapping StorageEntityContainer="AmigoDonoModelStoreContainer" CdmEntityContainer="AmigoDonoEntities">
+        <EntityContainerMapping StorageEntityContainer="Amigos_do_DonoModelStoreContainer" CdmEntityContainer="Amigos_do_DonoEntities">
           <EntitySetMapping Name="AMIGO">
-            <EntityTypeMapping TypeName="AmigoDonoModel.AMIGO">
+            <EntityTypeMapping TypeName="Amigos_do_DonoModel.AMIGO">
               <MappingFragment StoreEntitySet="AMIGO">
-                <ScalarProperty Name="IDA" ColumnName="IDA" />
-                <ScalarProperty Name="Nome" ColumnName="Nome" />
-                <ScalarProperty Name="Funcao" ColumnName="Funcao" />
-                <ScalarProperty Name="Senha" ColumnName="Senha" />
-                <ScalarProperty Name="CPF" ColumnName="CPF" />
-                <ScalarProperty Name="CNPJ" ColumnName="CNPJ" />
-                <ScalarProperty Name="DataNascimento" ColumnName="DataNascimento" />
-                <ScalarProperty Name="DataCadastro" ColumnName="DataCadastro" />
-                <ScalarProperty Name="Email" ColumnName="Email" />
-                <ScalarProperty Name="CEP" ColumnName="CEP" />
-                <ScalarProperty Name="Logradouro" ColumnName="Logradouro" />
-                <ScalarProperty Name="NomeLogradouro" ColumnName="NomeLogradouro" />
-                <ScalarProperty Name="Numero" ColumnName="Numero" />
-                <ScalarProperty Name="Complemento" ColumnName="Complemento" />
-                <ScalarProperty Name="Bairro" ColumnName="Bairro" />
-                <ScalarProperty Name="Cidade" ColumnName="Cidade" />
-                <ScalarProperty Name="UF" ColumnName="UF" />
-                <ScalarProperty Name="Telefone" ColumnName="Telefone" />
-                <ScalarProperty Name="Celular" ColumnName="Celular" />
-                <ScalarProperty Name="Ajuda" ColumnName="Ajuda" />
                 <ScalarProperty Name="Imagem" ColumnName="Imagem" />
+                <ScalarProperty Name="Ajuda" ColumnName="Ajuda" />
+                <ScalarProperty Name="Celular" ColumnName="Celular" />
+                <ScalarProperty Name="Telefone" ColumnName="Telefone" />
+                <ScalarProperty Name="UF" ColumnName="UF" />
+                <ScalarProperty Name="Cidade" ColumnName="Cidade" />
+                <ScalarProperty Name="Bairro" ColumnName="Bairro" />
+                <ScalarProperty Name="Complemento" ColumnName="Complemento" />
+                <ScalarProperty Name="Numero" ColumnName="Numero" />
+                <ScalarProperty Name="NomeLogradouro" ColumnName="NomeLogradouro" />
+                <ScalarProperty Name="Logradouro" ColumnName="Logradouro" />
+                <ScalarProperty Name="CEP" ColumnName="CEP" />
+                <ScalarProperty Name="Email" ColumnName="Email" />
+                <ScalarProperty Name="DataCadastro" ColumnName="DataCadastro" />
+                <ScalarProperty Name="DataNascimento" ColumnName="DataNascimento" />
+                <ScalarProperty Name="CNPJ" ColumnName="CNPJ" />
+                <ScalarProperty Name="CPF" ColumnName="CPF" />
+                <ScalarProperty Name="Senha" ColumnName="Senha" />
+                <ScalarProperty Name="Funcao" ColumnName="Funcao" />
+                <ScalarProperty Name="Nome" ColumnName="Nome" />
+                <ScalarProperty Name="IDA" ColumnName="IDA" />
               </MappingFragment>
             </EntityTypeMapping>
           </EntitySetMapping>
           <EntitySetMapping Name="CONTROLE">
-            <EntityTypeMapping TypeName="AmigoDonoModel.CONTROLE">
+            <EntityTypeMapping TypeName="Amigos_do_DonoModel.CONTROLE">
               <MappingFragment StoreEntitySet="CONTROLE">
-                <ScalarProperty Name="IDC" ColumnName="IDC" />
-                <ScalarProperty Name="IDPet" ColumnName="IDPet" />
-                <ScalarProperty Name="IDAmigo" ColumnName="IDAmigo" />
-                <ScalarProperty Name="DataAdocao" ColumnName="DataAdocao" />
-                <ScalarProperty Name="Status" ColumnName="Status" />
                 <ScalarProperty Name="OBS" ColumnName="OBS" />
+                <ScalarProperty Name="Status" ColumnName="Status" />
+                <ScalarProperty Name="DataAdocao" ColumnName="DataAdocao" />
+                <ScalarProperty Name="NomeDoador" ColumnName="NomeDoador" />
+                <ScalarProperty Name="IDDoador" ColumnName="IDDoador" />
+                <ScalarProperty Name="NomeDono" ColumnName="NomeDono" />
+                <ScalarProperty Name="IDDono" ColumnName="IDDono" />
+                <ScalarProperty Name="NomePet" ColumnName="NomePet" />
+                <ScalarProperty Name="IDPet" ColumnName="IDPet" />
+                <ScalarProperty Name="IDC" ColumnName="IDC" />
               </MappingFragment>
             </EntityTypeMapping>
           </EntitySetMapping>
           <EntitySetMapping Name="DENUNCIA">
-            <EntityTypeMapping TypeName="AmigoDonoModel.DENUNCIA">
+            <EntityTypeMapping TypeName="Amigos_do_DonoModel.DENUNCIA">
               <MappingFragment StoreEntitySet="DENUNCIA">
-                <ScalarProperty Name="IDD" ColumnName="IDD" />
-                <ScalarProperty Name="Denunciante" ColumnName="Denunciante" />
-                <ScalarProperty Name="TextoDenuncia" ColumnName="TextoDenuncia" />
-                <ScalarProperty Name="Email" ColumnName="Email" />
-                <ScalarProperty Name="CEP" ColumnName="CEP" />
-                <ScalarProperty Name="TipoLogradouro" ColumnName="TipoLogradouro" />
-                <ScalarProperty Name="NomeLogradouro" ColumnName="NomeLogradouro" />
-                <ScalarProperty Name="Numero" ColumnName="Numero" />
-                <ScalarProperty Name="Complemento" ColumnName="Complemento" />
-                <ScalarProperty Name="Bairro" ColumnName="Bairro" />
-                <ScalarProperty Name="Cidade" ColumnName="Cidade" />
-                <ScalarProperty Name="UF" ColumnName="UF" />
-                <ScalarProperty Name="Data" ColumnName="Data" />
                 <ScalarProperty Name="DataResposta" ColumnName="DataResposta" />
+                <ScalarProperty Name="Data" ColumnName="Data" />
+                <ScalarProperty Name="UF" ColumnName="UF" />
+                <ScalarProperty Name="Cidade" ColumnName="Cidade" />
+                <ScalarProperty Name="Bairro" ColumnName="Bairro" />
+                <ScalarProperty Name="Complemento" ColumnName="Complemento" />
+                <ScalarProperty Name="Numero" ColumnName="Numero" />
+                <ScalarProperty Name="NomeLogradouro" ColumnName="NomeLogradouro" />
+                <ScalarProperty Name="TipoLogradouro" ColumnName="TipoLogradouro" />
+                <ScalarProperty Name="CEP" ColumnName="CEP" />
+                <ScalarProperty Name="Email" ColumnName="Email" />
+                <ScalarProperty Name="TextoDenuncia" ColumnName="TextoDenuncia" />
+                <ScalarProperty Name="Denunciante" ColumnName="Denunciante" />
+                <ScalarProperty Name="IDD" ColumnName="IDD" />
               </MappingFragment>
             </EntityTypeMapping>
           </EntitySetMapping>
           <EntitySetMapping Name="FEEDBACK">
-            <EntityTypeMapping TypeName="AmigoDonoModel.FEEDBACK">
+            <EntityTypeMapping TypeName="Amigos_do_DonoModel.FEEDBACK">
               <MappingFragment StoreEntitySet="FEEDBACK">
-                <ScalarProperty Name="IDF" ColumnName="IDF" />
-                <ScalarProperty Name="Nome" ColumnName="Nome" />
-                <ScalarProperty Name="Email" ColumnName="Email" />
-                <ScalarProperty Name="Opiniao" ColumnName="Opiniao" />
                 <ScalarProperty Name="Feedback" ColumnName="Feedback" />
+                <ScalarProperty Name="Opiniao" ColumnName="Opiniao" />
+                <ScalarProperty Name="Email" ColumnName="Email" />
+                <ScalarProperty Name="Nome" ColumnName="Nome" />
+                <ScalarProperty Name="IDF" ColumnName="IDF" />
               </MappingFragment>
             </EntityTypeMapping>
           </EntitySetMapping>
           <EntitySetMapping Name="PET">
-            <EntityTypeMapping TypeName="AmigoDonoModel.PET">
+            <EntityTypeMapping TypeName="Amigos_do_DonoModel.PET">
               <MappingFragment StoreEntitySet="PET">
-                <ScalarProperty Name="IDP" ColumnName="IDP" />
-                <ScalarProperty Name="Cadastro" ColumnName="Cadastro" />
-                <ScalarProperty Name="NomePet" ColumnName="NomePet" />
-                <ScalarProperty Name="TipoPet" ColumnName="TipoPet" />
-                <ScalarProperty Name="Situacao" ColumnName="Situacao" />
-                <ScalarProperty Name="Idade" ColumnName="Idade" />
-                <ScalarProperty Name="Raca" ColumnName="Raca" />
-                <ScalarProperty Name="Sexo" ColumnName="Sexo" />
-                <ScalarProperty Name="Porte" ColumnName="Porte" />
-                <ScalarProperty Name="Castrado" ColumnName="Castrado" />
-                <ScalarProperty Name="DataNascimento" ColumnName="DataNascimento" />
-                <ScalarProperty Name="OBS" ColumnName="OBS" />
+                <ScalarProperty Name="IDRaça" ColumnName="IDRaça" />
                 <ScalarProperty Name="Imagem" ColumnName="Imagem" />
+                <ScalarProperty Name="OBS" ColumnName="OBS" />
+                <ScalarProperty Name="DataNascimento" ColumnName="DataNascimento" />
+                <ScalarProperty Name="Castrado" ColumnName="Castrado" />
+                <ScalarProperty Name="Porte" ColumnName="Porte" />
+                <ScalarProperty Name="Sexo" ColumnName="Sexo" />
+                <ScalarProperty Name="Raca" ColumnName="Raca" />
+                <ScalarProperty Name="Idade" ColumnName="Idade" />
+                <ScalarProperty Name="Situacao" ColumnName="Situacao" />
+                <ScalarProperty Name="TipoPet" ColumnName="TipoPet" />
+                <ScalarProperty Name="NomePet" ColumnName="NomePet" />
+                <ScalarProperty Name="Cadastro" ColumnName="Cadastro" />
+                <ScalarProperty Name="IDP" ColumnName="IDP" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="RAÇA">
+            <EntityTypeMapping TypeName="Amigos_do_DonoModel.RAÇA">
+              <MappingFragment StoreEntitySet="RAÇA">
+                <ScalarProperty Name="NomeRaça" ColumnName="NomeRaça" />
+                <ScalarProperty Name="IDR" ColumnName="IDR" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="TIPOTRATAMENTO">
+            <EntityTypeMapping TypeName="Amigos_do_DonoModel.TIPOTRATAMENTO">
+              <MappingFragment StoreEntitySet="TIPOTRATAMENTO">
+                <ScalarProperty Name="Descricao" ColumnName="Descricao" />
+                <ScalarProperty Name="IDTT" ColumnName="IDTT" />
               </MappingFragment>
             </EntityTypeMapping>
           </EntitySetMapping>
           <EntitySetMapping Name="TRATAMENTO">
-            <EntityTypeMapping TypeName="AmigoDonoModel.TRATAMENTO">
+            <EntityTypeMapping TypeName="Amigos_do_DonoModel.TRATAMENTO">
               <MappingFragment StoreEntitySet="TRATAMENTO">
-                <ScalarProperty Name="IDT" ColumnName="IDT" />
-                <ScalarProperty Name="IDResponsavel" ColumnName="IDResponsavel" />
-                <ScalarProperty Name="IDPet" ColumnName="IDPet" />
-                <ScalarProperty Name="Tipo" ColumnName="Tipo" />
-                <ScalarProperty Name="Data" ColumnName="Data" />
-                <ScalarProperty Name="OBS" ColumnName="OBS" />
+                <ScalarProperty Name="IDDescricao" ColumnName="IDDescricao" />
                 <ScalarProperty Name="Descricao" ColumnName="Descricao" />
+                <ScalarProperty Name="OBS" ColumnName="OBS" />
+                <ScalarProperty Name="Data" ColumnName="Data" />
+                <ScalarProperty Name="Tipo" ColumnName="Tipo" />
+                <ScalarProperty Name="IDPet" ColumnName="IDPet" />
+                <ScalarProperty Name="IDResponsavel" ColumnName="IDResponsavel" />
+                <ScalarProperty Name="IDT" ColumnName="IDT" />
               </MappingFragment>
             </EntityTypeMapping>
           </EntitySetMapping>

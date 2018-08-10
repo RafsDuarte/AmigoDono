@@ -34,9 +34,11 @@ namespace AmigoDono.Model
         public Nullable<System.DateTime> DataNascimento { get; set; }
         public string OBS { get; set; }
         public byte[] Imagem { get; set; }
+        public Nullable<int> IDRaça { get; set; }
     
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
         public virtual ICollection<CONTROLE> CONTROLE { get; set; }
+        public virtual RAÇA RAÇA { get; set; }
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
         public virtual ICollection<TRATAMENTO> TRATAMENTO { get; set; }
     }

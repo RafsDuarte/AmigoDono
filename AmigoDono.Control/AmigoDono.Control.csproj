@@ -43,8 +43,10 @@
     <Compile Include="CAmigo.cs" />
     <Compile Include="CControle.cs" />
     <Compile Include="CDenuncia.cs" />
-    <Compile Include="CFeedback.cs" />
     <Compile Include="CPet.cs" />
+    <Compile Include="CTipoTratamento.cs" />
+    <Compile Include="CFeedback.cs" />
+    <Compile Include="CRaça.cs" />
     <Compile Include="CTratamento.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

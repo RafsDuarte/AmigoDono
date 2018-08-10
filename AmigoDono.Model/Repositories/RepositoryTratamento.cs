@@ -8,14 +8,14 @@ namespace AmigoDono.Model.Repositories
 {
     public class RepositoryTratamento : IDisposable
     {
-        private AmigoDonoEntities odb;
+        private Amigos_do_DonoEntities odb;
         private bool LiberaContexto = false;
         public RepositoryTratamento()
         {
             odb = Helper.Data.getContexto();
             LiberaContexto = true;
         }
-        public RepositoryTratamento(AmigoDonoEntities _obd) { _obd = odb; }
+        public RepositoryTratamento(Amigos_do_DonoEntities _obd) { _obd = odb; }
         public TRATAMENTO Selecionar(int ID)
         {
             return (from p in odb.TRATAMENTO where p.IDT == ID select p).FirstOrDefault();
@@ -26,7 +26,7 @@ namespace AmigoDono.Model.Repositories
         }
         //public TRATAMENTO SelecionarNome(string NomeTratamento)
         //{
-        //    return (from p in odb.TRATAMENTO where p..Equals(NomeTratamento) select p).FirstOrDefault();
+        //    return (from p in odb.TRATAMENTO where p.NomeTratamento.Equals(NomeTratamento) select p).FirstOrDefault();
         //}
         //public List<TRATAMENTO> SelecionarTodos(string tratamento)
         //{

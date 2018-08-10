@@ -8,7 +8,7 @@ namespace AmigoDono.Model.Repositories
 {
     public class RepositoryAmigo :IDisposable
     {
-        private AmigoDonoEntities odb;
+        private Amigos_do_DonoEntities odb;
         private bool LiberaContexto = false;
         //private bool attach = false;
 
@@ -19,7 +19,7 @@ namespace AmigoDono.Model.Repositories
             LiberaContexto = true;
         }
 
-        public RepositoryAmigo(AmigoDonoEntities _obd)
+        public RepositoryAmigo(Amigos_do_DonoEntities _obd)
         {
             _obd = odb;
         }
@@ -40,19 +40,16 @@ namespace AmigoDono.Model.Repositories
             return (from p in odb.AMIGO where p.IDA == ID select p).FirstOrDefault();
         }
 
-        public AMIGO SelecionaSenha(string senha)
-        {
-            return (from p in odb.AMIGO where p.Senha == senha select p).FirstOrDefault();
-        }
         public AMIGO Selecionar(int? ID)
         {
             return (from p in odb.AMIGO where p.IDA == ID select p).FirstOrDefault();
         }
         // ok
+
         public List<AMIGO> SelecionarTodos()
-        {     
-             return (from p in odb.AMIGO orderby p.Nome select p).ToList();
-            
+        {
+            return (from p in odb.AMIGO orderby p.Nome select p).ToList();
+           
         }
             public List<AMIGO> SelecionarTodos(string amigo)
         {
@@ -67,7 +64,21 @@ namespace AmigoDono.Model.Repositories
         }
 
         public void Incluir(AMIGO oAmigo)
-        {        
+        {
+            //var local = odb.Set<AMIGO>()
+
+            //             .Local
+
+            //             .FirstOrDefault(f => f.IDA == oAmigo.IDA);
+
+            //odb.Entry(local).State = System.Data.Entity.EntityState.Detached;
+
+            //odb.Entry(oAmigo).State = System.Data.Entity.EntityState.Added;
+
+            //odb.SaveChanges();
+
+
+            //odb.Entry(oAmigo).State = System.Data.Entity.EntityState.Added;
             odb.AMIGO.Add(oAmigo);
             odb.SaveChanges();
         }

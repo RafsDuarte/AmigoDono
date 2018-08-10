@@ -16,12 +16,17 @@ namespace AmigoDono.Model
     {
         public int IDC { get; set; }
         public int IDPet { get; set; }
-        public int IDAmigo { get; set; }
+        public string NomePet { get; set; }
+        public int IDDono { get; set; }
+        public string NomeDono { get; set; }
+        public int IDDoador { get; set; }
+        public string NomeDoador { get; set; }
         public Nullable<System.DateTime> DataAdocao { get; set; }
         public string Status { get; set; }
         public string OBS { get; set; }
     
         public virtual AMIGO AMIGO { get; set; }
+        public virtual AMIGO AMIGO1 { get; set; }
         public virtual PET PET { get; set; }
     }
 }

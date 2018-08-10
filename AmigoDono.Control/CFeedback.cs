@@ -8,18 +8,32 @@ using AmigoDono.Model.Repositories;
 
 namespace AmigoDono.Control
 {
-    public class CFeedback
+    public class CFeedback :IDisposable
     {
-        RepositoryFeedback _Repository;
-
+        RepositoryTratamento _Repository;
         public CFeedback()
         {
-            _Repository = new RepositoryFeedback();
+            _Repository = new RepositoryTratamento();
         }
-
-        public void Incluir(FEEDBACK oFeedback)
+        public void Incluir(TRATAMENTO oTratamento)
         {
-            _Repository.Incluir(oFeedback);
+            _Repository.Incluir(oTratamento);
+        }
+        public void Excluir(TRATAMENTO oTratamento)
+        {
+            _Repository.Excluir(oTratamento);
+        }
+        public TRATAMENTO Selecionar(int ID)
+        {
+            return _Repository.Selecionar(ID);
+        }
+        public TRATAMENTO SelecionarID(int ID)
+        {
+            return _Repository.SelecionarID(ID);
+        }
+        public void Dispose()
+        {
+            _Repository.Dispose();
         }
     }
 }

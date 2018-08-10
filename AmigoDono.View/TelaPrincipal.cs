@@ -20,8 +20,7 @@ namespace AmigoDono.View
         private void MnuAmigo_Click(object sender, EventArgs e)
         {
             TelaCadastroAmigo oFrm = new TelaCadastroAmigo();
-            oFrm.MdiParent = this;
-          
+            oFrm.MdiParent = this;          
             oFrm.Show();
             MnuAmigo.Enabled = false;
         }
@@ -48,17 +47,16 @@ namespace AmigoDono.View
         {
             TelaControle oFrm = new TelaControle();
             oFrm.MdiParent = this;
-            oFrm.WindowState = FormWindowState.Maximized;
+            oFrm.WindowState = FormWindowState.Normal;
             oFrm.Show();
             MnuControle.Enabled = false;
-
         }
 
         private void MnuTratamento_Click(object sender, EventArgs e)
         {
             TelaTratamento oFrm = new TelaTratamento();
             oFrm.MdiParent = this;
-            oFrm.WindowState = FormWindowState.Maximized;
+            oFrm.WindowState = FormWindowState.Normal;
             oFrm.Show();
             MnuTratamento.Enabled = false;
 
@@ -68,7 +66,7 @@ namespace AmigoDono.View
         {
             TelaDenuncia oFrm = new TelaDenuncia();
             oFrm.MdiParent = this;
-            oFrm.WindowState = FormWindowState.Maximized;
+            oFrm.WindowState = FormWindowState.Normal;
             oFrm.Show();
             MnuDenuncia.Enabled = false;
 
@@ -116,6 +114,11 @@ namespace AmigoDono.View
             oFrm.MdiParent = this;
             oFrm.Show();
             MnuPesquisarDenuncia.Enabled = false;
+
+        }
+
+        private void tipoDeTratamentoToolStripMenuItem_Click(object sender, EventArgs e)
+        {
 
         }
     }

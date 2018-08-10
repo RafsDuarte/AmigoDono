@@ -18,6 +18,7 @@ namespace AmigoDono.Model
         public AMIGO()
         {
             this.CONTROLE = new HashSet<CONTROLE>();
+            this.CONTROLE1 = new HashSet<CONTROLE>();
             this.TRATAMENTO = new HashSet<TRATAMENTO>();
         }
     
@@ -45,6 +46,8 @@ namespace AmigoDono.Model
     
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
         public virtual ICollection<CONTROLE> CONTROLE { get; set; }
+        [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
+        public virtual ICollection<CONTROLE> CONTROLE1 { get; set; }
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
         public virtual ICollection<TRATAMENTO> TRATAMENTO { get; set; }
     }

@@ -4,17 +4,22 @@
   <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
     <!-- Diagram content (shape and connector positions) -->
     <edmx:Diagrams>
-      <Diagram DiagramId="bf5183be97db49a98cb2620bc4d4b393" Name="Diagram1" ZoomLevel="93">
-        <EntityTypeShape EntityType="AmigoDonoModel.AMIGO" Width="1.5" PointX="0.75" PointY="1.375" IsExpanded="true" />
-        <EntityTypeShape EntityType="AmigoDonoModel.CONTROLE" Width="1.5" PointX="3" PointY="2.875" IsExpanded="true" />
-        <EntityTypeShape EntityType="AmigoDonoModel.DENUNCIA" Width="1.5" PointX="2.75" PointY="6.75" IsExpanded="true" />
-        <EntityTypeShape EntityType="AmigoDonoModel.FEEDBACK" Width="1.5" PointX="4.75" PointY="6.75" IsExpanded="true" />
-        <EntityTypeShape EntityType="AmigoDonoModel.PET" Width="1.5" PointX="0.75" PointY="8.25" IsExpanded="true" />
-        <EntityTypeShape EntityType="AmigoDonoModel.TRATAMENTO" Width="1.5" PointX="6" PointY="2.75" IsExpanded="true" />
-        <AssociationConnector Association="AmigoDonoModel.FK_CONTROLE_AMIGO" ManuallyRouted="false" />
-        <AssociationConnector Association="AmigoDonoModel.FK_TRATAMENTO_AMIGO" ManuallyRouted="false" />
-        <AssociationConnector Association="AmigoDonoModel.FK_adocao_Animal" ManuallyRouted="false" />
-        <AssociationConnector Association="AmigoDonoModel.FK_TRATAMENTO_PET" ManuallyRouted="false" />
+      <Diagram DiagramId="c755ad00885944eb8ead704a5027a2ff" Name="Diagram1" ZoomLevel="71">
+        <EntityTypeShape EntityType="Amigos_do_DonoModel.AMIGO" Width="1.5" PointX="0.75" PointY="2.75" />
+        <EntityTypeShape EntityType="Amigos_do_DonoModel.CONTROLE" Width="1.5" PointX="3" PointY="3.75" />
+        <EntityTypeShape EntityType="Amigos_do_DonoModel.DENUNCIA" Width="1.5" PointX="2.75" PointY="8.375" />
+        <EntityTypeShape EntityType="Amigos_do_DonoModel.FEEDBACK" Width="1.5" PointX="4.75" PointY="8.375" />
+        <EntityTypeShape EntityType="Amigos_do_DonoModel.PET" Width="1.5" PointX="0.75" PointY="9.375" />
+        <EntityTypeShape EntityType="Amigos_do_DonoModel.RAÇA" Width="1.5" PointX="1.5" PointY="14.75" />
+        <EntityTypeShape EntityType="Amigos_do_DonoModel.TIPOTRATAMENTO" Width="1.5" PointX="3.75" PointY="0.75" />
+        <EntityTypeShape EntityType="Amigos_do_DonoModel.TRATAMENTO" Width="1.5" PointX="6" PointY="4" />
+        <AssociationConnector Association="Amigos_do_DonoModel.FK_CONTROLE_AMIGO" />
+        <AssociationConnector Association="Amigos_do_DonoModel.FK_CONTROLE_AMIGO1" />
+        <AssociationConnector Association="Amigos_do_DonoModel.FK_TRATAMENTO_AMIGO" />
+        <AssociationConnector Association="Amigos_do_DonoModel.FK_adocao_Animal" />
+        <AssociationConnector Association="Amigos_do_DonoModel.FK_PET_RAÇA" />
+        <AssociationConnector Association="Amigos_do_DonoModel.FK_TRATAMENTO_PET" />
+        <AssociationConnector Association="Amigos_do_DonoModel.FK_TRATAMENTO_TIPOTRATAMENTO" />
       </Diagram>
     </edmx:Diagrams>
   </edmx:Designer>

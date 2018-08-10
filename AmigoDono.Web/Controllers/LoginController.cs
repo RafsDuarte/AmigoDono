@@ -24,16 +24,16 @@ namespace AmigoDono.Web.Controllers
             {
                 return View(amigo);
             }
-                 Boolean VerificaSenha = VerificaUsuario.AutorizaAmigo(amigo.Senha);
-                if (VerificaSenha)
-                {
-                   return RedirectToAction("Index", "Adocao");
-                }
+                 //Boolean VerificaSenha = VerificaUsuario.AutorizaAmigo(amigo.Senha);
+                //if (VerificaSenha)
+                //{
+                //   return RedirectToAction("Index", "Adocao");
+                //}
    
-                else
-                {
-                    ModelState.AddModelError("", "Login Inválido");
-                }
+                //else
+                //{
+                //    ModelState.AddModelError("", "Login Inválido");
+                //}
 
             return RedirectToAction("Index", "Login");
         }

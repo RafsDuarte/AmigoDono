@@ -24,11 +24,9 @@ namespace AmigoDono.Model
             public object TextoDenuncia { get; set; }
 
             [DisplayName("Email")]
-            [Required]
             public object Email { get; set; }
 
             [DisplayName("CEP")]
-            [StringLength(9)]
             public object CEP { get; set; }
 
             [DisplayName("Logradouro")]

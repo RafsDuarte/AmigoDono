@@ -167,7 +167,6 @@
             this.Controls.Add(this.BtnSair);
             this.Controls.Add(this.LblNome);
             this.MaximizeBox = false;
-            this.MinimizeBox = false;
             this.Name = "TelaPesquisaDenuncia";
             this.Text = "Tela Pesquisa Denuncia";
             this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.TelaPesquisaDenuncia_FormClosed);
