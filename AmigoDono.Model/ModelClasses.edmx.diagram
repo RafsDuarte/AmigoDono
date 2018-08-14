@@ -4,7 +4,7 @@
   <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
     <!-- Diagram content (shape and connector positions) -->
     <edmx:Diagrams>
-      <Diagram DiagramId="c755ad00885944eb8ead704a5027a2ff" Name="Diagram1" ZoomLevel="71">
+      <Diagram DiagramId="c755ad00885944eb8ead704a5027a2ff" Name="Diagram1" ZoomLevel="69">
         <EntityTypeShape EntityType="Amigos_do_DonoModel.AMIGO" Width="1.5" PointX="0.75" PointY="2.75" />
         <EntityTypeShape EntityType="Amigos_do_DonoModel.CONTROLE" Width="1.5" PointX="3" PointY="3.75" />
         <EntityTypeShape EntityType="Amigos_do_DonoModel.DENUNCIA" Width="1.5" PointX="2.75" PointY="8.375" />

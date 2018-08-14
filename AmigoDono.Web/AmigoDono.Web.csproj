@@ -423,15 +423,7 @@
     <Content Include="Views\Login\Signin.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
     <Content Include="Views\DENUNCIA\Create.cshtml" />
-    <Content Include="Views\DENUNCIA\Delete.cshtml" />
-    <Content Include="Views\DENUNCIA\Details.cshtml" />
-    <Content Include="Views\DENUNCIA\Edit.cshtml" />
-    <Content Include="Views\DENUNCIA\Index.cshtml" />
     <Content Include="Views\AMIGO\Create.cshtml" />
-    <Content Include="Views\AMIGO\Delete.cshtml" />
-    <Content Include="Views\AMIGO\Details.cshtml" />
-    <Content Include="Views\AMIGO\Edit.cshtml" />
-    <Content Include="Views\AMIGO\Index.cshtml" />
     <Content Include="Views\FEEDBACK\FaleConosco.cshtml" />
   </ItemGroup>
   <ItemGroup>

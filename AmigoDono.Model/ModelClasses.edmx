@@ -17,12 +17,12 @@
           <Property Name="CNPJ" Type="varchar" MaxLength="18" />
           <Property Name="DataNascimento" Type="date" Nullable="false" />
           <Property Name="DataCadastro" Type="date" Nullable="false" />
-          <Property Name="Email" Type="varchar" MaxLength="100" />
+          <Property Name="Email" Type="varchar" MaxLength="100" Nullable="false" />
           <Property Name="CEP" Type="varchar" MaxLength="9" Nullable="false" />
           <Property Name="Logradouro" Type="varchar" MaxLength="50" Nullable="false" />
           <Property Name="NomeLogradouro" Type="varchar" MaxLength="100" Nullable="false" />
           <Property Name="Numero" Type="varchar" MaxLength="5" Nullable="false" />
-          <Property Name="Complemento" Type="varchar" MaxLength="100" Nullable="false" />
+          <Property Name="Complemento" Type="varchar" MaxLength="100" />
           <Property Name="Bairro" Type="varchar" MaxLength="100" Nullable="false" />
           <Property Name="Cidade" Type="varchar" MaxLength="100" Nullable="false" />
           <Property Name="UF" Type="varchar" MaxLength="2" Nullable="false" />
@@ -297,12 +297,12 @@
           <Property Name="CNPJ" Type="String" MaxLength="18" FixedLength="false" Unicode="false" />
           <Property Name="DataNascimento" Type="DateTime" Nullable="false" Precision="0" />
           <Property Name="DataCadastro" Type="DateTime" Nullable="false" Precision="0" />
-          <Property Name="Email" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+          <Property Name="Email" Type="String" MaxLength="100" FixedLength="false" Unicode="false" Nullable="false" />
           <Property Name="CEP" Type="String" Nullable="false" MaxLength="9" FixedLength="false" Unicode="false" />
           <Property Name="Logradouro" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
           <Property Name="NomeLogradouro" Type="String" Nullable="false" MaxLength="100" FixedLength="false" Unicode="false" />
           <Property Name="Numero" Type="String" Nullable="false" MaxLength="5" FixedLength="false" Unicode="false" />
-          <Property Name="Complemento" Type="String" Nullable="false" MaxLength="100" FixedLength="false" Unicode="false" />
+          <Property Name="Complemento" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
           <Property Name="Bairro" Type="String" Nullable="false" MaxLength="100" FixedLength="false" Unicode="false" />
           <Property Name="Cidade" Type="String" Nullable="false" MaxLength="100" FixedLength="false" Unicode="false" />
           <Property Name="UF" Type="String" Nullable="false" MaxLength="2" FixedLength="false" Unicode="false" />
