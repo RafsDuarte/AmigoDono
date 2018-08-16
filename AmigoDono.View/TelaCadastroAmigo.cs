@@ -13,7 +13,7 @@ using System.Windows.Forms;
 using AmigoDono.Model;
 using AmigoDono.Control;
 using System.Threading;
-
+using System.Web;
 
 namespace AmigoDono.View
 {
@@ -266,13 +266,13 @@ namespace AmigoDono.View
                         oAmigo.Celular = MskCelular.Text;
                         oAmigo.Ajuda = TxtAjuda.Text;
 
-                        MemoryStream ms = new MemoryStream();
-                        Bitmap BP = new Bitmap(PbFoto.Image);
-                        BP.Save(ms, ImageFormat.Bmp);
+                            MemoryStream ms = new MemoryStream();
+                            Bitmap BP = new Bitmap(PbFoto.Image);
+                            BP.Save(ms, ImageFormat.Bmp);
 
-                        byte[] imagem = ms.ToArray();
-                        oAmigo.Imagem = imagem;
-
+                            byte[] imagem = ms.ToArray();
+                            oAmigo.Imagem = imagem;
+ 
                         _Control.Incluir(oAmigo);
                         Mensagens.MsgIncluido();
                         LimpaDados();

@@ -22,9 +22,13 @@ namespace AmigoDono.Model
             public DateTime DataCadastro { get; set; }
 
             [DisplayName("Função")]
+            [Required(ErrorMessage = "O campo {0} é obrigatorio!")]
+            [StringLength(50, ErrorMessage = "O campo {0} pode ter no máximo {1} e no minimo {2} caracteres")]
             public object Funcao { get; set; }
 
             [DisplayName("Senha")]
+            [Required(ErrorMessage = "O campo {0} é obrigatorio!")]
+            [StringLength(20, ErrorMessage = "O campo {0} pode ter no máximo {1} e no minimo {2} caracteres")]
             public object Senha { get; set; }
 
             [DisplayName("Ajuda")]
@@ -77,6 +81,8 @@ namespace AmigoDono.Model
             public object Cidade { get; set; }
 
             [DisplayName("UF")]
+            [Required(ErrorMessage = "O campo {0} é obrigatorio!")]
+            [StringLength(2, ErrorMessage = "O campo {0} pode ter no máximo {1} e no minimo {2} caracteres")]
             public object UF { get; set; }
 
             [DisplayName("Telefone")]
@@ -87,6 +93,7 @@ namespace AmigoDono.Model
             public object Celular { get; set; }
 
             [DisplayName("Imagem")]
+            [DataType(DataType.ImageUrl)]
             public object Imagem { get; set; }
         }
     }

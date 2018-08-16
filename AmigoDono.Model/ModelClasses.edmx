@@ -21,7 +21,7 @@
           <Property Name="CEP" Type="varchar" MaxLength="9" Nullable="false" />
           <Property Name="Logradouro" Type="varchar" MaxLength="50" Nullable="false" />
           <Property Name="NomeLogradouro" Type="varchar" MaxLength="100" Nullable="false" />
-          <Property Name="Numero" Type="varchar" MaxLength="5" Nullable="false" />
+          <Property Name="Numero" Type="varchar" MaxLength="5" />
           <Property Name="Complemento" Type="varchar" MaxLength="100" />
           <Property Name="Bairro" Type="varchar" MaxLength="100" Nullable="false" />
           <Property Name="Cidade" Type="varchar" MaxLength="100" Nullable="false" />
@@ -301,7 +301,7 @@
           <Property Name="CEP" Type="String" Nullable="false" MaxLength="9" FixedLength="false" Unicode="false" />
           <Property Name="Logradouro" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
           <Property Name="NomeLogradouro" Type="String" Nullable="false" MaxLength="100" FixedLength="false" Unicode="false" />
-          <Property Name="Numero" Type="String" Nullable="false" MaxLength="5" FixedLength="false" Unicode="false" />
+          <Property Name="Numero" Type="String" MaxLength="5" FixedLength="false" Unicode="false" />
           <Property Name="Complemento" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
           <Property Name="Bairro" Type="String" Nullable="false" MaxLength="100" FixedLength="false" Unicode="false" />
           <Property Name="Cidade" Type="String" Nullable="false" MaxLength="100" FixedLength="false" Unicode="false" />

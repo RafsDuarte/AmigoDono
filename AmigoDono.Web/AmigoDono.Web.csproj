@@ -203,10 +203,12 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Models\AmigoView.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Controllers\DENUNCIAController.cs" />
     <Compile Include="Controllers\AMIGOController.cs" />
     <Compile Include="Controllers\FEEDBACKController.cs" />
+    <Compile Include="Classes\Utilidades.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Content\css\bootstrap-grid.css" />
@@ -428,7 +430,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Models\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Content\css\bootstrap-theme.min.css.map" />
