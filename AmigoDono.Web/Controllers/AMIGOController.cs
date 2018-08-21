@@ -14,9 +14,15 @@ namespace AmigoDono.Web.Views
     public class AMIGOController : Controller
     {
         private RepositoryAmigo _repositoryAmigo = new RepositoryAmigo();
+        private byte[] SetImagem(HttpPostedFileBase Imagem)
+        {
+            var bytesimagem = new byte[Imagem.ContentLength]; Imagem.InputStream.Read(bytesimagem, 0, Imagem.ContentLength);
+            return bytesimagem;
+        }
+
 
         // GET: AMIGO
-        public ActionResult Index()
+            public ActionResult Index()
         {
             return View(_repositoryAmigo.SelecionarTodos());
         }
@@ -47,15 +53,32 @@ namespace AmigoDono.Web.Views
         // more details see https://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Create([Bind(Include = "IDA,Nome,Funcao,Senha,CPF,CNPJ,DataNascimento,DataCadastro,Email,CEP,Logradouro,NomeLogradouro,Numero,Complemento,Bairro,Cidade,UF,Telefone,Celular,Ajuda,Imagem")] AMIGO oAmigo)
+        public ActionResult Create([Bind(Include = "IDA,Nome,Funcao,Senha,CPF,CNPJ,DataNascimento,DataCadastro,Email,CEP,Logradouro,NomeLogradouro,Numero,Complemento,Bairro,Cidade,UF,Telefone,Celular,Ajuda,Imagem")] AMIGO oAmigo, HttpPostedFileBase imagem, string chkRemoverImagem)
         {
-            if (ModelState.IsValid)
+            try
             {
-                _repositoryAmigo.Incluir(oAmigo);
-                return RedirectToAction("Index");
-            }
+                if (ModelState.IsValid)
+                { if (chkRemoverImagem != null)
+                    {
+                        oAmigo.Imagem = null;
+                    }
 
-            return View(oAmigo);
+                    if (imagem != null)
+                    {
+                        
+                        oAmigo.Imagem = SetImagem(imagem);
+                    }
+
+                    _repositoryAmigo.Incluir(oAmigo);
+                    return RedirectToAction("Index");
+                }
+               
+                return View(oAmigo);
+            }
+            catch
+            {
+                return View(oAmigo);
+            }
         }
 
         // GET: AMIGO/Edit/5

@@ -12,6 +12,8 @@ namespace AmigoDono.Model
     [MetadataType(typeof(MD_AMIGO))]
     public partial class AMIGO
     {
+        
+
         internal class MD_AMIGO
         {
 
@@ -94,7 +96,8 @@ namespace AmigoDono.Model
 
             [DisplayName("Imagem")]
             [DataType(DataType.ImageUrl)]
-            public object Imagem { get; set; }
+            public byte[] Imagem { get; set; }
+
         }
     }
 }
