@@ -235,7 +235,6 @@
     <Compile Include="Controllers\DENUNCIAController.cs" />
     <Compile Include="Controllers\AMIGOController.cs" />
     <Compile Include="Controllers\FEEDBACKController.cs" />
-    <Compile Include="Classes\Utilidades.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Content\css\bootstrap-grid.css" />

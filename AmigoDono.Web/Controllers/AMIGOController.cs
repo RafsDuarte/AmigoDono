@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Data;
 using System.Data.Entity;
+using System.IO;
 using System.Linq;
 using System.Net;
 using System.Web;
@@ -32,28 +33,30 @@ namespace AmigoDono.Web.Views
         // more details see https://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Create(AMIGO oAmigo, HttpPostedFileBase imagem, string chkRemoverImagem)
+        public ActionResult Create(AMIGO oAmigo, HttpPostedFileBase imagem)
         {
+
+            if (ModelState.IsValid)
+            {
+
+                // Upload Imagem
+                string path = String.Empty;
+                string pic = String.Empty;
+
+                if (imagem != null)
+                {
+                    pic = Path.GetFileName(imagem.FileName);
+                    path = Path.Combine(Server.MapPath("~/Content/imagens"), pic);
+                    imagem.SaveAs(path);
            
-                if (ModelState.IsValid)
-                 { 
-                //    if (chkRemoverImagem != null)
-                //    {
-                //        oAmigo.Imagem = null;
-                //    }
-
-                //    if (imagem != null)
-                //    {                       
-                //        oAmigo.Imagem = SetImagem(imagem);
-                //    }
-
-                    _repositoryAmigo.Incluir(oAmigo);
-                    return RedirectToAction("Index", "Home");
                 }
-               
-                return View(oAmigo);
+
+                _repositoryAmigo.Incluir(oAmigo);
+                return RedirectToAction("Index", "Home");
+
+            }
             
-            
+            return View(oAmigo);
         }
 
         protected override void Dispose(bool disposing)
