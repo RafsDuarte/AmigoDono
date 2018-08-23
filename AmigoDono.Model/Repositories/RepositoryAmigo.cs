@@ -65,38 +65,32 @@ namespace AmigoDono.Model.Repositories
 
         public void Incluir(AMIGO oAmigo)
         {
-            //var local = odb.Set<AMIGO>()
+            Amigos_do_DonoEntities db = new Amigos_do_DonoEntities();
 
-            //             .Local
+            db.AMIGO.Add(oAmigo);
+            db.SaveChanges();
 
-            //             .FirstOrDefault(f => f.IDA == oAmigo.IDA);
-
-            //odb.Entry(local).State = System.Data.Entity.EntityState.Detached;
-
-            //odb.Entry(oAmigo).State = System.Data.Entity.EntityState.Added;
-
-            //odb.SaveChanges();
-
-
-            //odb.Entry(oAmigo).State = System.Data.Entity.EntityState.Added;
-            odb.AMIGO.Add(oAmigo);
-            odb.SaveChanges();
+            db.Dispose();
         }
 
         public void Alterar(AMIGO oAmigo, bool attach = true)
         {
+            Amigos_do_DonoEntities db = new Amigos_do_DonoEntities();
             if (attach)
             {
-                odb.Entry(oAmigo).State = System.Data.Entity.EntityState.Modified;
+                db.Entry(oAmigo).State = System.Data.Entity.EntityState.Modified;
             }
-            odb.SaveChanges();
+            db.SaveChanges();
+            db.Dispose();
         }
 
         public void Excluir(AMIGO oAmigo)
         {
-            odb.AMIGO.Attach(oAmigo);
-            odb.AMIGO.Remove(oAmigo);
-            odb.SaveChanges();
+            Amigos_do_DonoEntities db = new Amigos_do_DonoEntities();
+            db.AMIGO.Attach(oAmigo);
+            db.AMIGO.Remove(oAmigo);
+            db.SaveChanges();
+            db.Dispose();
         }
 
         public void Dispose()
