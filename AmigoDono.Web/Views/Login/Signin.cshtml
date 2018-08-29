@@ -31,27 +31,6 @@
 </head>
 
 <body class="text-center">
-    @*
-        <form class="form-signin" method="post" action="~/">
-            <img class="mb-4" src="~/Content/imagens/Logo2.png" alt="Friend of The Owner" width="72" height="72">
-            <h1 class="h3 mb-3 font-weight-normal">Por favor, registre-se</h1>
-
-            <label for="inputEmail" class="sr-only">Email</label>
-
-            <label for="inputPassword" class="sr-only">Senha</label>
-
-            <div class="checkbox mb-3">
-                <label>
-                    <input type="checkbox" value="remember-me"> Lembrar Senha
-                </label>
-            </div>
-
-
-
-
-            <br />
-            <p class="text-center">@Html.ActionLink("Não tem conta? Faça o seu cadastro", "Create", "AMIGO")</p>
-        </form>*@
 
     @using (Html.BeginForm("RealizaLogin", "Login", FormMethod.Get, new { id = "delete-form", role = "form", @class = "form-signin" }))
     {
@@ -59,9 +38,9 @@
         <img class="mb-4" src="~/Content/imagens/Logo2.png" alt="Friend of The Owner" width="72" height="72">
         <h1 class="h3 mb-3 font-weight-normal">Por favor, registre-se</h1>
         <label for="inputEmail" class="sr-only">Email</label>
-        @Html.TextBox("Email", null, new { @class = "form-control", @placeholder = "Email"})
+        @Html.TextBox("Email", null, new { @class = "form-control", @placeholder = "Email", @required = "true", @autofocus = "true", @type = "email"})
         <label for="inputPassword" class="sr-only">Senha</label>
-        @Html.TextBox("Senha", null, new { @class = "form-control", @placeholder = "Senha", @type ="password"})
+        @Html.TextBox("Senha", null, new { @class = "form-control", @placeholder = "Senha", @type ="password", @required = "true" })
         <div class="checkbox mb-3">
             <label>
                 <input type="checkbox" value="remember-me"> Lembrar Senha
@@ -79,7 +58,7 @@
         <div class="modal-dialog" role="document">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h5 class="modal-title">Modal title</h5>
+                    <h5 class="modal-title">Erro</h5>
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true">&times;</span>
                     </button>

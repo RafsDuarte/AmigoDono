@@ -20,16 +20,22 @@ namespace AmigoDono.Web.Controllers
 
         public ActionResult RealizaLogin(string Email,string Senha)
         {
-            List<AMIGO> Amigos = repositoryAmigo.SelecionarTodos();
-            foreach(var x in Amigos)
+            if (ModelState.IsValid)
             {
-                if(x.Email==Email && x.Senha==Senha)
+                List<AMIGO> Amigos = repositoryAmigo.SelecionarTodos();
+                foreach (var x in Amigos)
                 {
-                    return View("Index", "Home");
+                    if (x.Email == Email && x.Senha == Senha)
+                    {
+                        return View("Index", "Home");
+                    }
                 }
             }
-            ViewBag.Mensagem = "Email ou senha incorretos!";
-            return View("Signin", "Login"); 
+            else
+            {
+                ViewBag.Mensagem = "Email ou senha incorretos!";
+            }
+            return View("Signin");
         }
     }
 }
