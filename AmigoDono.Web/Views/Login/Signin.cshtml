@@ -53,14 +53,26 @@
             <p class="text-center">@Html.ActionLink("Não tem conta? Faça o seu cadastro", "Create", "AMIGO")</p>
         </form>*@
 
-    @using (Html.BeginForm("Realiza", "Login", FormMethod.Get, new { id = "delete-form", role = "form" }))
+    @using (Html.BeginForm("RealizaLogin", "Login", FormMethod.Get, new { id = "delete-form", role = "form", @class = "form-signin" }))
     {
 
-        @Html.TextBox("Email", null)
-        @Html.TextBox("Senha", null)
+        <img class="mb-4" src="~/Content/imagens/Logo2.png" alt="Friend of The Owner" width="72" height="72">
+        <h1 class="h3 mb-3 font-weight-normal">Por favor, registre-se</h1>
+        <label for="inputEmail" class="sr-only">Email</label>
+        @Html.TextBox("Email", null, new { @class = "form-control", @placeholder = "Email"})
+        <label for="inputPassword" class="sr-only">Senha</label>
+        @Html.TextBox("Senha", null, new { @class = "form-control", @placeholder = "Senha", @type ="password"})
+        <div class="checkbox mb-3">
+            <label>
+                <input type="checkbox" value="remember-me"> Lembrar Senha
+            </label>
+        </div>
+        <button class="btn btn-lg btn-primary btn-block" onclick="$('#delete-form').submit();">Entrar</button>
+        <br />
+        <p class="text-center">@Html.ActionLink("Não tem conta? Faça o seu cadastro", "Create", "AMIGO")</p>
 
     }
-    <button class="btn btn-lg btn-primary btn-block" onclick="$('#delete-form').submit();">Entrar</button>
+
 
 
     <div class="modal" tabindex="-1" role="dialog" id="ModalMensagem">
@@ -76,8 +88,7 @@
                     <p>@Html.Raw(ViewBag.Mensagem)</p>
                 </div>
                 <div class="modal-footer">
-                    <button type="button" class="btn btn-primary">Save changes</button>
-                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary" data-dismiss="modal">Fechar</button>
                 </div>
             </div>
         </div>

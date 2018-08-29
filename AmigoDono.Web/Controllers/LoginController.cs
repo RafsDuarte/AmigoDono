@@ -18,7 +18,7 @@ namespace AmigoDono.Web.Controllers
             return View();
         }
 
-        public ActionResult Realiza(string Email,string Senha)
+        public ActionResult RealizaLogin(string Email,string Senha)
         {
             List<AMIGO> Amigos = repositoryAmigo.SelecionarTodos();
             foreach(var x in Amigos)
@@ -28,8 +28,8 @@ namespace AmigoDono.Web.Controllers
                     return View("Index", "Home");
                 }
             }
-            ViewBag.Mensagem = "Usuário ou senha incorretos!";
-            return View("Signin"); 
+            ViewBag.Mensagem = "Email ou senha incorretos!";
+            return View("Signin", "Login"); 
         }
     }
 }

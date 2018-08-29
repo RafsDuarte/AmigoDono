@@ -80,8 +80,9 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>ModelClasses.edmx</DependentUpon>
     </Compile>
+    <Compile Include="Partial\Login.cs" />
     <Compile Include="Partial\Raça.cs" />
-    <Compile Include="Partial\Feedback .cs" />
+    <Compile Include="Partial\Feedback.cs" />
     <Compile Include="Partial\TipoTratamento.cs" />
     <Compile Include="Partial\Amigo.cs" />
     <Compile Include="Partial\Controle.cs" />
@@ -98,6 +99,7 @@
     <Compile Include="Repositories\RepositoryAmigo.cs" />
     <Compile Include="Repositories\RepositoryControle.cs" />
     <Compile Include="Repositories\RepositoryDenuncia.cs" />
+    <Compile Include="Repositories\RepositoryFeedback.cs" />
     <Compile Include="Repositories\RepositoryPet.cs" />
     <Compile Include="Repositories\RepositoryTratamento.cs" />
     <Compile Include="TIPOTRATAMENTO.cs">
