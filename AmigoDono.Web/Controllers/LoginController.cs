@@ -18,24 +18,18 @@ namespace AmigoDono.Web.Controllers
             return View();
         }
 
-        public ActionResult Realiza(AMIGO amigo)
+        public ActionResult Realiza(string Email,string Senha)
         {
-            if (!ModelState.IsValid)
+            List<AMIGO> Amigos = repositoryAmigo.SelecionarTodos();
+            foreach(var x in Amigos)
             {
-                return View(amigo);
+                if(x.Email==Email && x.Senha==Senha)
+                {
+                    return View("Index", "Home");
+                }
             }
-                 //Boolean VerificaSenha = VerificaUsuario.AutorizaAmigo(amigo.Senha);
-                //if (VerificaSenha)
-                //{
-                //   return RedirectToAction("Index", "Adocao");
-                //}
-   
-                //else
-                //{
-                //    ModelState.AddModelError("", "Login Inválido");
-                //}
-
-            return RedirectToAction("Index", "Login");
+            ViewBag.Mensagem = "Usuário ou senha incorretos!";
+            return View("Signin"); 
         }
     }
 }
