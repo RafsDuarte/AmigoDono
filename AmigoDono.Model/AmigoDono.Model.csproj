@@ -63,8 +63,11 @@
       <DependentUpon>ModelClasses.tt</DependentUpon>
     </Compile>
     <Compile Include="Helper\Constantes.cs" />
+    <Compile Include="Helper\CustomValidator\CustomValidatorCPFAttribute.cs" />
+    <Compile Include="Helper\CustomValidator\Util.cs" />
     <Compile Include="Helper\Data.cs" />
     <Compile Include="Helper\Mensagens.cs" />
+    <Compile Include="Helper\VerificaUsuario.cs" />
     <Compile Include="ModelClasses.Context.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
