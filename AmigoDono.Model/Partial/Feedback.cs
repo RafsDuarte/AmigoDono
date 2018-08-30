@@ -17,14 +17,17 @@ namespace AmigoDono.Model
             [DisplayName("ID")]
             public object IDF { get; set; }
 
+            [DisplayName("Data Cadastro")]
+            public DateTime DataCadastro { get; set; }
+
             [DisplayName("Nome")]
             public object Nome { get; set; }
             [DisplayName("Email")]
             public object Email { get; set; }
 
 
-            [DisplayName("Opinião")]
-            public object Opiniao { get; set; }
+            [DisplayName("Opnião")]
+            public object Opniao { get; set; }
             [DisplayName("Feedback")]
             public object Feedback { get; set; }
 

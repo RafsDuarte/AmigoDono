@@ -18,7 +18,7 @@ namespace AmigoDono.Web.Controllers
             return View();
         }
 
-        public ActionResult RealizaLogin(string Email, string Senha)
+        public ActionResult RealizaLogin(string Email,string Senha)
         {
             if (ModelState.IsValid)
             {
@@ -27,13 +27,15 @@ namespace AmigoDono.Web.Controllers
                 {
                     if (x.Email == Email && x.Senha == Senha)
                     {
-                       return RedirectToAction ("Index", "Home");
+                        return View("Index", "Home");
                     }
                 }
-                ViewBag.Mensagem = "Email ou senha incorretos!";
-                return View("Signin");
             }
-            return View();
+            else
+            {
+                ViewBag.Mensagem = "Email ou senha incorretos!";
+            }
+            return View("Signin");
         }
     }
 }

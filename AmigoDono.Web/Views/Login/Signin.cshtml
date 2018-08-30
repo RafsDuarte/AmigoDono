@@ -1,6 +1,4 @@
-﻿@model AmigoDono.Model.LOGIN
-
-@if (ViewBag.Mensagem == null)
+﻿@if (ViewBag.Mensagem == null)
 {
     ViewBag.Mensagem = "";
 }
@@ -34,23 +32,21 @@
 
 <body class="text-center">
 
-    @using (Html.BeginForm("RealizaLogin", "Login", FormMethod.Get, new { id = "signin-form", role = "form", @class = "form-signin" }))
+    @using (Html.BeginForm("RealizaLogin", "Login", FormMethod.Get, new { id = "delete-form", role = "form", @class = "form-signin" }))
     {
-        @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+
         <img class="mb-4" src="~/Content/imagens/Logo2.png" alt="Friend of The Owner" width="72" height="72">
         <h1 class="h3 mb-3 font-weight-normal">Por favor, registre-se</h1>
         <label for="inputEmail" class="sr-only">Email</label>
-        @Html.TextBoxFor(model => model.Email, null, new { @class = "form-control", @placeholder = "Email", @required = "required", @type = "email" })
-        @Html.ValidationMessageFor(model => model.Email, "", new { @class = "text-danger" })
+        @Html.TextBox("Email", null, new { @class = "form-control", @placeholder = "Email", @required = "true", @autofocus = "true", @type = "email"})
         <label for="inputPassword" class="sr-only">Senha</label>
-        @Html.TextBoxFor(model => model.Senha, null, new { @class = "form-control", @placeholder = "Senha", @type = "password", @required = "true" })
-        @Html.ValidationMessageFor(model => model.Senha, "", new { @class = "text-danger" })
+        @Html.TextBox("Senha", null, new { @class = "form-control", @placeholder = "Senha", @type ="password", @required = "true" })
         <div class="checkbox mb-3">
             <label>
                 <input type="checkbox" value="remember-me"> Lembrar Senha
             </label>
         </div>
-        <button class="btn btn-lg btn-primary btn-block" onclick="$('#signin-form').submit();">Entrar</button>
+        <button class="btn btn-lg btn-primary btn-block" onclick="$('#delete-form').submit();">Entrar</button>
         <br />
         <p class="text-center">@Html.ActionLink("Não tem conta? Faça o seu cadastro", "Create", "AMIGO")</p>
 
@@ -62,7 +58,7 @@
         <div class="modal-dialog" role="document">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h5 class="modal-title">AVISO!</h5>
+                    <h5 class="modal-title">Erro</h5>
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true">&times;</span>
                     </button>
