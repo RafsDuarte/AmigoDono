@@ -1,4 +1,6 @@
-﻿@if (ViewBag.Mensagem == null)
+﻿@model AmigoDono.Model.LOGIN
+
+@if (ViewBag.Mensagem == null)
 {
     ViewBag.Mensagem = "";
 }
@@ -31,43 +33,36 @@
 </head>
 
 <body class="text-center">
-    @*
-        <form class="form-signin" method="post" action="~/">
-            <img class="mb-4" src="~/Content/imagens/Logo2.png" alt="Friend of The Owner" width="72" height="72">
-            <h1 class="h3 mb-3 font-weight-normal">Por favor, registre-se</h1>
 
-            <label for="inputEmail" class="sr-only">Email</label>
-
-            <label for="inputPassword" class="sr-only">Senha</label>
-
-            <div class="checkbox mb-3">
-                <label>
-                    <input type="checkbox" value="remember-me"> Lembrar Senha
-                </label>
-            </div>
-
-
-
-
-            <br />
-            <p class="text-center">@Html.ActionLink("Não tem conta? Faça o seu cadastro", "Create", "AMIGO")</p>
-        </form>*@
-
-    @using (Html.BeginForm("Realiza", "Login", FormMethod.Get, new { id = "delete-form", role = "form" }))
+    @using (Html.BeginForm("RealizaLogin", "Login", FormMethod.Get, new { id = "signin-form", role = "form", @class = "form-signin" }))
     {
-
-        @Html.TextBox("Email", null)
-        @Html.TextBox("Senha", null)
+        @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+        <img class="mb-4" src="~/Content/imagens/Logo2.png" alt="Friend of The Owner" width="72" height="72">
+        <h1 class="h3 mb-3 font-weight-normal">Por favor, registre-se</h1>
+        <label for="inputEmail" class="sr-only">Email</label>
+        @Html.TextBoxFor(model => model.Email, null, new { @class = "form-control", @placeholder = "Email", @required = "required", @type = "email" })
+        @Html.ValidationMessageFor(model => model.Email, "", new { @class = "text-danger" })
+        <label for="inputPassword" class="sr-only">Senha</label>
+        @Html.TextBoxFor(model => model.Senha, null, new { @class = "form-control", @placeholder = "Senha", @type = "password", @required = "true" })
+        @Html.ValidationMessageFor(model => model.Senha, "", new { @class = "text-danger" })
+        <div class="checkbox mb-3">
+            <label>
+                <input type="checkbox" value="remember-me"> Lembrar Senha
+            </label>
+        </div>
+        <button class="btn btn-lg btn-primary btn-block" onclick="$('#signin-form').submit();">Entrar</button>
+        <br />
+        <p class="text-center">@Html.ActionLink("Não tem conta? Faça o seu cadastro", "Create", "AMIGO")</p>
 
     }
-    <button class="btn btn-lg btn-primary btn-block" onclick="$('#delete-form').submit();">Entrar</button>
+
 
 
     <div class="modal" tabindex="-1" role="dialog" id="ModalMensagem">
         <div class="modal-dialog" role="document">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h5 class="modal-title">Modal title</h5>
+                    <h5 class="modal-title">AVISO!</h5>
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true">&times;</span>
                     </button>
@@ -76,8 +71,7 @@
                     <p>@Html.Raw(ViewBag.Mensagem)</p>
                 </div>
                 <div class="modal-footer">
-                    <button type="button" class="btn btn-primary">Save changes</button>
-                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary" data-dismiss="modal">Fechar</button>
                 </div>
             </div>
         </div>

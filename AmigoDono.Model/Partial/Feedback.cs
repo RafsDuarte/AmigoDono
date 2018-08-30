@@ -1,10 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.ComponentModel;
-using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.ComponentModel.DataAnnotations;
+using System.ComponentModel;
 
 namespace AmigoDono.Model
 {
@@ -13,16 +13,21 @@ namespace AmigoDono.Model
     {
         internal class MD_FEEDBACK
         {
+
             [DisplayName("ID")]
             public object IDF { get; set; }
+
             [DisplayName("Nome")]
             public object Nome { get; set; }
             [DisplayName("Email")]
             public object Email { get; set; }
-            [DisplayName("Sua opinião")]
+
+
+            [DisplayName("Opinião")]
             public object Opiniao { get; set; }
-            [DisplayName("Há algo que você gostaria de nos dizer?")]
+            [DisplayName("Feedback")]
             public object Feedback { get; set; }
+
         }
     }
 }

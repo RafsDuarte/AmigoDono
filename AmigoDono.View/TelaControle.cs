@@ -56,7 +56,7 @@ namespace AmigoDono.View
             TxtNomePet.Text = _pet.NomePet;
             TxtIdProprietario.Text = _proprietario.IDA.ToString();
             TxtNomeProprietario.Text = _proprietario.Nome;
-            CboStatus.Text = _controle.Status;
+            CboStatus.Text = _controle.Statu;
             TxtObs.Text = _controle.OBS;
             BtnExcluir.Enabled = true;
         }
@@ -141,7 +141,7 @@ namespace AmigoDono.View
 
                         _controle.IDPet = Convert.ToInt16(TxtIdPet);
                         _controle.IDDono = Convert.ToInt16(TxtIdProprietario);
-                        _controle.Status = CboStatus.Text;
+                        _controle.Statu = CboStatus.Text;
                         _controle.OBS = TxtObs.Text;
                         _Control_c.Alterar(_controle);
                         Mensagens.MsgAlterado();
@@ -152,7 +152,7 @@ namespace AmigoDono.View
                         //Incluir Amigo 
                         oControle.IDPet = Convert.ToInt16(TxtIdPet);
                         oControle.IDDono = Convert.ToInt16(TxtIdProprietario);
-                        oControle.Status = CboStatus.Text;
+                        oControle.Statu = CboStatus.Text;
                         oControle.OBS = TxtObs.Text;                        
                         _Control_c.Incluir(oControle);
                         Mensagens.MsgIncluido();
