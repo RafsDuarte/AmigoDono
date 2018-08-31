@@ -54,7 +54,6 @@ namespace AmigoDono.Model
             [Required(ErrorMessage = "O campo {0} é obrigatorio!")]
             [DataType(DataType.EmailAddress)]
             [StringLength(100, ErrorMessage = "O campo {0} pode ter no máximo {1} e no minimo {2} caracteres")]
-            [Index("EmailIndex", IsUnique = true)]
             public object Email { get; set; }
 
             [DisplayName("CEP")]

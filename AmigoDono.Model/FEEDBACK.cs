@@ -18,6 +18,6 @@ namespace AmigoDono.Model
         public string Nome { get; set; }
         public string Email { get; set; }
         public string Opiniao { get; set; }
-        public string Feedback1 { get; set; }
+        public string Feedback { get; set; }
     }
 }

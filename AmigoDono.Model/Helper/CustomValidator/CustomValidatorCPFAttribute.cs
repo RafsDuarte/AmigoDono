@@ -1,15 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Web.ModelBinding;
-using System.Web.Mvc;
 
 namespace AmigoDono.Model.Helper.CustomValidator
 {
-    public class CustomValidationCPFAttribute : ValidationAttribute, IClientValidatable
+    public class CustomValidationCPFAttribute : ValidationAttribute
     {
         /// <summary>
         /// Construtor
@@ -36,15 +30,17 @@ namespace AmigoDono.Model.Helper.CustomValidator
         /// <param name="metadata"></param>
         /// <param name="context"></param>
         /// <returns></returns>
-        public IEnumerable<ModelClientValidationRule> GetClientValidationRules(
-            System.Web.Mvc.ModelMetadata metadata, ControllerContext context)
-        {
-            yield return new ModelClientValidationRule
-            {
-                ErrorMessage = this.FormatErrorMessage(null),
-                ValidationType = "customvalidationcpf"
-            };
-        }
+  
+
+        //public IEnumerable<ModelClientValidationRule> GetClientValidationRules(
+        //    System.Web.Mvc.ModelMetadata metadata, ControllerContext context)
+        //{
+        //    yield return new ModelClientValidationRule
+        //    {
+        //        ErrorMessage = this.FormatErrorMessage(null),
+        //        ValidationType = "customvalidationcpf"
+        //    };
+        //}
 
     }
 }

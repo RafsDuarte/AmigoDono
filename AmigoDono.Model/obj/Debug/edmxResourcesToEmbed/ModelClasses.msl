@@ -4,124 +4,121 @@
     <EntitySetMapping Name="AMIGO">
       <EntityTypeMapping TypeName="Amigos_do_DonoModel.AMIGO">
         <MappingFragment StoreEntitySet="AMIGO">
-          <ScalarProperty Name="IDA" ColumnName="IDA" />
-          <ScalarProperty Name="Nome" ColumnName="Nome" />
-          <ScalarProperty Name="Funcao" ColumnName="Funcao" />
-          <ScalarProperty Name="Senha" ColumnName="Senha" />
-          <ScalarProperty Name="CPF" ColumnName="CPF" />
-          <ScalarProperty Name="CNPJ" ColumnName="CNPJ" />
-          <ScalarProperty Name="DataNascimento" ColumnName="DataNascimento" />
-          <ScalarProperty Name="DataCadastro" ColumnName="DataCadastro" />
-          <ScalarProperty Name="Email" ColumnName="Email" />
-          <ScalarProperty Name="CEP" ColumnName="CEP" />
-          <ScalarProperty Name="Logradouro" ColumnName="Logradouro" />
-          <ScalarProperty Name="NomeLogradouro" ColumnName="NomeLogradouro" />
-          <ScalarProperty Name="Numero" ColumnName="Numero" />
-          <ScalarProperty Name="Complemento" ColumnName="Complemento" />
-          <ScalarProperty Name="Bairro" ColumnName="Bairro" />
-          <ScalarProperty Name="Cidade" ColumnName="Cidade" />
-          <ScalarProperty Name="UF" ColumnName="UF" />
-          <ScalarProperty Name="Telefone" ColumnName="Telefone" />
-          <ScalarProperty Name="Celular" ColumnName="Celular" />
-          <ScalarProperty Name="Ajuda" ColumnName="Ajuda" />
           <ScalarProperty Name="Imagem" ColumnName="Imagem" />
+          <ScalarProperty Name="Ajuda" ColumnName="Ajuda" />
+          <ScalarProperty Name="Celular" ColumnName="Celular" />
+          <ScalarProperty Name="Telefone" ColumnName="Telefone" />
+          <ScalarProperty Name="UF" ColumnName="UF" />
+          <ScalarProperty Name="Cidade" ColumnName="Cidade" />
+          <ScalarProperty Name="Bairro" ColumnName="Bairro" />
+          <ScalarProperty Name="Complemento" ColumnName="Complemento" />
+          <ScalarProperty Name="Numero" ColumnName="Numero" />
+          <ScalarProperty Name="NomeLogradouro" ColumnName="NomeLogradouro" />
+          <ScalarProperty Name="Logradouro" ColumnName="Logradouro" />
+          <ScalarProperty Name="CEP" ColumnName="CEP" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+          <ScalarProperty Name="DataCadastro" ColumnName="DataCadastro" />
+          <ScalarProperty Name="DataNascimento" ColumnName="DataNascimento" />
+          <ScalarProperty Name="CNPJ" ColumnName="CNPJ" />
+          <ScalarProperty Name="CPF" ColumnName="CPF" />
+          <ScalarProperty Name="Senha" ColumnName="Senha" />
+          <ScalarProperty Name="Funcao" ColumnName="Funcao" />
+          <ScalarProperty Name="Nome" ColumnName="Nome" />
+          <ScalarProperty Name="IDA" ColumnName="IDA" />
         </MappingFragment>
       </EntityTypeMapping>
     </EntitySetMapping>
     <EntitySetMapping Name="CONTROLE">
       <EntityTypeMapping TypeName="Amigos_do_DonoModel.CONTROLE">
         <MappingFragment StoreEntitySet="CONTROLE">
-          <ScalarProperty Name="IDC" ColumnName="IDC" />
-          <ScalarProperty Name="IDPet" ColumnName="IDPet" />
-          <ScalarProperty Name="NomePet" ColumnName="NomePet" />
-          <ScalarProperty Name="IDDono" ColumnName="IDDono" />
-          <ScalarProperty Name="NomeDono" ColumnName="NomeDono" />
-          <ScalarProperty Name="IDDoador" ColumnName="IDDoador" />
-          <ScalarProperty Name="NomeDoador" ColumnName="NomeDoador" />
-          <ScalarProperty Name="DataAdocao" ColumnName="DataAdocao" />
-          <ScalarProperty Name="Status" ColumnName="Status" />
           <ScalarProperty Name="OBS" ColumnName="OBS" />
+          <ScalarProperty Name="Statu" ColumnName="Statu" />
+          <ScalarProperty Name="DataAdocao" ColumnName="DataAdocao" />
+          <ScalarProperty Name="IDDoador" ColumnName="IDDoador" />
+          <ScalarProperty Name="IDDono" ColumnName="IDDono" />
+          <ScalarProperty Name="IDPet" ColumnName="IDPet" />
+          <ScalarProperty Name="IDC" ColumnName="IDC" />
         </MappingFragment>
       </EntityTypeMapping>
     </EntitySetMapping>
     <EntitySetMapping Name="DENUNCIA">
       <EntityTypeMapping TypeName="Amigos_do_DonoModel.DENUNCIA">
         <MappingFragment StoreEntitySet="DENUNCIA">
-          <ScalarProperty Name="IDD" ColumnName="IDD" />
-          <ScalarProperty Name="Denunciante" ColumnName="Denunciante" />
-          <ScalarProperty Name="TextoDenuncia" ColumnName="TextoDenuncia" />
-          <ScalarProperty Name="Email" ColumnName="Email" />
-          <ScalarProperty Name="CEP" ColumnName="CEP" />
-          <ScalarProperty Name="TipoLogradouro" ColumnName="TipoLogradouro" />
-          <ScalarProperty Name="NomeLogradouro" ColumnName="NomeLogradouro" />
-          <ScalarProperty Name="Numero" ColumnName="Numero" />
-          <ScalarProperty Name="Complemento" ColumnName="Complemento" />
-          <ScalarProperty Name="Bairro" ColumnName="Bairro" />
-          <ScalarProperty Name="Cidade" ColumnName="Cidade" />
-          <ScalarProperty Name="UF" ColumnName="UF" />
-          <ScalarProperty Name="Data" ColumnName="Data" />
           <ScalarProperty Name="DataResposta" ColumnName="DataResposta" />
+          <ScalarProperty Name="Data" ColumnName="Data" />
+          <ScalarProperty Name="UF" ColumnName="UF" />
+          <ScalarProperty Name="Cidade" ColumnName="Cidade" />
+          <ScalarProperty Name="Bairro" ColumnName="Bairro" />
+          <ScalarProperty Name="Complemento" ColumnName="Complemento" />
+          <ScalarProperty Name="Numero" ColumnName="Numero" />
+          <ScalarProperty Name="NomeLogradouro" ColumnName="NomeLogradouro" />
+          <ScalarProperty Name="TipoLogradouro" ColumnName="TipoLogradouro" />
+          <ScalarProperty Name="CEP" ColumnName="CEP" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+          <ScalarProperty Name="TextoDenuncia" ColumnName="TextoDenuncia" />
+          <ScalarProperty Name="Denunciante" ColumnName="Denunciante" />
+          <ScalarProperty Name="IDD" ColumnName="IDD" />
         </MappingFragment>
       </EntityTypeMapping>
     </EntitySetMapping>
     <EntitySetMapping Name="FEEDBACK">
       <EntityTypeMapping TypeName="Amigos_do_DonoModel.FEEDBACK">
         <MappingFragment StoreEntitySet="FEEDBACK">
-          <ScalarProperty Name="IDF" ColumnName="IDF" />
-          <ScalarProperty Name="Nome" ColumnName="Nome" />
-          <ScalarProperty Name="Email" ColumnName="Email" />
+          <ScalarProperty Name="Feedback" ColumnName="Feedback" />
           <ScalarProperty Name="Opiniao" ColumnName="Opiniao" />
-          <ScalarProperty Name="Feedback1" ColumnName="Feedback" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+          <ScalarProperty Name="Nome" ColumnName="Nome" />
+          <ScalarProperty Name="IDF" ColumnName="IDF" />
         </MappingFragment>
       </EntityTypeMapping>
     </EntitySetMapping>
     <EntitySetMapping Name="PET">
       <EntityTypeMapping TypeName="Amigos_do_DonoModel.PET">
         <MappingFragment StoreEntitySet="PET">
-          <ScalarProperty Name="IDP" ColumnName="IDP" />
-          <ScalarProperty Name="Cadastro" ColumnName="Cadastro" />
-          <ScalarProperty Name="NomePet" ColumnName="NomePet" />
-          <ScalarProperty Name="TipoPet" ColumnName="TipoPet" />
-          <ScalarProperty Name="Situacao" ColumnName="Situacao" />
-          <ScalarProperty Name="Idade" ColumnName="Idade" />
-          <ScalarProperty Name="Raca" ColumnName="Raca" />
-          <ScalarProperty Name="Sexo" ColumnName="Sexo" />
-          <ScalarProperty Name="Porte" ColumnName="Porte" />
-          <ScalarProperty Name="Castrado" ColumnName="Castrado" />
-          <ScalarProperty Name="DataNascimento" ColumnName="DataNascimento" />
-          <ScalarProperty Name="OBS" ColumnName="OBS" />
-          <ScalarProperty Name="Imagem" ColumnName="Imagem" />
           <ScalarProperty Name="IDRaça" ColumnName="IDRaça" />
+          <ScalarProperty Name="Imagem" ColumnName="Imagem" />
+          <ScalarProperty Name="OBS" ColumnName="OBS" />
+          <ScalarProperty Name="DataNascimento" ColumnName="DataNascimento" />
+          <ScalarProperty Name="Castrado" ColumnName="Castrado" />
+          <ScalarProperty Name="Porte" ColumnName="Porte" />
+          <ScalarProperty Name="Sexo" ColumnName="Sexo" />
+          <ScalarProperty Name="Raca" ColumnName="Raca" />
+          <ScalarProperty Name="Idade" ColumnName="Idade" />
+          <ScalarProperty Name="Situacao" ColumnName="Situacao" />
+          <ScalarProperty Name="TipoPet" ColumnName="TipoPet" />
+          <ScalarProperty Name="NomePet" ColumnName="NomePet" />
+          <ScalarProperty Name="Cadastro" ColumnName="Cadastro" />
+          <ScalarProperty Name="IDP" ColumnName="IDP" />
         </MappingFragment>
       </EntityTypeMapping>
     </EntitySetMapping>
     <EntitySetMapping Name="RAÇA">
       <EntityTypeMapping TypeName="Amigos_do_DonoModel.RAÇA">
         <MappingFragment StoreEntitySet="RAÇA">
-          <ScalarProperty Name="IDR" ColumnName="IDR" />
           <ScalarProperty Name="NomeRaça" ColumnName="NomeRaça" />
+          <ScalarProperty Name="IDR" ColumnName="IDR" />
         </MappingFragment>
       </EntityTypeMapping>
     </EntitySetMapping>
     <EntitySetMapping Name="TIPOTRATAMENTO">
       <EntityTypeMapping TypeName="Amigos_do_DonoModel.TIPOTRATAMENTO">
         <MappingFragment StoreEntitySet="TIPOTRATAMENTO">
-          <ScalarProperty Name="IDTT" ColumnName="IDTT" />
           <ScalarProperty Name="Descricao" ColumnName="Descricao" />
+          <ScalarProperty Name="IDTT" ColumnName="IDTT" />
         </MappingFragment>
       </EntityTypeMapping>
     </EntitySetMapping>
     <EntitySetMapping Name="TRATAMENTO">
       <EntityTypeMapping TypeName="Amigos_do_DonoModel.TRATAMENTO">
         <MappingFragment StoreEntitySet="TRATAMENTO">
-          <ScalarProperty Name="IDT" ColumnName="IDT" />
-          <ScalarProperty Name="IDResponsavel" ColumnName="IDResponsavel" />
-          <ScalarProperty Name="IDPet" ColumnName="IDPet" />
-          <ScalarProperty Name="Tipo" ColumnName="Tipo" />
-          <ScalarProperty Name="Data" ColumnName="Data" />
-          <ScalarProperty Name="OBS" ColumnName="OBS" />
-          <ScalarProperty Name="Descricao" ColumnName="Descricao" />
           <ScalarProperty Name="IDDescricao" ColumnName="IDDescricao" />
+          <ScalarProperty Name="Descricao" ColumnName="Descricao" />
+          <ScalarProperty Name="OBS" ColumnName="OBS" />
+          <ScalarProperty Name="Data" ColumnName="Data" />
+          <ScalarProperty Name="Tipo" ColumnName="Tipo" />
+          <ScalarProperty Name="IDPet" ColumnName="IDPet" />
+          <ScalarProperty Name="IDResponsavel" ColumnName="IDResponsavel" />
+          <ScalarProperty Name="IDT" ColumnName="IDT" />
         </MappingFragment>
       </EntityTypeMapping>
     </EntitySetMapping>

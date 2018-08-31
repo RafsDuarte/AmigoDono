@@ -13,7 +13,7 @@ namespace AmigoDono.Model.Helper
         {
             RepositoryAmigo repositoryAmigo = new RepositoryAmigo();
             AMIGO amigo = new AMIGO();
-            amigo = repositoryAmigo.SelecionaSenha(senha);
+           /* amigo = repositoryAmigo.SelecionaSenha(senha)*/;
             if (amigo !=null)
             {
                 return true;

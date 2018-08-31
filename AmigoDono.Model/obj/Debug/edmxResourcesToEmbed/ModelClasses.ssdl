@@ -32,13 +32,10 @@
     </Key>
     <Property Name="IDC" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
     <Property Name="IDPet" Type="int" Nullable="false" />
-    <Property Name="NomePet" Type="varchar" MaxLength="80" />
     <Property Name="IDDono" Type="int" Nullable="false" />
-    <Property Name="NomeDono" Type="varchar" MaxLength="100" Nullable="false" />
     <Property Name="IDDoador" Type="int" Nullable="false" />
-    <Property Name="NomeDoador" Type="varchar" MaxLength="100" />
     <Property Name="DataAdocao" Type="date" />
-    <Property Name="Status" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="Statu" Type="varchar" MaxLength="50" Nullable="false" />
     <Property Name="OBS" Type="varchar(max)" />
   </EntityType>
   <EntityType Name="DENUNCIA">
@@ -93,14 +90,14 @@
     <Key>
       <PropertyRef Name="IDR" />
     </Key>
-    <Property Name="IDR" Type="int" Nullable="false" />
+    <Property Name="IDR" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
     <Property Name="NomeRaça" Type="varchar" MaxLength="50" />
   </EntityType>
   <EntityType Name="TIPOTRATAMENTO">
     <Key>
       <PropertyRef Name="IDTT" />
     </Key>
-    <Property Name="IDTT" Type="int" Nullable="false" />
+    <Property Name="IDTT" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
     <Property Name="Descricao" Type="varchar(max)" />
   </EntityType>
   <EntityType Name="TRATAMENTO">
