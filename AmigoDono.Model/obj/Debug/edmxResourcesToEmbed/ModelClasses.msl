@@ -28,19 +28,6 @@
         </MappingFragment>
       </EntityTypeMapping>
     </EntitySetMapping>
-    <EntitySetMapping Name="CONTROLE">
-      <EntityTypeMapping TypeName="Amigos_do_DonoModel.CONTROLE">
-        <MappingFragment StoreEntitySet="CONTROLE">
-          <ScalarProperty Name="OBS" ColumnName="OBS" />
-          <ScalarProperty Name="Statu" ColumnName="Statu" />
-          <ScalarProperty Name="DataAdocao" ColumnName="DataAdocao" />
-          <ScalarProperty Name="IDDoador" ColumnName="IDDoador" />
-          <ScalarProperty Name="IDDono" ColumnName="IDDono" />
-          <ScalarProperty Name="IDPet" ColumnName="IDPet" />
-          <ScalarProperty Name="IDC" ColumnName="IDC" />
-        </MappingFragment>
-      </EntityTypeMapping>
-    </EntitySetMapping>
     <EntitySetMapping Name="DENUNCIA">
       <EntityTypeMapping TypeName="Amigos_do_DonoModel.DENUNCIA">
         <MappingFragment StoreEntitySet="DENUNCIA">
@@ -58,17 +45,6 @@
           <ScalarProperty Name="TextoDenuncia" ColumnName="TextoDenuncia" />
           <ScalarProperty Name="Denunciante" ColumnName="Denunciante" />
           <ScalarProperty Name="IDD" ColumnName="IDD" />
-        </MappingFragment>
-      </EntityTypeMapping>
-    </EntitySetMapping>
-    <EntitySetMapping Name="FEEDBACK">
-      <EntityTypeMapping TypeName="Amigos_do_DonoModel.FEEDBACK">
-        <MappingFragment StoreEntitySet="FEEDBACK">
-          <ScalarProperty Name="Feedback" ColumnName="Feedback" />
-          <ScalarProperty Name="Opiniao" ColumnName="Opiniao" />
-          <ScalarProperty Name="Email" ColumnName="Email" />
-          <ScalarProperty Name="Nome" ColumnName="Nome" />
-          <ScalarProperty Name="IDF" ColumnName="IDF" />
         </MappingFragment>
       </EntityTypeMapping>
     </EntitySetMapping>
@@ -119,6 +95,33 @@
           <ScalarProperty Name="IDPet" ColumnName="IDPet" />
           <ScalarProperty Name="IDResponsavel" ColumnName="IDResponsavel" />
           <ScalarProperty Name="IDT" ColumnName="IDT" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CONTROLE">
+      <EntityTypeMapping TypeName="Amigos_do_DonoModel.CONTROLE">
+        <MappingFragment StoreEntitySet="CONTROLE">
+          <ScalarProperty Name="OBS" ColumnName="OBS" />
+          <ScalarProperty Name="Statu" ColumnName="Statu" />
+          <ScalarProperty Name="DataAdocao" ColumnName="DataAdocao" />
+          <ScalarProperty Name="NomeDoador" ColumnName="NomeDoador" />
+          <ScalarProperty Name="IDDoador" ColumnName="IDDoador" />
+          <ScalarProperty Name="NomeDono" ColumnName="NomeDono" />
+          <ScalarProperty Name="IDDono" ColumnName="IDDono" />
+          <ScalarProperty Name="NomePet" ColumnName="NomePet" />
+          <ScalarProperty Name="IDPet" ColumnName="IDPet" />
+          <ScalarProperty Name="IDC" ColumnName="IDC" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="FEEDBACK">
+      <EntityTypeMapping TypeName="Amigos_do_DonoModel.FEEDBACK">
+        <MappingFragment StoreEntitySet="FEEDBACK">
+          <ScalarProperty Name="Feedback" ColumnName="Feedback" />
+          <ScalarProperty Name="Opiniao" ColumnName="Opiniao" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+          <ScalarProperty Name="Nome" ColumnName="Nome" />
+          <ScalarProperty Name="IDF" ColumnName="IDF" />
         </MappingFragment>
       </EntityTypeMapping>
     </EntitySetMapping>

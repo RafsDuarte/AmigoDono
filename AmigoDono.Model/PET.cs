@@ -17,8 +17,8 @@ namespace AmigoDono.Model
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2214:DoNotCallOverridableMethodsInConstructors")]
         public PET()
         {
-            this.CONTROLE = new HashSet<CONTROLE>();
             this.TRATAMENTO = new HashSet<TRATAMENTO>();
+            this.CONTROLE = new HashSet<CONTROLE>();
         }
     
         public int IDP { get; set; }
@@ -36,10 +36,10 @@ namespace AmigoDono.Model
         public byte[] Imagem { get; set; }
         public Nullable<int> IDRaça { get; set; }
     
-        [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
-        public virtual ICollection<CONTROLE> CONTROLE { get; set; }
         public virtual RAÇA RAÇA { get; set; }
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
         public virtual ICollection<TRATAMENTO> TRATAMENTO { get; set; }
+        [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
+        public virtual ICollection<CONTROLE> CONTROLE { get; set; }
     }
 }
