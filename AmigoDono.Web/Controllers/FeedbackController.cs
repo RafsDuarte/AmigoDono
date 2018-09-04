@@ -14,27 +14,6 @@ namespace AmigoDono.Web.Views
     {
         private Amigos_do_DonoEntities db = new Amigos_do_DonoEntities();
 
-        // GET: FEEDBACK
-        public ActionResult Index()
-        {
-            return View(db.FEEDBACK.ToList());
-        }
-
-        // GET: FEEDBACK/Details/5
-        public ActionResult Details(int? id)
-        {
-            if (id == null)
-            {
-                return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
-            }
-            FEEDBACK fEEDBACK = db.FEEDBACK.Find(id);
-            if (fEEDBACK == null)
-            {
-                return HttpNotFound();
-            }
-            return View(fEEDBACK);
-        }
-
         // GET: FEEDBACK/Create
         public ActionResult FaleConosco()
         {
@@ -46,73 +25,16 @@ namespace AmigoDono.Web.Views
         // more details see https://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Create([Bind(Include = "IDF,Nome,Email,Opiniao,Feedback")] FEEDBACK fEEDBACK)
+        public ActionResult Create(FEEDBACK oFeedback)
         {
             if (ModelState.IsValid)
             {
-                db.FEEDBACK.Add(fEEDBACK);
+                db.FEEDBACK.Add(oFeedback);
                 db.SaveChanges();
-                return RedirectToAction("Index");
+                return RedirectToAction("Index", "Home");
             }
 
-            return View(fEEDBACK);
-        }
-
-        // GET: FEEDBACK/Edit/5
-        public ActionResult Edit(int? id)
-        {
-            if (id == null)
-            {
-                return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
-            }
-            FEEDBACK fEEDBACK = db.FEEDBACK.Find(id);
-            if (fEEDBACK == null)
-            {
-                return HttpNotFound();
-            }
-            return View(fEEDBACK);
-        }
-
-        // POST: FEEDBACK/Edit/5
-        // To protect from overposting attacks, please enable the specific properties you want to bind to, for 
-        // more details see https://go.microsoft.com/fwlink/?LinkId=317598.
-        [HttpPost]
-        [ValidateAntiForgeryToken]
-        public ActionResult Edit([Bind(Include = "IDF,Nome,Email,Opiniao,Feedback")] FEEDBACK fEEDBACK)
-        {
-            if (ModelState.IsValid)
-            {
-                db.Entry(fEEDBACK).State = EntityState.Modified;
-                db.SaveChanges();
-                return RedirectToAction("Index");
-            }
-            return View(fEEDBACK);
-        }
-
-        // GET: FEEDBACK/Delete/5
-        public ActionResult Delete(int? id)
-        {
-            if (id == null)
-            {
-                return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
-            }
-            FEEDBACK fEEDBACK = db.FEEDBACK.Find(id);
-            if (fEEDBACK == null)
-            {
-                return HttpNotFound();
-            }
-            return View(fEEDBACK);
-        }
-
-        // POST: FEEDBACK/Delete/5
-        [HttpPost, ActionName("Delete")]
-        [ValidateAntiForgeryToken]
-        public ActionResult DeleteConfirmed(int id)
-        {
-            FEEDBACK fEEDBACK = db.FEEDBACK.Find(id);
-            db.FEEDBACK.Remove(fEEDBACK);
-            db.SaveChanges();
-            return RedirectToAction("Index");
+            return View(oFeedback);
         }
 
         protected override void Dispose(bool disposing)

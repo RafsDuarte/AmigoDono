@@ -225,6 +225,7 @@
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="Controllers\APOIADORESController.cs" />
     <Compile Include="Controllers\DADOSController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\LoginController.cs" />
@@ -246,22 +247,27 @@
     <Content Include="Content\css\bootstrap-theme.min.css" />
     <Content Include="Content\css\bootstrap.css" />
     <Content Include="Content\css\bootstrap.min.css" />
+    <Content Include="Content\css\carrousel.css" />
     <Content Include="Content\css\feedback.css" />
     <Content Include="Content\css\fom-validation.css" />
     <Content Include="Content\css\pets.css" />
     <Content Include="Content\css\signin.css" />
+    <Content Include="Content\imagens\1920x1080.jpg" />
+    <Content Include="Content\imagens\A-mercenary-on-the-rise-en.jpg" />
     <Content Include="Content\imagens\Batatinha.png" />
     <Content Include="Content\imagens\cachorro.jpg" />
     <Content Include="Content\imagens\capturar.png" />
     <Content Include="Content\imagens\Cash.png" />
     <Content Include="Content\imagens\foto1.jpg" />
     <Content Include="Content\imagens\foto2.jpg" />
+    <Content Include="Content\imagens\Geralt_sword-size_1920x1080.png" />
     <Content Include="Content\imagens\Hermes.png" />
     <Content Include="Content\imagens\Juice.png" />
     <Content Include="Content\imagens\Kito.png" />
     <Content Include="Content\imagens\Logo.png" />
     <Content Include="Content\imagens\Logo2.png" />
     <Content Include="Content\imagens\Sasha.png" />
+    <Content Include="Content\imagens\Icone.ico" />
     <Content Include="Content\imagens\Snow.png" />
     <Content Include="Content\imagens\Van Gogh.png" />
     <Content Include="Content\imagens\Vidinha.png" />
@@ -324,7 +330,6 @@
     <Content Include="ApplicationInsights.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Content Include="Content\css\_carousel.scss" />
     <Content Include="Scripts\bootbox.js" />
     <Content Include="Scripts\bootbox.min.js" />
     <Content Include="Scripts\bootstrap.bundle.js" />
@@ -430,7 +435,6 @@
     <Content Include="Views\AMIGO\Create.cshtml" />
     <Content Include="Views\DENUNCIA\Create.cshtml" />
     <Content Include="Views\FEEDBACK\FaleConosco.cshtml" />
-    <Content Include="Views\Home\Index.cshtml" />
     <Content Include="Views\Login\Signin.cshtml" />
     <Content Include="Views\Shared\Error.cshtml" />
     <Content Include="Views\Shared\_Layout.cshtml" />
@@ -455,7 +459,9 @@
     <Content Include="Scripts\popper-utils.min.js.map" />
     <Content Include="Scripts\popper-utils.js.map" />
     <Content Include="Views\_ViewStart.cshtml" />
+    <Content Include="Views\APOIADORES\Apoiadores.cshtml" />
     <Content Include="Views\DADOS\Detalhes.cshtml" />
+    <Content Include="Views\Home\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

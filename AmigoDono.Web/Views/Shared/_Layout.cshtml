@@ -24,7 +24,7 @@
                         @Html.ActionLink("Meus Dados", "Detalhes", "DADOS")
                     </li>
                     <li>
-                        @Html.ActionLink("Apoiadores", "Contact", "Home")
+                        @Html.ActionLink("Apoiadores", "Apoiadores", "APOIADORES")
                     </li>
                     <li>@Html.ActionLink("Cuidados", "Contact", "Home")</li>
                     <li>@Html.ActionLink("Denúncias", "Create", "DENUNCIA")</li>
@@ -37,7 +37,7 @@
         </nav>
     </header>
 
-    <div class="container body-content">
+    <div class="container body-content" style="top:50px">
         @RenderBody()
         <footer style="border-top: 1px solid black; clear: both; margin-top: 20px">
             <p style="text-align: center">&copy; @DateTime.Now.Year -  Owner's Friend</p>
