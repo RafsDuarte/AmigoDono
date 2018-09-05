@@ -53,6 +53,9 @@
     <Compile Include="AMIGO.cs">
       <DependentUpon>ModelClasses.tt</DependentUpon>
     </Compile>
+    <Compile Include="CONTADOR.cs">
+      <DependentUpon>ModelClasses.tt</DependentUpon>
+    </Compile>
     <Compile Include="CONTROLE.cs">
       <DependentUpon>ModelClasses.tt</DependentUpon>
     </Compile>
@@ -92,6 +95,7 @@
     <Compile Include="Partial\Denuncia.cs" />
     <Compile Include="Partial\Tratamentos.cs" />
     <Compile Include="Partial\Pet.cs" />
+    <Compile Include="Partial\vw_Pet.cs" />
     <Compile Include="PET.cs">
       <DependentUpon>ModelClasses.tt</DependentUpon>
     </Compile>
@@ -109,6 +113,9 @@
       <DependentUpon>ModelClasses.tt</DependentUpon>
     </Compile>
     <Compile Include="TRATAMENTO.cs">
+      <DependentUpon>ModelClasses.tt</DependentUpon>
+    </Compile>
+    <Compile Include="vw_PET.cs">
       <DependentUpon>ModelClasses.tt</DependentUpon>
     </Compile>
   </ItemGroup>

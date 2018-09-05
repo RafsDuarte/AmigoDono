@@ -39,6 +39,12 @@ namespace AmigoDono.Model.Repositories
                 return (from p in odb.PET where p.NomePet.Contains(pet) select p).ToList();
             }
         }
+
+        public List<vw_PET> SelecionarTodosvwPet()
+        {
+            return (from p in odb.vw_PET orderby p.NomePet select p).ToList();
+        }
+
         public void Incluir(PET oPet)
         {
             odb.PET.Add(oPet);

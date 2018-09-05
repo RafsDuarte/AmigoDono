@@ -26,7 +26,7 @@ namespace AmigoDono.Model
         public string Bairro { get; set; }
         public string Cidade { get; set; }
         public string UF { get; set; }
-        public System.DateTime Data { get; set; }
+        public System.DateTime DataDenuncia { get; set; }
         public Nullable<System.DateTime> DataResposta { get; set; }
     }
 }

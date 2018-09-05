@@ -18,10 +18,9 @@ namespace AmigoDono.Model
         public int IDResponsavel { get; set; }
         public int IDPet { get; set; }
         public string Tipo { get; set; }
-        public System.DateTime Data { get; set; }
+        public System.DateTime DataTratamento { get; set; }
         public string OBS { get; set; }
-        public string Descricao { get; set; }
-        public Nullable<int> IDDescricao { get; set; }
+        public int IDDescricao { get; set; }
     
         public virtual AMIGO AMIGO { get; set; }
         public virtual PET PET { get; set; }
