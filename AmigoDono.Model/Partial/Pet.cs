@@ -30,6 +30,7 @@ namespace AmigoDono.Model
             [DisplayName("Cadastro")]
             public DateTime Cadastro { get; set; }
             [DisplayName("Data de nascimento")]
+            [DataType[DataType.Da]]
             public DateTime DataNascimento { get; set; }
             [DisplayName("Observação")]
             public object OBS { get; set; }

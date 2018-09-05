@@ -27,15 +27,21 @@ namespace AmigoDono.Web.Controllers
                 {
                     if (x.Email == Email && x.Senha == Senha)
                     {
-                        return View("Index", "Home");
+                        return RedirectToAction ("Index", "Home");
                     }
+                    else
+                    {
+                        ViewBag.Mensagem = "Email ou senha incorretos!";
+                        return View("Signin");
+                    }
+
                 }
             }
             else
             {
-                ViewBag.Mensagem = "Email ou senha incorretos!";
+                ViewBag.Mensagem = "Email ou senha ausente!";
             }
-            return View("Signin");
+            return View();
         }
     }
 }

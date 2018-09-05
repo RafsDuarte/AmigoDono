@@ -5,7 +5,7 @@
 }
 
 
-<h2 class="text-center">Amigos</h2>
+<h2 class="text-center" style="padding-top:50px">Amigos</h2>
 
 <table class="table table-bordered">
     <tr>
@@ -90,8 +90,8 @@
         </td>*@
 
         <td class="text-center">
-            <button class="btn btn-success">Capturar Amigo</button>
-            <button class="btn btn-link">Detalhes</button>
+            <button class="btn btn-success center-block" style="margin-bottom:0px">Capturar Amigo</button>
+            <button class="btn btn-warning center-block" style="margin-top:0px" data-toggle="modal" data-target="#ModalDetalhes" data-id="@item.IDP">Detalhes</button>
         </td>
 
             @*<td>
@@ -103,3 +103,130 @@
     }
 
 </table>
+
+<div class="modal fade" id="ModalDetalhes" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">
+                    &times;
+                </button>
+                <h1 class="text-center">Detalhes</h1>
+            </div>
+            <div class="modal-body">
+                <div>
+                    <hr />
+                    <dl class="dl-horizontal">
+                        <dt>
+                            @Html.DisplayNameFor(model => model.Cadastro)
+                        </dt>
+
+                        <dd>
+                            @Html.DisplayFor(model => model.Cadastro)
+                        </dd>
+
+                        <dt>
+                            @Html.DisplayNameFor(model => model.NomePet)
+                        </dt>
+
+                        <dd>
+                            @Html.DisplayFor(model => model.NomePet)
+                        </dd>
+
+                        <dt>
+                            @Html.DisplayNameFor(model => model.TipoPet)
+                        </dt>
+
+                        <dd>
+                            @Html.DisplayFor(model => model.TipoPet)
+                        </dd>
+
+                        <dt>
+                            @Html.DisplayNameFor(model => model.Situacao)
+                        </dt>
+
+                        <dd>
+                            @Html.DisplayFor(model => model.Situacao)
+                        </dd>
+
+                        <dt>
+                            @Html.DisplayNameFor(model => model.Idade)
+                        </dt>
+
+                        <dd>
+                            @Html.DisplayFor(model => model.Idade)
+                        </dd>
+
+                        <dt>
+                            @Html.DisplayNameFor(model => model.Raca)
+                        </dt>
+
+                        <dd>
+                            @Html.DisplayFor(model => model.Raca)
+                        </dd>
+
+                        <dt>
+                            @Html.DisplayNameFor(model => model.Sexo)
+                        </dt>
+
+                        <dd>
+                            @Html.DisplayFor(model => model.Sexo)
+                        </dd>
+
+                        <dt>
+                            @Html.DisplayNameFor(model => model.Porte)
+                        </dt>
+
+                        <dd>
+                            @Html.DisplayFor(model => model.Porte)
+                        </dd>
+
+                        <dt>
+                            @Html.DisplayNameFor(model => model.Castrado)
+                        </dt>
+
+                        <dd>
+                            @Html.DisplayFor(model => model.Castrado)
+                        </dd>
+
+                        <dt>
+                            @Html.DisplayNameFor(model => model.DataNascimento)
+                        </dt>
+
+                        <dd>
+                            @Html.DisplayFor(model => model.DataNascimento)
+                        </dd>
+
+                        <dt>
+                            @Html.DisplayNameFor(model => model.OBS)
+                        </dt>
+
+                        <dd>
+                            @Html.DisplayFor(model => model.OBS)
+                        </dd>
+
+                        <dt>
+                            @Html.DisplayNameFor(model => model.Imagem)
+                        </dt>
+
+                        <dd>
+                            @Html.DisplayFor(model => model.Imagem)
+                        </dd>
+
+                        <dt>
+                            @Html.DisplayNameFor(model => model.RAÇA.NomeRaça)
+                        </dt>
+
+                        <dd>
+                            @Html.DisplayFor(model => model.RAÇA.NomeRaça)
+                        </dd>
+
+                    </dl>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-danger" data-dismiss="modal">Fechar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
