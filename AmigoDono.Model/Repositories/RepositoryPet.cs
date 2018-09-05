@@ -44,6 +44,11 @@ namespace AmigoDono.Model.Repositories
             odb.PET.Add(oPet);
             odb.SaveChanges();
         }
+
+        public List<PET> ListarPets()
+        {
+            return odb.PET.OrderBy(p => p.NomePet).ToList();
+        }
         public void Alterar(PET oPet, bool attach = true)
         {
             if (attach)
@@ -58,6 +63,8 @@ namespace AmigoDono.Model.Repositories
             odb.PET.Remove(oPet);
             odb.SaveChanges();
         }
+
+
         public void Dispose()
         {
             if (LiberaContexto)

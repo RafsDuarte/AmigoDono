@@ -1,384 +1,232 @@
-﻿@{
-    ViewBag.Title = "Owner's Friend";
+﻿@model IEnumerable<AmigoDono.Model.PET>
+
+@{
+    ViewBag.Title = "Home";
 }
 
 
-<!DOCTYPE html>
-<html lang="pt-br">
-<head>
-    <meta charset="utf-8">
-    <meta http-equiv="content-language" content="pt-br">
-    <meta http-equiv="content-type" content="text/html; charset=utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="author" content="Rafael Duarte">
-    <meta name="description" content="Friend of the Owner é uma página web para incentivar a adoção de animais que se encontram em ONGs expecializadas.">
-    <meta name="keywords" content="Owner's Friend, AmigoDono, web, página web, ONGs, cão, cachorro, adoção, adotar, animais, gatos">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-</head>
-<body>
-    <div class="container-fluid" style="margin-top: 150px">
-        <div class="row">
-        <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
-            <div class="foto">
-                <div class="text-center">
-                    <img alt="Sasha" class="img-responsive" src="~/Content/imagens/Sasha.png">
-                </div>
+<h2 class="text-center" style="padding-top:50px">Amigos</h2>
+
+<table class="table table-bordered">
+    <tr>
+        <th class="text-center">
+            @Html.DisplayNameFor(model => model.Imagem)
+        </th>
+        <th class="text-center">
+            @Html.DisplayNameFor(model => model.NomePet)
+        </th>
+        <th class="text-center">
+            @Html.DisplayNameFor(model => model.TipoPet)
+        </th>
+        <th class="text-center">
+            @Html.DisplayNameFor(model => model.Situacao)
+        </th>
+        <th class="text-center">
+            @Html.DisplayNameFor(model => model.Idade)
+        </th>
+        <th class="text-center">
+            @Html.DisplayNameFor(model => model.RAÇA.NomeRaça)
+        </th>
+        <th class="text-center">
+            @Html.DisplayNameFor(model => model.Sexo)
+        </th>
+        <th class="text-center">
+            @Html.DisplayNameFor(model => model.Porte)
+        </th>
+        <th class="text-center">
+            @Html.DisplayNameFor(model => model.Castrado)
+        </th>
+        <th class="text-center">
+            @Html.DisplayNameFor(model => model.DataNascimento)
+        </th>
+        <th class="text-center">
+            @Html.DisplayName("Opções")
+        </th>
+        <th></th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+    <tr>
+        @if (item.Imagem != null)
+        {
+            <td class="text-center">
+                @{
+                    var base64 = Convert.ToBase64String(item.Imagem);
+                    var imgSrc = String.Format("data:image/gif;base64,{0}", base64);
+                }
+                <img src='@imgSrc' style="max-width:100px; max-height:100px;" />
+            </td>
+        }
+        <td class="text">
+            @Html.DisplayFor(modelItem => item.NomePet)
+        </td>
+        <td class="text-center">
+            @Html.DisplayFor(modelItem => item.TipoPet)
+        </td>
+        <td class="text-center">
+            @Html.DisplayFor(modelItem => item.Situacao)
+        </td>
+        <td class="text-center">
+            @Html.DisplayFor(modelItem => item.Idade)
+        </td>
+        <td class="text-center">
+            @Html.DisplayFor(modelItem => item.RAÇA.NomeRaça)
+        </td>
+        <td class="text-center">
+            @Html.DisplayFor(modelItem => item.Sexo)
+        </td>
+        <td class="text-center">
+            @Html.DisplayFor(modelItem => item.Porte)
+        </td>
+        <td class="text-center">
+            @Html.DisplayFor(modelItem => item.Castrado)
+        </td>
+        <td class="text-center">
+            @Html.DisplayFor(modelItem => item.DataNascimento)
+        </td>
+        @*<td class="text-center">
+            @Html.DisplayFor(modelItem => item.OBS)
+        </td>*@
+
+        <td class="text-center">
+            <button class="btn btn-success center-block" style="margin-bottom:0px">Capturar Amigo</button>
+            <button class="btn btn-warning center-block" style="margin-top:0px" data-toggle="modal" data-target="#ModalDetalhes" data-id="@item.IDP">Detalhes</button>
+        </td>
+
+            @*<td>
+                @Html.ActionLink("Edit", "Edit", new { id = item.IDP }) |
+                @Html.ActionLink("Details", "Details", new { id = item.IDP }) |
+                @Html.ActionLink("Delete", "Delete", new { id = item.IDP })
+            </td>*@
+    </tr>
+    }
+
+</table>
+
+<div class="modal fade" id="ModalDetalhes" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">
+                    &times;
+                </button>
+                <h1 class="text-center">Detalhes</h1>
+            </div>
+            <div class="modal-body">
                 <div>
-                    <div>
-                        <div class="row text-center dados">
-                            <div class="col-xs-6">
-                                <p>Fêmea</p>
-                            </div>
-                            <div class="col-xs-6">
-                                <img alt="Amigo pronto para ser capturado" src="~/Content/imagens/capturar.png" width="50">
-                            </div>
-                        </div>
-                        <div class="row text-center localizacao">
-                            <h4>Cão Comunitário</h4>
-                        </div>
-                        <div>
-                            <div class="capturar">
-                                <a class="btn btn-warning btn-lg center-block" href="javascript:;" onclick="confirmarCaptura(162, 4);" title="Capturar amigo">Capturar amigo</a>
-                            </div>
-                        </div>
-                        <div>
-                            <div class="fb-like" data-href="" data-layout="button_count" data-action="like" data-size="small" data-show-faces="false" data-share="true"></div>
-                        </div>
-                    </div>
+                    <hr />
+                    <dl class="dl-horizontal">
+                        <dt>
+                            @Html.DisplayNameFor(model => model.Cadastro)
+                        </dt>
+
+                        <dd>
+                            @Html.DisplayFor(model => model.Cadastro)
+                        </dd>
+
+                        <dt>
+                            @Html.DisplayNameFor(model => model.NomePet)
+                        </dt>
+
+                        <dd>
+                            @Html.DisplayFor(model => model.NomePet)
+                        </dd>
+
+                        <dt>
+                            @Html.DisplayNameFor(model => model.TipoPet)
+                        </dt>
+
+                        <dd>
+                            @Html.DisplayFor(model => model.TipoPet)
+                        </dd>
+
+                        <dt>
+                            @Html.DisplayNameFor(model => model.Situacao)
+                        </dt>
+
+                        <dd>
+                            @Html.DisplayFor(model => model.Situacao)
+                        </dd>
+
+                        <dt>
+                            @Html.DisplayNameFor(model => model.Idade)
+                        </dt>
+
+                        <dd>
+                            @Html.DisplayFor(model => model.Idade)
+                        </dd>
+
+                        <dt>
+                            @Html.DisplayNameFor(model => model.Raca)
+                        </dt>
+
+                        <dd>
+                            @Html.DisplayFor(model => model.Raca)
+                        </dd>
+
+                        <dt>
+                            @Html.DisplayNameFor(model => model.Sexo)
+                        </dt>
+
+                        <dd>
+                            @Html.DisplayFor(model => model.Sexo)
+                        </dd>
+
+                        <dt>
+                            @Html.DisplayNameFor(model => model.Porte)
+                        </dt>
+
+                        <dd>
+                            @Html.DisplayFor(model => model.Porte)
+                        </dd>
+
+                        <dt>
+                            @Html.DisplayNameFor(model => model.Castrado)
+                        </dt>
+
+                        <dd>
+                            @Html.DisplayFor(model => model.Castrado)
+                        </dd>
+
+                        <dt>
+                            @Html.DisplayNameFor(model => model.DataNascimento)
+                        </dt>
+
+                        <dd>
+                            @Html.DisplayFor(model => model.DataNascimento)
+                        </dd>
+
+                        <dt>
+                            @Html.DisplayNameFor(model => model.OBS)
+                        </dt>
+
+                        <dd>
+                            @Html.DisplayFor(model => model.OBS)
+                        </dd>
+
+                        <dt>
+                            @Html.DisplayNameFor(model => model.Imagem)
+                        </dt>
+
+                        <dd>
+                            @Html.DisplayFor(model => model.Imagem)
+                        </dd>
+
+                        <dt>
+                            @Html.DisplayNameFor(model => model.RAÇA.NomeRaça)
+                        </dt>
+
+                        <dd>
+                            @Html.DisplayFor(model => model.RAÇA.NomeRaça)
+                        </dd>
+
+                    </dl>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-danger" data-dismiss="modal">Fechar</button>
                 </div>
             </div>
         </div>
-        <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
-            <div class="foto">
-                <div class="text-center">
-                    <img alt="Batatinha" class="img-responsive" src="~/Content/imagens/Batatinha.png">
-                </div>
-                <div>
-                    <div>
-                        <div class="row text-center dados">
-                            <div class="col-xs-6">
-                                <p>Macho</p>
-                            </div>
-                            <div class="col-xs-6">
-                                <img alt="Amigo pronto para ser capturado" src="~/Content/imagens/capturar.png" width="50">
-                            </div>
-                        </div>
-                        <div class="row text-center localizacao">
-                            <h4>Canil Municipal</h4>
-                        </div>
-                        <div>
-                            <div class="capturar">
-                                <a class="btn btn-warning btn-lg center-block" href="javascript:;" onclick="confirmarCaptura(137, 1);" title="Capturar amigo">Capturar amigo</a>
-                            </div>
-                        </div>
-                        <div>
-                            <div class="fb-like" data-href="" data-layout="button_count" data-action="like" data-size="small" data-show-faces="false" data-share="true"></div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
-            <div class="foto">
-                <div class="text-center">
-                    <img alt="Hermes" class="img-responsive" src="~/Content/imagens/Hermes.png">
-                </div>
-                <div>
-                    <div>
-                        <div class="row text-center dados">
-                            <div class="col-xs-6">
-                                <p>Macho</p>
-                            </div>
-                            <div class="col-xs-6">
-                                <img alt="Amigo pronto para ser capturado" src="~/Content/imagens/capturar.png" width="50">
-                            </div>
-                        </div>
-                        <div class="row text-center localizacao">
-                            <h4>Canil Municipal</h4>
-                        </div>
-                        <div>
-                            <div class="capturar">
-                                <a class="btn btn-warning btn-lg center-block" href="javascript:;" onclick="confirmarCaptura(135, 1);" title="Capturar amigo">Capturar amigo</a>
-                            </div>
-                        </div>
-                        <div>
-                            <div class="fb-like" data-href="" data-layout="button_count" data-action="like" data-size="small" data-show-faces="false" data-share="true"></div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
-            <div class="foto">
-                <div class="text-center">
-                    <img alt="Cash" class="img-responsive" src="~/Content/imagens/Cash.png">
-                </div>
-                <div>
-                    <div>
-                        <div class="row text-center dados">
-                            <div class="col-xs-6">
-                                <p>Macho</p>
-                            </div>
-                            <div class="col-xs-6">
-                                <img alt="Amigo pronto para ser capturado" src="~/Content/imagens/capturar.png" width="50">
-                            </div>
-                        </div>
-                        <div class="row text-center localizacao">
-                            <h4>Canil Municipal</h4>
-                        </div>
-                        <div>
-                            <div class="capturar">
-                                <a class="btn btn-warning btn-lg center-block" href="javascript:;" onclick="confirmarCaptura(7, 1);" title="Capturar amigo">Capturar amigo</a>
-                            </div>
-                        </div>
-                        <div>
-                            <div class="fb-like" data-href="" data-layout="button_count" data-action="like" data-size="small" data-show-faces="false" data-share="true"></div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
-            <div class="foto">
-                <div class="text-center">
-                    <img alt="Snow" class="img-responsive" src="~/Content/imagens/Snow.png">
-                </div>
-                <div>
-                    <div>
-                        <div class="row text-center dados">
-                            <div class="col-xs-6">
-                                <p>Macho</p>
-                            </div>
-                            <div class="col-xs-6">
-                                <img alt="Amigo pronto para ser capturado" src="~/Content/imagens/capturar.png" width="50">
-                            </div>
-                        </div>
-                        <div class="row text-center localizacao">
-                            <h4>Canil Municipal</h4>
-                        </div>
-                        <div>
-                            <div class="capturar">
-                                <a class="btn btn-warning btn-lg center-block" href="javascript:;" onclick="confirmarCaptura(144, 1);" title="Capturar amigo">Capturar amigo</a>
-                            </div>
-                        </div>
-                        <div>
-                            <div class="fb-like" data-href="" data-layout="button_count" data-action="like" data-size="small" data-show-faces="false" data-share="true"></div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
-            <div class="foto">
-                <div class="text-center">
-                    <img alt="Van Gogh" class="img-responsive" src="~/Content/imagens/Van Gogh.png">
-                </div>
-                <div>
-                    <div>
-                        <div class="row text-center dados">
-                            <div class="col-xs-6">
-                                <p>Macho</p>
-                            </div>
-                            <div class="col-xs-6">
-                                <img alt="Amigo pronto para ser capturado" src="~/Content/imagens/capturar.png" width="50">
-                            </div>
-                        </div>
-                        <div class="row text-center localizacao">
-                            <h4>Canil Municipal</h4>
-                        </div>
-                        <div>
-                            <div class="capturar">
-                                <a class="btn btn-warning btn-lg center-block" href="javascript:;" onclick="confirmarCaptura(131, 1);" title="Capturar amigo">Capturar amigo</a>
-                            </div>
-                        </div>
-                        <div>
-                            <div class="fb-like" data-href="" data-layout="button_count" data-action="like" data-size="small" data-show-faces="false" data-share="true"></div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
-            <div class="foto">
-                <div class="text-center">
-                    <img alt="Wolf" class="img-responsive" src="~/Content/imagens/Wolf.png">
-                </div>
-                <div>
-                    <div>
-                        <div class="row text-center dados">
-                            <div class="col-xs-6">
-                                <p>Macho</p>
-                            </div>
-                            <div class="col-xs-6">
-                                <img alt="Amigo pronto para ser capturado" src="~/Content/imagens/capturar.png" width="50">
-                            </div>
-                        </div>
-                        <div class="row text-center localizacao">
-                            <h4>Canil Municipal</h4>
-                        </div>
-                        <div>
-                            <div class="capturar">
-                                <a class="btn btn-warning btn-lg center-block" href="javascript:;" onclick="confirmarCaptura(31, 1);" title="Capturar amigo">Capturar amigo</a>
-                            </div>
-                        </div>
-                        <div>
-                            <div class="fb-like" data-href="" data-layout="button_count" data-action="like" data-size="small" data-show-faces="false" data-share="true"></div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
-            <div class="foto">
-                <div class="text-center">
-                    <img alt="Will" class="img-responsive" src="~/Content/imagens/Will.png">
-                </div>
-                <div>
-                    <div>
-                        <div class="row text-center dados">
-                            <div class="col-xs-6">
-                                <p>Macho</p>
-                            </div>
-                            <div class="col-xs-6">
-                                <img alt="Amigo pronto para ser capturado" src="~/Content/imagens/capturar.png" width="50">
-                            </div>
-                        </div>
-                        <div class="row text-center localizacao">
-                            <h4>Canil Municipal</h4>
-                        </div>
-                        <div>
-                            <div class="capturar">
-                                <a class="btn btn-warning btn-lg center-block" href="javascript:;" onclick="confirmarCaptura(127, 1);" title="Capturar amigo">Capturar amigo</a>
-                            </div>
-                        </div>
-                        <div>
-                            <div class="fb-like" data-href="" data-layout="button_count" data-action="like" data-size="small" data-show-faces="false" data-share="true"></div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
-            <div class="foto">
-                <div class="text-center">
-                    <img alt="Vidinha" class="img-responsive" src="~/Content/imagens/Vidinha.png">
-                </div>
-                <div>
-                    <div>
-                        <div class="row text-center dados">
-                            <div class="col-xs-6">
-                                <p>Fêmea</p>
-                            </div>
-                            <div class="col-xs-6">
-                                <img alt="Amigo pronto para ser capturado" src="~/Content/imagens/capturar.png" width="50">
-                            </div>
-                        </div>
-                        <div class="row text-center localizacao">
-                            <h4>Canil Municipal</h4>
-                        </div>
-                        <div>
-                            <div class="capturar">
-                                <a class="btn btn-warning btn-lg center-block" href="javascript:;" onclick="confirmarCaptura(151, 1);" title="Capturar amigo">Capturar amigo</a>
-                            </div>
-                        </div>
-                        <div>
-                            <div class="fb-like" data-href="" data-layout="button_count" data-action="like" data-size="small" data-show-faces="false" data-share="true"></div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
-            <div class="foto">
-                <div class="text-center">
-                    <img alt="Kito" class="img-responsive" src="~/Content/imagens/Kito.png">
-                </div>
-                <div>
-                    <div>
-                        <div class="row text-center dados">
-                            <div class="col-xs-6">
-                                <p>Macho</p>
-                            </div>
-                            <div class="col-xs-6">
-                                <img alt="Amigo pronto para ser capturado" src="~/Content/imagens/capturar.png" width="50">
-                            </div>
-                        </div>
-                        <div class="row text-center localizacao">
-                            <h4>Cão Comunitário</h4>
-                        </div>
-                        <div>
-                            <div class="capturar">
-                                <a class="btn btn-warning btn-lg center-block" href="javascript:;" onclick="confirmarCaptura(99, 4);" title="Capturar amigo">Capturar amigo</a>
-                            </div>
-                        </div>
-                        <div>
-                            <div class="fb-like" data-href="" data-layout="button_count" data-action="like" data-size="small" data-show-faces="false" data-share="true"></div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
-            <div class="foto">
-                <div class="text-center">
-                    <img alt="Vivi" class="img-responsive" src="~/Content/imagens/Vivi.png">
-                </div>
-                <div>
-                    <div>
-                        <div class="row text-center dados">
-                            <div class="col-xs-6">
-                                <p>Fêmea</p>
-                            </div>
-                            <div class="col-xs-6">
-                                <img alt="Amigo pronto para ser capturado" src="~/Content/imagens/capturar.png" width="50">
-                            </div>
-                        </div>
-                        <div class="row text-center localizacao">
-                            <h4>Canil Municipal</h4>
-                        </div>
-                        <div>
-                            <div class="capturar">
-                                <a class="btn btn-warning btn-lg center-block" href="javascript:;" onclick="confirmarCaptura(151, 1);" title="Capturar amigo">Capturar amigo</a>
-                            </div>
-                        </div>
-                        <div>
-                            <div class="fb-like" data-href="" data-layout="button_count" data-action="like" data-size="small" data-show-faces="false" data-share="true"></div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
-            <div class="foto">
-                <div class="text-center">
-                    <img alt="Juice" class="img-responsive" src="~/Content/imagens/Juice.png">
-                </div>
-                <div>
-                    <div>
-                        <div class="row text-center dados">
-                            <div class="col-xs-6">
-                                <p>Macho</p>
-                            </div>
-                            <div class="col-xs-6">
-                                <img alt="Amigo pronto para ser capturado" src="~/Content/imagens/capturar.png" width="50">
-                            </div>
-                        </div>
-                        <div class="row text-center localizacao">
-                            <h4>Cão Comunitário</h4>
-                        </div>
-                        <div>
-                            <div class="capturar">
-                                <a class="btn btn-warning btn-lg center-block" href="javascript:;" onclick="confirmarCaptura(99, 4);" title="Capturar amigo">Capturar amigo</a>
-                            </div>
-                        </div>
-                        <div>
-                            <div class="fb-like" data-href="" data-layout="button_count" data-action="like" data-size="small" data-show-faces="false" data-share="true"></div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-      </div>
     </div>
-</body>
-</html>
+</div>
