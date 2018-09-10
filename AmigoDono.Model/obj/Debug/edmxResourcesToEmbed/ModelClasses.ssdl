@@ -5,19 +5,19 @@
       <PropertyRef Name="IDA" />
     </Key>
     <Property Name="IDA" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
-    <Property Name="Nome" Type="varchar" MaxLength="100" Nullable="false" />
+    <Property Name="Nome" Type="varchar" MaxLength="100" />
     <Property Name="Funcao" Type="varchar" MaxLength="50" Nullable="false" />
     <Property Name="Senha" Type="varchar" MaxLength="20" Nullable="false" />
     <Property Name="CPF" Type="varchar" MaxLength="14" />
     <Property Name="CNPJ" Type="varchar" MaxLength="18" />
     <Property Name="DataNascimento" Type="date" Nullable="false" />
     <Property Name="DataCadastro" Type="date" Nullable="false" />
-    <Property Name="Email" Type="varchar" MaxLength="100" Nullable="false" />
+    <Property Name="Email" Type="varchar" MaxLength="100" />
     <Property Name="CEP" Type="varchar" MaxLength="9" Nullable="false" />
     <Property Name="Logradouro" Type="varchar" MaxLength="50" Nullable="false" />
     <Property Name="NomeLogradouro" Type="varchar" MaxLength="100" Nullable="false" />
-    <Property Name="Numero" Type="varchar" MaxLength="5" />
-    <Property Name="Complemento" Type="varchar" MaxLength="100" />
+    <Property Name="Numero" Type="varchar" MaxLength="5" Nullable="false" />
+    <Property Name="Complemento" Type="varchar" MaxLength="100" Nullable="false" />
     <Property Name="Bairro" Type="varchar" MaxLength="100" Nullable="false" />
     <Property Name="Cidade" Type="varchar" MaxLength="100" Nullable="false" />
     <Property Name="UF" Type="varchar" MaxLength="2" Nullable="false" />
@@ -26,17 +26,23 @@
     <Property Name="Ajuda" Type="varchar(max)" />
     <Property Name="Imagem" Type="image" />
   </EntityType>
+  <EntityType Name="CONTADOR">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="Totaldotados" Type="int" />
+    <Property Name="TotalDisposiçao" Type="int" />
+    <Property Name="ToatalTratamento" Type="int" />
+    <Property Name="id" Type="int" Nullable="false" />
+  </EntityType>
   <EntityType Name="CONTROLE">
     <Key>
       <PropertyRef Name="IDC" />
     </Key>
     <Property Name="IDC" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
     <Property Name="IDPet" Type="int" Nullable="false" />
-    <Property Name="NomePet" Type="varchar" MaxLength="80" />
     <Property Name="IDDono" Type="int" Nullable="false" />
-    <Property Name="NomeDono" Type="varchar" MaxLength="100" Nullable="false" />
     <Property Name="IDDoador" Type="int" Nullable="false" />
-    <Property Name="NomeDoador" Type="varchar" MaxLength="100" />
     <Property Name="DataAdocao" Type="date" />
     <Property Name="Statu" Type="varchar" MaxLength="50" Nullable="false" />
     <Property Name="OBS" Type="varchar(max)" />
@@ -57,14 +63,14 @@
     <Property Name="Bairro" Type="varchar" MaxLength="100" />
     <Property Name="Cidade" Type="varchar" MaxLength="100" />
     <Property Name="UF" Type="varchar" MaxLength="2" />
-    <Property Name="Data" Type="date" Nullable="false" />
+    <Property Name="DataDenuncia" Type="date" Nullable="false" />
     <Property Name="DataResposta" Type="date" />
   </EntityType>
   <EntityType Name="FEEDBACK">
     <Key>
       <PropertyRef Name="IDF" />
     </Key>
-    <Property Name="IDF" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="IDF" Type="int" Nullable="false" />
     <Property Name="Nome" Type="varchar(max)" Nullable="false" />
     <Property Name="Email" Type="varchar" MaxLength="100" Nullable="false" />
     <Property Name="Opiniao" Type="varchar(max)" Nullable="false" />
@@ -80,7 +86,6 @@
     <Property Name="TipoPet" Type="varchar" MaxLength="10" Nullable="false" />
     <Property Name="Situacao" Type="varchar" MaxLength="50" Nullable="false" />
     <Property Name="Idade" Type="varchar" MaxLength="10" Nullable="false" />
-    <Property Name="Raca" Type="varchar" MaxLength="50" Nullable="false" />
     <Property Name="Sexo" Type="varchar" MaxLength="10" Nullable="false" />
     <Property Name="Porte" Type="varchar" MaxLength="50" Nullable="false" />
     <Property Name="Castrado" Type="varchar" MaxLength="3" Nullable="false" />
@@ -93,14 +98,14 @@
     <Key>
       <PropertyRef Name="IDR" />
     </Key>
-    <Property Name="IDR" Type="int" Nullable="false" />
+    <Property Name="IDR" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
     <Property Name="NomeRaça" Type="varchar" MaxLength="50" />
   </EntityType>
   <EntityType Name="TIPOTRATAMENTO">
     <Key>
       <PropertyRef Name="IDTT" />
     </Key>
-    <Property Name="IDTT" Type="int" Nullable="false" />
+    <Property Name="IDTT" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
     <Property Name="Descricao" Type="varchar(max)" />
   </EntityType>
   <EntityType Name="TRATAMENTO">
@@ -111,10 +116,32 @@
     <Property Name="IDResponsavel" Type="int" Nullable="false" />
     <Property Name="IDPet" Type="int" Nullable="false" />
     <Property Name="Tipo" Type="varchar" MaxLength="50" Nullable="false" />
-    <Property Name="Data" Type="date" Nullable="false" />
+    <Property Name="DataTratamento" Type="date" Nullable="false" />
     <Property Name="OBS" Type="varchar(max)" />
-    <Property Name="Descricao" Type="varchar(max)" />
-    <Property Name="IDDescricao" Type="int" />
+    <Property Name="IDDescricao" Type="int" Nullable="false" />
+  </EntityType>
+  <!--Errors Found During Generation:
+warning 6002: The table/view 'Amigos_do_Dono.dbo.vw_PET' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+  <EntityType Name="vw_PET">
+    <Key>
+      <PropertyRef Name="NomePet" />
+      <PropertyRef Name="TipoPet" />
+      <PropertyRef Name="Situacao" />
+      <PropertyRef Name="Idade" />
+      <PropertyRef Name="Sexo" />
+      <PropertyRef Name="Porte" />
+      <PropertyRef Name="Castrado" />
+    </Key>
+    <Property Name="Imagem" Type="image" />
+    <Property Name="NomePet" Type="varchar" MaxLength="80" Nullable="false" />
+    <Property Name="TipoPet" Type="varchar" MaxLength="10" Nullable="false" />
+    <Property Name="Situacao" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="Idade" Type="varchar" MaxLength="10" Nullable="false" />
+    <Property Name="NomeRaça" Type="varchar" MaxLength="50" />
+    <Property Name="Sexo" Type="varchar" MaxLength="10" Nullable="false" />
+    <Property Name="Porte" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="Castrado" Type="varchar" MaxLength="3" Nullable="false" />
+    <Property Name="DataNascimento" Type="date" />
   </EntityType>
   <Association Name="FK_adocao_Animal">
     <End Role="PET" Type="Self.PET" Multiplicity="1" />
@@ -189,7 +216,7 @@
     </ReferentialConstraint>
   </Association>
   <Association Name="FK_TRATAMENTO_TIPOTRATAMENTO">
-    <End Role="TIPOTRATAMENTO" Type="Self.TIPOTRATAMENTO" Multiplicity="0..1" />
+    <End Role="TIPOTRATAMENTO" Type="Self.TIPOTRATAMENTO" Multiplicity="1" />
     <End Role="TRATAMENTO" Type="Self.TRATAMENTO" Multiplicity="*" />
     <ReferentialConstraint>
       <Principal Role="TIPOTRATAMENTO">
@@ -202,6 +229,7 @@
   </Association>
   <EntityContainer Name="Amigos_do_DonoModelStoreContainer">
     <EntitySet Name="AMIGO" EntityType="Self.AMIGO" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="CONTADOR" EntityType="Self.CONTADOR" Schema="dbo" store:Type="Tables" />
     <EntitySet Name="CONTROLE" EntityType="Self.CONTROLE" Schema="dbo" store:Type="Tables" />
     <EntitySet Name="DENUNCIA" EntityType="Self.DENUNCIA" Schema="dbo" store:Type="Tables" />
     <EntitySet Name="FEEDBACK" EntityType="Self.FEEDBACK" Schema="dbo" store:Type="Tables" />
@@ -209,6 +237,20 @@
     <EntitySet Name="RAÇA" EntityType="Self.RAÇA" Schema="dbo" store:Type="Tables" />
     <EntitySet Name="TIPOTRATAMENTO" EntityType="Self.TIPOTRATAMENTO" Schema="dbo" store:Type="Tables" />
     <EntitySet Name="TRATAMENTO" EntityType="Self.TRATAMENTO" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="vw_PET" EntityType="Self.vw_PET" store:Type="Views" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+    [vw_PET].[Imagem] AS [Imagem], 
+    [vw_PET].[NomePet] AS [NomePet], 
+    [vw_PET].[TipoPet] AS [TipoPet], 
+    [vw_PET].[Situacao] AS [Situacao], 
+    [vw_PET].[Idade] AS [Idade], 
+    [vw_PET].[NomeRaça] AS [NomeRaça], 
+    [vw_PET].[Sexo] AS [Sexo], 
+    [vw_PET].[Porte] AS [Porte], 
+    [vw_PET].[Castrado] AS [Castrado], 
+    [vw_PET].[DataNascimento] AS [DataNascimento]
+    FROM [dbo].[vw_PET] AS [vw_PET]</DefiningQuery>
+    </EntitySet>
     <AssociationSet Name="FK_adocao_Animal" Association="Self.FK_adocao_Animal">
       <End Role="PET" EntitySet="PET" />
       <End Role="CONTROLE" EntitySet="CONTROLE" />

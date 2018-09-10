@@ -52,7 +52,7 @@ namespace AmigoDono.View
             CboTipoCuidado.Text = _tratamento.Tipo;
             TxtIdResponsavel.Text = retornoA.IDA.ToString();
             TxtNomeResponsavel.Text = retornoA.Nome;
-            TxtDescricao.Text = _tratamento.Descricao;
+            TxtDescricao.Text = _tratamento.;
             BtnExcluir.Enabled = true;
         }
         private void TelaTratamento_Load(object sender, EventArgs e) { }

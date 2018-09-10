@@ -47,186 +47,155 @@
 
     @foreach (var item in Model)
     {
-    <tr>
-        @if (item.Imagem != null)
-        {
-            <td class="text-center">
-                @{
-                    var base64 = Convert.ToBase64String(item.Imagem);
-                    var imgSrc = String.Format("data:image/gif;base64,{0}", base64);
-                }
-                <img src='@imgSrc' style="max-width:100px; max-height:100px;" />
+        <tr>
+            @if (item.Imagem != null)
+            {
+                <td class="text-center">
+                    @{
+                        var base64 = Convert.ToBase64String(item.Imagem);
+                        var imgSrc = String.Format("data:image/gif;base64,{0}", base64);
+                    }
+                    <img src='@imgSrc' style="max-width:100px; max-height:100px;" />
+                </td>
+            }
+            <td class="text">
+                @Html.DisplayFor(modelItem => item.NomePet)
             </td>
-        }
-        <td class="text">
-            @Html.DisplayFor(modelItem => item.NomePet)
-        </td>
-        <td class="text-center">
-            @Html.DisplayFor(modelItem => item.TipoPet)
-        </td>
-        <td class="text-center">
-            @Html.DisplayFor(modelItem => item.Situacao)
-        </td>
-        <td class="text-center">
-            @Html.DisplayFor(modelItem => item.Idade)
-        </td>
-        <td class="text-center">
-            @Html.DisplayFor(modelItem => item.RAÇA.NomeRaça)
-        </td>
-        <td class="text-center">
-            @Html.DisplayFor(modelItem => item.Sexo)
-        </td>
-        <td class="text-center">
-            @Html.DisplayFor(modelItem => item.Porte)
-        </td>
-        <td class="text-center">
-            @Html.DisplayFor(modelItem => item.Castrado)
-        </td>
-        <td class="text-center">
-            @Html.DisplayFor(modelItem => item.DataNascimento)
-        </td>
-        @*<td class="text-center">
-            @Html.DisplayFor(modelItem => item.OBS)
-        </td>*@
+            <td class="text-center">
+                @Html.DisplayFor(modelItem => item.TipoPet)
+            </td>
+            <td class="text-center">
+                @Html.DisplayFor(modelItem => item.Situacao)
+            </td>
+            <td class="text-center">
+                @Html.DisplayFor(modelItem => item.Idade)
+            </td>
+            <td class="text-center">
+                @Html.DisplayFor(modelItem => item.RAÇA.NomeRaça)
+            </td>
+            <td class="text-center">
+                @Html.DisplayFor(modelItem => item.Sexo)
+            </td>
+            <td class="text-center">
+                @Html.DisplayFor(modelItem => item.Porte)
+            </td>
+            <td class="text-center">
+                @Html.DisplayFor(modelItem => item.Castrado)
+            </td>
+            <td class="text-center">
+                @Html.DisplayFor(modelItem => item.DataNascimento)
+            </td>
+            @*<td class="text-center">
+                    @Html.DisplayFor(modelItem => item.OBS)
+                </td>*@
 
-        <td class="text-center">
-            <button class="btn btn-success center-block" style="margin-bottom:0px">Capturar Amigo</button>
-            <button class="btn btn-warning center-block" style="margin-top:0px" data-toggle="modal" data-target="#ModalDetalhes" data-id="@item.IDP">Detalhes</button>
-        </td>
+            <td class="text-center">
+                <button class="btn btn-success center-block" style="margin-bottom:0px">Capturar Amigo</button>
+                
+                <!--Configuração do Botão que vai Abrir o Modal, onde será definido os parametros do Modal com os dados que
+                    irá aparecer no JQuery-->
+
+                <button class="btn btn-primary BtnDetalhes"
+                        data-Imagem="@item.Imagem"
+                        data-NomePet="@item.NomePet"
+                        data-Situacao="@item.Situacao"
+                        data-Idade="@item.Idade"
+                        data-NomeRaca="@item.RAÇA.NomeRaça"
+                        data-Sexo="@item.Sexo"
+                        data-Porte="@item.Porte"
+                        data-Castrado="@item.Castrado"
+                        data-DataNascimento="@item.DataNascimento"
+                        data-toggle="modal"
+                        data-target="#ModalDetalhes">
+                    Detalhes
+                </button>
+            </td>
 
             @*<td>
-                @Html.ActionLink("Edit", "Edit", new { id = item.IDP }) |
-                @Html.ActionLink("Details", "Details", new { id = item.IDP }) |
-                @Html.ActionLink("Delete", "Delete", new { id = item.IDP })
-            </td>*@
-    </tr>
+                    @Html.ActionLink("Edit", "Edit", new { id = item.IDP }) |
+                    @Html.ActionLink("Details", "Details, new { id = item.IDP }) |
+                    @Html.ActionLink("Delete", "Delete", new { id = item.IDP })
+                </td>*@
+        </tr>
     }
 
 </table>
 
-<div class="modal fade" id="ModalDetalhes" tabindex="-1" role="dialog" aria-hidden="true">
-    <div class="modal-dialog">
+<!-- Código do Modal no Bootstrap -->
+
+<div class="modal" tabindex="-1" role="dialog" id="ModalDetalhes">
+    <div class="modal-dialog" role="document">
         <div class="modal-content">
             <div class="modal-header">
-                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">
-                    &times;
+
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
                 </button>
-                <h1 class="text-center">Detalhes</h1>
+                <h5 class="text-center">Detalhes</h5> <!--Titulo do Modal -->
             </div>
             <div class="modal-body">
-                <div>
-                    <hr />
-                    <dl class="dl-horizontal">
-                        <dt>
-                            @Html.DisplayNameFor(model => model.Cadastro)
-                        </dt>
+                <p>Imagem: <label id="MatriculaModal"></label></p>
+                <br />
+                <p>Nome: <label id="NomeModal"></label></p>
+                <br />
+                <p>Tipo Pessoa: <label id="TipoPessoaModal"></label></p>
 
-                        <dd>
-                            @Html.DisplayFor(model => model.Cadastro)
-                        </dd>
+                <p id="PTotalHora">Total de Hora: <label id="TotalHoraModal"></label></p>
+                <br />
+                <p id="PNumeroTurma">Número da Turma: <label id="NumeroTurmaModal"></label></p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-primary" data-dismiss="modal">OK</button>
 
-                        <dt>
-                            @Html.DisplayNameFor(model => model.NomePet)
-                        </dt>
-
-                        <dd>
-                            @Html.DisplayFor(model => model.NomePet)
-                        </dd>
-
-                        <dt>
-                            @Html.DisplayNameFor(model => model.TipoPet)
-                        </dt>
-
-                        <dd>
-                            @Html.DisplayFor(model => model.TipoPet)
-                        </dd>
-
-                        <dt>
-                            @Html.DisplayNameFor(model => model.Situacao)
-                        </dt>
-
-                        <dd>
-                            @Html.DisplayFor(model => model.Situacao)
-                        </dd>
-
-                        <dt>
-                            @Html.DisplayNameFor(model => model.Idade)
-                        </dt>
-
-                        <dd>
-                            @Html.DisplayFor(model => model.Idade)
-                        </dd>
-
-                        <dt>
-                            @Html.DisplayNameFor(model => model.Raca)
-                        </dt>
-
-                        <dd>
-                            @Html.DisplayFor(model => model.Raca)
-                        </dd>
-
-                        <dt>
-                            @Html.DisplayNameFor(model => model.Sexo)
-                        </dt>
-
-                        <dd>
-                            @Html.DisplayFor(model => model.Sexo)
-                        </dd>
-
-                        <dt>
-                            @Html.DisplayNameFor(model => model.Porte)
-                        </dt>
-
-                        <dd>
-                            @Html.DisplayFor(model => model.Porte)
-                        </dd>
-
-                        <dt>
-                            @Html.DisplayNameFor(model => model.Castrado)
-                        </dt>
-
-                        <dd>
-                            @Html.DisplayFor(model => model.Castrado)
-                        </dd>
-
-                        <dt>
-                            @Html.DisplayNameFor(model => model.DataNascimento)
-                        </dt>
-
-                        <dd>
-                            @Html.DisplayFor(model => model.DataNascimento)
-                        </dd>
-
-                        <dt>
-                            @Html.DisplayNameFor(model => model.OBS)
-                        </dt>
-
-                        <dd>
-                            @Html.DisplayFor(model => model.OBS)
-                        </dd>
-
-                        <dt>
-                            @Html.DisplayNameFor(model => model.Imagem)
-                        </dt>
-
-                        <dd>
-                            @Html.DisplayFor(model => model.Imagem)
-                        </dd>
-
-                        <dt>
-                            @Html.DisplayNameFor(model => model.RAÇA.NomeRaça)
-                        </dt>
-
-                        <dd>
-                            @Html.DisplayFor(model => model.RAÇA.NomeRaça)
-                        </dd>
-
-                    </dl>
-                </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-danger" data-dismiss="modal">Fechar</button>
-                </div>
             </div>
         </div>
     </div>
 </div>
+
+<!-- Scripts -->
+@section Scripts{
+    <script>
+        @*Recebe os Dados do Botão *@
+        $(document).ready(function () {
+            $(".BtnDetalhes").click(function () {
+                var Imagem = $(this).attr("data-Imagem");
+                var NomePet = $(this).attr("data-NomePet");
+                var Situacao = $(this).attr("data-Situacao");
+                var Idade = $(this).attr("data-Idade");
+                var NomeRaca = $(this).attr("data-NomeRaca");
+                var Sexo = $(this).attr("data-Sexo");
+                var Porte = $(this).attr("data-Porte");
+                var Castrado = $(this).attr("data-Castrado");
+                var DataNascimento = $(this).attr("data-DataNascimento");
+
+                @* Envia os Dados para o Modal *@
+                $("#MatriculaModal").text(Matricula);
+                $("#NomeModal").text(Nome);
+                if (TipoPessoa == 1) {
+                    $("#TipoPessoaModal").text("Administrador");
+                }
+
+                if (TipoPessoa == 2) {
+                    $("#TipoPessoaModal").text("Coordenador");
+                }
+
+                if (TipoPessoa == 3) {
+                    $("#TipoPessoaModal").text("Aluno");
+
+                    $("#TotalHoraModal").css({ "display": "inline-block"});
+                    $("#NumeroTurmaModal").css({ "display": "inline-block" });
+                    $("#PTotalHora").css({ "display": "inline-block" });
+                    $("#PNumeroTurma").css({ "display": "inline-block" });
+
+                    $("#TotalHoraModal").text(TotalHora);
+                    $("#NumeroTurmaModal").text(NumeroTurma);
+                }
+
+
+
+
+            })
+        })
+    </script>
+
+}

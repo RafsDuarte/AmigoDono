@@ -1,17 +1,17 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel;
+using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using System.ComponentModel.DataAnnotations;
-using System.ComponentModel;
 
 namespace AmigoDono.Model
 {
-    [MetadataType(typeof(MD_PET))]
-    public partial class PET
+    [MetadataType(typeof(MD_vw_PET))]
+    public partial class vw_PET
     {
-        internal class MD_PET
+        internal class MD_vw_PET
         {
             [DisplayName("ID")]
             public object IDP { get; set; }
@@ -21,6 +21,8 @@ namespace AmigoDono.Model
             public object TipoPet { get; set; }
             [DisplayName("Idade")]
             public object Idade { get; set; }
+            [DisplayName("Raça")]
+            public object NomeRaca { get; set; }
             [DisplayName("Sexo")]
             public object Sexo { get; set; }
             [DisplayName("Porte")]

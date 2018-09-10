@@ -12,18 +12,17 @@ namespace AmigoDono.Model
     using System;
     using System.Collections.Generic;
     
-    public partial class TRATAMENTO
+    public partial class vw_PET
     {
-        public int IDT { get; set; }
-        public int IDResponsavel { get; set; }
-        public int IDPet { get; set; }
-        public string Tipo { get; set; }
-        public System.DateTime DataTratamento { get; set; }
-        public string OBS { get; set; }
-        public int IDDescricao { get; set; }
-    
-        public virtual AMIGO AMIGO { get; set; }
-        public virtual PET PET { get; set; }
-        public virtual TIPOTRATAMENTO TIPOTRATAMENTO { get; set; }
+        public byte[] Imagem { get; set; }
+        public string NomePet { get; set; }
+        public string TipoPet { get; set; }
+        public string Situacao { get; set; }
+        public string Idade { get; set; }
+        public string NomeRaça { get; set; }
+        public string Sexo { get; set; }
+        public string Porte { get; set; }
+        public string Castrado { get; set; }
+        public Nullable<System.DateTime> DataNascimento { get; set; }
     }
 }

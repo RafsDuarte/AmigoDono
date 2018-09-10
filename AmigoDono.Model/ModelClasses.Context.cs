@@ -26,12 +26,14 @@ namespace AmigoDono.Model
         }
     
         public virtual DbSet<AMIGO> AMIGO { get; set; }
+        public virtual DbSet<CONTADOR> CONTADOR { get; set; }
+        public virtual DbSet<CONTROLE> CONTROLE { get; set; }
         public virtual DbSet<DENUNCIA> DENUNCIA { get; set; }
+        public virtual DbSet<FEEDBACK> FEEDBACK { get; set; }
         public virtual DbSet<PET> PET { get; set; }
         public virtual DbSet<RAÇA> RAÇA { get; set; }
         public virtual DbSet<TIPOTRATAMENTO> TIPOTRATAMENTO { get; set; }
         public virtual DbSet<TRATAMENTO> TRATAMENTO { get; set; }
-        public virtual DbSet<CONTROLE> CONTROLE { get; set; }
-        public virtual DbSet<FEEDBACK> FEEDBACK { get; set; }
+        public virtual DbSet<vw_PET> vw_PET { get; set; }
     }
 }

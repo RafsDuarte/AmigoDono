@@ -12,18 +12,11 @@ namespace AmigoDono.Model
     using System;
     using System.Collections.Generic;
     
-    public partial class TRATAMENTO
+    public partial class CONTADOR
     {
-        public int IDT { get; set; }
-        public int IDResponsavel { get; set; }
-        public int IDPet { get; set; }
-        public string Tipo { get; set; }
-        public System.DateTime DataTratamento { get; set; }
-        public string OBS { get; set; }
-        public int IDDescricao { get; set; }
-    
-        public virtual AMIGO AMIGO { get; set; }
-        public virtual PET PET { get; set; }
-        public virtual TIPOTRATAMENTO TIPOTRATAMENTO { get; set; }
+        public Nullable<int> Totaldotados { get; set; }
+        public Nullable<int> TotalDisposiçao { get; set; }
+        public Nullable<int> ToatalTratamento { get; set; }
+        public int id { get; set; }
     }
 }

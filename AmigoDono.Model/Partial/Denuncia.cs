@@ -51,7 +51,7 @@ namespace AmigoDono.Model
             public object UF { get; set; }
 
             [DisplayName("Data")]
-            public object Data { get; set; }
+            public object DataDenuncia { get; set; }
 
             [DisplayName("Data Resposta")]
             public object DataResposta { get; set; }

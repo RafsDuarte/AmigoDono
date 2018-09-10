@@ -157,7 +157,7 @@ namespace AmigoDono.View
                     if (_denuncia != null)
                     {
                         //Alterar Amigo
-                        _denuncia.Data = DteTimePickerDenuncia.MinDate;
+                        _denuncia.DataDenuncia = DteTimePickerDenuncia.MinDate;
                         _denuncia.DataResposta = DteTimePickerResposta.MinDate;
                         _denuncia.Denunciante = TxtDenunciante.Text;
                         _denuncia.TextoDenuncia = TxtTestoDenuncia.Text;
@@ -178,7 +178,7 @@ namespace AmigoDono.View
                     else
                     {
                         //Incluir Amigo 
-                        oDenuncia.Data = DteTimePickerDenuncia.MinDate;
+                        oDenuncia.DataDenuncia = DteTimePickerDenuncia.MinDate;
                         oDenuncia.DataResposta = DteTimePickerResposta.MinDate;
                         oDenuncia.Denunciante = TxtDenunciante.Text;
                         oDenuncia.TextoDenuncia = TxtTestoDenuncia.Text;
