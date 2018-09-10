@@ -91,35 +91,32 @@
 
             <td class="text-center">
                 <button class="btn btn-success center-block" style="margin-bottom:0px">Capturar Amigo</button>
-                
-                <!--Configuração do Botão que vai Abrir o Modal, onde será definido os parametros do Modal com os dados que
-                    irá aparecer no JQuery-->
-
-                <button class="btn btn-primary BtnDetalhes"
-                        data-Imagem="@item.Imagem"
-                        data-NomePet="@item.NomePet"
-                        data-Situacao="@item.Situacao"
-                        data-Idade="@item.Idade"
-                        data-NomeRaca="@item.RAÇA.NomeRaça"
-                        data-Sexo="@item.Sexo"
-                        data-Porte="@item.Porte"
-                        data-Castrado="@item.Castrado"
-                        data-DataNascimento="@item.DataNascimento"
-                        data-toggle="modal"
-                        data-target="#ModalDetalhes">
-                    Detalhes
-                </button>
+                <button class="btn btn-warning center-block" style="margin-top:0px" data-toggle="modal" data-target="#ModalDetalhes" data-id="@item.IDP">Detalhes</button>
             </td>
 
             @*<td>
                     @Html.ActionLink("Edit", "Edit", new { id = item.IDP }) |
-                    @Html.ActionLink("Details", "Details, new { id = item.IDP }) |
+                    @Html.ActionLink("Details", "Details", new { id = item.IDP }) |
                     @Html.ActionLink("Delete", "Delete", new { id = item.IDP })
                 </td>*@
         </tr>
     }
 
 </table>
+
+<!--Configuração do Botão que vai Abrir o Modal, onde será definido os parametros do Modal com os dados que
+ irá aparecer no JQuery-->
+
+<button class="btn btn-primary BtnDetalhes"
+        data-matricula="@item.Matricula"
+        data-nome="@item.Nome"
+        data-TipoPessoa="@item.IDTipoPessoa"
+        data-totalhora="@item.TotalHoraComplementar"
+        data-NumeroTurma="@item.NumeroTurma"
+        data-toggle="modal"
+        data-target="#ModalDetalhes">
+    Detalhes
+</button>
 
 <!-- Código do Modal no Bootstrap -->
 
@@ -134,7 +131,7 @@
                 <h5 class="text-center">Detalhes</h5> <!--Titulo do Modal -->
             </div>
             <div class="modal-body">
-                <p>Imagem: <label id="MatriculaModal"></label></p>
+                <p>Matrícula: <label id="MatriculaModal"></label></p>
                 <br />
                 <p>Nome: <label id="NomeModal"></label></p>
                 <br />
@@ -158,15 +155,11 @@
         @*Recebe os Dados do Botão *@
         $(document).ready(function () {
             $(".BtnDetalhes").click(function () {
-                var Imagem = $(this).attr("data-Imagem");
-                var NomePet = $(this).attr("data-NomePet");
-                var Situacao = $(this).attr("data-Situacao");
-                var Idade = $(this).attr("data-Idade");
-                var NomeRaca = $(this).attr("data-NomeRaca");
-                var Sexo = $(this).attr("data-Sexo");
-                var Porte = $(this).attr("data-Porte");
-                var Castrado = $(this).attr("data-Castrado");
-                var DataNascimento = $(this).attr("data-DataNascimento");
+                var Matricula = $(this).attr("data-matricula");
+                var Nome = $(this).attr("data-nome");
+                var TipoPessoa = $(this).attr("data-TipoPessoa");
+                var TotalHora = $(this).attr("data-totalhora");
+                var NumeroTurma = $(this).attr("data-NumeroTurma");
 
                 @* Envia os Dados para o Modal *@
                 $("#MatriculaModal").text(Matricula);
