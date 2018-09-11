@@ -85,7 +85,6 @@
     <EntitySetMapping Name="PET">
       <EntityTypeMapping TypeName="Amigos_do_DonoModel.PET">
         <MappingFragment StoreEntitySet="PET">
-          <ScalarProperty Name="IDRaça" ColumnName="IDRaça" />
           <ScalarProperty Name="Imagem" ColumnName="Imagem" />
           <ScalarProperty Name="OBS" ColumnName="OBS" />
           <ScalarProperty Name="DataNascimento" ColumnName="DataNascimento" />
@@ -97,6 +96,7 @@
           <ScalarProperty Name="TipoPet" ColumnName="TipoPet" />
           <ScalarProperty Name="NomePet" ColumnName="NomePet" />
           <ScalarProperty Name="Cadastro" ColumnName="Cadastro" />
+          <ScalarProperty Name="IDRaça" ColumnName="IDRaça" />
           <ScalarProperty Name="IDP" ColumnName="IDP" />
         </MappingFragment>
       </EntityTypeMapping>
@@ -130,9 +130,38 @@
         </MappingFragment>
       </EntityTypeMapping>
     </EntitySetMapping>
+    <EntitySetMapping Name="vw_CONTROLE">
+      <EntityTypeMapping TypeName="Amigos_do_DonoModel.vw_CONTROLE">
+        <MappingFragment StoreEntitySet="vw_CONTROLE">
+          <ScalarProperty Name="Statu" ColumnName="Statu" />
+          <ScalarProperty Name="DataAdocao" ColumnName="DataAdocao" />
+          <ScalarProperty Name="Dono" ColumnName="Dono" />
+          <ScalarProperty Name="IDDono" ColumnName="IDDono" />
+          <ScalarProperty Name="Doador" ColumnName="Doador" />
+          <ScalarProperty Name="IDDoador" ColumnName="IDDoador" />
+          <ScalarProperty Name="NomePet" ColumnName="NomePet" />
+          <ScalarProperty Name="IDPet" ColumnName="IDPet" />
+          <ScalarProperty Name="IDC" ColumnName="IDC" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="vw_DENUNCIA">
+      <EntityTypeMapping TypeName="Amigos_do_DonoModel.vw_DENUNCIA">
+        <MappingFragment StoreEntitySet="vw_DENUNCIA">
+          <ScalarProperty Name="DataDenuncia" ColumnName="DataDenuncia" />
+          <ScalarProperty Name="TextoDenuncia" ColumnName="TextoDenuncia" />
+          <ScalarProperty Name="Denunciante" ColumnName="Denunciante" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
     <EntitySetMapping Name="vw_PET">
       <EntityTypeMapping TypeName="Amigos_do_DonoModel.vw_PET">
         <MappingFragment StoreEntitySet="vw_PET">
+          <ScalarProperty Name="IDRaça" ColumnName="IDRaça" />
+          <ScalarProperty Name="IDP" ColumnName="IDP" />
+          <ScalarProperty Name="Cadastro" ColumnName="Cadastro" />
+          <ScalarProperty Name="OBS" ColumnName="OBS" />
           <ScalarProperty Name="DataNascimento" ColumnName="DataNascimento" />
           <ScalarProperty Name="Castrado" ColumnName="Castrado" />
           <ScalarProperty Name="Porte" ColumnName="Porte" />
@@ -143,6 +172,22 @@
           <ScalarProperty Name="TipoPet" ColumnName="TipoPet" />
           <ScalarProperty Name="NomePet" ColumnName="NomePet" />
           <ScalarProperty Name="Imagem" ColumnName="Imagem" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="vw_TRATAMENTO">
+      <EntityTypeMapping TypeName="Amigos_do_DonoModel.vw_TRATAMENTO">
+        <MappingFragment StoreEntitySet="vw_TRATAMENTO">
+          <ScalarProperty Name="Descricao" ColumnName="Descricao" />
+          <ScalarProperty Name="IDDescricao" ColumnName="IDDescricao" />
+          <ScalarProperty Name="OBS" ColumnName="OBS" />
+          <ScalarProperty Name="DataTratamento" ColumnName="DataTratamento" />
+          <ScalarProperty Name="Tipo" ColumnName="Tipo" />
+          <ScalarProperty Name="PET" ColumnName="PET" />
+          <ScalarProperty Name="IDPet" ColumnName="IDPet" />
+          <ScalarProperty Name="Nome" ColumnName="Nome" />
+          <ScalarProperty Name="IDResponsavel" ColumnName="IDResponsavel" />
+          <ScalarProperty Name="IDT" ColumnName="IDT" />
         </MappingFragment>
       </EntityTypeMapping>
     </EntitySetMapping>

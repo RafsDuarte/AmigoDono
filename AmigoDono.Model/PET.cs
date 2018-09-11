@@ -22,6 +22,7 @@ namespace AmigoDono.Model
         }
     
         public int IDP { get; set; }
+        public Nullable<int> IDRaça { get; set; }
         public System.DateTime Cadastro { get; set; }
         public string NomePet { get; set; }
         public string TipoPet { get; set; }
@@ -33,7 +34,6 @@ namespace AmigoDono.Model
         public Nullable<System.DateTime> DataNascimento { get; set; }
         public string OBS { get; set; }
         public byte[] Imagem { get; set; }
-        public Nullable<int> IDRaça { get; set; }
     
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
         public virtual ICollection<CONTROLE> CONTROLE { get; set; }

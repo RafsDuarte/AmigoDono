@@ -20,8 +20,24 @@ namespace AmigoDono.Web.Controllers
         // GET: Home
         public ActionResult Index()
         {
-            List<PET> Pets = _Repository.ListarPets();
+            List<vw_PET> Pets = _Repository.ListarPets();
             return View(Pets);
+        }
+
+        public ActionResult CapturarAmigo()
+        {
+        //    if (Session["logado"] == null)
+        //    {
+        //        if ((bool)Session["logado"] == true)
+        //        {
+        //            ViewBag.Mensagem = "Amigo Capturado!";
+        //        }
+        //        else
+        //        {
+        //            return RedirectToAction("Signin", "Login");
+        //        }
+        //    }
+            return View();
         }
     }
 }

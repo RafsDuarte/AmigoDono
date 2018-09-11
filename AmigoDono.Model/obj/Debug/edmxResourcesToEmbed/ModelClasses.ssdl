@@ -81,6 +81,7 @@
       <PropertyRef Name="IDP" />
     </Key>
     <Property Name="IDP" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="IDRaça" Type="int" />
     <Property Name="Cadastro" Type="date" Nullable="false" />
     <Property Name="NomePet" Type="varchar" MaxLength="80" Nullable="false" />
     <Property Name="TipoPet" Type="varchar" MaxLength="10" Nullable="false" />
@@ -92,7 +93,6 @@
     <Property Name="DataNascimento" Type="date" />
     <Property Name="OBS" Type="varchar(max)" />
     <Property Name="Imagem" Type="image" />
-    <Property Name="IDRaça" Type="int" />
   </EntityType>
   <EntityType Name="RAÇA">
     <Key>
@@ -121,6 +121,42 @@
     <Property Name="IDDescricao" Type="int" Nullable="false" />
   </EntityType>
   <!--Errors Found During Generation:
+warning 6002: The table/view 'Amigos_do_Dono.dbo.vw_CONTROLE' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+  <EntityType Name="vw_CONTROLE">
+    <Key>
+      <PropertyRef Name="IDC" />
+      <PropertyRef Name="IDPet" />
+      <PropertyRef Name="NomePet" />
+      <PropertyRef Name="IDDoador" />
+      <PropertyRef Name="Doador" />
+      <PropertyRef Name="IDDono" />
+      <PropertyRef Name="Dono" />
+      <PropertyRef Name="Statu" />
+    </Key>
+    <Property Name="IDC" Type="int" Nullable="false" />
+    <Property Name="IDPet" Type="int" Nullable="false" />
+    <Property Name="NomePet" Type="varchar" MaxLength="80" Nullable="false" />
+    <Property Name="IDDoador" Type="int" Nullable="false" />
+    <Property Name="Doador" Type="varchar" MaxLength="100" Nullable="false" />
+    <Property Name="IDDono" Type="int" Nullable="false" />
+    <Property Name="Dono" Type="varchar" MaxLength="100" Nullable="false" />
+    <Property Name="DataAdocao" Type="date" />
+    <Property Name="Statu" Type="varchar" MaxLength="50" Nullable="false" />
+  </EntityType>
+  <!--Errors Found During Generation:
+warning 6002: The table/view 'Amigos_do_Dono.dbo.vw_DENUNCIA' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+  <EntityType Name="vw_DENUNCIA">
+    <Key>
+      <PropertyRef Name="Email" />
+      <PropertyRef Name="TextoDenuncia" />
+      <PropertyRef Name="DataDenuncia" />
+    </Key>
+    <Property Name="Email" Type="varchar" MaxLength="100" Nullable="false" />
+    <Property Name="Denunciante" Type="varchar" MaxLength="100" />
+    <Property Name="TextoDenuncia" Type="varchar(max)" Nullable="false" />
+    <Property Name="DataDenuncia" Type="date" Nullable="false" />
+  </EntityType>
+  <!--Errors Found During Generation:
 warning 6002: The table/view 'Amigos_do_Dono.dbo.vw_PET' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
   <EntityType Name="vw_PET">
     <Key>
@@ -131,6 +167,8 @@ warning 6002: The table/view 'Amigos_do_Dono.dbo.vw_PET' does not have a primary
       <PropertyRef Name="Sexo" />
       <PropertyRef Name="Porte" />
       <PropertyRef Name="Castrado" />
+      <PropertyRef Name="Cadastro" />
+      <PropertyRef Name="IDP" />
     </Key>
     <Property Name="Imagem" Type="image" />
     <Property Name="NomePet" Type="varchar" MaxLength="80" Nullable="false" />
@@ -142,6 +180,33 @@ warning 6002: The table/view 'Amigos_do_Dono.dbo.vw_PET' does not have a primary
     <Property Name="Porte" Type="varchar" MaxLength="50" Nullable="false" />
     <Property Name="Castrado" Type="varchar" MaxLength="3" Nullable="false" />
     <Property Name="DataNascimento" Type="date" />
+    <Property Name="OBS" Type="varchar(max)" />
+    <Property Name="Cadastro" Type="date" Nullable="false" />
+    <Property Name="IDP" Type="int" Nullable="false" />
+    <Property Name="IDRaça" Type="int" />
+  </EntityType>
+  <!--Errors Found During Generation:
+warning 6002: The table/view 'Amigos_do_Dono.dbo.vw_TRATAMENTO' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+  <EntityType Name="vw_TRATAMENTO">
+    <Key>
+      <PropertyRef Name="IDT" />
+      <PropertyRef Name="IDResponsavel" />
+      <PropertyRef Name="IDPet" />
+      <PropertyRef Name="PET" />
+      <PropertyRef Name="Tipo" />
+      <PropertyRef Name="DataTratamento" />
+      <PropertyRef Name="IDDescricao" />
+    </Key>
+    <Property Name="IDT" Type="int" Nullable="false" />
+    <Property Name="IDResponsavel" Type="int" Nullable="false" />
+    <Property Name="Nome" Type="varchar" MaxLength="100" />
+    <Property Name="IDPet" Type="int" Nullable="false" />
+    <Property Name="PET" Type="varchar" MaxLength="80" Nullable="false" />
+    <Property Name="Tipo" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="DataTratamento" Type="date" Nullable="false" />
+    <Property Name="OBS" Type="varchar(max)" />
+    <Property Name="IDDescricao" Type="int" Nullable="false" />
+    <Property Name="Descricao" Type="varchar(max)" />
   </EntityType>
   <Association Name="FK_adocao_Animal">
     <End Role="PET" Type="Self.PET" Multiplicity="1" />
@@ -237,6 +302,27 @@ warning 6002: The table/view 'Amigos_do_Dono.dbo.vw_PET' does not have a primary
     <EntitySet Name="RAÇA" EntityType="Self.RAÇA" Schema="dbo" store:Type="Tables" />
     <EntitySet Name="TIPOTRATAMENTO" EntityType="Self.TIPOTRATAMENTO" Schema="dbo" store:Type="Tables" />
     <EntitySet Name="TRATAMENTO" EntityType="Self.TRATAMENTO" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="vw_CONTROLE" EntityType="Self.vw_CONTROLE" store:Type="Views" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+    [vw_CONTROLE].[IDC] AS [IDC], 
+    [vw_CONTROLE].[IDPet] AS [IDPet], 
+    [vw_CONTROLE].[NomePet] AS [NomePet], 
+    [vw_CONTROLE].[IDDoador] AS [IDDoador], 
+    [vw_CONTROLE].[Doador] AS [Doador], 
+    [vw_CONTROLE].[IDDono] AS [IDDono], 
+    [vw_CONTROLE].[Dono] AS [Dono], 
+    [vw_CONTROLE].[DataAdocao] AS [DataAdocao], 
+    [vw_CONTROLE].[Statu] AS [Statu]
+    FROM [dbo].[vw_CONTROLE] AS [vw_CONTROLE]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="vw_DENUNCIA" EntityType="Self.vw_DENUNCIA" store:Type="Views" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+    [vw_DENUNCIA].[Email] AS [Email], 
+    [vw_DENUNCIA].[Denunciante] AS [Denunciante], 
+    [vw_DENUNCIA].[TextoDenuncia] AS [TextoDenuncia], 
+    [vw_DENUNCIA].[DataDenuncia] AS [DataDenuncia]
+    FROM [dbo].[vw_DENUNCIA] AS [vw_DENUNCIA]</DefiningQuery>
+    </EntitySet>
     <EntitySet Name="vw_PET" EntityType="Self.vw_PET" store:Type="Views" store:Schema="dbo">
       <DefiningQuery>SELECT 
     [vw_PET].[Imagem] AS [Imagem], 
@@ -248,8 +334,26 @@ warning 6002: The table/view 'Amigos_do_Dono.dbo.vw_PET' does not have a primary
     [vw_PET].[Sexo] AS [Sexo], 
     [vw_PET].[Porte] AS [Porte], 
     [vw_PET].[Castrado] AS [Castrado], 
-    [vw_PET].[DataNascimento] AS [DataNascimento]
+    [vw_PET].[DataNascimento] AS [DataNascimento], 
+    [vw_PET].[OBS] AS [OBS], 
+    [vw_PET].[Cadastro] AS [Cadastro], 
+    [vw_PET].[IDP] AS [IDP], 
+    [vw_PET].[IDRaça] AS [IDRaça]
     FROM [dbo].[vw_PET] AS [vw_PET]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="vw_TRATAMENTO" EntityType="Self.vw_TRATAMENTO" store:Type="Views" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+    [vw_TRATAMENTO].[IDT] AS [IDT], 
+    [vw_TRATAMENTO].[IDResponsavel] AS [IDResponsavel], 
+    [vw_TRATAMENTO].[Nome] AS [Nome], 
+    [vw_TRATAMENTO].[IDPet] AS [IDPet], 
+    [vw_TRATAMENTO].[PET] AS [PET], 
+    [vw_TRATAMENTO].[Tipo] AS [Tipo], 
+    [vw_TRATAMENTO].[DataTratamento] AS [DataTratamento], 
+    [vw_TRATAMENTO].[OBS] AS [OBS], 
+    [vw_TRATAMENTO].[IDDescricao] AS [IDDescricao], 
+    [vw_TRATAMENTO].[Descricao] AS [Descricao]
+    FROM [dbo].[vw_TRATAMENTO] AS [vw_TRATAMENTO]</DefiningQuery>
     </EntitySet>
     <AssociationSet Name="FK_adocao_Animal" Association="Self.FK_adocao_Animal">
       <End Role="PET" EntitySet="PET" />

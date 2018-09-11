@@ -34,6 +34,9 @@ namespace AmigoDono.Model
         public virtual DbSet<RAÇA> RAÇA { get; set; }
         public virtual DbSet<TIPOTRATAMENTO> TIPOTRATAMENTO { get; set; }
         public virtual DbSet<TRATAMENTO> TRATAMENTO { get; set; }
+        public virtual DbSet<vw_CONTROLE> vw_CONTROLE { get; set; }
+        public virtual DbSet<vw_DENUNCIA> vw_DENUNCIA { get; set; }
         public virtual DbSet<vw_PET> vw_PET { get; set; }
+        public virtual DbSet<vw_TRATAMENTO> vw_TRATAMENTO { get; set; }
     }
 }
