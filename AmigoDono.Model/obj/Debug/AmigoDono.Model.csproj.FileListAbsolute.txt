@@ -128,7 +128,6 @@ C:\GitHub\AmigoDono\AmigoDono.Model\obj\Debug\AmigoDono.Model.csproj.CoreCompile
 C:\GitHub\AmigoDono\AmigoDono.Model\obj\Debug\AmigoDono.Model.csproj.CopyComplete
 C:\GitHub\AmigoDono\AmigoDono.Model\obj\Debug\AmigoDono.Model.dll
 C:\GitHub\AmigoDono\AmigoDono.Model\obj\Debug\AmigoDono.Model.pdb
-C:\GitHub\AmigoDono\AmigoDono.Model\obj\Debug\AmigoDono.Model.csprojAssemblyReference.cache
 C:\GitHub\AmigoDono\AmigoDono\AmigoDono.Model\obj\Debug\AmigoDono.Model.csprojAssemblyReference.cache
 C:\GitHub\AmigoDono\AmigoDono\AmigoDono.Model\obj\Debug\AmigoDono.Model.csproj.CoreCompileInputs.cache
 C:\GitHub\AmigoDono\AmigoDono\AmigoDono.Model\bin\Debug\AmigoDono.Model.dll.config
@@ -141,3 +140,4 @@ C:\GitHub\AmigoDono\AmigoDono\AmigoDono.Model\bin\Debug\EntityFramework.SqlServe
 C:\GitHub\AmigoDono\AmigoDono\AmigoDono.Model\obj\Debug\AmigoDono.Model.csproj.CopyComplete
 C:\GitHub\AmigoDono\AmigoDono\AmigoDono.Model\obj\Debug\AmigoDono.Model.dll
 C:\GitHub\AmigoDono\AmigoDono\AmigoDono.Model\obj\Debug\AmigoDono.Model.pdb
+C:\GitHub\AmigoDono\AmigoDono.Model\obj\Debug\AmigoDono.Model.csprojAssemblyReference.cache

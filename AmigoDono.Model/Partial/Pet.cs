@@ -29,7 +29,7 @@ namespace AmigoDono.Model
             public DateTime Cadastro { get; set; }
             [DisplayName("Data de nascimento")]
             [DataType(DataType.Date)]
-            [DisplayFormat(DataFormatString = "{0:yyyy-MM-dd}", ApplyFormatInEditMode = true)]
+            [DisplayFormat(DataFormatString = "{0:dd-MM-yyyy}", ApplyFormatInEditMode = true)]
             public DateTime DataNascimento { get; set; }
             [DisplayName("Observação")]
             public object OBS { get; set; }

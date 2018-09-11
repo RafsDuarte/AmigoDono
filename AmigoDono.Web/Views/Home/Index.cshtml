@@ -19,6 +19,9 @@
             @Html.DisplayNameFor(model => model.TipoPet)
         </th>
         <th class="text-center">
+            @Html.DisplayNameFor(model => model.DataNascimento)
+        </th>
+        <th class="text-center">
             @Html.DisplayNameFor(model => model.Situacao)
         </th>
         <th class="text-center">
@@ -37,9 +40,6 @@
             @Html.DisplayNameFor(model => model.Castrado)
         </th>
         <th class="text-center">
-            @Html.DisplayNameFor(model => model.DataNascimento)
-        </th>
-        <th class="text-center">
             @Html.DisplayName("Opções")
         </th>
         <th></th>
@@ -47,76 +47,76 @@
 
     @foreach (var item in Model)
     {
-        <tr>
-            @if (item.Imagem != null)
-            {
-                <td class="text-center">
-                    @{
-                        var base64 = Convert.ToBase64String(item.Imagem);
-                        var imgSrc = String.Format("data:image/gif;base64,{0}", base64);
-                    }
-                    <img src='@imgSrc' style="max-width:100px; max-height:100px;" />
-                </td>
-            }
-            <td class="text">
-                @Html.DisplayFor(modelItem => item.NomePet)
-            </td>
+    <tr>
+        @if (item.Imagem != null)
+        {
             <td class="text-center">
-                @Html.DisplayFor(modelItem => item.TipoPet)
+                @{
+                    var base64 = Convert.ToBase64String(item.Imagem);
+                    var imgSrc = String.Format("data:image/gif;base64,{0}", base64);
+                }
+                <img src='@imgSrc' style="max-width:100px; max-height:100px;" />
             </td>
-            <td class="text-center">
-                @Html.DisplayFor(modelItem => item.Situacao)
-            </td>
-            <td class="text-center">
-                @Html.DisplayFor(modelItem => item.Idade)
-            </td>
-            <td class="text-center">
-                @Html.DisplayFor(modelItem => item.RAÇA.NomeRaça)
-            </td>
-            <td class="text-center">
-                @Html.DisplayFor(modelItem => item.Sexo)
-            </td>
-            <td class="text-center">
-                @Html.DisplayFor(modelItem => item.Porte)
-            </td>
-            <td class="text-center">
-                @Html.DisplayFor(modelItem => item.Castrado)
-            </td>
-            <td class="text-center">
-                @Html.DisplayFor(modelItem => item.DataNascimento)
-            </td>
-            @*<td class="text-center">
-                    @Html.DisplayFor(modelItem => item.OBS)
-                </td>*@
+        }
+        <td class="text-center">
+            @Html.DisplayFor(modelItem => item.NomePet)
+        </td>
+        <td class="text-center">
+            @Html.DisplayFor(modelItem => item.TipoPet)
+        </td>
+        <td class="text-center">
+            @Html.DisplayFor(modelItem => item.DataNascimento)
+        </td>
+        <td class="text-center">
+            @Html.DisplayFor(modelItem => item.Situacao)
+        </td>
+        <td class="text-center">
+            @Html.DisplayFor(modelItem => item.Idade)
+        </td>
+        <td class="text-center">
+            @Html.DisplayFor(modelItem => item.IDRaça)
+        </td>
+        <td class="text-center">
+            @Html.DisplayFor(modelItem => item.Sexo)
+        </td>
+        <td class="text-center">
+            @Html.DisplayFor(modelItem => item.Porte)
+        </td>
+        <td class="text-center">
+            @Html.DisplayFor(modelItem => item.Castrado)
+        </td>
+        <td class="text-center" hidden>
+            @Html.DisplayFor(modelItem => item.OBS)
+        </td>
 
-            <td class="text-center">
-                <button class="btn btn-success center-block" style="margin-bottom:0px">Capturar Amigo</button>
-                <button class="btn btn-warning center-block" style="margin-top:0px" data-toggle="modal" data-target="#ModalDetalhes" data-id="@item.IDP">Detalhes</button>
-            </td>
+        <td class="text-center">
+            <button class="btn btn-success center-block" style="margin-bottom:0px">Capturar Amigo</button>
 
-            @*<td>
-                    @Html.ActionLink("Edit", "Edit", new { id = item.IDP }) |
-                    @Html.ActionLink("Details", "Details", new { id = item.IDP }) |
-                    @Html.ActionLink("Delete", "Delete", new { id = item.IDP })
-                </td>*@
-        </tr>
+            <!--Configuração do Botão que vai Abrir o Modal, onde será definido os parametros do Modal com os dados que
+        irá aparecer no JQuery-->
+
+            <button class="btn btn-primary" id="BtnDetalhes"
+                    data-Imagem="@item.Imagem"
+                    data-NomePet="@item.NomePet"
+                    data-TipoPet="@item.TipoPet"
+                    data-Situacao="@item.Situacao"
+                    data-Idade="@item.Idade"
+                    data-NomeRaca="@item.IDRaça"
+                    data-Sexo="@item.Sexo"
+                    data-Porte="@item.Porte"
+                    data-Castrado="@item.Castrado"
+                    data-DataNascimento="@item.DataNascimento"
+                    data-OBS="@item.OBS"
+                    data-toggle="modal"
+                    data-target="#ModalDetalhes">
+                Detalhes
+            </button>
+        </td>
+    </tr>
     }
 
 </table>
 
-<!--Configuração do Botão que vai Abrir o Modal, onde será definido os parametros do Modal com os dados que
- irá aparecer no JQuery-->
-
-<button class="btn btn-primary BtnDetalhes"
-        data-matricula="@item.Matricula"
-        data-nome="@item.Nome"
-        data-TipoPessoa="@item.IDTipoPessoa"
-        data-totalhora="@item.TotalHoraComplementar"
-        data-NumeroTurma="@item.NumeroTurma"
-        data-toggle="modal"
-        data-target="#ModalDetalhes">
-    Detalhes
-</button>
 
 <!-- Código do Modal no Bootstrap -->
 
@@ -124,26 +124,36 @@
     <div class="modal-dialog" role="document">
         <div class="modal-content">
             <div class="modal-header">
-
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                     <span aria-hidden="true">&times;</span>
                 </button>
                 <h5 class="text-center">Detalhes</h5> <!--Titulo do Modal -->
             </div>
             <div class="modal-body">
-                <p>Matrícula: <label id="MatriculaModal"></label></p>
+                <p>Imagem: <img id="ImagemModal" /></p>
                 <br />
-                <p>Nome: <label id="NomeModal"></label></p>
+                <p>Nome Pet: <label id="NomePetModal"></label></p>
                 <br />
-                <p>Tipo Pessoa: <label id="TipoPessoaModal"></label></p>
-
-                <p id="PTotalHora">Total de Hora: <label id="TotalHoraModal"></label></p>
+                <p>Tipo Pet: <label id="TipoPetModal"></label></p>
                 <br />
-                <p id="PNumeroTurma">Número da Turma: <label id="NumeroTurmaModal"></label></p>
+                <p>Data Nascimento: <label id="DataNascimentoModal"></label></p>
+                <br />
+                <p>Situação: <label id="SituacaoModal"></label></p>
+                <br />
+                <p>Idade: <label id="IdadeModal"></label></p>
+                <br />
+                <p>Nome Raça: <label id="NomeRacaModal"></label></p>
+                <br />
+                <p>Sexo: <label id="SexoModal"></label></p>
+                <br />
+                <p>Porte: <label id="PorteModal"></label></p>
+                <br />
+                <p>Castrado: <label id="CastradoModal"></label></p>
+                <br />
+                <p>OBS: <textarea id="OBSModal"></textarea></p>
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-primary" data-dismiss="modal">OK</button>
-
             </div>
         </div>
     </div>
@@ -154,38 +164,35 @@
     <script>
         @*Recebe os Dados do Botão *@
         $(document).ready(function () {
-            $(".BtnDetalhes").click(function () {
-                var Matricula = $(this).attr("data-matricula");
-                var Nome = $(this).attr("data-nome");
-                var TipoPessoa = $(this).attr("data-TipoPessoa");
-                var TotalHora = $(this).attr("data-totalhora");
-                var NumeroTurma = $(this).attr("data-NumeroTurma");
+            $("#BtnDetalhes").click(function () {
+                $("#ModalDetalhes").modal('toggle');
+                $("#ModalDetalhes").modal('show');
+                var Imagem = $(this).attr("data-Imagem");
+                var NomePet = $(this).attr("data-NomePet");
+                var TipoPet = $(this).attr("data-TipoPet");
+                var Situacao = $(this).attr("data-Situacao");
+                var Idade = $(this).attr("data-Idade");
+                var NomeRaca = $(this).attr("data-NomeRaca");
+                var Sexo = $(this).attr("data-Sexo");
+                var Porte = $(this).attr("data-Porte");
+                var Castrado = $(this).attr("data-Castrado");
+                var DataNascimento = ($(this).attr("data-DataNascimento"));
+                var OBS = $(this).attr("data-OBS");
+
 
                 @* Envia os Dados para o Modal *@
-                $("#MatriculaModal").text(Matricula);
-                $("#NomeModal").text(Nome);
-                if (TipoPessoa == 1) {
-                    $("#TipoPessoaModal").text("Administrador");
-                }
-
-                if (TipoPessoa == 2) {
-                    $("#TipoPessoaModal").text("Coordenador");
-                }
-
-                if (TipoPessoa == 3) {
-                    $("#TipoPessoaModal").text("Aluno");
-
-                    $("#TotalHoraModal").css({ "display": "inline-block"});
-                    $("#NumeroTurmaModal").css({ "display": "inline-block" });
-                    $("#PTotalHora").css({ "display": "inline-block" });
-                    $("#PNumeroTurma").css({ "display": "inline-block" });
-
-                    $("#TotalHoraModal").text(TotalHora);
-                    $("#NumeroTurmaModal").text(NumeroTurma);
-                }
-
-
-
+                $("#ImagemModal").text(Imagem);
+                $("#NomePetModal").text(NomePet);
+                $("#TipoPetModal").text(TipoPet);
+                $("#SituacaoModal").text(Situacao);
+                $("#IdadeModal").text(Idade);
+                $("#NomeRacaModal").text(NomeRaca);
+                $("#SexoModal").text(Sexo);
+                $("#PorteModal").text(Porte);
+                $("#CastradoModal").text(Castrado);
+                $("#DataNascimentoModal").text(DataNascimento).val($.format.date('dd M yy'));
+                $("#OBSModal").text(OBS);
+               
 
             })
         })
