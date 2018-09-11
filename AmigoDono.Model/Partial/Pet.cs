@@ -27,7 +27,7 @@ namespace AmigoDono.Model
             public object Porte { get; set; }
             [DisplayName("Cadastro")]
             public DateTime Cadastro { get; set; }
-            [DisplayName("Data de nascimento")]
+            [DisplayName("Data de Nascimento")]
             [DataType(DataType.Date)]
             [DisplayFormat(DataFormatString = "{0:dd-MM-yyyy}", ApplyFormatInEditMode = true)]
             public DateTime DataNascimento { get; set; }

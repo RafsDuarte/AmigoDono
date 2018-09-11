@@ -21,15 +21,13 @@ namespace AmigoDono.Model
             public object TipoPet { get; set; }
             [DisplayName("Idade")]
             public object Idade { get; set; }
-            [DisplayName("Raça")]
-            public object NomeRaca { get; set; }
             [DisplayName("Sexo")]
             public object Sexo { get; set; }
             [DisplayName("Porte")]
             public object Porte { get; set; }
             [DisplayName("Cadastro")]
             public DateTime Cadastro { get; set; }
-            [DisplayName("Data de nascimento")]
+            [DisplayName("Data de Nascimento")]
             [DataType(DataType.Date)]
             [DisplayFormat(DataFormatString = "{0:yyyy-MM-dd}", ApplyFormatInEditMode = true)]
             public DateTime DataNascimento { get; set; }
@@ -39,6 +37,7 @@ namespace AmigoDono.Model
             public object Imagem { get; set; }
             [DisplayName("Situacao")]
             public object Situacao { get; set; }
+ 
         }
     }
 }

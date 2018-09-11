@@ -15,7 +15,10 @@ namespace AmigoDono.Model.Repositories
             odb = Helper.Data.getContexto();
             LiberaContexto = true;
         }
-        public RepositoryPet(Amigos_do_DonoEntities _obd) { _obd = odb; }
+        public RepositoryPet(Amigos_do_DonoEntities _obd)
+        {
+            _obd = odb;
+        }
         public PET Selecionar(int? ID)
         {
             return (from p in odb.PET where p.IDP == ID select p).FirstOrDefault();
@@ -51,9 +54,9 @@ namespace AmigoDono.Model.Repositories
             odb.SaveChanges();
         }
 
-        public List<PET> ListarPets()
+        public List<vw_PET> ListarPets()
         {
-            return odb.PET.OrderBy(p => p.NomePet).ToList();
+            return odb.vw_PET.OrderBy(p => p.NomePet).ToList();
         }
         public void Alterar(PET oPet, bool attach = true)
         {

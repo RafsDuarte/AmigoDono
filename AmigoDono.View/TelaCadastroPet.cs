@@ -160,7 +160,7 @@ namespace AmigoDono.View
             // data nascimento
             CboIdade.Text = _pet.Idade;
             CboTipoPet.Text = _pet.TipoPet;
-            TxtRaca.Text = _pet.Raca;
+            //TxtRaca.Text = _pet.Raca;
             CboSexo.Text = _pet.Sexo;
             CboPorte.Text = _pet.Porte;
             CboCastrado.Text = _pet.Castrado;
@@ -181,7 +181,7 @@ namespace AmigoDono.View
                         _pet.DataNascimento = DteTimePickerNasc.MinDate;
                         _pet.Idade = CboIdade.Text;
                         _pet.TipoPet = CboTipoPet.Text;
-                        _pet.Raca = TxtRaca.Text;
+                        //_pet.Raca = TxtRaca.Text;
                         _pet.Sexo = CboSexo.Text;
                         _pet.Porte = CboPorte.Text;
                         _pet.Castrado = CboCastrado.Text;
@@ -205,7 +205,7 @@ namespace AmigoDono.View
                         oPet.Cadastro = DteTimePickerCadastro.MinDate;
                         oPet.Idade = CboIdade.Text;
                         oPet.TipoPet = CboTipoPet.Text;
-                        oPet.Raca = TxtRaca.Text;
+                        //oPet.Raca = TxtRaca.Text;
                         oPet.Sexo = CboSexo.Text;
                         oPet.Porte = CboPorte.Text;
                         oPet.Castrado = CboCastrado.Text;

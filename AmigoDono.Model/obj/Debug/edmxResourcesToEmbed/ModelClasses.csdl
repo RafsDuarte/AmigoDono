@@ -10,7 +10,10 @@
     <EntitySet Name="RAÇA" EntityType="Amigos_do_DonoModel.RAÇA" />
     <EntitySet Name="TIPOTRATAMENTO" EntityType="Amigos_do_DonoModel.TIPOTRATAMENTO" />
     <EntitySet Name="TRATAMENTO" EntityType="Amigos_do_DonoModel.TRATAMENTO" />
+    <EntitySet Name="vw_CONTROLE" EntityType="Amigos_do_DonoModel.vw_CONTROLE" />
+    <EntitySet Name="vw_DENUNCIA" EntityType="Amigos_do_DonoModel.vw_DENUNCIA" />
     <EntitySet Name="vw_PET" EntityType="Amigos_do_DonoModel.vw_PET" />
+    <EntitySet Name="vw_TRATAMENTO" EntityType="Amigos_do_DonoModel.vw_TRATAMENTO" />
     <AssociationSet Name="FK_CONTROLE_AMIGO" Association="Amigos_do_DonoModel.FK_CONTROLE_AMIGO">
       <End Role="AMIGO" EntitySet="AMIGO" />
       <End Role="CONTROLE" EntitySet="CONTROLE" />
@@ -127,6 +130,7 @@
       <PropertyRef Name="IDP" />
     </Key>
     <Property Name="IDP" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="IDRaça" Type="Int32" />
     <Property Name="Cadastro" Type="DateTime" Nullable="false" Precision="0" />
     <Property Name="NomePet" Type="String" Nullable="false" MaxLength="80" FixedLength="false" Unicode="false" />
     <Property Name="TipoPet" Type="String" Nullable="false" MaxLength="10" FixedLength="false" Unicode="false" />
@@ -138,7 +142,6 @@
     <Property Name="DataNascimento" Type="DateTime" Precision="0" />
     <Property Name="OBS" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
     <Property Name="Imagem" Type="Binary" MaxLength="Max" FixedLength="false" />
-    <Property Name="IDRaça" Type="Int32" />
     <NavigationProperty Name="CONTROLE" Relationship="Amigos_do_DonoModel.FK_adocao_Animal" FromRole="PET" ToRole="CONTROLE" />
     <NavigationProperty Name="RAÇA" Relationship="Amigos_do_DonoModel.FK_PET_RAÇA" FromRole="PET" ToRole="RAÇA" />
     <NavigationProperty Name="TRATAMENTO" Relationship="Amigos_do_DonoModel.FK_TRATAMENTO_PET" FromRole="PET" ToRole="TRATAMENTO" />
@@ -174,6 +177,38 @@
     <NavigationProperty Name="PET" Relationship="Amigos_do_DonoModel.FK_TRATAMENTO_PET" FromRole="TRATAMENTO" ToRole="PET" />
     <NavigationProperty Name="TIPOTRATAMENTO" Relationship="Amigos_do_DonoModel.FK_TRATAMENTO_TIPOTRATAMENTO" FromRole="TRATAMENTO" ToRole="TIPOTRATAMENTO" />
   </EntityType>
+  <EntityType Name="vw_CONTROLE">
+    <Key>
+      <PropertyRef Name="IDC" />
+      <PropertyRef Name="IDPet" />
+      <PropertyRef Name="NomePet" />
+      <PropertyRef Name="IDDoador" />
+      <PropertyRef Name="Doador" />
+      <PropertyRef Name="IDDono" />
+      <PropertyRef Name="Dono" />
+      <PropertyRef Name="Statu" />
+    </Key>
+    <Property Name="IDC" Type="Int32" Nullable="false" />
+    <Property Name="IDPet" Type="Int32" Nullable="false" />
+    <Property Name="NomePet" Type="String" Nullable="false" MaxLength="80" FixedLength="false" Unicode="false" />
+    <Property Name="IDDoador" Type="Int32" Nullable="false" />
+    <Property Name="Doador" Type="String" Nullable="false" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="IDDono" Type="Int32" Nullable="false" />
+    <Property Name="Dono" Type="String" Nullable="false" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="DataAdocao" Type="DateTime" Precision="0" />
+    <Property Name="Statu" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="vw_DENUNCIA">
+    <Key>
+      <PropertyRef Name="Email" />
+      <PropertyRef Name="TextoDenuncia" />
+      <PropertyRef Name="DataDenuncia" />
+    </Key>
+    <Property Name="Email" Type="String" Nullable="false" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="Denunciante" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="TextoDenuncia" Type="String" Nullable="false" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Name="DataDenuncia" Type="DateTime" Nullable="false" Precision="0" />
+  </EntityType>
   <EntityType Name="vw_PET">
     <Key>
       <PropertyRef Name="NomePet" />
@@ -183,6 +218,8 @@
       <PropertyRef Name="Sexo" />
       <PropertyRef Name="Porte" />
       <PropertyRef Name="Castrado" />
+      <PropertyRef Name="Cadastro" />
+      <PropertyRef Name="IDP" />
     </Key>
     <Property Name="Imagem" Type="Binary" MaxLength="Max" FixedLength="false" />
     <Property Name="NomePet" Type="String" Nullable="false" MaxLength="80" FixedLength="false" Unicode="false" />
@@ -194,6 +231,31 @@
     <Property Name="Porte" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
     <Property Name="Castrado" Type="String" Nullable="false" MaxLength="3" FixedLength="false" Unicode="false" />
     <Property Name="DataNascimento" Type="DateTime" Precision="0" />
+    <Property Name="OBS" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Name="Cadastro" Type="DateTime" Nullable="false" Precision="0" />
+    <Property Name="IDP" Type="Int32" Nullable="false" />
+    <Property Name="IDRaça" Type="Int32" />
+  </EntityType>
+  <EntityType Name="vw_TRATAMENTO">
+    <Key>
+      <PropertyRef Name="IDT" />
+      <PropertyRef Name="IDResponsavel" />
+      <PropertyRef Name="IDPet" />
+      <PropertyRef Name="PET" />
+      <PropertyRef Name="Tipo" />
+      <PropertyRef Name="DataTratamento" />
+      <PropertyRef Name="IDDescricao" />
+    </Key>
+    <Property Name="IDT" Type="Int32" Nullable="false" />
+    <Property Name="IDResponsavel" Type="Int32" Nullable="false" />
+    <Property Name="Nome" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="IDPet" Type="Int32" Nullable="false" />
+    <Property Name="PET" Type="String" Nullable="false" MaxLength="80" FixedLength="false" Unicode="false" />
+    <Property Name="Tipo" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="DataTratamento" Type="DateTime" Nullable="false" Precision="0" />
+    <Property Name="OBS" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Name="IDDescricao" Type="Int32" Nullable="false" />
+    <Property Name="Descricao" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
   </EntityType>
   <Association Name="FK_CONTROLE_AMIGO">
     <End Type="Amigos_do_DonoModel.AMIGO" Role="AMIGO" Multiplicity="1" />

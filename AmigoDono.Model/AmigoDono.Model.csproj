@@ -41,6 +41,7 @@
     <Reference Include="System.Core" />
     <Reference Include="System.Runtime.Serialization" />
     <Reference Include="System.Security" />
+    <Reference Include="System.Web" />
     <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
@@ -70,6 +71,7 @@
     <Compile Include="Helper\CustomValidator\Util.cs" />
     <Compile Include="Helper\Data.cs" />
     <Compile Include="Helper\Mensagens.cs" />
+    <Compile Include="Helper\Perfil.cs" />
     <Compile Include="Helper\VerificaUsuario.cs" />
     <Compile Include="ModelClasses.Context.cs">
       <AutoGen>True</AutoGen>
@@ -115,7 +117,16 @@
     <Compile Include="TRATAMENTO.cs">
       <DependentUpon>ModelClasses.tt</DependentUpon>
     </Compile>
+    <Compile Include="vw_CONTROLE.cs">
+      <DependentUpon>ModelClasses.tt</DependentUpon>
+    </Compile>
+    <Compile Include="vw_DENUNCIA.cs">
+      <DependentUpon>ModelClasses.tt</DependentUpon>
+    </Compile>
     <Compile Include="vw_PET.cs">
+      <DependentUpon>ModelClasses.tt</DependentUpon>
+    </Compile>
+    <Compile Include="vw_TRATAMENTO.cs">
       <DependentUpon>ModelClasses.tt</DependentUpon>
     </Compile>
   </ItemGroup>

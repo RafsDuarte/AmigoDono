@@ -14,7 +14,10 @@
         <EntityTypeShape EntityType="Amigos_do_DonoModel.RAÇA" Width="1.5" PointX="1.5" PointY="14.75" />
         <EntityTypeShape EntityType="Amigos_do_DonoModel.TIPOTRATAMENTO" Width="1.5" PointX="3.75" PointY="0.75" />
         <EntityTypeShape EntityType="Amigos_do_DonoModel.TRATAMENTO" Width="1.5" PointX="6" PointY="4.125" />
-        <EntityTypeShape EntityType="Amigos_do_DonoModel.vw_PET" Width="1.5" PointX="8.75" PointY="1.875" />
+        <EntityTypeShape EntityType="Amigos_do_DonoModel.vw_CONTROLE" Width="1.5" PointX="8.75" PointY="1.875" />
+        <EntityTypeShape EntityType="Amigos_do_DonoModel.vw_DENUNCIA" Width="1.5" PointX="8.75" PointY="5.875" />
+        <EntityTypeShape EntityType="Amigos_do_DonoModel.vw_PET" Width="1.5" PointX="8.75" PointY="8.875" />
+        <EntityTypeShape EntityType="Amigos_do_DonoModel.vw_TRATAMENTO" Width="1.5" PointX="10.75" PointY="1.875" />
         <AssociationConnector Association="Amigos_do_DonoModel.FK_CONTROLE_AMIGO" />
         <AssociationConnector Association="Amigos_do_DonoModel.FK_CONTROLE_AMIGO1" />
         <AssociationConnector Association="Amigos_do_DonoModel.FK_TRATAMENTO_AMIGO" />
