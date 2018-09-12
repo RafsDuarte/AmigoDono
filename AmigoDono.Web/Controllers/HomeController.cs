@@ -4,6 +4,7 @@ using System.Linq;
 using System.Web;
 using System.Web.Mvc;
 using AmigoDono.Model;
+using AmigoDono.Model.Helper;
 using AmigoDono.Model.Repositories;
 
 namespace AmigoDono.Web.Controllers
@@ -24,20 +25,17 @@ namespace AmigoDono.Web.Controllers
             return View(Pets);
         }
 
-        public ActionResult CapturarAmigo()
-        {
-        //    if (Session["logado"] == null)
-        //    {
-        //        if ((bool)Session["logado"] == true)
-        //        {
-        //            ViewBag.Mensagem = "Amigo Capturado!";
-        //        }
-        //        else
-        //        {
-        //            return RedirectToAction("Signin", "Login");
-        //        }
-        //    }
-            return View();
-        }
+        //public ActionResult CapturarAmigo(Perfil oPerfil)
+        //{
+        //    //if (HttpContext.GetSection.Profile != null)
+        //    //{
+        //    //    ViewBag.Mensagem = "Parabéns! Você conseguiu um amiguinho!!";
+        //    //}
+        //    //else
+        //    //{
+        //    //    return RedirectToAction("Signin", "Login");
+        //    //}
+        //    //return View();
+        //}
     }
 }

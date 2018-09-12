@@ -123,7 +123,7 @@
     <Property Name="Nome" Type="String" Nullable="false" MaxLength="Max" FixedLength="false" Unicode="false" />
     <Property Name="Email" Type="String" Nullable="false" MaxLength="100" FixedLength="false" Unicode="false" />
     <Property Name="Opiniao" Type="String" Nullable="false" MaxLength="Max" FixedLength="false" Unicode="false" />
-    <Property Name="Feedback1" Type="String" Nullable="false" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Name="Feedback" Type="String" Nullable="false" MaxLength="Max" FixedLength="false" Unicode="false" />
   </EntityType>
   <EntityType Name="PET">
     <Key>

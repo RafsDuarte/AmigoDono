@@ -47,7 +47,7 @@ namespace AmigoDono.Web.Views
                 {
                     pic = Path.GetFileName(imagem.FileName);
                     path = Path.Combine(Server.MapPath("~/Content/imagens"), pic);
-                    imagem.SaveAs(path);
+                    imagem.SaveAs(pic);
            
                 }
 

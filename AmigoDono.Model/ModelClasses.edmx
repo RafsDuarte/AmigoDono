@@ -516,7 +516,7 @@ warning 6002: The table/view 'Amigos_do_Dono.dbo.vw_TRATAMENTO' does not have a 
           <Property Name="Nome" Type="String" Nullable="false" MaxLength="Max" FixedLength="false" Unicode="false" />
           <Property Name="Email" Type="String" Nullable="false" MaxLength="100" FixedLength="false" Unicode="false" />
           <Property Name="Opiniao" Type="String" Nullable="false" MaxLength="Max" FixedLength="false" Unicode="false" />
-          <Property Name="Feedback1" Type="String" Nullable="false" MaxLength="Max" FixedLength="false" Unicode="false" />
+          <Property Name="Feedback" Type="String" Nullable="false" MaxLength="Max" FixedLength="false" Unicode="false" />
         </EntityType>
         <EntityType Name="PET">
           <Key>
@@ -813,7 +813,7 @@ warning 6002: The table/view 'Amigos_do_Dono.dbo.vw_TRATAMENTO' does not have a 
           <EntitySetMapping Name="FEEDBACK">
             <EntityTypeMapping TypeName="Amigos_do_DonoModel.FEEDBACK">
               <MappingFragment StoreEntitySet="FEEDBACK">
-                <ScalarProperty Name="Feedback1" ColumnName="Feedback" />
+                <ScalarProperty Name="Feedback" ColumnName="Feedback" />
                 <ScalarProperty Name="Opiniao" ColumnName="Opiniao" />
                 <ScalarProperty Name="Email" ColumnName="Email" />
                 <ScalarProperty Name="Nome" ColumnName="Nome" />

@@ -32,35 +32,42 @@ namespace AmigoDono.Web.Controllers
             return false;
         }
 
-            public ActionResult RealizaLogin(/*string Email, string Senha*/ Login oLogin)
+        [HttpPost]
+
+        public ActionResult RealizaLogin(/*string Email, string Senha*/ Login oLogin)
+        {
+            if (ModelState.IsValid)
             {
+                if (VerificaLogin(oLogin.Email, oLogin.Senha))
+                {
+                    Perfil oPerfil = new Perfil(oLogin.Email);
+                    Session["Perfil"] = oPerfil;
+                    // Cookie de autentificação que fica salvo para ser lido nas sessões
+                    FormsAuthentication.SetAuthCookie(oLogin.Email, false);
+                    // Busca cookie de autentificação
+                    FormsAuthenticationTicket authTicket = new FormsAuthenticationTicket(1, oLogin.Email, DateTime.Now, DateTime.Now.AddMinutes(30), false, oLogin.Email);
+                    // Criptografa o cookie
+                    String encryptedTicket = FormsAuthentication.Encrypt(authTicket);
 
-            if (VerificaLogin(oLogin.Email, oLogin.Senha))
-            {
-                Perfil oPerfil = new Perfil(oLogin.Email);
-                Session["Perfil"] = oPerfil;
-                // Cookie de autentificação que fica salvo para ser lido nas sessões
-                FormsAuthentication.SetAuthCookie(oLogin.Email, false);
-                // Busca cookie de autentificação
-                FormsAuthenticationTicket authTicket = new FormsAuthenticationTicket(1, oLogin.Email, DateTime.Now, DateTime.Now.AddMinutes(30), true, oLogin.Email);
-                // Criptografa o cookie
-                String encryptedTicket = FormsAuthentication.Encrypt(authTicket);
+                    // Cria o cookie http
+                    string AuthCookieName = FormsAuthentication.FormsCookieName;
+                    HttpCookie AuthCookie = new HttpCookie(AuthCookieName, encryptedTicket);
+                    // Adiciona o cookie no cliente
+                    Response.Cookies.Add(AuthCookie);
 
-                // Cria o cookie http
-                string AuthCookieName = FormsAuthentication.FormsCookieName;
-                HttpCookie AuthCookie = new HttpCookie(AuthCookieName, encryptedTicket);
-                // Adiciona o cookie no cliente
-                Response.Cookies.Add(AuthCookie);
-
-                // Se estiver autenticado, redireciona para a Home
-                return RedirectToAction("Index", "Home");
+                    // Se estiver autenticado, redireciona para a Home
+                    return RedirectToAction("Index", "Home", oPerfil);
+                }
+                else
+                {
+                    ViewBag.Mensagem = "Email ou senha incorretos!";
+                    return View("Signin");
+                }
             }
-            else
-            {
-                ViewBag.Mensagem = "Email ou senha incorretos!";
-                return View("Signin");
-            }
-
+            return View();
+        }
+    }
+}
             //var usuarioLogado = (bool)Session["logado"];
             //
             //if (ModelState.IsValid)
@@ -86,6 +93,3 @@ namespace AmigoDono.Web.Controllers
             //    ViewBag.Mensagem = "Email ou senha ausente!";
             //}
             //return View();
-        }
-    }
-}

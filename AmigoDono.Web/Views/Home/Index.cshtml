@@ -52,48 +52,47 @@
 
         @foreach (var item in Model)
         {
-            <tr>
-                @if (item.Imagem != null)
-                {
-                    <td class="text-center">
-                        @{
-                            var base64 = Convert.ToBase64String(item.Imagem);
-                            var imgSrc = String.Format("data:image/gif;base64,{0}", base64);
-                        }
-                        <img src='@imgSrc' style="max-width:100px; max-height:100px;" />
-                    </td>
-                            }
+        <tr>
+            @if (item.Imagem != null)
+            {
                 <td class="text-center">
-                    @Html.DisplayFor(modelItem => item.NomePet)
+                    @{
+                        var base64 = Convert.ToBase64String(item.Imagem);
+                        var imgSrc = String.Format("data:image/gif;base64,{0}", base64);
+                    }
+                    <img src='@imgSrc' style="max-width:100px; max-height:100px;" />
                 </td>
-                <td class="text-center">
-                    @Html.DisplayFor(modelItem => item.TipoPet)
-                </td>
-                <td class="text-center">
-                    @Html.DisplayFor(modelItem => item.DataNascimento)
-                </td>
-                <td class="text-center">
-                    @Html.DisplayFor(modelItem => item.Situacao)
-                </td>
-                <td class="text-center">
-                    @Html.DisplayFor(modelItem => item.Idade)
-                </td>
-                <td class="text-center">
-                    @Html.DisplayFor(modelItem => item.NomeRaça)
-                </td>
-                <td class="text-center">
-                    @Html.DisplayFor(modelItem => item.Sexo)
-                </td>
-                <td class="text-center">
-                    @Html.DisplayFor(modelItem => item.Porte)
-                </td>
-                <td class="text-center">
-                    @Html.DisplayFor(modelItem => item.Castrado)
-                </td>
-                <td class="text-center" hidden>
-                    @Html.DisplayFor(modelItem => item.OBS)
-                </td>
-
+            }
+            <td class="text-center">
+                @Html.DisplayFor(modelItem => item.NomePet)
+            </td>
+            <td class="text-center">
+                @Html.DisplayFor(modelItem => item.TipoPet)
+            </td>
+            <td class="text-center">
+                @Html.DisplayFor(modelItem => item.DataNascimento)
+            </td>
+            <td class="text-center">
+                @Html.DisplayFor(modelItem => item.Situacao)
+            </td>
+            <td class="text-center">
+                @Html.DisplayFor(modelItem => item.Idade)
+            </td>
+            <td class="text-center">
+                @Html.DisplayFor(modelItem => item.NomeRaça)
+            </td>
+            <td class="text-center">
+                @Html.DisplayFor(modelItem => item.Sexo)
+            </td>
+            <td class="text-center">
+                @Html.DisplayFor(modelItem => item.Porte)
+            </td>
+            <td class="text-center">
+                @Html.DisplayFor(modelItem => item.Castrado)
+            </td>
+            <td class="text-center" hidden>
+                @Html.DisplayFor(modelItem => item.OBS)
+            </td>
                 <td class="text-center">
                     <button class="btn btn-success center-block" onclick="$('#cadastrar-form').submit()">Capturar Amigo</button>
 
@@ -117,7 +116,8 @@
                         Detalhes
                     </button>
                 </td>
-            </tr>
+
+        </tr>
          }
 
  </table>

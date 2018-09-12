@@ -21,6 +21,8 @@ namespace AmigoDono.Model
             public object TipoPet { get; set; }
             [DisplayName("Idade")]
             public object Idade { get; set; }
+            [DisplayName("Nome da Raça")]
+            public object NomeRaça { get; set; }
             [DisplayName("Sexo")]
             public object Sexo { get; set; }
             [DisplayName("Porte")]

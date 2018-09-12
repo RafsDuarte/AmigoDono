@@ -72,7 +72,6 @@
     <Compile Include="Helper\Data.cs" />
     <Compile Include="Helper\Mensagens.cs" />
     <Compile Include="Helper\Perfil.cs" />
-    <Compile Include="Helper\VerificaUsuario.cs" />
     <Compile Include="ModelClasses.Context.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
