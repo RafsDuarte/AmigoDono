@@ -1,4 +1,6 @@
-﻿using System;
+﻿using AmigoDono.Model;
+using AmigoDono.Model.Repositories;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
@@ -8,10 +10,18 @@ namespace AmigoDono.Web.Controllers
 {
     public class DADOSController : Controller
     {
+        RepositoryAmigo _Repository;
+
+        public DADOSController()
+        {
+            _Repository = new RepositoryAmigo();
+        }
+
         // GET: DADOS
         public ActionResult Detalhes()
         {
-            return View();
+            List<AMIGO> Amigo = _Repository.ListarAmigos();
+            return View(Amigo);
         }
     }
 }

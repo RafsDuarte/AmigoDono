@@ -63,6 +63,11 @@ namespace AmigoDono.Model.Repositories
             }
         }
 
+        public List<AMIGO> ListarAmigos()
+        {
+            return odb.AMIGO.OrderBy(p => p.Nome).ToList();
+        }
+
         public void Incluir(AMIGO oAmigo)
         {
             Amigos_do_DonoEntities db = new Amigos_do_DonoEntities();

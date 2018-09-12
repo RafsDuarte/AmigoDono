@@ -74,7 +74,7 @@
     <EntitySetMapping Name="FEEDBACK">
       <EntityTypeMapping TypeName="Amigos_do_DonoModel.FEEDBACK">
         <MappingFragment StoreEntitySet="FEEDBACK">
-          <ScalarProperty Name="Feedback1" ColumnName="Feedback" />
+          <ScalarProperty Name="Feedback" ColumnName="Feedback" />
           <ScalarProperty Name="Opiniao" ColumnName="Opiniao" />
           <ScalarProperty Name="Email" ColumnName="Email" />
           <ScalarProperty Name="Nome" ColumnName="Nome" />

@@ -30,6 +30,7 @@
                     <li>@Html.ActionLink("Denúncias", "Create", "DENUNCIA")</li>
                     <li>@Html.ActionLink("Fale Conosco", "FaleConosco", "FEEDBACK")</li>
                 </ul>
+          
                 <ul class="nav navbar-nav navbar-right btn-default" style="margin:0px; border-radius: 5px; margin-right: 5px">
                     <li>@Html.ActionLink("Entrar", "Signin", "Login")</li>
                 </ul>
@@ -40,6 +41,7 @@
     <div class="container body-content">
         @RenderBody()
         <footer style="border-top: 1px solid black; clear: both; margin-top: 20px">
+            @ViewBag.Nome
             <p style="text-align: center">&copy; @DateTime.Now.Year -  Owner's Friend</p>
         </footer>
     </div>
