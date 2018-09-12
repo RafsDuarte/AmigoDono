@@ -18,13 +18,15 @@ namespace AmigoDono.Web.Controllers
             return View();
         }
 
-        private bool VerificaLogin(string Email, string Senha)
+        private bool VerificaLogin(/*string Email, string Senha*/ string Email, string Senha)
         {
+            
             List<AMIGO> Amigos = repositoryAmigo.SelecionarTodos();
             foreach (var x in Amigos)
             {
                 if (x.Email == Email && x.Senha == Senha)
                 {
+                  
                     return true;
                 }
 
@@ -42,6 +44,22 @@ namespace AmigoDono.Web.Controllers
                 {
                     Perfil oPerfil = new Perfil(oLogin.Email);
                     Session["Perfil"] = oPerfil;
+                    // Cookie de autentificação que fica salvo para ser lido nas sessões.
+                    FormsAuthentication.SetAuthCookie(oLogin.Email, false);
+                    // Busca cookie de autentificação.
+                    FormsAuthenticationTicket authTicket = new FormsAuthenticationTicket(1, oLogin.Email, DateTime.Now, DateTime.Now.AddDays(1), false, string.Join(",", oPerfil.Roles), "~/");
+                    // Criptografa o cookie.
+                    String encryptedTicket = FormsAuthentication.Encrypt(authTicket);
+
+                    // Cria o cookie http.
+                    string AuthCookieName = FormsAuthentication.FormsCookieName;
+                    HttpCookie AuthCookie = new HttpCookie(AuthCookieName, encryptedTicket);
+                    // Adiciona o cookie no cliente.
+                    Response.Cookies.Add(AuthCookie);
+
+                    // Se estiver autenticado, redireciona para a Home.
+                    return RedirectToAction("Index", "Home");
+
                     // Cookie de autentificação que fica salvo para ser lido nas sessões
                     FormsAuthentication.SetAuthCookie(oLogin.Email, false);
                     // Busca cookie de autentificação
