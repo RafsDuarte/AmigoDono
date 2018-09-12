@@ -17,5 +17,6 @@ namespace AmigoDono.Model
         [DisplayName("Senha")]
         [StringLength(20, ErrorMessage = "O campo {0} pode ter no máximo {1} e no minimo {2} caracteres", MinimumLength = 8)]
         public string Senha { get; set; }
+
     }
 }

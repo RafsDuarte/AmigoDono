@@ -136,7 +136,6 @@ C:\GitHub\AmigoDono\AmigoDono.Model\bin\Debug\EntityFramework.dll
 C:\GitHub\AmigoDono\AmigoDono.Model\bin\Debug\EntityFramework.SqlServer.dll
 C:\GitHub\AmigoDono\AmigoDono.Model\bin\Debug\EntityFramework.xml
 C:\GitHub\AmigoDono\AmigoDono.Model\bin\Debug\EntityFramework.SqlServer.xml
-C:\GitHub\AmigoDono\AmigoDono.Model\obj\Debug\AmigoDono.Model.csprojAssemblyReference.cache
 C:\GitHub\AmigoDono\AmigoDono.Model\obj\Debug\AmigoDono.Model.csproj.CoreCompileInputs.cache
 C:\GitHub\AmigoDono\AmigoDono.Model\obj\Debug\AmigoDono.Model.csproj.CopyComplete
 C:\GitHub\AmigoDono\AmigoDono.Model\obj\Debug\AmigoDono.Model.dll
