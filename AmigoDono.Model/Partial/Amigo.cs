@@ -16,6 +16,7 @@ namespace AmigoDono.Model
 
         internal class MD_AMIGO
         {
+            public string NomeLogado { get; set; }
 
             [DisplayName("ID")]
             public object IDA { get; set; }

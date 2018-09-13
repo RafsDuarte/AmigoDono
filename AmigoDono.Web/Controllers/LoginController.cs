@@ -20,16 +20,11 @@ namespace AmigoDono.Web.Controllers
 
         private bool VerificaLogin(/*string Email, string Senha*/ string Email, string Senha)
         {
-
-            List<AMIGO> Amigos = repositoryAmigo.SelecionarTodos();
-            foreach (var x in Amigos)
+            AMIGO oAmigo = repositoryAmigo.VerificaLogin(Email, Senha);
+            if ( oAmigo != null)
             {
-                if (x.Email == Email && x.Senha == Senha)
-                {
-
-                    return true;
-                }
-
+                ViewBag.Nome = oAmigo.Nome;
+                return true;
             }
             return false;
         }
@@ -58,6 +53,7 @@ namespace AmigoDono.Web.Controllers
                     Response.Cookies.Add(AuthCookie);
 
                     // Se estiver autenticado, redireciona para a Home.
+                    
                     return RedirectToAction("Index", "Home");
                 }
                 else
