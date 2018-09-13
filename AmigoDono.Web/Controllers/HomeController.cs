@@ -36,17 +36,17 @@ namespace AmigoDono.Web.Controllers
             return View(Pets);
         }
 
-        //public ActionResult CapturarAmigo(Perfil oPerfil)
-        //{
-        //    //if (HttpContext.GetSection.Profile != null)
-        //    //{
-        //    //    ViewBag.Mensagem = "Parabéns! Você conseguiu um amiguinho!!";
-        //    //}
-        //    //else
-        //    //{
-        //    //    return RedirectToAction("Signin", "Login");
-        //    //}
-        //    //return View();
-        //}
+        public ActionResult CapturarAmigo(Perfil oPerfil)
+        {
+            if (Session["Perfil"] != null)
+            {
+                ViewBag.Mensagem = "Parabéns! Você conseguiu um amiguinho!!";
+                return RedirectToAction("Index", "Home");
+            }
+            else
+            {
+                return RedirectToAction("Signin", "Login");
+            }
+        }
     }
 }
