@@ -8,8 +8,6 @@ namespace AmigoDono.Model
 {
     public partial class Constantes
     {
-        // Comentário
-        // Comentário 2
         public static string MsgExclusao = "Deseja realmente excluir?";
         public static string MsgExcluido = "Registro excluído com sucesso!";
         public static string MsgInclusao = "Registro incluído com sucesso!";

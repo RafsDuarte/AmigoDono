@@ -19,7 +19,6 @@ namespace AmigoDono.Model.Helper
             }
             else
             {
-                // coment// coment
                 Roles = new string[] { "Usuario" };
             }
         }
