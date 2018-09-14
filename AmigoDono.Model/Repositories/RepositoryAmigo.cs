@@ -33,7 +33,7 @@ namespace AmigoDono.Model.Repositories
         //selecionar Amigo pelo email e senha
         public AMIGO VerificaLogin(string email, string senha)
         {
-            return (from p in odb.AMIGO where p.Email.Equals(email) && p.Senha.Equals(senha) select p).First();
+            return (from p in odb.AMIGO where p.Email.Equals(email) && p.Senha.Equals(senha) select p).FirstOrDefault();
         }
 
         public AMIGO SelecionarID(int ID)

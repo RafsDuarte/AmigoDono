@@ -36,7 +36,7 @@ namespace AmigoDono.Web.Controllers
             return View(Pets);
         }
 
-        public ActionResult CapturarAmigo(Perfil oPerfil)
+        public ActionResult CapturarAmigo()
         {
             if (Session["Perfil"] != null)
             {
