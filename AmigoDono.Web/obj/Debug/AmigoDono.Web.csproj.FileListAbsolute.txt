@@ -880,3 +880,5 @@ C:\GitHub\AmigoDono\AmigoDono.Web\bin\System.Web.WebPages.Razor.xml
 C:\GitHub\AmigoDono\AmigoDono.Web\obj\Debug\AmigoDono.Web.csproj.CopyComplete
 C:\GitHub\AmigoDono\AmigoDono.Web\obj\Debug\AmigoDono.Web.dll
 C:\GitHub\AmigoDono\AmigoDono.Web\obj\Debug\AmigoDono.Web.pdb
+D:\GitHub\AmigoDono\AmigoDono.Web\obj\Debug\AmigoDono.Web.dll
+D:\GitHub\AmigoDono\AmigoDono.Web\obj\Debug\AmigoDono.Web.pdb
