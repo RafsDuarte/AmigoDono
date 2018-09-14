@@ -4,6 +4,10 @@
     ViewBag.Title = "Home";
 }
 
+@if (ViewBag.Mensagem == null)
+{
+    ViewBag.Mensagem = "";
+}
 
 <h2 class="text-center" style="padding-top:50px">Adote um amiguinho</h2>
 
@@ -52,50 +56,50 @@
 
         @foreach (var item in Model)
         {
-        <tr>
-            @if (item.Imagem != null)
-            {
+            <tr>
+                @if (item.Imagem != null)
+                {
+                    <td class="text-center">
+                        @{
+                            var base64 = Convert.ToBase64String(item.Imagem);
+                            var imgSrc = String.Format("data:image/gif;base64,{0}", base64);
+                        }
+                        <img src='@imgSrc' style="max-width:100px; max-height:100px;" />
+                    </td>
+                }
                 <td class="text-center">
-                    @{
-                        var base64 = Convert.ToBase64String(item.Imagem);
-                        var imgSrc = String.Format("data:image/gif;base64,{0}", base64);
-                    }
-                    <img src='@imgSrc' style="max-width:100px; max-height:100px;" />
+                    @Html.DisplayFor(modelItem => item.NomePet)
                 </td>
-            }
-            <td class="text-center">
-                @Html.DisplayFor(modelItem => item.NomePet)
-            </td>
-            <td class="text-center">
-                @Html.DisplayFor(modelItem => item.TipoPet)
-            </td>
-            <td class="text-center">
-                @Html.DisplayFor(modelItem => item.DataNascimento)
-            </td>
-            <td class="text-center">
-                @Html.DisplayFor(modelItem => item.Situacao)
-            </td>
-            <td class="text-center">
-                @Html.DisplayFor(modelItem => item.Idade)
-            </td>
-            <td class="text-center">
-                @Html.DisplayFor(modelItem => item.NomeRaça)
-            </td>
-            <td class="text-center">
-                @Html.DisplayFor(modelItem => item.Sexo)
-            </td>
-            <td class="text-center">
-                @Html.DisplayFor(modelItem => item.Porte)
-            </td>
-            <td class="text-center">
-                @Html.DisplayFor(modelItem => item.Castrado)
-            </td>
-            <td class="text-center" hidden>
-                @Html.DisplayFor(modelItem => item.OBS)
-            </td>
+                <td class="text-center">
+                    @Html.DisplayFor(modelItem => item.TipoPet)
+                </td>
+                <td class="text-center">
+                    @Html.DisplayFor(modelItem => item.DataNascimento)
+                </td>
+                <td class="text-center">
+                    @Html.DisplayFor(modelItem => item.Situacao)
+                </td>
+                <td class="text-center">
+                    @Html.DisplayFor(modelItem => item.Idade)
+                </td>
+                <td class="text-center">
+                    @Html.DisplayFor(modelItem => item.NomeRaça)
+                </td>
+                <td class="text-center">
+                    @Html.DisplayFor(modelItem => item.Sexo)
+                </td>
+                <td class="text-center">
+                    @Html.DisplayFor(modelItem => item.Porte)
+                </td>
+                <td class="text-center">
+                    @Html.DisplayFor(modelItem => item.Castrado)
+                </td>
+                <td class="text-center" hidden>
+                    @Html.DisplayFor(modelItem => item.OBS)
+                </td>
                 <td class="text-center">
                     <button class="btn btn-success center-block" onclick="$('#cadastrar-form').submit()">Capturar Amigo</button>
-
+                    <br />
                     <!--Configuração do Botão que vai Abrir o Modal, onde será definido os parametros do Modal com os dados que
                     irá aparecer no JQuery-->
 
@@ -117,15 +121,36 @@
                     </button>
                 </td>
 
-        </tr>
-         }
+            </tr>
+        }
 
- </table>
+    </table>
 
- }
+}
 
 
 <!-- Código do Modal no Bootstrap -->
+
+
+<div class="modal" tabindex="-1" role="dialog" id="ModalMensagem">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">Erro</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <p>@Html.Raw(ViewBag.Mensagem)</p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-primary" data-dismiss="modal">Fechar</button>
+            </div>
+        </div>
+    </div>
+</div>
+
 
 <div class="modal" tabindex="-1" role="dialog" id="ModalDetalhes">
     <div class="modal-dialog" role="document">
@@ -204,5 +229,12 @@
             })
         })
     </script>
+
+    @if (ViewBag.Mensagem != "")
+    {
+        <script>
+            $("#ModalMensagem").modal('show');
+        </script>
+    }
 
 }

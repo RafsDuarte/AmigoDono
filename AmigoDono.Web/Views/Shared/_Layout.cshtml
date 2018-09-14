@@ -32,15 +32,16 @@
                 </ul>
           
                 <ul class="nav navbar-nav navbar-right btn-default" style="margin:0px; border-radius: 5px; margin-right: 5px">
-                    <li>@if (Session["Perfil"] == null)
-                    {
+                    <li>
+                        @if (Session["Perfil"] == null)
+                        {
                             @Html.ActionLink("Entrar", "Signin", "Login")
-                    }
-                    else
-                    {
-                        <p>@Html.Raw(ViewBag.Nome)</p>
-                    }
-                    </li>
+                        }
+                        else
+                        {
+                            @Html.ActionLink("Sair", "Signout", "Login")
+                        }
+                   </li>
                 </ul>
             </div>
         </nav>
@@ -49,13 +50,8 @@
     <div class="container body-content">
         @RenderBody()
         <footer style="border-top: 1px solid black; clear: both; margin-top: 20px">
-<<<<<<< HEAD
-         
-            <p style="text-align: center">&copy; @DateTime.Now.Year -    @ViewBag.Nome Owner's Friend</p>
-=======
-            @ViewBag.Nome
+            
             <p style="text-align: center">&copy; @DateTime.Now.Year -  Owner's Friend</p>
->>>>>>> 4640b62f63d718f6d656c88f3f6ffda15efc6f2d
         </footer>
     </div>
 
