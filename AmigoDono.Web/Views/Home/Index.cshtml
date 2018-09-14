@@ -100,6 +100,9 @@
                 <td class="text-center" hidden>
                     @Html.DisplayFor(modelItem => item.OBS)
                 </td>
+
+            @if (Session["Perfil"] != null)
+            {
                 <td class="text-center">
                     <button class="btn btn-success center-block" onclick="$('#cadastrar-form').submit()">Capturar Amigo</button>
                     <br />
@@ -124,6 +127,28 @@
                         Detalhes
                     </button>
                 </td>
+            }
+            else
+            {
+                <td class="text-center">
+                    <button class="btn btn-primary BtnDetalhes"
+                            data-Imagem="@item.Imagem"
+                            data-NomePet="@item.NomePet"
+                            data-TipoPet="@item.TipoPet"
+                            data-Situacao="@item.Situacao"
+                            data-Idade="@item.Idade"
+                            data-NomeRaca="@item.NomeRaça"
+                            data-Sexo="@item.Sexo"
+                            data-Porte="@item.Porte"
+                            data-Castrado="@item.Castrado"
+                            data-DataNascimento="@item.DataNascimento"
+                            data-OBS="@item.OBS"
+                            data-toggle="modal"
+                            data-target="#ModalDetalhes">
+                        Detalhes
+                    </button>
+                  </td>
+            }
 
             </tr>
         }
