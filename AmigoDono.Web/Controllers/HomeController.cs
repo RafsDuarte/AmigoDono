@@ -17,7 +17,8 @@ namespace AmigoDono.Web.Controllers
         {
             _Repository = new RepositoryPet();
         }
-
+        
+        [Authorize]
         // GET: Home
         public ActionResult Index()
         {
