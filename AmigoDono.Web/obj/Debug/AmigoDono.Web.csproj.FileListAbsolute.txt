@@ -746,8 +746,8 @@ C:\GitHub\AmigoDono\AmigoDono\AmigoDono.Web\bin\System.Web.WebPages.Razor.xml
 C:\GitHub\AmigoDono\AmigoDono\AmigoDono.Web\obj\Debug\AmigoDono.Web.csproj.CopyComplete
 C:\GitHub\AmigoDono\AmigoDono\AmigoDono.Web\obj\Debug\AmigoDono.Web.dll
 C:\GitHub\AmigoDono\AmigoDono\AmigoDono.Web\obj\Debug\AmigoDono.Web.pdb
-C:\GitHub\AmigoDono\AmigoDono.Web\obj\Debug\AmigoDono.Web.csprojAssemblyReference.cache
-C:\GitHub\AmigoDono\AmigoDono.Web\obj\Debug\AmigoDono.Web.csproj.CoreCompileInputs.cache
+D:\GitHub\AmigoDono\AmigoDono.Web\obj\Debug\AmigoDono.Web.dll
+D:\GitHub\AmigoDono\AmigoDono.Web\obj\Debug\AmigoDono.Web.pdb
 C:\GitHub\AmigoDono\AmigoDono.Web\bin\ApplicationInsights.config
 C:\GitHub\AmigoDono\AmigoDono.Web\bin\AmigoDono.Web.dll.config
 C:\GitHub\AmigoDono\AmigoDono.Web\bin\AmigoDono.Web.dll
@@ -877,8 +877,8 @@ C:\GitHub\AmigoDono\AmigoDono.Web\bin\System.Web.Razor.xml
 C:\GitHub\AmigoDono\AmigoDono.Web\bin\System.Web.WebPages.xml
 C:\GitHub\AmigoDono\AmigoDono.Web\bin\System.Web.WebPages.Deployment.xml
 C:\GitHub\AmigoDono\AmigoDono.Web\bin\System.Web.WebPages.Razor.xml
+C:\GitHub\AmigoDono\AmigoDono.Web\obj\Debug\AmigoDono.Web.csprojAssemblyReference.cache
+C:\GitHub\AmigoDono\AmigoDono.Web\obj\Debug\AmigoDono.Web.csproj.CoreCompileInputs.cache
 C:\GitHub\AmigoDono\AmigoDono.Web\obj\Debug\AmigoDono.Web.csproj.CopyComplete
 C:\GitHub\AmigoDono\AmigoDono.Web\obj\Debug\AmigoDono.Web.dll
 C:\GitHub\AmigoDono\AmigoDono.Web\obj\Debug\AmigoDono.Web.pdb
-D:\GitHub\AmigoDono\AmigoDono.Web\obj\Debug\AmigoDono.Web.dll
-D:\GitHub\AmigoDono\AmigoDono.Web\obj\Debug\AmigoDono.Web.pdb
