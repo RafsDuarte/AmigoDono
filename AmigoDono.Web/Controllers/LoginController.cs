@@ -18,20 +18,16 @@ namespace AmigoDono.Web.Controllers
             return View();
         }
 
-        public ActionResult Signout()
-        {
-            Session.Clear();
-            return RedirectToAction("Index", "Home");
-        }
-
-        private bool VerificaLogin( string Email, string Senha)
+        private bool VerificaLogin(string Email, string Senha)
         {
             AMIGO oAmigo = repositoryAmigo.VerificaLogin(Email, Senha);
-            if ( oAmigo != null)
+            if (oAmigo != null)
             {
                 ViewBag.Nome = oAmigo.Nome;
                 return true;
+
             }
+
             return false;
         }
 
