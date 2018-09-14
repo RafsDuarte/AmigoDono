@@ -56,50 +56,53 @@
 
         @foreach (var item in Model)
         {
-            <tr>
-                @if (item.Imagem != null)
-                {
-                    <td class="text-center">
-                        @{
-                            var base64 = Convert.ToBase64String(item.Imagem);
-                            var imgSrc = String.Format("data:image/gif;base64,{0}", base64);
-                        }
-                        <img src='@imgSrc' style="max-width:100px; max-height:100px;" />
-                    </td>
-                }
+        <tr>
+            @if (item.Imagem != null)
+            {
                 <td class="text-center">
-                    @Html.DisplayFor(modelItem => item.NomePet)
+                    @{
+                        var base64 = Convert.ToBase64String(item.Imagem);
+                        var imgSrc = String.Format("data:image/gif;base64,{0}", base64);
+                    }
+                    <img src='@imgSrc' style="max-width:100px; max-height:100px;" />
                 </td>
-                <td class="text-center">
-                    @Html.DisplayFor(modelItem => item.TipoPet)
-                </td>
-                <td class="text-center">
-                    @Html.DisplayFor(modelItem => item.DataNascimento)
-                </td>
-                <td class="text-center">
-                    @Html.DisplayFor(modelItem => item.Situacao)
-                </td>
-                <td class="text-center">
-                    @Html.DisplayFor(modelItem => item.Idade)
-                </td>
-                <td class="text-center">
-                    @Html.DisplayFor(modelItem => item.NomeRaça)
-                </td>
-                <td class="text-center">
-                    @Html.DisplayFor(modelItem => item.Sexo)
-                </td>
-                <td class="text-center">
-                    @Html.DisplayFor(modelItem => item.Porte)
-                </td>
-                <td class="text-center">
-                    @Html.DisplayFor(modelItem => item.Castrado)
-                </td>
-                <td class="text-center" hidden>
-                    @Html.DisplayFor(modelItem => item.OBS)
-                </td>
+            }
+            <td class="text-center">
+                @Html.DisplayFor(modelItem => item.NomePet)
+            </td>
+            <td class="text-center">
+                @Html.DisplayFor(modelItem => item.TipoPet)
+            </td>
+            <td class="text-center">
+                @Html.DisplayFor(modelItem => item.DataNascimento)
+            </td>
+            <td class="text-center">
+                @Html.DisplayFor(modelItem => item.Situacao)
+            </td>
+            <td class="text-center">
+                @Html.DisplayFor(modelItem => item.Idade)
+            </td>
+            <td class="text-center">
+                @Html.DisplayFor(modelItem => item.NomeRaça)
+            </td>
+            <td class="text-center">
+                @Html.DisplayFor(modelItem => item.Sexo)
+            </td>
+            <td class="text-center">
+                @Html.DisplayFor(modelItem => item.Porte)
+            </td>
+            <td class="text-center">
+                @Html.DisplayFor(modelItem => item.Castrado)
+            </td>
+            <td class="text-center" hidden>
+                @Html.DisplayFor(modelItem => item.OBS)
+            </td>
+            @if (Session["Perfil"] != null)
+            {
                 <td class="text-center">
                     <button class="btn btn-success center-block" onclick="$('#cadastrar-form').submit()">Capturar Amigo</button>
                     <br />
+
                     <!--Configuração do Botão que vai Abrir o Modal, onde será definido os parametros do Modal com os dados que
                     irá aparecer no JQuery-->
 
@@ -120,6 +123,28 @@
                         Detalhes
                     </button>
                 </td>
+            }
+            else
+            {
+                <td class="text-center">
+                    <button class="btn btn-primary BtnDetalhes"
+                            data-Imagem="@item.Imagem"
+                            data-NomePet="@item.NomePet"
+                            data-TipoPet="@item.TipoPet"
+                            data-Situacao="@item.Situacao"
+                            data-Idade="@item.Idade"
+                            data-NomeRaca="@item.NomeRaça"
+                            data-Sexo="@item.Sexo"
+                            data-Porte="@item.Porte"
+                            data-Castrado="@item.Castrado"
+                            data-DataNascimento="@item.DataNascimento"
+                            data-OBS="@item.OBS"
+                            data-toggle="modal"
+                            data-target="#ModalDetalhes">
+                        Detalhes
+                    </button>
+                  </td>
+            }
 
             </tr>
         }
