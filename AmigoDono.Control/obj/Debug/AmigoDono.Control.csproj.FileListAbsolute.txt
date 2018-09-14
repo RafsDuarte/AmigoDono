@@ -156,5 +156,3 @@ D:\GitHub\AmigoDono\AmigoDono.Control\obj\Debug\AmigoDono.Control.csproj.CoreCom
 D:\GitHub\AmigoDono\AmigoDono.Control\obj\Debug\AmigoDono.Control.csproj.CopyComplete
 D:\GitHub\AmigoDono\AmigoDono.Control\obj\Debug\AmigoDono.Control.dll
 D:\GitHub\AmigoDono\AmigoDono.Control\obj\Debug\AmigoDono.Control.pdb
-D:\GitHub\AmigoDono\AmigoDono.Control\bin\Debug\AmigoDono.Control.dll.CodeAnalysisLog.xml
-D:\GitHub\AmigoDono\AmigoDono.Control\bin\Debug\AmigoDono.Control.dll.lastcodeanalysissucceeded

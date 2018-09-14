@@ -882,5 +882,3 @@ D:\GitHub\AmigoDono\AmigoDono.View\obj\Debug\AmigoDono.View.csproj.CoreCompileIn
 D:\GitHub\AmigoDono\AmigoDono.View\obj\Debug\AmigoDono.View.csproj.CopyComplete
 D:\GitHub\AmigoDono\AmigoDono.View\obj\Debug\AmigoDono.View.exe
 D:\GitHub\AmigoDono\AmigoDono.View\obj\Debug\AmigoDono.View.pdb
-D:\GitHub\AmigoDono\AmigoDono.View\bin\Debug\AmigoDono.View.exe.CodeAnalysisLog.xml
-D:\GitHub\AmigoDono\AmigoDono.View\bin\Debug\AmigoDono.View.exe.lastcodeanalysissucceeded
