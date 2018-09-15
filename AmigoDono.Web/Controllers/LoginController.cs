@@ -18,6 +18,12 @@ namespace AmigoDono.Web.Controllers
             return View();
         }
 
+        public ActionResult Signout()
+        {
+            Session.Clear();
+            return RedirectToAction("Index", "Home");
+        }
+
         private bool VerificaLogin(string Email, string Senha)
         {
             AMIGO oAmigo = repositoryAmigo.VerificaLogin(Email, Senha);
@@ -25,11 +31,18 @@ namespace AmigoDono.Web.Controllers
             {
                 ViewBag.Nome = oAmigo.Nome;
                 return true;
-
             }
 
             return false;
         }
+
+        private string VerificaUsuario(string Email)
+        {
+            AMIGO oAmigo = repositoryAmigo.VerificaUsuario(Email);
+                string nome = oAmigo.Nome;
+                return nome;
+        }
+
 
         [HttpPost]
 
@@ -39,6 +52,7 @@ namespace AmigoDono.Web.Controllers
             {
                 if (VerificaLogin(oLogin.Email, oLogin.Senha))
                 {
+                    VerificaUsuario(oLogin.Email);
                     Perfil oPerfil = new Perfil(oLogin.Email);
                     Session["Perfil"] = oPerfil;
                     // Cookie de autentificação que fica salvo para ser lido nas sessões.
@@ -53,7 +67,6 @@ namespace AmigoDono.Web.Controllers
                     HttpCookie AuthCookie = new HttpCookie(AuthCookieName, encryptedTicket);
                     // Adiciona o cookie no cliente.
                     Response.Cookies.Add(AuthCookie);
-
                     // Se estiver autenticado, redireciona para a Home.
                     return RedirectToAction("Index", "Home");
                 }
