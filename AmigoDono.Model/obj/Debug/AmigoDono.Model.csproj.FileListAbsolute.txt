@@ -154,3 +154,16 @@ C:\GitHub\AmigoDono\AmigoDono.Model\obj\Debug\AmigoDono.Model.csproj.CoreCompile
 C:\GitHub\AmigoDono\AmigoDono.Model\obj\Debug\AmigoDono.Model.csproj.CopyComplete
 C:\GitHub\AmigoDono\AmigoDono.Model\obj\Debug\AmigoDono.Model.dll
 C:\GitHub\AmigoDono\AmigoDono.Model\obj\Debug\AmigoDono.Model.pdb
+D:\GitHub\AmigoDono\AmigoDono.Model\bin\Debug\AmigoDono.Model.dll.config
+D:\GitHub\AmigoDono\AmigoDono.Model\bin\Debug\AmigoDono.Model.dll
+D:\GitHub\AmigoDono\AmigoDono.Model\bin\Debug\AmigoDono.Model.pdb
+D:\GitHub\AmigoDono\AmigoDono.Model\bin\Debug\EntityFramework.dll
+D:\GitHub\AmigoDono\AmigoDono.Model\bin\Debug\EntityFramework.SqlServer.dll
+D:\GitHub\AmigoDono\AmigoDono.Model\bin\Debug\EntityFramework.xml
+D:\GitHub\AmigoDono\AmigoDono.Model\bin\Debug\EntityFramework.SqlServer.xml
+D:\GitHub\AmigoDono\AmigoDono.Model\obj\Debug\AmigoDono.Model.csproj.CoreCompileInputs.cache
+D:\GitHub\AmigoDono\AmigoDono.Model\obj\Debug\AmigoDono.Model.csproj.CopyComplete
+D:\GitHub\AmigoDono\AmigoDono.Model\obj\Debug\AmigoDono.Model.dll
+D:\GitHub\AmigoDono\AmigoDono.Model\obj\Debug\AmigoDono.Model.pdb
+D:\GitHub\AmigoDono\AmigoDono.Model\bin\Debug\AmigoDono.Model.dll.CodeAnalysisLog.xml
+D:\GitHub\AmigoDono\AmigoDono.Model\bin\Debug\AmigoDono.Model.dll.lastcodeanalysissucceeded
