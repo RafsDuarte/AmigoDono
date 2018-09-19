@@ -56,7 +56,7 @@ namespace AmigoDono.Model.Repositories
 
         public List<vw_PET> ListarPets()
         {
-            return odb.vw_PET.OrderBy(p => p.NomePet).ToList();
+            return (from p in odb.vw_PET where p.Situacao == "Para Adoção" orderby p.NomePet select p).ToList();
         }
         public void Alterar(PET oPet, bool attach = true)
         {

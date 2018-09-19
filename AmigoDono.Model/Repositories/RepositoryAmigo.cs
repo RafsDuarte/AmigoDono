@@ -36,6 +36,11 @@ namespace AmigoDono.Model.Repositories
             return (from p in odb.AMIGO where p.Email.Equals(email) && p.Senha.Equals(senha) select p).FirstOrDefault();
         }
 
+        public AMIGO VerificaUsuario(string email)
+        {
+            return (from p in odb.AMIGO where p.Email.Equals(email) select p).FirstOrDefault();
+        }
+
         public AMIGO SelecionarID(int ID)
         {
             return (from p in odb.AMIGO where p.IDA == ID select p).FirstOrDefault();

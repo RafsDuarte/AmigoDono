@@ -21,6 +21,7 @@ bld/
 [Bb]in/
 [Oo]bj/
 [Ll]og/
+*.vs/AmigoDono/v15/Server/sqlite3/storage.ide
 
 # Visual Studio 2015 cache/options directory
 .vs/

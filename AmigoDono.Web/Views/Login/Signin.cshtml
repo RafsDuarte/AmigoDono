@@ -55,7 +55,7 @@
         <button class="btn btn-lg btn-primary btn-block" onclick="$('#login-form').submit();">Entrar</button>
         <br />
         <p class="text-center">@Html.ActionLink("Não tem conta? Faça o seu cadastro", "Create", "AMIGO")</p>
-
+        @ViewBag.Nome
     }
 
 
@@ -73,7 +73,7 @@
                     <p>@Html.Raw(ViewBag.Mensagem)</p>
                 </div>
                 <div class="modal-footer">
-                    <button type="button" class="btn btn-primary" data-dismiss="modal">Fechar</button>
+                    <button type="button" class="btn btn-primary" data-dismiss="modal">OK</button>
                 </div>
             </div>
         </div>

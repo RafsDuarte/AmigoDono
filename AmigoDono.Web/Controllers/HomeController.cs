@@ -12,6 +12,7 @@ namespace AmigoDono.Web.Controllers
     public class HomeController : Controller
     {
         RepositoryPet _Repository;
+        RepositoryAmigo _RepositoryAmigo;
 
         public HomeController()
         {
@@ -32,7 +33,7 @@ namespace AmigoDono.Web.Controllers
 
             // Busca atráves do objeto User.Identity, criado automaticamente no ASP.NET.
             var Usuario1 = System.Web.HttpContext.Current.User.Identity.Name;
-
+            //ViewBag.Nome = _RepositoryAmigo.SelecionarNome();
             List<vw_PET> Pets = _Repository.ListarPets();
             return View(Pets);
         }
