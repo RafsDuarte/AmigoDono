@@ -12,7 +12,6 @@ namespace AmigoDono.Web.Controllers
     public class HomeController : Controller
     {
         RepositoryPet _Repository;
-        RepositoryAmigo _RepositoryAmigo;
 
         public HomeController()
         {
