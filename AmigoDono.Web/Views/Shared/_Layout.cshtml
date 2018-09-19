@@ -32,15 +32,16 @@
                 </ul>
           
                 <ul class="nav navbar-nav navbar-right btn-default" style="margin:0px; border-radius: 5px; margin-right: 5px">
-                    <li>@if (Session["Perfil"] == null)
-                    {
+                    <li>
+                        @if (Session["Perfil"] == null)
+                        {
                             @Html.ActionLink("Entrar", "Signin", "Login")
-                    }
-                    else
-                    {
-                        <p>@Html.Raw(ViewBag.Nome)</p>
-                    }
-                    </li>
+                        }
+                        else
+                        {
+                            @Html.ActionLink("Sair", "Signout", "Login")
+                        }
+                                    </li>
                 </ul>
             </div>
         </nav>
