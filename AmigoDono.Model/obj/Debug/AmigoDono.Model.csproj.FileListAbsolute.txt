@@ -164,3 +164,4 @@ D:\AmigoDono\AmigoDono.Model\obj\Debug\AmigoDono.Model.csproj.CoreCompileInputs.
 D:\AmigoDono\AmigoDono.Model\obj\Debug\AmigoDono.Model.csproj.CopyComplete
 D:\AmigoDono\AmigoDono.Model\obj\Debug\AmigoDono.Model.dll
 D:\AmigoDono\AmigoDono.Model\obj\Debug\AmigoDono.Model.pdb
+C:\GitHub\AmigoDono\AmigoDono.Model\obj\Debug\AmigoDono.Model.csprojAssemblyReference.cache
