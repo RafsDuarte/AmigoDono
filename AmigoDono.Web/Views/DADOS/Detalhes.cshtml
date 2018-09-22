@@ -1,155 +1,125 @@
-﻿@model IEnumerable<AmigoDono.Model.AMIGO>
+﻿@model AmigoDono.Model.AMIGO
 
 @{
-    ViewBag.Title = "Detalhes";
+    ViewBag.Title = "Meus Dados";
 }
 
 <h2>Detalhes</h2>
+<div class="container">
+    <div class="py-5 text-center">
+        <h2 class="mb-3">Meus Dados</h2>
+    </div>
+    <div class="col-md-8" style="margin-left: 150px">
+        <div class="row">
+            <div class="col-md-12 mb-3">
+                @Html.LabelFor(model => model.Nome)
+                @Html.EditorFor(model => model.Nome, new { htmlAttributes = new { @class = "form-control" } })
+            </div>
+        </div>
+        <div class="mb-3">
+            @Html.LabelFor(model => model.DataNascimento)
+            <div class="input-group">
+                <div class="input-group-prepend">
+                    <span class="input-group-text"></span>
+                </div>
+                @Html.EditorFor(model => model.DataNascimento, new { htmlAttributes = new { @class = "form-control", @id = "datepicker" } })
+            </div>
+        </div>
+        <div class="mb-3">
+            @Html.LabelFor(model => model.CPF)
+            <div class="input-group">
+                <div class="input-group-prepend">
+                    <span class="input-group-text"></span>
+                </div>
+                @Html.EditorFor(model => model.CPF, new { htmlAttributes = new { @class = "form-control" } })
+            </div>
+        </div>
+        <div class="mb-3">
+            @Html.LabelFor(model => model.CNPJ)
+            <div class="input-group">
+                <div class="input-group-prepend">
+                    <span class="input-group-text"></span>
+                </div>
+                @Html.EditorFor(model => model.CNPJ, new { htmlAttributes = new { @class = "form-control" } })
+            </div>
+        </div>
+        <div class="mb-3">
+            @Html.LabelFor(model => model.Funcao)
+            <div class="input-group">
+                <div class="input-group-prepend">
+                    <span class="input-group-text"></span>
+                </div>
+                @Html.EditorFor(model => model.Funcao, new { htmlAttributes = new { @class = "form-control" } })
+            </div>
+        </div>
+        <div class="mb-3">
+            @Html.LabelFor(model => model.Ajuda)
+            <div class="input-group">
+                <div class="input-group-prepend">
+                    <span class="input-group-text"></span>
+                </div>
+                @Html.EditorFor(model => model.Ajuda, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.Ajuda, "", new { @class = "text-danger" })
+            </div>
+        </div>
+        <div class="mb-3">
+            @Html.LabelFor(model => model.Senha)
+            <div class="input-group">
+                <div class="input-group-prepend">
+                    <span class="input-group-text"></span>
+                </div>
+                @Html.EditorFor(model => model.Senha, new { htmlAttributes = new { @class = "form-control", @type = "password" } })
+            </div>
+        </div>
+        <div class="mb-3">
+            @Html.LabelFor(model => model.Email)
+            @Html.EditorFor(model => model.Email, new { htmlAttributes = new { @class = "form-control", @type = "email" } })
+        </div>
+        <div class="row">
+            <div class="col-md-5 mb-3">
+                @Html.LabelFor(model => model.Cidade)
+                @Html.EditorFor(model => model.Cidade, new { htmlAttributes = new { @class = "form-control" } })
+            </div>
+            <div class="col-md-4 mb-3">
+                @Html.LabelFor(model => model.UF)
+                @Html.EditorFor(model => model.UF, new { htmlAttributes = new { @class = "custom-select d-block w-100 form-control" } })
+            </div>
+            <div class="col-md-3 mb-3">
+                @Html.LabelFor(model => model.CEP)
+                @Html.EditorFor(model => model.CEP, new { htmlAttributes = new { @class = "form-control", @id = "txtCEP" } })
+            </div>
+            <div class="col-md-5 mb-3">
+                @Html.LabelFor(model => model.NomeLogradouro)
+                @Html.EditorFor(model => model.NomeLogradouro, new { htmlAttributes = new { @class = "form-control" } })
+            </div>
+            <div class="col-md-5 mb-3">
+                @Html.LabelFor(model => model.Logradouro)
+                @Html.EditorFor(model => model.Logradouro, new { htmlAttributes = new { @class = "form-control" } })
+            </div>
+            <div class="col-md-5 mb-3">
+                @Html.LabelFor(model => model.Numero)
+                @Html.EditorFor(model => model.Numero, new { htmlAttributes = new { @class = "form-control" } })
+            </div>
+            <div class="col-md-5 mb-3">
+                @Html.LabelFor(model => model.Complemento)
+                @Html.EditorFor(model => model.Complemento, new { htmlAttributes = new { @class = "form-control" } })
+            </div>
 
-
-<table class="table">
-    <tr>
-        <th>
-            @Html.DisplayNameFor(model => model.Nome)
-        </th>
-        <th>
-            @Html.DisplayNameFor(model => model.Funcao)
-        </th>
-        <th>
-            @Html.DisplayNameFor(model => model.Senha)
-        </th>
-        <th>
-            @Html.DisplayNameFor(model => model.CPF)
-        </th>
-        <th>
-            @Html.DisplayNameFor(model => model.CNPJ)
-        </th>
-        <th>
-            @Html.DisplayNameFor(model => model.DataNascimento)
-        </th>
-        <th>
-            @Html.DisplayNameFor(model => model.DataCadastro)
-        </th>
-        <th>
-            @Html.DisplayNameFor(model => model.Email)
-        </th>
-        <th>
-            @Html.DisplayNameFor(model => model.CEP)
-        </th>
-        <th>
-            @Html.DisplayNameFor(model => model.Logradouro)
-        </th>
-        <th>
-            @Html.DisplayNameFor(model => model.NomeLogradouro)
-        </th>
-        <th>
-            @Html.DisplayNameFor(model => model.Numero)
-        </th>
-        <th>
-            @Html.DisplayNameFor(model => model.Complemento)
-        </th>
-        <th>
-            @Html.DisplayNameFor(model => model.Bairro)
-        </th>
-        <th>
-            @Html.DisplayNameFor(model => model.Cidade)
-        </th>
-        <th>
-            @Html.DisplayNameFor(model => model.UF)
-        </th>
-        <th>
-            @Html.DisplayNameFor(model => model.Telefone)
-        </th>
-        <th>
-            @Html.DisplayNameFor(model => model.Celular)
-        </th>
-        <th>
-            @Html.DisplayNameFor(model => model.Ajuda)
-        </th>
-        <th>
-            @Html.DisplayNameFor(model => model.Imagem)
-        </th>
-        <th></th>
-    </tr>
-
-    @foreach (var item in Model)
-    {
-        <tr>
-            <td>
-                @Html.DisplayFor(modelItem => item.Nome)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Funcao)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Senha)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.CPF)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.CNPJ)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.DataNascimento)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.DataCadastro)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Email)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.CEP)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Logradouro)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.NomeLogradouro)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Numero)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Complemento)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Bairro)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Cidade)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.UF)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Telefone)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Celular)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Ajuda)
-            </td>
-
-            @if (item.Imagem != null)
-            {
-                <td class="text-center">
-                    @{
-                        var base64 = Convert.ToBase64String(item.Imagem);
-                        var imgSrc = String.Format("data:image/gif;base64,{0}", base64);
-                    }
-                    <img src='@imgSrc' style="max-width:100px; max-height:100px;" />
-                </td>
-            }
-
-            <td>
-                @Html.ActionLink("Edit", "Edit", new { id = item.IDA }) |
-                @Html.ActionLink("Details", "Details", new { id = item.IDA }) |
-                @Html.ActionLink("Delete", "Delete", new { id = item.IDA })
-            </td>
-        </tr>
-    }
-
-</table>
+            <div class="col-md-10 mb-3">
+                @Html.LabelFor(model => model.Bairro)
+                @Html.EditorFor(model => model.Bairro, new { htmlAttributes = new { @class = "form-control" } })
+            </div>
+            <div class="col-md-5 mb-3">
+                @Html.LabelFor(model => model.Telefone)
+                @Html.EditorFor(model => model.Telefone, new { htmlAttributes = new { @class = "form-control" } })
+            </div>
+            <div class="col-md-5 mb-3">
+                @Html.LabelFor(model => model.Celular)
+                @Html.EditorFor(model => model.Celular, new { htmlAttributes = new { @class = "form-control" } })
+            </div>
+        </div>
+    </div>
+</div>
+        <p>
+            @Html.ActionLink("Back to List", "Index")
+        </p>

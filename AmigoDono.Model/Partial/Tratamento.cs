@@ -19,11 +19,11 @@ namespace AmigoDono.Model
             [DisplayName("IDPet")]
             public object IDPet { get; set; }
             [DisplayName("Data")]
-            public DateTime Data { get; set; }
+            public DateTime DataTratamento { get; set; }
             [DisplayName("Observação")]
             public object OBS { get; set; }
             [DisplayName("Descricao")]
-            public object Descricao { get; set; }
+            public object IDDescricao { get; set; }
             [DisplayName("Responsavel")]
             public object IDResponsavel { get; set; }
         }

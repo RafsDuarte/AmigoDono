@@ -94,7 +94,7 @@
     <Compile Include="Partial\Amigo.cs" />
     <Compile Include="Partial\Controle.cs" />
     <Compile Include="Partial\Denuncia.cs" />
-    <Compile Include="Partial\Tratamentos.cs" />
+    <Compile Include="Partial\Tratamento.cs" />
     <Compile Include="Partial\Pet.cs" />
     <Compile Include="Partial\vw_Pet.cs" />
     <Compile Include="PET.cs">

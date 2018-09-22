@@ -32,22 +32,15 @@ namespace AmigoDono.Web.Controllers
 
             // Busca atráves do objeto User.Identity, criado automaticamente no ASP.NET.
             var Usuario1 = System.Web.HttpContext.Current.User.Identity.Name;
-            //ViewBag.Nome = _RepositoryAmigo.SelecionarNome();
+            ViewBag.Nome = Usuario;
             List<vw_PET> Pets = _Repository.ListarPets();
             return View(Pets);
         }
 
         public ActionResult CapturarAmigo()
         {
-            if (Session["Perfil"] != null)
-            {
                 ViewBag.Mensagem = "Parabéns! Você conseguiu um amiguinho!!";
                 return RedirectToAction("Index", "Home");
-            }
-            else
-            {
-                return RedirectToAction("Signin", "Login");
-            }
         }
     }
 }
