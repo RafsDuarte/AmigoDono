@@ -20,8 +20,7 @@ namespace AmigoDono.Web.Controllers
         // GET: DADOS
         public ActionResult Detalhes()
         {
-            List<AMIGO> Amigo = _Repository.ListarAmigos();
-            return View(Amigo);
+            return View();
         }
     }
 }

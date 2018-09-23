@@ -36,14 +36,6 @@ namespace AmigoDono.Web.Controllers
             return false;
         }
 
-        private string VerificaUsuario(string Email)
-        {
-            AMIGO oAmigo = repositoryAmigo.VerificaUsuario(Email);
-                string nome = oAmigo.Nome;
-                return nome;
-        }
-
-
         [HttpPost]
 
         public ActionResult RealizaLogin(Login oLogin)
@@ -52,7 +44,6 @@ namespace AmigoDono.Web.Controllers
             {
                 if (VerificaLogin(oLogin.Email, oLogin.Senha))
                 {
-                    VerificaUsuario(oLogin.Email);
                     Perfil oPerfil = new Perfil(oLogin.Email);
                     Session["Perfil"] = oPerfil;
                     // Cookie de autentificação que fica salvo para ser lido nas sessões.

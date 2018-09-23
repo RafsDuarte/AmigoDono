@@ -12,11 +12,12 @@ namespace AmigoDono.Web.Controllers
     public class HomeController : Controller
     {
         RepositoryPet _Repository;
-        RepositoryAmigo _RepositoryAmigo;
+        RepositoryControle _RepositoryC;
 
         public HomeController()
         {
             _Repository = new RepositoryPet();
+            _RepositoryC = new RepositoryControle();
         }
         
         [Authorize]
@@ -33,22 +34,16 @@ namespace AmigoDono.Web.Controllers
 
             // Busca atráves do objeto User.Identity, criado automaticamente no ASP.NET.
             var Usuario1 = System.Web.HttpContext.Current.User.Identity.Name;
-            //ViewBag.Nome = _RepositoryAmigo.SelecionarNome();
+            ViewBag.Nome = Usuario;
             List<vw_PET> Pets = _Repository.ListarPets();
             return View(Pets);
         }
 
-        public ActionResult CapturarAmigo()
+        public ActionResult CapturarAmigo(CONTROLE oContrle)
         {
-            if (Session["Perfil"] != null)
-            {
                 ViewBag.Mensagem = "Parabéns! Você conseguiu um amiguinho!!";
+                _RepositoryC.Incluir(oContrle);
                 return RedirectToAction("Index", "Home");
-            }
-            else
-            {
-                return RedirectToAction("Signin", "Login");
-            }
         }
     }
 }

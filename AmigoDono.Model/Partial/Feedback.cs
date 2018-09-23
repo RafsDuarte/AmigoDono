@@ -20,6 +20,9 @@ namespace AmigoDono.Model
             [DisplayName("Nome")]
             public object Nome { get; set; }
             [DisplayName("Email")]
+            [Required(ErrorMessage = "O campo {0} é obrigatorio!")]
+            [DataType(DataType.EmailAddress)]
+            [StringLength(100, ErrorMessage = "O campo {0} pode ter no máximo {1} e no minimo {2} caracteres")]
             public object Email { get; set; }
 
             [DisplayName("Opinião")]

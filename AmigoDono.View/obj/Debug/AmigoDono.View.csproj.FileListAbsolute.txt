@@ -1031,3 +1031,4 @@ C:\GitHub\AmigoDono\AmigoDono.View\obj\Debug\AmigoDono.View.csproj.CoreCompileIn
 C:\GitHub\AmigoDono\AmigoDono.View\obj\Debug\AmigoDono.View.csproj.CopyComplete
 C:\GitHub\AmigoDono\AmigoDono.View\obj\Debug\AmigoDono.View.exe
 C:\GitHub\AmigoDono\AmigoDono.View\obj\Debug\AmigoDono.View.pdb
+C:\GitHub\AmigoDono\AmigoDono.View\bin\Debug\Microsoft.VisualStudio.WCFReference.Interop.xml
