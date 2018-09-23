@@ -12,10 +12,12 @@ namespace AmigoDono.Web.Controllers
     public class HomeController : Controller
     {
         RepositoryPet _Repository;
+        RepositoryControle _RepositoryC;
 
         public HomeController()
         {
             _Repository = new RepositoryPet();
+            _RepositoryC = new RepositoryControle();
         }
         
         [Authorize]
@@ -37,9 +39,10 @@ namespace AmigoDono.Web.Controllers
             return View(Pets);
         }
 
-        public ActionResult CapturarAmigo()
+        public ActionResult CapturarAmigo(CONTROLE oContrle)
         {
                 ViewBag.Mensagem = "Parabéns! Você conseguiu um amiguinho!!";
+                _RepositoryC.Incluir(oContrle);
                 return RedirectToAction("Index", "Home");
         }
     }

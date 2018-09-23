@@ -24,12 +24,15 @@ namespace AmigoDono.Model
             public object TextoDenuncia { get; set; }
 
             [DisplayName("Email")]
+            [Required(ErrorMessage = "O campo {0} é obrigatorio!")]
+            [DataType(DataType.EmailAddress)]
+            [StringLength(100, ErrorMessage = "O campo {0} pode ter no máximo {1} e no minimo {2} caracteres")]
             public object Email { get; set; }
 
             [DisplayName("CEP")]
             public object CEP { get; set; }
 
-            [DisplayName("Logradouro")]
+            [DisplayName("Tipo de Logradouro")]
             public object TipoLogradouro { get; set; }
 
             [DisplayName("Nome Logradouro")]

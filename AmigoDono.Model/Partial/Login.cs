@@ -10,8 +10,10 @@ namespace AmigoDono.Model
 {
     public class Login
     {
-        [Required]
         [DisplayName("Email")]
+        [Required(ErrorMessage = "O campo {0} é obrigatorio!")]
+        [DataType(DataType.EmailAddress)]
+        [StringLength(100, ErrorMessage = "O campo {0} pode ter no máximo {1} e no minimo {2} caracteres")]
         public string Email { get; set; }
         [Required]
         [DisplayName("Senha")]
