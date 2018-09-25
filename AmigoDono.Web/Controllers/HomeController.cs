@@ -39,10 +39,11 @@ namespace AmigoDono.Web.Controllers
             return View(Pets);
         }
 
-        public ActionResult CapturarAmigo(PET oPet , CONTROLE oControle, AMIGO oAmigo)
+        public ActionResult CapturarAmigo()
         {
             ViewBag.Mensagem = "Parabéns! Você conseguiu um amiguinho!!";
-            _RepositoryC.Incluir(oControle);
+            /*_RepositoryC.Incluir(oContrle)*/
+            ;
             return RedirectToAction("Index", "Home");
         }
     }

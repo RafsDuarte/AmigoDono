@@ -15,6 +15,8 @@
 
 <h2 class="text-center" style="padding-top:50px">Adote um amiguinho</h2>
 
+@if ()
+
 @using (Html.BeginForm("CapturarAmigo", "Home", FormMethod.Get, new { id = "cadastrar-form", role = "form", @class = "form-signin" }))
 {
     <table class="table table-bordered">
@@ -109,7 +111,7 @@
             {
                 <td class="text-center">
                     <button class="btn btn-success center-block" data-toggle="modal"
-                            data-target="#ModalMensagem"  data-ID="@item.IDP" onclick="$('#cadastrar-form').submit()">
+                            data-target="#ModalMensagem" onclick="$('#cadastrar-form').submit()">
                         Capturar Amigo
                     </button>
 
@@ -118,7 +120,7 @@
                     <!--Configuração do Botão que vai Abrir o Modal, onde será definido os parametros do Modal com os dados que
             irá aparecer no JQuery-->
 
-                    <button class="btn btn-primary BtnDetalhes" onclick="return false"
+                    <button class="btn btn-primary BtnDetalhes"
                             data-Imagem="@item.Imagem"
                             data-NomePet="@item.NomePet"
                             data-TipoPet="@item.TipoPet"
@@ -139,7 +141,7 @@
             else
             {
                 <td class="text-center">
-                    <button class="btn btn-primary BtnDetalhes" onclick="return false"
+                    <button class="btn btn-primary BtnDetalhes"
                             data-Imagem="@item.Imagem"
                             data-NomePet="@item.NomePet"
                             data-TipoPet="@item.TipoPet"
