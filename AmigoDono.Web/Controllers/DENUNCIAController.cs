@@ -17,27 +17,6 @@ namespace AmigoDono.Web.Views
     {
         private RepositoryDenuncia _repositoryDenuncia = new RepositoryDenuncia();
 
-        // GET: DENUNCIA
-        public ActionResult Index()
-        {
-            return View(_repositoryDenuncia.SelecionarTodos());
-        }
-
-        // GET: DENUNCIA/Details/5
-        //public ActionResult Details(int? id)
-        //{
-        //    if (id == null)
-        //    {
-        //        return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
-        //    }
-        //    DENUNCIA dENUNCIA = db.DENUNCIA.Find(id);
-        //    if (dENUNCIA == null)
-        //    {
-        //        return HttpNotFound();
-        //    }
-        //    return View(dENUNCIA);
-        //}
-
         // GET: DENUNCIA/Create
         public ActionResult Create()
         {
