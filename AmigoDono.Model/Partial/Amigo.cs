@@ -70,7 +70,7 @@ namespace AmigoDono.Model
             [StringLength(100, ErrorMessage = "O campo {0} pode ter no máximo {1} e no minimo {2} caracteres")]
             public object NomeLogradouro { get; set; }
 
-            [DisplayName("Numero")]
+            [DisplayName("Número")]
             public object Numero { get; set; }
 
             [DisplayName("Complemento")]
