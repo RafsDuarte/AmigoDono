@@ -106,7 +106,7 @@
                             @Html.EditorFor(model => model.Cidade, new { htmlAttributes = new { @class = "form-control" } })
                             @Html.ValidationMessageFor(model => model.Cidade, "", new { @class = "text-danger" })
                         </div>
-                        <div class="col-md-4 mb-3">
+                        <div class="col-md-2 mb-3">
                             @Html.LabelFor(model => model.UF)
                             @Html.EditorFor(model => model.UF, new { htmlAttributes = new { @class = "custom-select d-block w-100 form-control" } })
                             @Html.ValidationMessageFor(model => model.UF, "", new { @class = "text-danger" })
@@ -126,12 +126,12 @@
                             @Html.EditorFor(model => model.Logradouro, new { htmlAttributes = new { @class = "form-control" } })
                             @Html.ValidationMessageFor(model => model.Logradouro, "", new { @class = "text-danger" })
                         </div>
-                        <div class="col-md-5 mb-3">
+                        <div class="col-md-3 mb-3">
                             @Html.LabelFor(model => model.Numero)
                             @Html.EditorFor(model => model.Numero, new { htmlAttributes = new { @class = "form-control" } })
                             @Html.ValidationMessageFor(model => model.Numero, "", new { @class = "text-danger" })
                         </div>
-                        <div class="col-md-5 mb-3">
+                        <div class="col-md-7 mb-3">
                             @Html.LabelFor(model => model.Complemento)
                             @Html.EditorFor(model => model.Complemento, new { htmlAttributes = new { @class = "form-control", @placeholder = "Rua dos lobos, nº 0" } })
                             @Html.ValidationMessageFor(model => model.Complemento, "", new { @class = "text-danger" })

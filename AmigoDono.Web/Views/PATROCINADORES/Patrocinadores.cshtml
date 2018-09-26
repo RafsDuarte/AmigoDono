@@ -1,0 +1,77 @@
+﻿@model IEnumerable<AmigoDono.Model.AMIGO>
+
+@{
+    ViewBag.Title = "Patrocinadores";
+}
+
+
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="~/Content/imagens/Icone.ico">
+
+    <!-- Bootstrap core CSS -->
+    <link href="~/Content/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="~/Content/css/carrousel.css" rel="stylesheet">
+</head>
+<body style="top:500px">
+
+    <h2 class="text-center" style="padding-top:50px">Patrocinadores</h2>
+
+    <table class="table table-bordered">
+        <tr>
+            <th class="text-center" hidden>
+                @Html.DisplayNameFor(model => model.IDA)
+            </th>
+            <th class="text-center">
+                @Html.DisplayNameFor(model => model.Imagem)
+            </th>
+            <th class="text-center">
+                @Html.DisplayNameFor(model => model.Nome)
+            </th>
+            <th class="text-center">
+                @Html.DisplayNameFor(model => model.Telefone)
+            </th>
+            <th></th>
+        </tr>
+
+        @foreach (var item in Model)
+        {
+        <tr>
+            <td class="text-center" hidden>
+                @Html.DisplayFor(modelItem => item.IDA)
+            </td>
+            @if (item.Imagem != null)
+            {
+                <td class="text-center">
+                    @{
+                        var base64 = Convert.ToBase64String(item.Imagem);
+                        var imgSrc = String.Format("data:image/gif;base64,{0}", base64);
+                    }
+                    <img src='@imgSrc' style="max-width:100px; max-height:100px;" />
+                </td>
+            }
+            else
+            {
+                <td class="text-center">
+                 <img src="~/Content/imagens/Foto em branco.jpg" style="max-width:100px; max-height:100px;" />
+                </td>
+            }
+                <td class="text-center">
+                    @Html.DisplayFor(modelItem => item.Nome)
+                </td>
+                <td class="text-center">
+                    @Html.DisplayFor(modelItem => item.Telefone)
+                </td>
+            </tr>
+            }
+        </table>
+</body>
+</html>
+

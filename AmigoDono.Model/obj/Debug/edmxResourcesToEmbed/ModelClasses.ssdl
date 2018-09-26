@@ -70,7 +70,7 @@
     <Key>
       <PropertyRef Name="IDF" />
     </Key>
-    <Property Name="IDF" Type="int" Nullable="false" />
+    <Property Name="IDF" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
     <Property Name="Nome" Type="varchar(max)" Nullable="false" />
     <Property Name="Email" Type="varchar" MaxLength="100" Nullable="false" />
     <Property Name="Opiniao" Type="varchar(max)" Nullable="false" />

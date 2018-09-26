@@ -74,9 +74,19 @@ namespace AmigoDono.Model.Repositories
             }
         }
 
-        public List<AMIGO> ListarAmigos()
+        public List<AMIGO> ListarAmigo()
         {
             return odb.AMIGO.OrderBy(p => p.Nome).ToList();
+        }
+
+        public List<AMIGO> ListarAmigos()
+        {
+            return (from p in odb.AMIGO /*where p.Funcao == "Pratocinador" */orderby p.Nome select p).ToList();
+        }
+
+        public AMIGO SelecionarPorEmail(string Email)
+        {
+            return odb.AMIGO.Where(p => p.Email.Equals(Email)).FirstOrDefault();
         }
 
         public void Incluir(AMIGO oAmigo)

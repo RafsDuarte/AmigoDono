@@ -13,6 +13,7 @@
 
     @Scripts.Render("~/bundles/modernizr")
 </head>
+
 <body style="background-color: #4cc2c4">
     <header>
         <nav class="navbar navbar-default navbar-fixed-top" style="background-color: #ddbb24">
@@ -23,12 +24,13 @@
                     <li>
                         @Html.ActionLink("Meus Dados", "Detalhes", "DADOS")
                     </li>
+                    <li>@Html.ActionLink("Patrocinadores", "Patrocinadores", "PATROCINADORES")</li>
                     <li>@Html.ActionLink("Denúncias", "Create", "DENUNCIA")</li>
                     <li>@Html.ActionLink("Fale Conosco", "FaleConosco", "FEEDBACK")</li>
                     @if (Session["Perfil"] != null)
-                     {
+                    {
                         <li>@ViewBag.Nome</li>
-                     }
+                    }
                 </ul>
 
                 @if (Session["Perfil"] == null)

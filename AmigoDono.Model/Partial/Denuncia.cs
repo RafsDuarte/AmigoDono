@@ -54,6 +54,8 @@ namespace AmigoDono.Model
             public object UF { get; set; }
 
             [DisplayName("Data")]
+            [DataType(DataType.Date)]
+            [DisplayFormat(DataFormatString = "{0:dd/MM/yyyy}")]
             public object DataDenuncia { get; set; }
 
             [DisplayName("Data Resposta")]

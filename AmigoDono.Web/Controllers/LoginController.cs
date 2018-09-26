@@ -20,7 +20,7 @@ namespace AmigoDono.Web.Controllers
 
         public ActionResult Signout()
         {
-            Session.Clear();
+            Session.RemoveAll();
             return RedirectToAction("Index", "Home");
         }
 
@@ -29,7 +29,6 @@ namespace AmigoDono.Web.Controllers
             AMIGO oAmigo = repositoryAmigo.VerificaLogin(Email, Senha);
             if (oAmigo != null)
             {
-                ViewBag.Nome = oAmigo.Nome;
                 return true;
             }
 
@@ -52,7 +51,7 @@ namespace AmigoDono.Web.Controllers
                     FormsAuthenticationTicket authTicket = new FormsAuthenticationTicket(1, oLogin.Email, DateTime.Now, DateTime.Now.AddDays(1), false, string.Join(",", oPerfil.Roles), "~/");
                     // Criptografa o cookie.
                     String encryptedTicket = FormsAuthentication.Encrypt(authTicket);
-
+                    
                     // Cria o cookie http.
                     string AuthCookieName = FormsAuthentication.FormsCookieName;
                     HttpCookie AuthCookie = new HttpCookie(AuthCookieName, encryptedTicket);

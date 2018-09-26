@@ -52,7 +52,7 @@ namespace AmigoDono.Web.Views
                 }
 
                 _repositoryAmigo.Incluir(oAmigo);
-                return RedirectToAction("Index", "Home");
+                return RedirectToAction("Signin", "Login");
 
             }
             
