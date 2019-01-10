@@ -17,7 +17,7 @@ namespace AmigoDono.Web.Helper
                 var _PrincipalContext = new PrincipalContext(ContextType.Machine);
                 return _PrincipalContext.ValidateCredentials(Usuario, Senha);
             }
-            catch(Exception ex)
+            catch (Exception)
             {
                 return false;
             }
