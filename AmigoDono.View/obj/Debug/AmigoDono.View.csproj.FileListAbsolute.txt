@@ -1208,3 +1208,7 @@ C:\GitHub\AmigoDono\AmigoDono.View\obj\Debug\AmigoDono.View.csproj.CoreCompileIn
 C:\GitHub\AmigoDono\AmigoDono.View\obj\Debug\AmigoDono.View.csproj.CopyComplete
 C:\GitHub\AmigoDono\AmigoDono.View\obj\Debug\AmigoDono.View.exe
 C:\GitHub\AmigoDono\AmigoDono.View\obj\Debug\AmigoDono.View.pdb
+C:\GitHub\AmigoDono\AmigoDono.View\bin\Debug\Microsoft.ApplicationInsights.dll
+C:\GitHub\AmigoDono\AmigoDono.View\bin\Debug\Microsoft.AspNet.TelemetryCorrelation.dll
+C:\GitHub\AmigoDono\AmigoDono.View\bin\Debug\Microsoft.ApplicationInsights.xml
+C:\GitHub\AmigoDono\AmigoDono.View\bin\Debug\Microsoft.AspNet.TelemetryCorrelation.xml
