@@ -133,5 +133,10 @@
         private System.Windows.Forms.Label LblNome;
         private System.Windows.Forms.DataGridViewButtonColumn BtnAlterar;
         private System.Windows.Forms.DataGridViewButtonColumn BtnExcluir;
+        private System.Windows.Forms.DataGridViewTextBoxColumn iDTDataGridViewTextBoxColumn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn iDResponsavelDataGridViewTextBoxColumn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn iDPetDataGridViewTextBoxColumn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn tipoDataGridViewTextBoxColumn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataDataGridViewTextBoxColumn;
     }
 }

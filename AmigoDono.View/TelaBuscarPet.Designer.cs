@@ -53,6 +53,7 @@
             this.GrdPet.Name = "GrdPet";
             this.GrdPet.Size = new System.Drawing.Size(502, 346);
             this.GrdPet.TabIndex = 9;
+            this.GrdPet.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.GrdPet_CellContentClick);
             // 
             // BtnEscolher
             // 
@@ -94,6 +95,7 @@
             this.BtnSair.TabIndex = 8;
             this.BtnSair.Text = "Sair";
             this.BtnSair.UseVisualStyleBackColor = true;
+            this.BtnSair.Click += new System.EventHandler(this.BtnSair_Click);
             // 
             // LblNome
             // 
@@ -119,6 +121,7 @@
             this.Controls.Add(this.LblNome);
             this.Name = "TelaBuscarPet";
             this.Text = "TelaBuscarPet";
+            this.Load += new System.EventHandler(this.TelaBuscarPet_Load);
             ((System.ComponentModel.ISupportInitialize)(this.GrdPet)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

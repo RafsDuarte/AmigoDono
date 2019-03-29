@@ -41,7 +41,6 @@
     <Reference Include="System.Core" />
     <Reference Include="System.Runtime.Serialization" />
     <Reference Include="System.Security" />
-    <Reference Include="System.Web" />
     <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
@@ -67,11 +66,8 @@
       <DependentUpon>ModelClasses.tt</DependentUpon>
     </Compile>
     <Compile Include="Helper\Constantes.cs" />
-    <Compile Include="Helper\CustomValidator\CustomValidatorCPFAttribute.cs" />
-    <Compile Include="Helper\CustomValidator\Util.cs" />
     <Compile Include="Helper\Data.cs" />
     <Compile Include="Helper\Mensagens.cs" />
-    <Compile Include="Helper\Perfil.cs" />
     <Compile Include="ModelClasses.Context.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -87,16 +83,14 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>ModelClasses.edmx</DependentUpon>
     </Compile>
-    <Compile Include="Partial\Login.cs" />
     <Compile Include="Partial\Raça.cs" />
-    <Compile Include="Partial\Feedback.cs" />
+    <Compile Include="Partial\Feedback .cs" />
     <Compile Include="Partial\TipoTratamento.cs" />
     <Compile Include="Partial\Amigo.cs" />
     <Compile Include="Partial\Controle.cs" />
     <Compile Include="Partial\Denuncia.cs" />
-    <Compile Include="Partial\Tratamento.cs" />
+    <Compile Include="Partial\Tratamentos.cs" />
     <Compile Include="Partial\Pet.cs" />
-    <Compile Include="Partial\vw_Pet.cs" />
     <Compile Include="PET.cs">
       <DependentUpon>ModelClasses.tt</DependentUpon>
     </Compile>
@@ -104,12 +98,20 @@
     <Compile Include="RAÇA.cs">
       <DependentUpon>ModelClasses.tt</DependentUpon>
     </Compile>
+    <Compile Include="Repositories\RepositoryTipoTratamento .cs" />
+    <Compile Include="Repositories\RepositoryRaça.cs" />
+    <Compile Include="Repositories\RepositoryFeedback .cs" />
     <Compile Include="Repositories\RepositoryAmigo.cs" />
     <Compile Include="Repositories\RepositoryControle.cs" />
     <Compile Include="Repositories\RepositoryDenuncia.cs" />
-    <Compile Include="Repositories\RepositoryFeedback.cs" />
     <Compile Include="Repositories\RepositoryPet.cs" />
     <Compile Include="Repositories\RepositoryTratamento.cs" />
+    <Compile Include="sp_helpdiagramdefinition_Result.cs">
+      <DependentUpon>ModelClasses.tt</DependentUpon>
+    </Compile>
+    <Compile Include="sp_helpdiagrams_Result.cs">
+      <DependentUpon>ModelClasses.tt</DependentUpon>
+    </Compile>
     <Compile Include="TIPOTRATAMENTO.cs">
       <DependentUpon>ModelClasses.tt</DependentUpon>
     </Compile>
@@ -139,6 +141,7 @@
     </EntityDeploy>
     <None Include="ModelClasses.edmx.diagram">
       <DependentUpon>ModelClasses.edmx</DependentUpon>
+      <SubType>Designer</SubType>
     </None>
     <None Include="packages.config" />
   </ItemGroup>

@@ -10,15 +10,14 @@ namespace AmigoDono.Model.Repositories
     {
         private Amigos_do_DonoEntities odb;
         private bool LiberaContexto = false;
+        private CONTROLE _Controle = new CONTROLE();
+
         public RepositoryPet()
         {
             odb = Helper.Data.getContexto();
             LiberaContexto = true;
         }
-        public RepositoryPet(Amigos_do_DonoEntities _obd)
-        {
-            _obd = odb;
-        }
+        public RepositoryPet(Amigos_do_DonoEntities _obd) { _obd = odb; }
         public PET Selecionar(int? ID)
         {
             return (from p in odb.PET where p.IDP == ID select p).FirstOrDefault();
@@ -43,20 +42,14 @@ namespace AmigoDono.Model.Repositories
             }
         }
 
-        public List<vw_PET> SelecionarTodosvwPet()
+        public List<PET> SelecionarTodosPets()
         {
-            return (from p in odb.vw_PET orderby p.NomePet select p).ToList();
+            return odb.PET.OrderBy(p => p.NomePet).ToList();
         }
-
         public void Incluir(PET oPet)
         {
             odb.PET.Add(oPet);
             odb.SaveChanges();
-        }
-
-        public List<vw_PET> ListarPets()
-        {
-            return (from p in odb.vw_PET where p.Situacao == "Disposição" orderby p.NomePet select p).ToList();
         }
         public void Alterar(PET oPet, bool attach = true)
         {
@@ -73,6 +66,11 @@ namespace AmigoDono.Model.Repositories
             odb.SaveChanges();
         }
 
+        public void Controle(int id)
+        {
+       //     odb.spc_Controle(id);
+    
+        }
 
         public void Dispose()
         {
@@ -81,5 +79,7 @@ namespace AmigoDono.Model.Repositories
                 odb.Dispose();
             }
         }
+       
+
     }
 }

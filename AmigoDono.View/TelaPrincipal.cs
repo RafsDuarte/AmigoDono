@@ -25,8 +25,6 @@ namespace AmigoDono.View
             MnuAmigo.Enabled = false;
         }
 
-       
-
         private void TelaPrincipal_Load(object sender, EventArgs e)
         {
 
@@ -52,15 +50,15 @@ namespace AmigoDono.View
             MnuControle.Enabled = false;
         }
 
-        private void MnuTratamento_Click(object sender, EventArgs e)
-        {
-            TelaTratamento oFrm = new TelaTratamento();
-            oFrm.MdiParent = this;
-            oFrm.WindowState = FormWindowState.Normal;
-            oFrm.Show();
-            MnuTratamento.Enabled = false;
+        //private void MnuTratamento_Click(object sender, EventArgs e)
+        //{
+        //    TelaTratamento oFrm = new TelaTratamento();
+        //    oFrm.MdiParent = this;
+        //    oFrm.WindowState = FormWindowState.Normal;
+        //    oFrm.Show();
+        //    MnuTratamento.Enabled = false;
 
-        }
+        //}
 
         private void MnuDenuncia_Click(object sender, EventArgs e)
         {
@@ -102,10 +100,8 @@ namespace AmigoDono.View
         {
             TelaCadastroPet oFrm = new TelaCadastroPet();
             oFrm.MdiParent = this;
-            //oFrm.WindowState = FormWindowState.Maximized;
             oFrm.Show();
             MnuPet.Enabled = false;
-
         }
 
         private void MnuPesquisarDenuncia_Click(object sender, EventArgs e)
@@ -114,12 +110,45 @@ namespace AmigoDono.View
             oFrm.MdiParent = this;
             oFrm.Show();
             MnuPesquisarDenuncia.Enabled = false;
+        }
+    
+
+        private void MnuTipoRaça_Click(object sender, EventArgs e)
+        {
+            TelaRaça oFrm = new TelaRaça();
+            oFrm.MdiParent = this;
+            oFrm.Show();
+            MnuTipoRaça.Enabled = false;
 
         }
 
-        private void tipoDeTratamentoToolStripMenuItem_Click(object sender, EventArgs e)
+        private void MnuTipoTratamento_Click(object sender, EventArgs e)
+        {
+            TelaTipoTratamento oFrm = new TelaTipoTratamento();
+            oFrm.MdiParent = this;
+            oFrm.Show();
+            MnuTipoTratamento.Enabled = false;
+        }
+
+        private void relatórioToolStripMenuItem_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void controleToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            RelatorioControle oFrm = new RelatorioControle();
+            oFrm.MdiParent = this;
+            oFrm.Show();
+            MnuRelatorioControle.Enabled = false;
+        }
+
+        private void denúnciasToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            RelatorioControle oFrm = new RelatorioControle();
+            oFrm.MdiParent = this;
+            oFrm.Show();
+            MnuRelatorioDenuncia.Enabled = false;
         }
     }
 }

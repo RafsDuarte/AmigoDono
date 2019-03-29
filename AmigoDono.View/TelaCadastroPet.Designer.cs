@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(TelaCadastroPet));
             this.CboTipoPet = new System.Windows.Forms.ComboBox();
             this.CboIdade = new System.Windows.Forms.ComboBox();
@@ -48,7 +49,6 @@
             this.LblIDPet = new System.Windows.Forms.Label();
             this.TxtOBS = new System.Windows.Forms.TextBox();
             this.LblObs = new System.Windows.Forms.Label();
-            this.TxtRaca = new System.Windows.Forms.TextBox();
             this.LblRaca = new System.Windows.Forms.Label();
             this.BtnSalvar = new System.Windows.Forms.Button();
             this.BtnExcluir = new System.Windows.Forms.Button();
@@ -58,7 +58,12 @@
             this.LblSituacao = new System.Windows.Forms.Label();
             this.LblCadastro = new System.Windows.Forms.Label();
             this.DteTimePickerCadastro = new System.Windows.Forms.DateTimePicker();
+            this.CboRaca = new System.Windows.Forms.ComboBox();
+            this.rAÇABindingSource1 = new System.Windows.Forms.BindingSource(this.components);
+            this.rAÇABindingSource = new System.Windows.Forms.BindingSource(this.components);
             ((System.ComponentModel.ISupportInitialize)(this.PbFoto)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.rAÇABindingSource1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.rAÇABindingSource)).BeginInit();
             this.SuspendLayout();
             // 
             // CboTipoPet
@@ -119,7 +124,7 @@
             this.CboSexo.Items.AddRange(new object[] {
             "Masculino",
             "Feminino"});
-            this.CboSexo.Location = new System.Drawing.Point(311, 186);
+            this.CboSexo.Location = new System.Drawing.Point(422, 190);
             this.CboSexo.Name = "CboSexo";
             this.CboSexo.Size = new System.Drawing.Size(80, 21);
             this.CboSexo.TabIndex = 233;
@@ -154,7 +159,7 @@
             // LblSexo
             // 
             this.LblSexo.AutoSize = true;
-            this.LblSexo.Location = new System.Drawing.Point(274, 193);
+            this.LblSexo.Location = new System.Drawing.Point(371, 192);
             this.LblSexo.Name = "LblSexo";
             this.LblSexo.Size = new System.Drawing.Size(31, 13);
             this.LblSexo.TabIndex = 227;
@@ -245,13 +250,6 @@
             this.LblObs.TabIndex = 209;
             this.LblObs.Text = "Observação";
             // 
-            // TxtRaca
-            // 
-            this.TxtRaca.Location = new System.Drawing.Point(154, 186);
-            this.TxtRaca.Name = "TxtRaca";
-            this.TxtRaca.Size = new System.Drawing.Size(114, 20);
-            this.TxtRaca.TabIndex = 208;
-            // 
             // LblRaca
             // 
             this.LblRaca.AutoSize = true;
@@ -306,16 +304,16 @@
             // 
             this.CboSituacao.AutoCompleteCustomSource.AddRange(new string[] {
             "Adotado",
-            "Para Adoção",
-            "Em Tratamento"});
+            "Disposiçao",
+            "Tratamento"});
             this.CboSituacao.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.Suggest;
             this.CboSituacao.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
             this.CboSituacao.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.CboSituacao.FormattingEnabled = true;
             this.CboSituacao.Items.AddRange(new object[] {
             "Adotado",
-            "Para Adoção",
-            "Em Tratamento"});
+            "Disposiçao",
+            "Tratamento"});
             this.CboSituacao.Location = new System.Drawing.Point(364, 84);
             this.CboSituacao.Name = "CboSituacao";
             this.CboSituacao.Size = new System.Drawing.Size(121, 21);
@@ -347,11 +345,30 @@
             this.DteTimePickerCadastro.Size = new System.Drawing.Size(99, 20);
             this.DteTimePickerCadastro.TabIndex = 249;
             // 
+            // CboRaca
+            // 
+            this.CboRaca.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.CboRaca.FormattingEnabled = true;
+            this.CboRaca.Location = new System.Drawing.Point(153, 190);
+            this.CboRaca.Name = "CboRaca";
+            this.CboRaca.Size = new System.Drawing.Size(198, 21);
+            this.CboRaca.TabIndex = 250;
+            this.CboRaca.SelectedIndexChanged += new System.EventHandler(this.CboRaca_SelectedIndexChanged);
+            // 
+            // rAÇABindingSource1
+            // 
+            this.rAÇABindingSource1.DataMember = "RAÇA";
+            // 
+            // rAÇABindingSource
+            // 
+            this.rAÇABindingSource.DataMember = "RAÇA";
+            // 
             // TelaCadastroPet
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(836, 405);
+            this.ClientSize = new System.Drawing.Size(840, 405);
+            this.Controls.Add(this.CboRaca);
             this.Controls.Add(this.DteTimePickerCadastro);
             this.Controls.Add(this.LblCadastro);
             this.Controls.Add(this.LblSituacao);
@@ -377,7 +394,6 @@
             this.Controls.Add(this.LblIDPet);
             this.Controls.Add(this.TxtOBS);
             this.Controls.Add(this.LblObs);
-            this.Controls.Add(this.TxtRaca);
             this.Controls.Add(this.LblRaca);
             this.Controls.Add(this.BtnSalvar);
             this.Controls.Add(this.BtnExcluir);
@@ -386,6 +402,8 @@
             this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.TelaCadastroPet_FormClosed);
             this.Load += new System.EventHandler(this.TelaCadastroPet_Load);
             ((System.ComponentModel.ISupportInitialize)(this.PbFoto)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.rAÇABindingSource1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.rAÇABindingSource)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -412,7 +430,6 @@
         private System.Windows.Forms.Label LblIDPet;
         private System.Windows.Forms.TextBox TxtOBS;
         private System.Windows.Forms.Label LblObs;
-        private System.Windows.Forms.TextBox TxtRaca;
         private System.Windows.Forms.Label LblRaca;
         private System.Windows.Forms.Button BtnSalvar;
         private System.Windows.Forms.Button BtnExcluir;
@@ -422,5 +439,8 @@
         private System.Windows.Forms.Label LblSituacao;
         private System.Windows.Forms.Label LblCadastro;
         private System.Windows.Forms.DateTimePicker DteTimePickerCadastro;
+        private System.Windows.Forms.ComboBox CboRaca;
+        private System.Windows.Forms.BindingSource rAÇABindingSource;
+        private System.Windows.Forms.BindingSource rAÇABindingSource1;
     }
 }

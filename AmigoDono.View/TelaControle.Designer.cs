@@ -29,46 +29,120 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
+            this.CBODoador = new System.Windows.Forms.ComboBox();
+            this.aMIGOBindingSource1 = new System.Windows.Forms.BindingSource(this.components);
+            this.amigos_do_DonoDataSet15 = new AmigoDono.View.Amigos_do_DonoDataSet15();
+            this.aMIGOBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.amigos_do_DonoDataSet12 = new AmigoDono.View.Amigos_do_DonoDataSet12();
+            this.LblDoador = new System.Windows.Forms.Label();
+            this.CBOProp = new System.Windows.Forms.ComboBox();
+            this.CBOPet = new System.Windows.Forms.ComboBox();
+            this.pETBindingSource1 = new System.Windows.Forms.BindingSource(this.components);
+            this.amigos_do_DonoDataSet19 = new AmigoDono.View.Amigos_do_DonoDataSet19();
+            this.pETBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.amigos_do_DonoDataSet11 = new AmigoDono.View.Amigos_do_DonoDataSet11();
             this.CboStatus = new System.Windows.Forms.ComboBox();
             this.TxtObs = new System.Windows.Forms.TextBox();
             this.LblObs = new System.Windows.Forms.Label();
             this.BtnSair = new System.Windows.Forms.Button();
             this.BtnSalvar = new System.Windows.Forms.Button();
-            this.BtnExcluir = new System.Windows.Forms.Button();
-            this.TxtNomeProprietario = new System.Windows.Forms.TextBox();
-            this.TxtIdProprietario = new System.Windows.Forms.TextBox();
-            this.label3 = new System.Windows.Forms.Label();
+            this.LblProprietario = new System.Windows.Forms.Label();
             this.LblStatus = new System.Windows.Forms.Label();
             this.dateTimePickerAdocao = new System.Windows.Forms.DateTimePicker();
-            this.TxtNomePet = new System.Windows.Forms.TextBox();
-            this.TxtIdPet = new System.Windows.Forms.TextBox();
-            this.label12 = new System.Windows.Forms.Label();
-            this.label1 = new System.Windows.Forms.Label();
-            this.pETBindingSource = new System.Windows.Forms.BindingSource(this.components);
-            this.amigos_do_DonoDataSet6 = new AmigoDono.View.Amigos_do_DonoDataSet6();
-            this.aMIGOBindingSource = new System.Windows.Forms.BindingSource(this.components);
-            this.amigos_do_DonoDataSet7 = new AmigoDono.View.Amigos_do_DonoDataSet7();
-            this.pETTableAdapter = new AmigoDono.View.Amigos_do_DonoDataSet6TableAdapters.PETTableAdapter();
-            this.aMIGOTableAdapter = new AmigoDono.View.Amigos_do_DonoDataSet7TableAdapters.AMIGOTableAdapter();
-            this.cPFDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.nomeDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.iDADataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.BtnEscolherA = new System.Windows.Forms.DataGridViewButtonColumn();
-            this.DGWBuscaProp = new System.Windows.Forms.DataGridView();
-            this.LblConsultaProp = new System.Windows.Forms.Label();
-            this.tipoPetDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.nomePetDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.iDPDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.BtnEscolher = new System.Windows.Forms.DataGridViewButtonColumn();
-            this.DGWBuscaPet = new System.Windows.Forms.DataGridView();
-            this.Lblconsultapet = new System.Windows.Forms.Label();
-            ((System.ComponentModel.ISupportInitialize)(this.pETBindingSource)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.amigos_do_DonoDataSet6)).BeginInit();
+            this.LblPet = new System.Windows.Forms.Label();
+            this.LblDataAdoçao = new System.Windows.Forms.Label();
+            this.pETTableAdapter = new AmigoDono.View.Amigos_do_DonoDataSet11TableAdapters.PETTableAdapter();
+            this.aMIGOTableAdapter = new AmigoDono.View.Amigos_do_DonoDataSet12TableAdapters.AMIGOTableAdapter();
+            this.aMIGOTableAdapter1 = new AmigoDono.View.Amigos_do_DonoDataSet15TableAdapters.AMIGOTableAdapter();
+            this.pETTableAdapter1 = new AmigoDono.View.Amigos_do_DonoDataSet19TableAdapters.PETTableAdapter();
+            this.TxtPetAdotados = new System.Windows.Forms.Label();
+            this.TxtPetsDisposicao = new System.Windows.Forms.Label();
+            this.TxtQtdAdotados = new System.Windows.Forms.Label();
+            this.TxtQtdDisposicao = new System.Windows.Forms.Label();
+            ((System.ComponentModel.ISupportInitialize)(this.aMIGOBindingSource1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.amigos_do_DonoDataSet15)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.aMIGOBindingSource)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.amigos_do_DonoDataSet7)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.DGWBuscaProp)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.DGWBuscaPet)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.amigos_do_DonoDataSet12)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pETBindingSource1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.amigos_do_DonoDataSet19)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pETBindingSource)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.amigos_do_DonoDataSet11)).BeginInit();
             this.SuspendLayout();
+            // 
+            // CBODoador
+            // 
+            this.CBODoador.FormattingEnabled = true;
+            this.CBODoador.Location = new System.Drawing.Point(143, 216);
+            this.CBODoador.Name = "CBODoador";
+            this.CBODoador.Size = new System.Drawing.Size(367, 21);
+            this.CBODoador.TabIndex = 27;
+            // 
+            // aMIGOBindingSource1
+            // 
+            this.aMIGOBindingSource1.DataMember = "AMIGO";
+            this.aMIGOBindingSource1.DataSource = this.amigos_do_DonoDataSet15;
+            // 
+            // amigos_do_DonoDataSet15
+            // 
+            this.amigos_do_DonoDataSet15.DataSetName = "Amigos_do_DonoDataSet15";
+            this.amigos_do_DonoDataSet15.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
+            // 
+            // aMIGOBindingSource
+            // 
+            this.aMIGOBindingSource.DataMember = "AMIGO";
+            this.aMIGOBindingSource.DataSource = this.amigos_do_DonoDataSet12;
+            // 
+            // amigos_do_DonoDataSet12
+            // 
+            this.amigos_do_DonoDataSet12.DataSetName = "Amigos_do_DonoDataSet12";
+            this.amigos_do_DonoDataSet12.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
+            // 
+            // LblDoador
+            // 
+            this.LblDoador.AutoSize = true;
+            this.LblDoador.Location = new System.Drawing.Point(59, 224);
+            this.LblDoador.Name = "LblDoador";
+            this.LblDoador.Size = new System.Drawing.Size(42, 13);
+            this.LblDoador.TabIndex = 26;
+            this.LblDoador.Text = "Doador";
+            // 
+            // CBOProp
+            // 
+            this.CBOProp.FormattingEnabled = true;
+            this.CBOProp.Location = new System.Drawing.Point(143, 171);
+            this.CBOProp.Name = "CBOProp";
+            this.CBOProp.Size = new System.Drawing.Size(367, 21);
+            this.CBOProp.TabIndex = 24;
+            this.CBOProp.SelectedIndexChanged += new System.EventHandler(this.CBOProp_SelectedIndexChanged);
+            // 
+            // CBOPet
+            // 
+            this.CBOPet.FormattingEnabled = true;
+            this.CBOPet.Location = new System.Drawing.Point(143, 128);
+            this.CBOPet.Name = "CBOPet";
+            this.CBOPet.Size = new System.Drawing.Size(367, 21);
+            this.CBOPet.TabIndex = 21;
+            this.CBOPet.SelectedIndexChanged += new System.EventHandler(this.CBOPet_SelectedIndexChanged_1);
+            // 
+            // pETBindingSource1
+            // 
+            this.pETBindingSource1.DataMember = "PET";
+            this.pETBindingSource1.DataSource = this.amigos_do_DonoDataSet19;
+            // 
+            // amigos_do_DonoDataSet19
+            // 
+            this.amigos_do_DonoDataSet19.DataSetName = "Amigos_do_DonoDataSet19";
+            this.amigos_do_DonoDataSet19.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
+            // 
+            // pETBindingSource
+            // 
+            this.pETBindingSource.DataMember = "PET";
+            this.pETBindingSource.DataSource = this.amigos_do_DonoDataSet11;
+            // 
+            // amigos_do_DonoDataSet11
+            // 
+            this.amigos_do_DonoDataSet11.DataSetName = "Amigos_do_DonoDataSet11";
+            this.amigos_do_DonoDataSet11.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
             // 
             // CboStatus
             // 
@@ -76,153 +150,93 @@
             this.CboStatus.FormattingEnabled = true;
             this.CboStatus.Items.AddRange(new object[] {
             "Adotado",
-            "com Cuidador",
-            "Para ser adotado"});
-            this.CboStatus.Location = new System.Drawing.Point(149, 168);
+            "Disposicao",
+            "Tratamento"});
+            this.CboStatus.Location = new System.Drawing.Point(143, 269);
             this.CboStatus.Name = "CboStatus";
             this.CboStatus.Size = new System.Drawing.Size(306, 21);
-            this.CboStatus.TabIndex = 11;
+            this.CboStatus.TabIndex = 30;
             // 
             // TxtObs
             // 
-            this.TxtObs.Location = new System.Drawing.Point(149, 215);
+            this.TxtObs.Location = new System.Drawing.Point(143, 316);
             this.TxtObs.Multiline = true;
             this.TxtObs.Name = "TxtObs";
             this.TxtObs.Size = new System.Drawing.Size(667, 58);
-            this.TxtObs.TabIndex = 13;
+            this.TxtObs.TabIndex = 32;
             // 
             // LblObs
             // 
             this.LblObs.AutoSize = true;
-            this.LblObs.Location = new System.Drawing.Point(77, 222);
+            this.LblObs.Location = new System.Drawing.Point(72, 323);
             this.LblObs.Name = "LblObs";
             this.LblObs.Size = new System.Drawing.Size(29, 13);
-            this.LblObs.TabIndex = 12;
+            this.LblObs.TabIndex = 31;
             this.LblObs.Text = "Obs ";
             // 
             // BtnSair
             // 
-            this.BtnSair.Location = new System.Drawing.Point(741, 279);
+            this.BtnSair.Location = new System.Drawing.Point(735, 390);
             this.BtnSair.Name = "BtnSair";
             this.BtnSair.Size = new System.Drawing.Size(75, 23);
-            this.BtnSair.TabIndex = 16;
+            this.BtnSair.TabIndex = 35;
             this.BtnSair.Text = "Sair";
             this.BtnSair.UseVisualStyleBackColor = true;
             this.BtnSair.Click += new System.EventHandler(this.BtnSair_Click);
             // 
             // BtnSalvar
             // 
-            this.BtnSalvar.Location = new System.Drawing.Point(537, 279);
+            this.BtnSalvar.Location = new System.Drawing.Point(629, 390);
             this.BtnSalvar.Name = "BtnSalvar";
             this.BtnSalvar.Size = new System.Drawing.Size(75, 23);
-            this.BtnSalvar.TabIndex = 14;
+            this.BtnSalvar.TabIndex = 33;
             this.BtnSalvar.Text = "Salvar";
             this.BtnSalvar.UseVisualStyleBackColor = true;
             this.BtnSalvar.Click += new System.EventHandler(this.BtnSalvar_Click);
             // 
-            // BtnExcluir
+            // LblProprietario
             // 
-            this.BtnExcluir.Location = new System.Drawing.Point(637, 279);
-            this.BtnExcluir.Name = "BtnExcluir";
-            this.BtnExcluir.Size = new System.Drawing.Size(75, 23);
-            this.BtnExcluir.TabIndex = 15;
-            this.BtnExcluir.Text = "Excluir";
-            this.BtnExcluir.UseVisualStyleBackColor = true;
-            this.BtnExcluir.Click += new System.EventHandler(this.BtnExcluir_Click);
-            // 
-            // TxtNomeProprietario
-            // 
-            this.TxtNomeProprietario.Location = new System.Drawing.Point(147, 113);
-            this.TxtNomeProprietario.Name = "TxtNomeProprietario";
-            this.TxtNomeProprietario.Size = new System.Drawing.Size(365, 20);
-            this.TxtNomeProprietario.TabIndex = 7;
-            // 
-            // TxtIdProprietario
-            // 
-            this.TxtIdProprietario.Location = new System.Drawing.Point(532, 113);
-            this.TxtIdProprietario.Name = "TxtIdProprietario";
-            this.TxtIdProprietario.Size = new System.Drawing.Size(87, 20);
-            this.TxtIdProprietario.TabIndex = 9;
-            this.TxtIdProprietario.Visible = false;
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(46, 116);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(60, 13);
-            this.label3.TabIndex = 6;
-            this.label3.Text = "Proprietario";
+            this.LblProprietario.AutoSize = true;
+            this.LblProprietario.Location = new System.Drawing.Point(41, 179);
+            this.LblProprietario.Name = "LblProprietario";
+            this.LblProprietario.Size = new System.Drawing.Size(60, 13);
+            this.LblProprietario.TabIndex = 23;
+            this.LblProprietario.Text = "Proprietario";
             // 
             // LblStatus
             // 
             this.LblStatus.AutoSize = true;
-            this.LblStatus.Location = new System.Drawing.Point(69, 176);
+            this.LblStatus.Location = new System.Drawing.Point(64, 277);
             this.LblStatus.Name = "LblStatus";
             this.LblStatus.Size = new System.Drawing.Size(37, 13);
-            this.LblStatus.TabIndex = 10;
+            this.LblStatus.TabIndex = 29;
             this.LblStatus.Text = "Status";
             // 
             // dateTimePickerAdocao
             // 
             this.dateTimePickerAdocao.Format = System.Windows.Forms.DateTimePickerFormat.Short;
-            this.dateTimePickerAdocao.Location = new System.Drawing.Point(150, 25);
+            this.dateTimePickerAdocao.Location = new System.Drawing.Point(143, 88);
             this.dateTimePickerAdocao.Name = "dateTimePickerAdocao";
             this.dateTimePickerAdocao.Size = new System.Drawing.Size(100, 20);
-            this.dateTimePickerAdocao.TabIndex = 1;
+            this.dateTimePickerAdocao.TabIndex = 19;
             // 
-            // TxtNomePet
+            // LblPet
             // 
-            this.TxtNomePet.Location = new System.Drawing.Point(148, 66);
-            this.TxtNomePet.Name = "TxtNomePet";
-            this.TxtNomePet.Size = new System.Drawing.Size(365, 20);
-            this.TxtNomePet.TabIndex = 3;
+            this.LblPet.AutoSize = true;
+            this.LblPet.Location = new System.Drawing.Point(78, 136);
+            this.LblPet.Name = "LblPet";
+            this.LblPet.Size = new System.Drawing.Size(23, 13);
+            this.LblPet.TabIndex = 20;
+            this.LblPet.Text = "Pet";
             // 
-            // TxtIdPet
+            // LblDataAdoçao
             // 
-            this.TxtIdPet.Location = new System.Drawing.Point(532, 68);
-            this.TxtIdPet.Name = "TxtIdPet";
-            this.TxtIdPet.Size = new System.Drawing.Size(87, 20);
-            this.TxtIdPet.TabIndex = 5;
-            this.TxtIdPet.Visible = false;
-            // 
-            // label12
-            // 
-            this.label12.AutoSize = true;
-            this.label12.Location = new System.Drawing.Point(83, 69);
-            this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(23, 13);
-            this.label12.TabIndex = 2;
-            this.label12.Text = "Pet";
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(22, 32);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(84, 13);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "Data da adoção";
-            // 
-            // pETBindingSource
-            // 
-            this.pETBindingSource.DataMember = "PET";
-            this.pETBindingSource.DataSource = this.amigos_do_DonoDataSet6;
-            // 
-            // amigos_do_DonoDataSet6
-            // 
-            this.amigos_do_DonoDataSet6.DataSetName = "Amigos_do_DonoDataSet6";
-            this.amigos_do_DonoDataSet6.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
-            // 
-            // aMIGOBindingSource
-            // 
-            this.aMIGOBindingSource.DataMember = "AMIGO";
-            this.aMIGOBindingSource.DataSource = this.amigos_do_DonoDataSet7;
-            // 
-            // amigos_do_DonoDataSet7
-            // 
-            this.amigos_do_DonoDataSet7.DataSetName = "Amigos_do_DonoDataSet7";
-            this.amigos_do_DonoDataSet7.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
+            this.LblDataAdoçao.AutoSize = true;
+            this.LblDataAdoçao.Location = new System.Drawing.Point(17, 94);
+            this.LblDataAdoçao.Name = "LblDataAdoçao";
+            this.LblDataAdoçao.Size = new System.Drawing.Size(84, 13);
+            this.LblDataAdoçao.TabIndex = 18;
+            this.LblDataAdoçao.Text = "Data da adoção";
             // 
             // pETTableAdapter
             // 
@@ -232,189 +246,123 @@
             // 
             this.aMIGOTableAdapter.ClearBeforeFill = true;
             // 
-            // cPFDataGridViewTextBoxColumn
+            // aMIGOTableAdapter1
             // 
-            this.cPFDataGridViewTextBoxColumn.DataPropertyName = "CPF";
-            this.cPFDataGridViewTextBoxColumn.HeaderText = "CPF";
-            this.cPFDataGridViewTextBoxColumn.Name = "cPFDataGridViewTextBoxColumn";
+            this.aMIGOTableAdapter1.ClearBeforeFill = true;
             // 
-            // nomeDataGridViewTextBoxColumn
+            // pETTableAdapter1
             // 
-            this.nomeDataGridViewTextBoxColumn.DataPropertyName = "Nome";
-            this.nomeDataGridViewTextBoxColumn.HeaderText = "Nome";
-            this.nomeDataGridViewTextBoxColumn.Name = "nomeDataGridViewTextBoxColumn";
-            this.nomeDataGridViewTextBoxColumn.Width = 150;
+            this.pETTableAdapter1.ClearBeforeFill = true;
             // 
-            // iDADataGridViewTextBoxColumn
+            // TxtPetAdotados
             // 
-            this.iDADataGridViewTextBoxColumn.DataPropertyName = "IDA";
-            this.iDADataGridViewTextBoxColumn.HeaderText = "IDA";
-            this.iDADataGridViewTextBoxColumn.Name = "iDADataGridViewTextBoxColumn";
-            this.iDADataGridViewTextBoxColumn.ReadOnly = true;
-            this.iDADataGridViewTextBoxColumn.Width = 60;
+            this.TxtPetAdotados.AutoSize = true;
+            this.TxtPetAdotados.Location = new System.Drawing.Point(25, 20);
+            this.TxtPetAdotados.Name = "TxtPetAdotados";
+            this.TxtPetAdotados.Size = new System.Drawing.Size(76, 13);
+            this.TxtPetAdotados.TabIndex = 36;
+            this.TxtPetAdotados.Text = "Pets Adotados";
+            this.TxtPetAdotados.BindingContextChanged += new System.EventHandler(this.nu);
             // 
-            // BtnEscolherA
+            // TxtPetsDisposicao
             // 
-            this.BtnEscolherA.HeaderText = "Escolher";
-            this.BtnEscolherA.Name = "BtnEscolherA";
-            this.BtnEscolherA.Width = 60;
+            this.TxtPetsDisposicao.AutoSize = true;
+            this.TxtPetsDisposicao.Location = new System.Drawing.Point(9, 47);
+            this.TxtPetsDisposicao.Name = "TxtPetsDisposicao";
+            this.TxtPetsDisposicao.Size = new System.Drawing.Size(92, 13);
+            this.TxtPetsDisposicao.TabIndex = 37;
+            this.TxtPetsDisposicao.Text = "Pets a Disposicao";
             // 
-            // DGWBuscaProp
+            // TxtQtdAdotados
             // 
-            this.DGWBuscaProp.AllowUserToAddRows = false;
-            this.DGWBuscaProp.AllowUserToDeleteRows = false;
-            this.DGWBuscaProp.AutoGenerateColumns = false;
-            this.DGWBuscaProp.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.DGWBuscaProp.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.BtnEscolherA,
-            this.iDADataGridViewTextBoxColumn,
-            this.nomeDataGridViewTextBoxColumn,
-            this.cPFDataGridViewTextBoxColumn});
-            this.DGWBuscaProp.DataSource = this.aMIGOBindingSource;
-            this.DGWBuscaProp.Location = new System.Drawing.Point(444, 351);
-            this.DGWBuscaProp.Name = "DGWBuscaProp";
-            this.DGWBuscaProp.Size = new System.Drawing.Size(419, 237);
-            this.DGWBuscaProp.TabIndex = 20;
-            this.DGWBuscaProp.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.DGWBuscaProp_CellClick);
-            this.DGWBuscaProp.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.DGWBuscaProp_CellContentClick);
+            this.TxtQtdAdotados.AutoSize = true;
+            this.TxtQtdAdotados.Location = new System.Drawing.Point(140, 20);
+            this.TxtQtdAdotados.Name = "TxtQtdAdotados";
+            this.TxtQtdAdotados.Size = new System.Drawing.Size(37, 13);
+            this.TxtQtdAdotados.TabIndex = 38;
+            this.TxtQtdAdotados.Text = "00000";
             // 
-            // LblConsultaProp
+            // TxtQtdDisposicao
             // 
-            this.LblConsultaProp.AutoSize = true;
-            this.LblConsultaProp.Location = new System.Drawing.Point(584, 323);
-            this.LblConsultaProp.Name = "LblConsultaProp";
-            this.LblConsultaProp.Size = new System.Drawing.Size(104, 13);
-            this.LblConsultaProp.TabIndex = 18;
-            this.LblConsultaProp.Text = "Consulta Proprietario";
-            // 
-            // tipoPetDataGridViewTextBoxColumn
-            // 
-            this.tipoPetDataGridViewTextBoxColumn.DataPropertyName = "TipoPet";
-            this.tipoPetDataGridViewTextBoxColumn.HeaderText = "TipoPet";
-            this.tipoPetDataGridViewTextBoxColumn.Name = "tipoPetDataGridViewTextBoxColumn";
-            // 
-            // nomePetDataGridViewTextBoxColumn
-            // 
-            this.nomePetDataGridViewTextBoxColumn.DataPropertyName = "NomePet";
-            this.nomePetDataGridViewTextBoxColumn.HeaderText = "NomePet";
-            this.nomePetDataGridViewTextBoxColumn.Name = "nomePetDataGridViewTextBoxColumn";
-            this.nomePetDataGridViewTextBoxColumn.Width = 150;
-            // 
-            // iDPDataGridViewTextBoxColumn
-            // 
-            this.iDPDataGridViewTextBoxColumn.DataPropertyName = "IDP";
-            this.iDPDataGridViewTextBoxColumn.HeaderText = "IDP";
-            this.iDPDataGridViewTextBoxColumn.Name = "iDPDataGridViewTextBoxColumn";
-            this.iDPDataGridViewTextBoxColumn.ReadOnly = true;
-            this.iDPDataGridViewTextBoxColumn.Width = 60;
-            // 
-            // BtnEscolher
-            // 
-            this.BtnEscolher.HeaderText = "Escolher";
-            this.BtnEscolher.Name = "BtnEscolher";
-            this.BtnEscolher.Width = 60;
-            // 
-            // DGWBuscaPet
-            // 
-            this.DGWBuscaPet.AllowUserToAddRows = false;
-            this.DGWBuscaPet.AllowUserToDeleteRows = false;
-            this.DGWBuscaPet.AutoGenerateColumns = false;
-            this.DGWBuscaPet.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.DGWBuscaPet.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.BtnEscolher,
-            this.iDPDataGridViewTextBoxColumn,
-            this.nomePetDataGridViewTextBoxColumn,
-            this.tipoPetDataGridViewTextBoxColumn});
-            this.DGWBuscaPet.DataSource = this.pETBindingSource;
-            this.DGWBuscaPet.Location = new System.Drawing.Point(6, 351);
-            this.DGWBuscaPet.Name = "DGWBuscaPet";
-            this.DGWBuscaPet.Size = new System.Drawing.Size(432, 237);
-            this.DGWBuscaPet.TabIndex = 19;
-            this.DGWBuscaPet.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.DGWBuscaPet_CellClick);
-            this.DGWBuscaPet.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.DGWBuscaPet_CellContentClick);
-            // 
-            // Lblconsultapet
-            // 
-            this.Lblconsultapet.AutoSize = true;
-            this.Lblconsultapet.Location = new System.Drawing.Point(192, 323);
-            this.Lblconsultapet.Name = "Lblconsultapet";
-            this.Lblconsultapet.Size = new System.Drawing.Size(67, 13);
-            this.Lblconsultapet.TabIndex = 17;
-            this.Lblconsultapet.Text = "Consulta Pet";
+            this.TxtQtdDisposicao.AutoSize = true;
+            this.TxtQtdDisposicao.Location = new System.Drawing.Point(140, 47);
+            this.TxtQtdDisposicao.Name = "TxtQtdDisposicao";
+            this.TxtQtdDisposicao.Size = new System.Drawing.Size(37, 13);
+            this.TxtQtdDisposicao.TabIndex = 39;
+            this.TxtQtdDisposicao.Text = "00000";
             // 
             // TelaControle
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(875, 600);
-            this.Controls.Add(this.LblConsultaProp);
-            this.Controls.Add(this.Lblconsultapet);
-            this.Controls.Add(this.DGWBuscaProp);
-            this.Controls.Add(this.DGWBuscaPet);
+            this.ClientSize = new System.Drawing.Size(839, 450);
+            this.Controls.Add(this.TxtQtdDisposicao);
+            this.Controls.Add(this.TxtQtdAdotados);
+            this.Controls.Add(this.TxtPetsDisposicao);
+            this.Controls.Add(this.TxtPetAdotados);
+            this.Controls.Add(this.CBODoador);
+            this.Controls.Add(this.LblDoador);
+            this.Controls.Add(this.CBOProp);
+            this.Controls.Add(this.CBOPet);
             this.Controls.Add(this.CboStatus);
             this.Controls.Add(this.TxtObs);
             this.Controls.Add(this.LblObs);
             this.Controls.Add(this.BtnSair);
             this.Controls.Add(this.BtnSalvar);
-            this.Controls.Add(this.BtnExcluir);
-            this.Controls.Add(this.TxtNomeProprietario);
-            this.Controls.Add(this.TxtIdProprietario);
-            this.Controls.Add(this.label3);
+            this.Controls.Add(this.LblProprietario);
             this.Controls.Add(this.LblStatus);
             this.Controls.Add(this.dateTimePickerAdocao);
-            this.Controls.Add(this.TxtNomePet);
-            this.Controls.Add(this.TxtIdPet);
-            this.Controls.Add(this.label12);
-            this.Controls.Add(this.label1);
+            this.Controls.Add(this.LblPet);
+            this.Controls.Add(this.LblDataAdoçao);
             this.MaximizeBox = false;
             this.Name = "TelaControle";
-            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Tela de Controle";
-            this.Load += new System.EventHandler(this.TelaControle_Load);
-            ((System.ComponentModel.ISupportInitialize)(this.pETBindingSource)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.amigos_do_DonoDataSet6)).EndInit();
+            this.Text = "TelaControle";
+            this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.TelaControle_FormClosed_1);
+            this.Load += new System.EventHandler(this.TelaControle_Load_1);
+            ((System.ComponentModel.ISupportInitialize)(this.aMIGOBindingSource1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.amigos_do_DonoDataSet15)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.aMIGOBindingSource)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.amigos_do_DonoDataSet7)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.DGWBuscaProp)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.DGWBuscaPet)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.amigos_do_DonoDataSet12)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pETBindingSource1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.amigos_do_DonoDataSet19)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pETBindingSource)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.amigos_do_DonoDataSet11)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
         }
 
         #endregion
+
+        private System.Windows.Forms.ComboBox CBODoador;
+        private System.Windows.Forms.Label LblDoador;
+        private System.Windows.Forms.ComboBox CBOProp;
+        private System.Windows.Forms.ComboBox CBOPet;
+        public System.Windows.Forms.ComboBox CboStatus;
+        public System.Windows.Forms.TextBox TxtObs;
         private System.Windows.Forms.Label LblObs;
         private System.Windows.Forms.Button BtnSair;
         private System.Windows.Forms.Button BtnSalvar;
-        private System.Windows.Forms.Button BtnExcluir;
-        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Label LblProprietario;
         private System.Windows.Forms.Label LblStatus;
         private System.Windows.Forms.DateTimePicker dateTimePickerAdocao;
-        private System.Windows.Forms.Label label12;
-        private System.Windows.Forms.Label label1;
-        public System.Windows.Forms.TextBox TxtNomeProprietario;
-        public System.Windows.Forms.TextBox TxtNomePet;
-        public System.Windows.Forms.ComboBox CboStatus;
-        public System.Windows.Forms.TextBox TxtObs;
-        public System.Windows.Forms.TextBox TxtIdProprietario;
-        public System.Windows.Forms.TextBox TxtIdPet;
-        private Amigos_do_DonoDataSet6 amigos_do_DonoDataSet6;
+        private System.Windows.Forms.Label LblPet;
+        private System.Windows.Forms.Label LblDataAdoçao;
+        private Amigos_do_DonoDataSet11 amigos_do_DonoDataSet11;
         private System.Windows.Forms.BindingSource pETBindingSource;
-        private Amigos_do_DonoDataSet6TableAdapters.PETTableAdapter pETTableAdapter;
-        private Amigos_do_DonoDataSet7 amigos_do_DonoDataSet7;
+        private Amigos_do_DonoDataSet11TableAdapters.PETTableAdapter pETTableAdapter;
+        private Amigos_do_DonoDataSet12 amigos_do_DonoDataSet12;
         private System.Windows.Forms.BindingSource aMIGOBindingSource;
-        private Amigos_do_DonoDataSet7TableAdapters.AMIGOTableAdapter aMIGOTableAdapter;
-        private System.Windows.Forms.DataGridViewTextBoxColumn cPFDataGridViewTextBoxColumn;
-        private System.Windows.Forms.DataGridViewTextBoxColumn nomeDataGridViewTextBoxColumn;
-        private System.Windows.Forms.DataGridViewTextBoxColumn iDADataGridViewTextBoxColumn;
-        private System.Windows.Forms.DataGridViewButtonColumn BtnEscolherA;
-        public System.Windows.Forms.DataGridView DGWBuscaProp;
-        private System.Windows.Forms.Label LblConsultaProp;
-        private System.Windows.Forms.DataGridViewTextBoxColumn tipoPetDataGridViewTextBoxColumn;
-        private System.Windows.Forms.DataGridViewTextBoxColumn nomePetDataGridViewTextBoxColumn;
-        private System.Windows.Forms.DataGridViewTextBoxColumn iDPDataGridViewTextBoxColumn;
-        private System.Windows.Forms.DataGridViewButtonColumn BtnEscolher;
-        public System.Windows.Forms.DataGridView DGWBuscaPet;
-        private System.Windows.Forms.Label Lblconsultapet;
+        private Amigos_do_DonoDataSet12TableAdapters.AMIGOTableAdapter aMIGOTableAdapter;
+        private Amigos_do_DonoDataSet15 amigos_do_DonoDataSet15;
+        private System.Windows.Forms.BindingSource aMIGOBindingSource1;
+        private Amigos_do_DonoDataSet15TableAdapters.AMIGOTableAdapter aMIGOTableAdapter1;
+        private Amigos_do_DonoDataSet19 amigos_do_DonoDataSet19;
+        private System.Windows.Forms.BindingSource pETBindingSource1;
+        private Amigos_do_DonoDataSet19TableAdapters.PETTableAdapter pETTableAdapter1;
+        private System.Windows.Forms.Label TxtPetAdotados;
+        private System.Windows.Forms.Label TxtPetsDisposicao;
+        private System.Windows.Forms.Label TxtQtdAdotados;
+        private System.Windows.Forms.Label TxtQtdDisposicao;
     }
 }

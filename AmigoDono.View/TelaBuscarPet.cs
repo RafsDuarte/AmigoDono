@@ -16,5 +16,20 @@ namespace AmigoDono.View
         {
             InitializeComponent();
         }
+
+        private void TelaBuscarPet_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void GrdPet_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
+
+        private void BtnSair_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

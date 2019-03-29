@@ -41,8 +41,8 @@
     </Key>
     <Property Name="IDC" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
     <Property Name="IDPet" Type="int" Nullable="false" />
-    <Property Name="IDDono" Type="int" Nullable="false" />
-    <Property Name="IDDoador" Type="int" Nullable="false" />
+    <Property Name="IDDono" Type="int" />
+    <Property Name="IDDoador" Type="int" />
     <Property Name="DataAdocao" Type="date" />
     <Property Name="Statu" Type="varchar" MaxLength="50" Nullable="false" />
     <Property Name="OBS" Type="varchar(max)" />
@@ -70,7 +70,7 @@
     <Key>
       <PropertyRef Name="IDF" />
     </Key>
-    <Property Name="IDF" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="IDF" Type="int" Nullable="false" />
     <Property Name="Nome" Type="varchar(max)" Nullable="false" />
     <Property Name="Email" Type="varchar" MaxLength="100" Nullable="false" />
     <Property Name="Opiniao" Type="varchar(max)" Nullable="false" />
@@ -81,7 +81,6 @@
       <PropertyRef Name="IDP" />
     </Key>
     <Property Name="IDP" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
-    <Property Name="IDRaça" Type="int" />
     <Property Name="Cadastro" Type="date" Nullable="false" />
     <Property Name="NomePet" Type="varchar" MaxLength="80" Nullable="false" />
     <Property Name="TipoPet" Type="varchar" MaxLength="10" Nullable="false" />
@@ -93,6 +92,7 @@
     <Property Name="DataNascimento" Type="date" />
     <Property Name="OBS" Type="varchar(max)" />
     <Property Name="Imagem" Type="image" />
+    <Property Name="IDRaça" Type="int" />
   </EntityType>
   <EntityType Name="RAÇA">
     <Key>
@@ -167,8 +167,6 @@ warning 6002: The table/view 'Amigos_do_Dono.dbo.vw_PET' does not have a primary
       <PropertyRef Name="Sexo" />
       <PropertyRef Name="Porte" />
       <PropertyRef Name="Castrado" />
-      <PropertyRef Name="Cadastro" />
-      <PropertyRef Name="IDP" />
     </Key>
     <Property Name="Imagem" Type="image" />
     <Property Name="NomePet" Type="varchar" MaxLength="80" Nullable="false" />
@@ -180,10 +178,6 @@ warning 6002: The table/view 'Amigos_do_Dono.dbo.vw_PET' does not have a primary
     <Property Name="Porte" Type="varchar" MaxLength="50" Nullable="false" />
     <Property Name="Castrado" Type="varchar" MaxLength="3" Nullable="false" />
     <Property Name="DataNascimento" Type="date" />
-    <Property Name="OBS" Type="varchar(max)" />
-    <Property Name="Cadastro" Type="date" Nullable="false" />
-    <Property Name="IDP" Type="int" Nullable="false" />
-    <Property Name="IDRaça" Type="int" />
   </EntityType>
   <!--Errors Found During Generation:
 warning 6002: The table/view 'Amigos_do_Dono.dbo.vw_TRATAMENTO' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
@@ -221,7 +215,7 @@ warning 6002: The table/view 'Amigos_do_Dono.dbo.vw_TRATAMENTO' does not have a 
     </ReferentialConstraint>
   </Association>
   <Association Name="FK_CONTROLE_AMIGO">
-    <End Role="AMIGO" Type="Self.AMIGO" Multiplicity="1" />
+    <End Role="AMIGO" Type="Self.AMIGO" Multiplicity="0..1" />
     <End Role="CONTROLE" Type="Self.CONTROLE" Multiplicity="*" />
     <ReferentialConstraint>
       <Principal Role="AMIGO">
@@ -233,7 +227,7 @@ warning 6002: The table/view 'Amigos_do_Dono.dbo.vw_TRATAMENTO' does not have a 
     </ReferentialConstraint>
   </Association>
   <Association Name="FK_CONTROLE_AMIGO1">
-    <End Role="AMIGO" Type="Self.AMIGO" Multiplicity="1" />
+    <End Role="AMIGO" Type="Self.AMIGO" Multiplicity="0..1" />
     <End Role="CONTROLE" Type="Self.CONTROLE" Multiplicity="*" />
     <ReferentialConstraint>
       <Principal Role="AMIGO">
@@ -244,7 +238,7 @@ warning 6002: The table/view 'Amigos_do_Dono.dbo.vw_TRATAMENTO' does not have a 
       </Dependent>
     </ReferentialConstraint>
   </Association>
-  <Association Name="FK_PET_RAÇA">
+  <Association Name="FK_PET_RAÇA1">
     <End Role="RAÇA" Type="Self.RAÇA" Multiplicity="0..1" />
     <End Role="PET" Type="Self.PET" Multiplicity="*" />
     <ReferentialConstraint>
@@ -292,6 +286,41 @@ warning 6002: The table/view 'Amigos_do_Dono.dbo.vw_TRATAMENTO' does not have a 
       </Dependent>
     </ReferentialConstraint>
   </Association>
+  <Function Name="fn_diagramobjects" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="true" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" ReturnType="int" />
+  <Function Name="sp_alterdiagram" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="diagramname" Type="nvarchar" Mode="In" />
+    <Parameter Name="owner_id" Type="int" Mode="In" />
+    <Parameter Name="version" Type="int" Mode="In" />
+    <Parameter Name="definition" Type="varbinary(max)" Mode="In" />
+  </Function>
+  <Function Name="sp_creatediagram" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="diagramname" Type="nvarchar" Mode="In" />
+    <Parameter Name="owner_id" Type="int" Mode="In" />
+    <Parameter Name="version" Type="int" Mode="In" />
+    <Parameter Name="definition" Type="varbinary(max)" Mode="In" />
+  </Function>
+  <Function Name="sp_dropdiagram" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="diagramname" Type="nvarchar" Mode="In" />
+    <Parameter Name="owner_id" Type="int" Mode="In" />
+  </Function>
+  <Function Name="sp_helpdiagramdefinition" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="diagramname" Type="nvarchar" Mode="In" />
+    <Parameter Name="owner_id" Type="int" Mode="In" />
+  </Function>
+  <Function Name="sp_helpdiagrams" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="diagramname" Type="nvarchar" Mode="In" />
+    <Parameter Name="owner_id" Type="int" Mode="In" />
+  </Function>
+  <Function Name="sp_renamediagram" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="diagramname" Type="nvarchar" Mode="In" />
+    <Parameter Name="owner_id" Type="int" Mode="In" />
+    <Parameter Name="new_diagramname" Type="nvarchar" Mode="In" />
+  </Function>
+  <Function Name="sp_upgraddiagrams" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" />
+  <Function Name="spc_Controle" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="ID" Type="int" Mode="In" />
+    <Parameter Name="DATA" Type="date" Mode="In" />
+  </Function>
   <EntityContainer Name="Amigos_do_DonoModelStoreContainer">
     <EntitySet Name="AMIGO" EntityType="Self.AMIGO" Schema="dbo" store:Type="Tables" />
     <EntitySet Name="CONTADOR" EntityType="Self.CONTADOR" Schema="dbo" store:Type="Tables" />
@@ -334,11 +363,7 @@ warning 6002: The table/view 'Amigos_do_Dono.dbo.vw_TRATAMENTO' does not have a 
     [vw_PET].[Sexo] AS [Sexo], 
     [vw_PET].[Porte] AS [Porte], 
     [vw_PET].[Castrado] AS [Castrado], 
-    [vw_PET].[DataNascimento] AS [DataNascimento], 
-    [vw_PET].[OBS] AS [OBS], 
-    [vw_PET].[Cadastro] AS [Cadastro], 
-    [vw_PET].[IDP] AS [IDP], 
-    [vw_PET].[IDRaça] AS [IDRaça]
+    [vw_PET].[DataNascimento] AS [DataNascimento]
     FROM [dbo].[vw_PET] AS [vw_PET]</DefiningQuery>
     </EntitySet>
     <EntitySet Name="vw_TRATAMENTO" EntityType="Self.vw_TRATAMENTO" store:Type="Views" store:Schema="dbo">
@@ -367,7 +392,7 @@ warning 6002: The table/view 'Amigos_do_Dono.dbo.vw_TRATAMENTO' does not have a 
       <End Role="AMIGO" EntitySet="AMIGO" />
       <End Role="CONTROLE" EntitySet="CONTROLE" />
     </AssociationSet>
-    <AssociationSet Name="FK_PET_RAÇA" Association="Self.FK_PET_RAÇA">
+    <AssociationSet Name="FK_PET_RAÇA1" Association="Self.FK_PET_RAÇA1">
       <End Role="RAÇA" EntitySet="RAÇA" />
       <End Role="PET" EntitySet="PET" />
     </AssociationSet>

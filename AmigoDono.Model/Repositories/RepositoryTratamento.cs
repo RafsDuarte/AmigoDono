@@ -15,30 +15,23 @@ namespace AmigoDono.Model.Repositories
             odb = Helper.Data.getContexto();
             LiberaContexto = true;
         }
-        public RepositoryTratamento(Amigos_do_DonoEntities _obd) { _obd = odb; }
-        public TRATAMENTO Selecionar(int ID)
+        public RepositoryTratamento(Amigos_do_DonoEntities _obd)
         {
-            return (from p in odb.TRATAMENTO where p.IDT == ID select p).FirstOrDefault();
+            _obd = odb;
         }
         public TRATAMENTO SelecionarID(int ID)
         {
             return (from p in odb.TRATAMENTO where p.IDT == ID select p).FirstOrDefault();
         }
-        //public TRATAMENTO SelecionarNome(string NomeTratamento)
-        //{
-        //    return (from p in odb.TRATAMENTO where p.NomeTratamento.Equals(NomeTratamento) select p).FirstOrDefault();
-        //}
-        //public List<TRATAMENTO> SelecionarTodos(string tratamento)
-        //{
-        //    if (tratamento.Trim() == "")
-        //    {
-        //        return (from p in odb.TRATAMENTO orderby p.NomeTratamento select p).ToList();
-        //    }
-        //    else
-        //    {
-        //        return (from p in odb.TRATAMENTO where p.NomeTratamento.Contains(tratamento) select p).ToList();
-        //    }
-        //}
+        public TRATAMENTO Selecionar(int ID)
+        {
+            return (from p in odb.TRATAMENTO where p.IDT == ID select p).FirstOrDefault();
+        }
+        public TRATAMENTO Selecionar(int? ID)
+        {
+            return (from p in odb.TRATAMENTO where p.IDT == ID select p).FirstOrDefault();
+        }
+
         public void Incluir(TRATAMENTO oTratamento)
         {
             odb.TRATAMENTO.Add(oTratamento);
@@ -64,6 +57,11 @@ namespace AmigoDono.Model.Repositories
             {
                 odb.Dispose();
             }
+        }
+        public List<vw_TRATAMENTO> SelecionarNomePet(string NomePet)
+        {
+            return (from p in odb.vw_TRATAMENTO where p.PET.Contains(NomePet) select p).ToList();
+
         }
     }
 }

@@ -37,12 +37,9 @@
             this.dataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dataGridViewTextBoxColumn2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.aMIGOBindingSource = new System.Windows.Forms.BindingSource(this.components);
-            this.amigoDonoAMIGO = new AmigoDono.View.AmigoDonoAMIGO();
-            this.aMIGOTableAdapter = new AmigoDono.View.AmigoDonoAMIGOTableAdapters.AMIGOTableAdapter();
             this.BtnOK = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.GrdAmigos)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.aMIGOBindingSource)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.amigoDonoAMIGO)).BeginInit();
             this.SuspendLayout();
             // 
             // LblNome
@@ -119,19 +116,6 @@
             // aMIGOBindingSource
             // 
             this.aMIGOBindingSource.DataMember = "AMIGO";
-            this.aMIGOBindingSource.DataSource = this.amigoDonoAMIGO;
-            // 
-            // amigoDonoAMIGO
-            // 
-            this.amigoDonoAMIGO.DataSetName = "AmigoDonoAMIGO";
-            this.amigoDonoAMIGO.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
-            // 
-            // aMIGOTableAdapter
-            // 
-            this.aMIGOTableAdapter.ClearBeforeFill = true;
-            // 
-            // BtnOK
-            // 
             this.BtnOK.Location = new System.Drawing.Point(434, 35);
             this.BtnOK.Name = "BtnOK";
             this.BtnOK.Size = new System.Drawing.Size(75, 23);
@@ -158,7 +142,6 @@
             this.Load += new System.EventHandler(this.TelaPesquisar_Load);
             ((System.ComponentModel.ISupportInitialize)(this.GrdAmigos)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.aMIGOBindingSource)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.amigoDonoAMIGO)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -166,12 +149,26 @@
 
         #endregion
         private System.Windows.Forms.Label LblNome;
+        private System.Windows.Forms.DataGridViewTextBoxColumn nomeDataGridViewTextBoxColumn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn funcaoDataGridViewTextBoxColumn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn senhaDataGridViewTextBoxColumn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn emailDataGridViewTextBoxColumn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn cEPDataGridViewTextBoxColumn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn logradouroDataGridViewTextBoxColumn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn nomeLogradouroDataGridViewTextBoxColumn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn numeroDataGridViewTextBoxColumn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn complementoDataGridViewTextBoxColumn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn bairroDataGridViewTextBoxColumn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn cidadeDataGridViewTextBoxColumn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn uFDataGridViewTextBoxColumn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn telefoneDataGridViewTextBoxColumn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn celularDataGridViewTextBoxColumn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn ajudaDataGridViewTextBoxColumn;
+        private System.Windows.Forms.DataGridViewImageColumn imagemDataGridViewImageColumn;
         private System.Windows.Forms.Button BtnSair;
         private System.Windows.Forms.TextBox TxtPesquisaNome;
         private System.Windows.Forms.DataGridView GrdAmigos;
-        private AmigoDonoAMIGO amigoDonoAMIGO;
         private System.Windows.Forms.BindingSource aMIGOBindingSource;
-        private AmigoDonoAMIGOTableAdapters.AMIGOTableAdapter aMIGOTableAdapter;
         private System.Windows.Forms.Button BtnOK;
         private System.Windows.Forms.DataGridViewButtonColumn BtnEscolher;
         private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn1;
