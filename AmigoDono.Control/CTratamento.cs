@@ -10,29 +10,35 @@ namespace AmigoDono.Control
 {
     public class CTratamento :IDisposable
     {
+        RepositoryPet _RepositoryPet;
+        RepositoryAmigo _RepositoryAmigo;
         RepositoryTratamento _Repository;
         public CTratamento()
         {
+            _RepositoryAmigo = new RepositoryAmigo();
+            _RepositoryPet = new RepositoryPet();
             _Repository = new RepositoryTratamento();
         }
         public void Incluir(TRATAMENTO oTratamento)
         {
             _Repository.Incluir(oTratamento);
         }
-        //public void Alterar(TRATAMENTO oPet, bool attach = true)
-        //{
-        //    _Repository.Alterar(oTratamento, attach);
-        //}
-
         public void Excluir(TRATAMENTO oTratamento)
         {
             _Repository.Excluir(oTratamento);
         }
-        //public List<TRATAMENTO> SelecionarTodos(string Tratamento)
-        //{
-        //    return _Repository.SelecionarTodos(Tratamento);
-        //}
-
+        public List<PET> Pets()
+        {
+            return _RepositoryPet.SelecionarTodosPets();
+        }
+        public List<AMIGO> Amigos()
+        {
+            return _RepositoryAmigo.SelecionarTodosAmigos();
+        }
+        public List<vw_TRATAMENTO> NomePet(string NomePet)
+        {
+            return _Repository.SelecionarNomePet( NomePet);
+        }
         public TRATAMENTO Selecionar(int ID)
         {
             return _Repository.Selecionar(ID);
@@ -41,20 +47,9 @@ namespace AmigoDono.Control
         {
             return _Repository.SelecionarID(ID);
         }
-
-        //public TRATAMENTO SelecionarNome(string Nome)
-        //{
-        //    return _Repository.SelecionarNome(Nome);
-        //}
-
         public void Dispose()
         {
             _Repository.Dispose();
         }
-
-
-
-
-
     }
 }

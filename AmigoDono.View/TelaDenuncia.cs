@@ -19,7 +19,10 @@ namespace AmigoDono.View
 {
     public partial class TelaDenuncia : Form
     {
+        private bool Incluir = true;
         private Control.CDenuncia _Control = new CDenuncia();
+        Bitmap bmp;
+        Thread nt;
         public string teste;
         DENUNCIA _denuncia = null;
         DENUNCIA denunciaAlterar = new DENUNCIA();

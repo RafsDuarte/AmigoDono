@@ -24,9 +24,5 @@ namespace AmigoDono.Model
         public string Porte { get; set; }
         public string Castrado { get; set; }
         public Nullable<System.DateTime> DataNascimento { get; set; }
-        public string OBS { get; set; }
-        public System.DateTime Cadastro { get; set; }
-        public int IDP { get; set; }
-        public Nullable<int> IDRaça { get; set; }
     }
 }

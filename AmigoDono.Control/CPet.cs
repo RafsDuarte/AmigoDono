@@ -11,10 +11,12 @@ namespace AmigoDono.Control
     public class CPet :IDisposable
     {
         RepositoryPet _Repository;
+        RepositoryRaça _RepositoryRaca;
 
         public CPet()
         {
             _Repository = new RepositoryPet();
+            _RepositoryRaca = new RepositoryRaça();
         }
 
         public void Incluir(PET oPet)
@@ -54,6 +56,15 @@ namespace AmigoDono.Control
         public void Dispose()
         {
             _Repository.Dispose();
+        }
+
+        public List<RAÇA> SelecionarTodasRacas()
+        {
+            return _RepositoryRaca.SelecionarRacas();
+        }
+        public void ProcdControle(int id)
+        {
+            _Repository.Controle(id);
         }
     }
 }

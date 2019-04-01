@@ -11,9 +11,14 @@ namespace AmigoDono.Control
     public class CControle: IDisposable
     {
         RepositoryControle _Repository;
+        RepositoryPet _RepositoryPet;
+        RepositoryAmigo _RepositoryAmigo;
+        
         public CControle()
         {
+            _RepositoryPet = new RepositoryPet();
             _Repository = new RepositoryControle();
+            _RepositoryAmigo = new RepositoryAmigo();
         }
 
         public void Incluir(CONTROLE oControle)
@@ -31,11 +36,6 @@ namespace AmigoDono.Control
             _Repository.Excluir(oControle);
         }
 
-        //public List<vwControle> SelecionarTodos()
-        //{
-        //    return _Repository.SelecionarTodos();
-        //}
-
         public CONTROLE Selecionar(int ID)
         {
             return _Repository.Selecionar(ID);
@@ -46,5 +46,24 @@ namespace AmigoDono.Control
             _Repository.Dispose();
         }
 
+        public List<PET> Pets()
+        {
+            return _RepositoryPet.SelecionarTodosPets();
+
+        }
+
+        public List<AMIGO> Amigos()
+        {
+            return _RepositoryAmigo.SelecionarTodosAmigos();
+        }
+
+        public int? BuscaQtdAnimal()
+        {
+            return _Repository.BuscaQtdAnimal();
+        }
+        public int? BuscaQtdAnimalDisposicao()
+        {
+            return _Repository.BuscaQtdAnimalDisp();
+        }
     }
 }

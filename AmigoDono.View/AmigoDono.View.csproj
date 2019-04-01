@@ -32,62 +32,30 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
-      <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.dll</HintPath>
+    <Reference Include="CrystalDecisions.CrystalReports.Engine, Version=13.0.3500.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.ReportSource, Version=13.0.3500.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Shared, Version=13.0.3500.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.ReportViewer.Common, Version=14.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ReportingServices.ReportViewerControl.Winforms.140.1000.523\lib\net40\Microsoft.ReportViewer.Common.dll</HintPath>
     </Reference>
-    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
-      <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    <Reference Include="Microsoft.ReportViewer.DataVisualization, Version=14.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ReportingServices.ReportViewerControl.Winforms.140.1000.523\lib\net40\Microsoft.ReportViewer.DataVisualization.dll</HintPath>
     </Reference>
-    <Reference Include="Microsoft.AspNet.Identity.Core, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
-      <HintPath>..\packages\Microsoft.AspNet.Identity.Core.2.2.2\lib\net45\Microsoft.AspNet.Identity.Core.dll</HintPath>
+    <Reference Include="Microsoft.ReportViewer.Design, Version=14.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ReportingServices.ReportViewerControl.Winforms.140.1000.523\lib\net40\Microsoft.ReportViewer.Design.dll</HintPath>
     </Reference>
-    <Reference Include="Microsoft.AspNet.Identity.EntityFramework, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
-      <HintPath>..\packages\Microsoft.AspNet.Identity.EntityFramework.2.2.2\lib\net45\Microsoft.AspNet.Identity.EntityFramework.dll</HintPath>
+    <Reference Include="Microsoft.ReportViewer.ProcessingObjectModel, Version=14.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ReportingServices.ReportViewerControl.Winforms.140.1000.523\lib\net40\Microsoft.ReportViewer.ProcessingObjectModel.dll</HintPath>
     </Reference>
-    <Reference Include="Microsoft.AspNet.Identity.Owin, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
-      <HintPath>..\packages\Microsoft.AspNet.Identity.Owin.2.2.2\lib\net45\Microsoft.AspNet.Identity.Owin.dll</HintPath>
-    </Reference>
-    <Reference Include="Microsoft.Owin, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
-      <HintPath>..\packages\Microsoft.Owin.4.0.0\lib\net451\Microsoft.Owin.dll</HintPath>
-    </Reference>
-    <Reference Include="Microsoft.Owin.Security, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
-      <HintPath>..\packages\Microsoft.Owin.Security.4.0.0\lib\net451\Microsoft.Owin.Security.dll</HintPath>
-    </Reference>
-    <Reference Include="Microsoft.Owin.Security.Cookies, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
-      <HintPath>..\packages\Microsoft.Owin.Security.Cookies.4.0.0\lib\net451\Microsoft.Owin.Security.Cookies.dll</HintPath>
-    </Reference>
-    <Reference Include="Microsoft.Owin.Security.OAuth, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
-      <HintPath>..\packages\Microsoft.Owin.Security.OAuth.4.0.0\lib\net451\Microsoft.Owin.Security.OAuth.dll</HintPath>
-    </Reference>
-    <Reference Include="Microsoft.ReportViewer.Common, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
-      <HintPath>..\packages\Microsoft.ReportingServices.ReportViewerControl.Winforms.150.900.148\lib\net40\Microsoft.ReportViewer.Common.dll</HintPath>
-    </Reference>
-    <Reference Include="Microsoft.ReportViewer.DataVisualization, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
-      <HintPath>..\packages\Microsoft.ReportingServices.ReportViewerControl.Winforms.150.900.148\lib\net40\Microsoft.ReportViewer.DataVisualization.dll</HintPath>
-    </Reference>
-    <Reference Include="Microsoft.ReportViewer.Design, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
-      <HintPath>..\packages\Microsoft.ReportingServices.ReportViewerControl.Winforms.150.900.148\lib\net40\Microsoft.ReportViewer.Design.dll</HintPath>
-    </Reference>
-    <Reference Include="Microsoft.ReportViewer.ProcessingObjectModel, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
-      <HintPath>..\packages\Microsoft.ReportingServices.ReportViewerControl.Winforms.150.900.148\lib\net40\Microsoft.ReportViewer.ProcessingObjectModel.dll</HintPath>
-    </Reference>
-    <Reference Include="Microsoft.ReportViewer.WinForms, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
-      <HintPath>..\packages\Microsoft.ReportingServices.ReportViewerControl.Winforms.150.900.148\lib\net40\Microsoft.ReportViewer.WinForms.dll</HintPath>
+    <Reference Include="Microsoft.ReportViewer.WinForms, Version=14.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ReportingServices.ReportViewerControl.Winforms.140.1000.523\lib\net40\Microsoft.ReportViewer.WinForms.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.SqlServer.Types, Version=14.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
       <HintPath>..\packages\Microsoft.SqlServer.Types.14.0.314.76\lib\net40\Microsoft.SqlServer.Types.dll</HintPath>
       <Private>True</Private>
     </Reference>
-    <Reference Include="Newtonsoft.Json, Version=11.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
-      <HintPath>..\packages\Newtonsoft.Json.11.0.2\lib\net45\Newtonsoft.Json.dll</HintPath>
-    </Reference>
-    <Reference Include="Owin, Version=1.0.0.0, Culture=neutral, PublicKeyToken=f0ebd12fd5e55cc5, processorArchitecture=MSIL">
-      <HintPath>..\packages\Owin.1.0\lib\net40\Owin.dll</HintPath>
-    </Reference>
     <Reference Include="System" />
-    <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System.Core" />
-    <Reference Include="System.Web" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -99,25 +67,80 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="AmigoDonoAMIGO.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>AmigoDonoAMIGO.xsd</DependentUpon>
-    </Compile>
     <Compile Include="Amigos_do_DonoDataSet1.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>Amigos_do_DonoDataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Amigos_do_DonoDataSet10.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Amigos_do_DonoDataSet10.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Amigos_do_DonoDataSet111.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Amigos_do_DonoDataSet111.xsd</DependentUpon>
     </Compile>
     <Compile Include="Amigos_do_DonoDataSet12.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>Amigos_do_DonoDataSet12.xsd</DependentUpon>
     </Compile>
+    <Compile Include="Amigos_do_DonoDataSet121.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Amigos_do_DonoDataSet121.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Amigos_do_DonoDataSet13.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Amigos_do_DonoDataSet13.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Amigos_do_DonoDataSet14.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Amigos_do_DonoDataSet14.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Amigos_do_DonoDataSet15.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Amigos_do_DonoDataSet15.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Amigos_do_DonoDataSet16.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Amigos_do_DonoDataSet16.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Amigos_do_DonoDataSet17.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Amigos_do_DonoDataSet17.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Amigos_do_DonoDataSet18.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Amigos_do_DonoDataSet18.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Amigos_do_DonoDataSet19.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Amigos_do_DonoDataSet19.xsd</DependentUpon>
+    </Compile>
     <Compile Include="Amigos_do_DonoDataSet2.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>Amigos_do_DonoDataSet2.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Amigos_do_DonoDataSet20.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Amigos_do_DonoDataSet20.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Amigos_do_DonoDataSet21.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Amigos_do_DonoDataSet21.xsd</DependentUpon>
     </Compile>
     <Compile Include="Amigos_do_DonoDataSet3.Designer.cs">
       <AutoGen>True</AutoGen>
@@ -148,6 +171,55 @@
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>Amigos_do_DonoDataSet8.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Amigos_do_DonoDataSet9.Designer.cs" />
+    <Compile Include="Amigos_do_DonoDoador.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Amigos_do_DonoDoador.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Amigos_do_DonoPetTratamento.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Amigos_do_DonoPetTratamento.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Amigos_do_DonoRaça.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Amigos_do_DonoRaça.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Amigos_do_DonoResponsavel.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Amigos_do_DonoResponsavel.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Amigos_do_Dono_HistoricoTratamento.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Amigos_do_Dono_HistoricoTratamento.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Amigos_do_Dono_Tratamento_Responsavel.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Amigos_do_Dono_Tratamento_Responsavel.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="RelatorioControle.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RelatorioControle.Designer.cs">
+      <DependentUpon>RelatorioControle.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RelatorioDenuncia.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RelatorioDenuncia.Designer.cs">
+      <DependentUpon>RelatorioDenuncia.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RepRelatorioAmigo.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>RepRelatorioAmigo.rpt</DependentUpon>
+      <SubType>Component</SubType>
     </Compile>
     <Compile Include="SqlServerTypes\Loader.cs" />
     <Compile Include="TelaBuscarPet.cs">
@@ -204,6 +276,12 @@
     <Compile Include="TelaPesquisaTratamento.Designer.cs">
       <DependentUpon>TelaPesquisaTratamento.cs</DependentUpon>
     </Compile>
+    <Compile Include="TelaRaça.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TelaRaça.Designer.cs">
+      <DependentUpon>TelaRaça.cs</DependentUpon>
+    </Compile>
     <Compile Include="TelaRelatorio.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -242,6 +320,11 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="vwRelatorioDenuncia.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>vwRelatorioDenuncia.xsd</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -250,7 +333,18 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
+    <EmbeddedResource Include="RelatorioControle.resx">
+      <DependentUpon>RelatorioControle.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RelatorioDenuncia.resx">
+      <DependentUpon>RelatorioDenuncia.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RepRelatorioAmigo.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>RepRelatorioAmigo.cs</LastGenOutput>
+    </EmbeddedResource>
     <EmbeddedResource Include="TelaBuscarPet.resx">
       <DependentUpon>TelaBuscarPet.cs</DependentUpon>
     </EmbeddedResource>
@@ -278,6 +372,9 @@
     <EmbeddedResource Include="TelaPesquisaTratamento.resx">
       <DependentUpon>TelaPesquisaTratamento.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="TelaRaça.resx">
+      <DependentUpon>TelaRaça.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="TelaRelatorio.resx">
       <DependentUpon>TelaRelatorio.cs</DependentUpon>
     </EmbeddedResource>
@@ -296,17 +393,6 @@
     <EmbeddedResource Include="TelaPrincipal.resx">
       <DependentUpon>TelaPrincipal.cs</DependentUpon>
     </EmbeddedResource>
-    <None Include="AmigoDonoAMIGO.xsc">
-      <DependentUpon>AmigoDonoAMIGO.xsd</DependentUpon>
-    </None>
-    <None Include="AmigoDonoAMIGO.xsd">
-      <Generator>MSDataSetGenerator</Generator>
-      <LastGenOutput>AmigoDonoAMIGO.Designer.cs</LastGenOutput>
-      <SubType>Designer</SubType>
-    </None>
-    <None Include="AmigoDonoAMIGO.xss">
-      <DependentUpon>AmigoDonoAMIGO.xsd</DependentUpon>
-    </None>
     <None Include="Amigos_do_DonoDataSet1.xsc">
       <DependentUpon>Amigos_do_DonoDataSet1.xsd</DependentUpon>
     </None>
@@ -317,6 +403,28 @@
     </None>
     <None Include="Amigos_do_DonoDataSet1.xss">
       <DependentUpon>Amigos_do_DonoDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="Amigos_do_DonoDataSet10.xsc">
+      <DependentUpon>Amigos_do_DonoDataSet10.xsd</DependentUpon>
+    </None>
+    <None Include="Amigos_do_DonoDataSet10.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Amigos_do_DonoDataSet10.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Amigos_do_DonoDataSet10.xss">
+      <DependentUpon>Amigos_do_DonoDataSet10.xsd</DependentUpon>
+    </None>
+    <None Include="Amigos_do_DonoDataSet111.xsc">
+      <DependentUpon>Amigos_do_DonoDataSet111.xsd</DependentUpon>
+    </None>
+    <None Include="Amigos_do_DonoDataSet111.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Amigos_do_DonoDataSet111.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Amigos_do_DonoDataSet111.xss">
+      <DependentUpon>Amigos_do_DonoDataSet111.xsd</DependentUpon>
     </None>
     <None Include="Amigos_do_DonoDataSet12.xsc">
       <DependentUpon>Amigos_do_DonoDataSet12.xsd</DependentUpon>
@@ -329,6 +437,94 @@
     <None Include="Amigos_do_DonoDataSet12.xss">
       <DependentUpon>Amigos_do_DonoDataSet12.xsd</DependentUpon>
     </None>
+    <None Include="Amigos_do_DonoDataSet121.xsc">
+      <DependentUpon>Amigos_do_DonoDataSet121.xsd</DependentUpon>
+    </None>
+    <None Include="Amigos_do_DonoDataSet121.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Amigos_do_DonoDataSet121.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Amigos_do_DonoDataSet121.xss">
+      <DependentUpon>Amigos_do_DonoDataSet121.xsd</DependentUpon>
+    </None>
+    <None Include="Amigos_do_DonoDataSet13.xsc">
+      <DependentUpon>Amigos_do_DonoDataSet13.xsd</DependentUpon>
+    </None>
+    <None Include="Amigos_do_DonoDataSet13.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Amigos_do_DonoDataSet13.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Amigos_do_DonoDataSet13.xss">
+      <DependentUpon>Amigos_do_DonoDataSet13.xsd</DependentUpon>
+    </None>
+    <None Include="Amigos_do_DonoDataSet14.xsc">
+      <DependentUpon>Amigos_do_DonoDataSet14.xsd</DependentUpon>
+    </None>
+    <None Include="Amigos_do_DonoDataSet14.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Amigos_do_DonoDataSet14.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Amigos_do_DonoDataSet14.xss">
+      <DependentUpon>Amigos_do_DonoDataSet14.xsd</DependentUpon>
+    </None>
+    <None Include="Amigos_do_DonoDataSet15.xsc">
+      <DependentUpon>Amigos_do_DonoDataSet15.xsd</DependentUpon>
+    </None>
+    <None Include="Amigos_do_DonoDataSet15.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Amigos_do_DonoDataSet15.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Amigos_do_DonoDataSet15.xss">
+      <DependentUpon>Amigos_do_DonoDataSet15.xsd</DependentUpon>
+    </None>
+    <None Include="Amigos_do_DonoDataSet16.xsc">
+      <DependentUpon>Amigos_do_DonoDataSet16.xsd</DependentUpon>
+    </None>
+    <None Include="Amigos_do_DonoDataSet16.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Amigos_do_DonoDataSet16.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Amigos_do_DonoDataSet16.xss">
+      <DependentUpon>Amigos_do_DonoDataSet16.xsd</DependentUpon>
+    </None>
+    <None Include="Amigos_do_DonoDataSet17.xsc">
+      <DependentUpon>Amigos_do_DonoDataSet17.xsd</DependentUpon>
+    </None>
+    <None Include="Amigos_do_DonoDataSet17.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Amigos_do_DonoDataSet17.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Amigos_do_DonoDataSet17.xss">
+      <DependentUpon>Amigos_do_DonoDataSet17.xsd</DependentUpon>
+    </None>
+    <None Include="Amigos_do_DonoDataSet18.xsc">
+      <DependentUpon>Amigos_do_DonoDataSet18.xsd</DependentUpon>
+    </None>
+    <None Include="Amigos_do_DonoDataSet18.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Amigos_do_DonoDataSet18.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Amigos_do_DonoDataSet18.xss">
+      <DependentUpon>Amigos_do_DonoDataSet18.xsd</DependentUpon>
+    </None>
+    <None Include="Amigos_do_DonoDataSet19.xsc">
+      <DependentUpon>Amigos_do_DonoDataSet19.xsd</DependentUpon>
+    </None>
+    <None Include="Amigos_do_DonoDataSet19.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Amigos_do_DonoDataSet19.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Amigos_do_DonoDataSet19.xss">
+      <DependentUpon>Amigos_do_DonoDataSet19.xsd</DependentUpon>
+    </None>
     <None Include="Amigos_do_DonoDataSet2.xsc">
       <DependentUpon>Amigos_do_DonoDataSet2.xsd</DependentUpon>
     </None>
@@ -339,6 +535,28 @@
     </None>
     <None Include="Amigos_do_DonoDataSet2.xss">
       <DependentUpon>Amigos_do_DonoDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="Amigos_do_DonoDataSet20.xsc">
+      <DependentUpon>Amigos_do_DonoDataSet20.xsd</DependentUpon>
+    </None>
+    <None Include="Amigos_do_DonoDataSet20.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Amigos_do_DonoDataSet20.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Amigos_do_DonoDataSet20.xss">
+      <DependentUpon>Amigos_do_DonoDataSet20.xsd</DependentUpon>
+    </None>
+    <None Include="Amigos_do_DonoDataSet21.xsc">
+      <DependentUpon>Amigos_do_DonoDataSet21.xsd</DependentUpon>
+    </None>
+    <None Include="Amigos_do_DonoDataSet21.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Amigos_do_DonoDataSet21.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Amigos_do_DonoDataSet21.xss">
+      <DependentUpon>Amigos_do_DonoDataSet21.xsd</DependentUpon>
     </None>
     <None Include="Amigos_do_DonoDataSet3.xsc">
       <DependentUpon>Amigos_do_DonoDataSet3.xsd</DependentUpon>
@@ -406,6 +624,72 @@
     <None Include="Amigos_do_DonoDataSet8.xss">
       <DependentUpon>Amigos_do_DonoDataSet8.xsd</DependentUpon>
     </None>
+    <None Include="Amigos_do_DonoDoador.xsc">
+      <DependentUpon>Amigos_do_DonoDoador.xsd</DependentUpon>
+    </None>
+    <None Include="Amigos_do_DonoDoador.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Amigos_do_DonoDoador.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Amigos_do_DonoDoador.xss">
+      <DependentUpon>Amigos_do_DonoDoador.xsd</DependentUpon>
+    </None>
+    <None Include="Amigos_do_DonoPetTratamento.xsc">
+      <DependentUpon>Amigos_do_DonoPetTratamento.xsd</DependentUpon>
+    </None>
+    <None Include="Amigos_do_DonoPetTratamento.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Amigos_do_DonoPetTratamento.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Amigos_do_DonoPetTratamento.xss">
+      <DependentUpon>Amigos_do_DonoPetTratamento.xsd</DependentUpon>
+    </None>
+    <None Include="Amigos_do_DonoRaça.xsc">
+      <DependentUpon>Amigos_do_DonoRaça.xsd</DependentUpon>
+    </None>
+    <None Include="Amigos_do_DonoRaça.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Amigos_do_DonoRaça.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Amigos_do_DonoRaça.xss">
+      <DependentUpon>Amigos_do_DonoRaça.xsd</DependentUpon>
+    </None>
+    <None Include="Amigos_do_DonoResponsavel.xsc">
+      <DependentUpon>Amigos_do_DonoResponsavel.xsd</DependentUpon>
+    </None>
+    <None Include="Amigos_do_DonoResponsavel.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Amigos_do_DonoResponsavel.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Amigos_do_DonoResponsavel.xss">
+      <DependentUpon>Amigos_do_DonoResponsavel.xsd</DependentUpon>
+    </None>
+    <None Include="Amigos_do_Dono_HistoricoTratamento.xsc">
+      <DependentUpon>Amigos_do_Dono_HistoricoTratamento.xsd</DependentUpon>
+    </None>
+    <None Include="Amigos_do_Dono_HistoricoTratamento.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Amigos_do_Dono_HistoricoTratamento.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Amigos_do_Dono_HistoricoTratamento.xss">
+      <DependentUpon>Amigos_do_Dono_HistoricoTratamento.xsd</DependentUpon>
+    </None>
+    <None Include="Amigos_do_Dono_Tratamento_Responsavel.xsc">
+      <DependentUpon>Amigos_do_Dono_Tratamento_Responsavel.xsd</DependentUpon>
+    </None>
+    <None Include="Amigos_do_Dono_Tratamento_Responsavel.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Amigos_do_Dono_Tratamento_Responsavel.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Amigos_do_Dono_Tratamento_Responsavel.xss">
+      <DependentUpon>Amigos_do_Dono_Tratamento_Responsavel.xsd</DependentUpon>
+    </None>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -416,6 +700,17 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+    <None Include="vwRelatorioDenuncia.xsc">
+      <DependentUpon>vwRelatorioDenuncia.xsd</DependentUpon>
+    </None>
+    <None Include="vwRelatorioDenuncia.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>vwRelatorioDenuncia.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="vwRelatorioDenuncia.xss">
+      <DependentUpon>vwRelatorioDenuncia.xsd</DependentUpon>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
@@ -432,6 +727,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="imagem\Caricatura.jpg" />
+    <None Include="Resources\aparecida.jpg" />
     <Content Include="SqlServerTypes\readme.htm" />
     <Content Include="SqlServerTypes\x64\msvcr120.dll">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
@@ -450,6 +746,7 @@
     <Service Include="{C0C07587-41A7-46C8-8FBD-3F9C8EBE2DDC}" />
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="caminhos\" />
     <Folder Include="imagemcao\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

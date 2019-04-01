@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="Amigos_do_Dono_HistoricoTratamento" targetNamespace="http://tempuri.org/Amigos_do_Dono_HistoricoTratamento.xsd" xmlns:mstns="http://tempuri.org/Amigos_do_Dono_HistoricoTratamento.xsd" xmlns="http://tempuri.org/Amigos_do_Dono_HistoricoTratamento.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="Amigos_do_DonoConnectionString1" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="Amigos_do_DonoConnectionString1 (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.AmigoDono.View.Properties.Settings.GlobalReference.Default.Amigos_do_DonoConnectionString1" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="TRATAMENTOTableAdapter" GeneratorDataComponentClassName="TRATAMENTOTableAdapter" Name="TRATAMENTO" UserDataComponentName="TRATAMENTOTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="Amigos_do_DonoConnectionString1 (Settings)" DbObjectName="Amigos_do_Dono.dbo.TRATAMENTO" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT IDResponsavel, Tipo, DataTratamento, OBS, IDDescricao FROM dbo.TRATAMENTO</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="IDResponsavel" DataSetColumn="IDResponsavel" />
+              <Mapping SourceColumn="Tipo" DataSetColumn="Tipo" />
+              <Mapping SourceColumn="DataTratamento" DataSetColumn="DataTratamento" />
+              <Mapping SourceColumn="OBS" DataSetColumn="OBS" />
+              <Mapping SourceColumn="IDDescricao" DataSetColumn="IDDescricao" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="Amigos_do_Dono_HistoricoTratamento" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="True" msprop:Generator_DataSetName="Amigos_do_Dono_HistoricoTratamento" msprop:Generator_UserDSName="Amigos_do_Dono_HistoricoTratamento">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="TRATAMENTO" msprop:Generator_TableClassName="TRATAMENTODataTable" msprop:Generator_TableVarName="tableTRATAMENTO" msprop:Generator_TablePropName="TRATAMENTO" msprop:Generator_RowDeletingName="TRATAMENTORowDeleting" msprop:Generator_RowChangingName="TRATAMENTORowChanging" msprop:Generator_RowEvHandlerName="TRATAMENTORowChangeEventHandler" msprop:Generator_RowDeletedName="TRATAMENTORowDeleted" msprop:Generator_UserTableName="TRATAMENTO" msprop:Generator_RowChangedName="TRATAMENTORowChanged" msprop:Generator_RowEvArgName="TRATAMENTORowChangeEvent" msprop:Generator_RowClassName="TRATAMENTORow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="IDResponsavel" msprop:Generator_ColumnVarNameInTable="columnIDResponsavel" msprop:Generator_ColumnPropNameInRow="IDResponsavel" msprop:Generator_ColumnPropNameInTable="IDResponsavelColumn" msprop:Generator_UserColumnName="IDResponsavel" type="xs:int" />
+              <xs:element name="Tipo" msprop:Generator_ColumnVarNameInTable="columnTipo" msprop:Generator_ColumnPropNameInRow="Tipo" msprop:Generator_ColumnPropNameInTable="TipoColumn" msprop:Generator_UserColumnName="Tipo">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="DataTratamento" msprop:Generator_ColumnVarNameInTable="columnDataTratamento" msprop:Generator_ColumnPropNameInRow="DataTratamento" msprop:Generator_ColumnPropNameInTable="DataTratamentoColumn" msprop:Generator_UserColumnName="DataTratamento" type="xs:dateTime" />
+              <xs:element name="OBS" msprop:Generator_ColumnVarNameInTable="columnOBS" msprop:Generator_ColumnPropNameInRow="OBS" msprop:Generator_ColumnPropNameInTable="OBSColumn" msprop:Generator_UserColumnName="OBS" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="2147483647" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="IDDescricao" msprop:Generator_ColumnVarNameInTable="columnIDDescricao" msprop:Generator_ColumnPropNameInRow="IDDescricao" msprop:Generator_ColumnPropNameInTable="IDDescricaoColumn" msprop:Generator_UserColumnName="IDDescricao" type="xs:int" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

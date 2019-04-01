@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="vwRelatorioDenuncia" targetNamespace="http://tempuri.org/vwRelatorioDenuncia.xsd" xmlns:mstns="http://tempuri.org/vwRelatorioDenuncia.xsd" xmlns="http://tempuri.org/vwRelatorioDenuncia.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="Amigos_do_DonoConnectionString1" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="Amigos_do_DonoConnectionString1 (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.AmigoDono.View.Properties.Settings.GlobalReference.Default.Amigos_do_DonoConnectionString1" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="vw_DENUNCIATableAdapter" GeneratorDataComponentClassName="vw_DENUNCIATableAdapter" Name="vw_DENUNCIA" UserDataComponentName="vw_DENUNCIATableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="Amigos_do_DonoConnectionString1 (Settings)" DbObjectName="Amigos_do_Dono.dbo.vw_DENUNCIA" DbObjectType="View" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT Email, Denunciante, TextoDenuncia, DataDenuncia FROM dbo.vw_DENUNCIA</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="Email" DataSetColumn="Email" />
+              <Mapping SourceColumn="Denunciante" DataSetColumn="Denunciante" />
+              <Mapping SourceColumn="TextoDenuncia" DataSetColumn="TextoDenuncia" />
+              <Mapping SourceColumn="DataDenuncia" DataSetColumn="DataDenuncia" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="vwRelatorioDenuncia" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="True" msprop:Generator_DataSetName="vwRelatorioDenuncia" msprop:Generator_UserDSName="vwRelatorioDenuncia">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="vw_DENUNCIA" msprop:Generator_TableClassName="vw_DENUNCIADataTable" msprop:Generator_TableVarName="tablevw_DENUNCIA" msprop:Generator_TablePropName="vw_DENUNCIA" msprop:Generator_RowDeletingName="vw_DENUNCIARowDeleting" msprop:Generator_RowChangingName="vw_DENUNCIARowChanging" msprop:Generator_RowEvHandlerName="vw_DENUNCIARowChangeEventHandler" msprop:Generator_RowDeletedName="vw_DENUNCIARowDeleted" msprop:Generator_UserTableName="vw_DENUNCIA" msprop:Generator_RowChangedName="vw_DENUNCIARowChanged" msprop:Generator_RowEvArgName="vw_DENUNCIARowChangeEvent" msprop:Generator_RowClassName="vw_DENUNCIARow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Email" msprop:Generator_ColumnVarNameInTable="columnEmail" msprop:Generator_ColumnPropNameInRow="Email" msprop:Generator_ColumnPropNameInTable="EmailColumn" msprop:Generator_UserColumnName="Email">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Denunciante" msprop:Generator_ColumnVarNameInTable="columnDenunciante" msprop:Generator_ColumnPropNameInRow="Denunciante" msprop:Generator_ColumnPropNameInTable="DenuncianteColumn" msprop:Generator_UserColumnName="Denunciante" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="TextoDenuncia" msprop:Generator_ColumnVarNameInTable="columnTextoDenuncia" msprop:Generator_ColumnPropNameInRow="TextoDenuncia" msprop:Generator_ColumnPropNameInTable="TextoDenunciaColumn" msprop:Generator_UserColumnName="TextoDenuncia">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="2147483647" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="DataDenuncia" msprop:Generator_ColumnVarNameInTable="columnDataDenuncia" msprop:Generator_ColumnPropNameInRow="DataDenuncia" msprop:Generator_ColumnPropNameInTable="DataDenunciaColumn" msprop:Generator_UserColumnName="DataDenuncia" type="xs:dateTime" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

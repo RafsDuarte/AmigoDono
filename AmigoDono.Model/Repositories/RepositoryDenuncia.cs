@@ -60,6 +60,11 @@ namespace AmigoDono.Model.Repositories
             odb.SaveChanges();
         }
 
+        //public void Controle(int id)
+        //{
+
+        //}
+
         public void Alterar(DENUNCIA oDenuncia, bool attach = true)
         {
             if (attach)

@@ -10,9 +10,6 @@ namespace AmigoDono.Model.Repositories
     {
         private Amigos_do_DonoEntities odb;
         private bool LiberaContexto = false;
-        //private bool attach = false;
-
-        // Repositorio padrão
         public RepositoryAmigo()
         {
             odb = Helper.Data.getContexto();
@@ -30,17 +27,6 @@ namespace AmigoDono.Model.Repositories
             return (from p in odb.AMIGO where p.Nome.Equals(Nome) select p).FirstOrDefault();
         }
 
-        //selecionar Amigo pelo email e senha
-        public AMIGO VerificaLogin(string email, string senha)
-        {
-            return (from p in odb.AMIGO where p.Email.Equals(email) && p.Senha.Equals(senha) select p).FirstOrDefault();
-        }
-
-        public AMIGO VerificaUsuario(string email)
-        {
-            return (from p in odb.AMIGO where p.Email.Equals(email) select p).FirstOrDefault();
-        }
-
         public AMIGO SelecionarID(int ID)
         {
             return (from p in odb.AMIGO where p.IDA == ID select p).FirstOrDefault();
@@ -56,12 +42,6 @@ namespace AmigoDono.Model.Repositories
             return (from p in odb.AMIGO where p.IDA == ID select p).FirstOrDefault();
         }
         // ok
-
-        public List<AMIGO> SelecionarTodos()
-        {
-            return (from p in odb.AMIGO orderby p.Nome select p).ToList();
-           
-        }
         public List<AMIGO> SelecionarTodos(string amigo)
         {
             if(amigo.Trim() == "")
@@ -74,49 +54,31 @@ namespace AmigoDono.Model.Repositories
             }
         }
 
-        public List<AMIGO> ListarAmigo()
+        public List<AMIGO> SelecionarTodosAmigos()
         {
             return odb.AMIGO.OrderBy(p => p.Nome).ToList();
         }
 
-        public List<AMIGO> ListarAmigos()
-        {
-            return (from p in odb.AMIGO /*where p.Funcao == "Pratocinador" */orderby p.Nome select p).ToList();
-        }
-
-        public AMIGO SelecionarPorEmail(string Email)
-        {
-            return odb.AMIGO.Where(p => p.Email.Equals(Email)).FirstOrDefault();
-        }
-
         public void Incluir(AMIGO oAmigo)
         {
-            Amigos_do_DonoEntities db = new Amigos_do_DonoEntities();
-
-            db.AMIGO.Add(oAmigo);
-            db.SaveChanges();
-
-            db.Dispose();
+            odb.AMIGO.Add(oAmigo);
+            odb.SaveChanges();
         }
 
         public void Alterar(AMIGO oAmigo, bool attach = true)
         {
-            Amigos_do_DonoEntities db = new Amigos_do_DonoEntities();
             if (attach)
             {
-                db.Entry(oAmigo).State = System.Data.Entity.EntityState.Modified;
+                odb.Entry(oAmigo).State = System.Data.Entity.EntityState.Modified;
             }
-            db.SaveChanges();
-            db.Dispose();
+            odb.SaveChanges();
         }
 
         public void Excluir(AMIGO oAmigo)
         {
-            Amigos_do_DonoEntities db = new Amigos_do_DonoEntities();
-            db.AMIGO.Attach(oAmigo);
-            db.AMIGO.Remove(oAmigo);
-            db.SaveChanges();
-            db.Dispose();
+            odb.AMIGO.Attach(oAmigo);
+            odb.AMIGO.Remove(oAmigo);
+            odb.SaveChanges();
         }
 
         public void Dispose()

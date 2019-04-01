@@ -32,6 +32,8 @@
             this.MnuCadastro = new System.Windows.Forms.ToolStripMenuItem();
             this.MnuAmigo = new System.Windows.Forms.ToolStripMenuItem();
             this.MnuPet = new System.Windows.Forms.ToolStripMenuItem();
+            this.MnuTipoTratamento = new System.Windows.Forms.ToolStripMenuItem();
+            this.MnuTipoRaça = new System.Windows.Forms.ToolStripMenuItem();
             this.pesquisarToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.MnuPesquisarAmigo = new System.Windows.Forms.ToolStripMenuItem();
             this.MnuPesquisarPet = new System.Windows.Forms.ToolStripMenuItem();
@@ -45,12 +47,10 @@
             this.cadastroToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.amigoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.petToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.controleToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.MnuRelatorioControle = new System.Windows.Forms.ToolStripMenuItem();
             this.tratamentoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.denúnciasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.MnuRelatorioDenuncia = new System.Windows.Forms.ToolStripMenuItem();
             this.MnuSair = new System.Windows.Forms.ToolStripMenuItem();
-            this.tipoDeTratamentoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.tToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -75,8 +75,8 @@
             this.MnuCadastro.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.MnuAmigo,
             this.MnuPet,
-            this.tipoDeTratamentoToolStripMenuItem,
-            this.tToolStripMenuItem});
+            this.MnuTipoTratamento,
+            this.MnuTipoRaça});
             this.MnuCadastro.Name = "MnuCadastro";
             this.MnuCadastro.Size = new System.Drawing.Size(71, 20);
             this.MnuCadastro.Text = "Cadastros";
@@ -85,16 +85,30 @@
             // MnuAmigo
             // 
             this.MnuAmigo.Name = "MnuAmigo";
-            this.MnuAmigo.Size = new System.Drawing.Size(180, 22);
+            this.MnuAmigo.Size = new System.Drawing.Size(178, 22);
             this.MnuAmigo.Text = "Amigo";
             this.MnuAmigo.Click += new System.EventHandler(this.MnuAmigo_Click);
             // 
             // MnuPet
             // 
             this.MnuPet.Name = "MnuPet";
-            this.MnuPet.Size = new System.Drawing.Size(180, 22);
+            this.MnuPet.Size = new System.Drawing.Size(178, 22);
             this.MnuPet.Text = "Pet";
             this.MnuPet.Click += new System.EventHandler(this.MnuPet_Click);
+            // 
+            // MnuTipoTratamento
+            // 
+            this.MnuTipoTratamento.Name = "MnuTipoTratamento";
+            this.MnuTipoTratamento.Size = new System.Drawing.Size(178, 22);
+            this.MnuTipoTratamento.Text = "Tipo de Tratamento";
+            this.MnuTipoTratamento.Click += new System.EventHandler(this.MnuTipoTratamento_Click);
+            // 
+            // MnuTipoRaça
+            // 
+            this.MnuTipoRaça.Name = "MnuTipoRaça";
+            this.MnuTipoRaça.Size = new System.Drawing.Size(178, 22);
+            this.MnuTipoRaça.Text = "Tipo de Raça";
+            this.MnuTipoRaça.Click += new System.EventHandler(this.MnuTipoRaça_Click);
             // 
             // pesquisarToolStripMenuItem
             // 
@@ -152,9 +166,7 @@
             // MnuTratamento
             // 
             this.MnuTratamento.Name = "MnuTratamento";
-            this.MnuTratamento.Size = new System.Drawing.Size(85, 20);
-            this.MnuTratamento.Text = "Tratamentos";
-            this.MnuTratamento.Click += new System.EventHandler(this.MnuTratamento_Click);
+            this.MnuTratamento.Size = new System.Drawing.Size(12, 20);
             // 
             // MnuDenuncia
             // 
@@ -167,12 +179,13 @@
             // 
             this.relatórioToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.cadastroToolStripMenuItem,
-            this.controleToolStripMenuItem,
+            this.MnuRelatorioControle,
             this.tratamentoToolStripMenuItem,
-            this.denúnciasToolStripMenuItem});
+            this.MnuRelatorioDenuncia});
             this.relatórioToolStripMenuItem.Name = "relatórioToolStripMenuItem";
             this.relatórioToolStripMenuItem.Size = new System.Drawing.Size(66, 20);
             this.relatórioToolStripMenuItem.Text = "Relatório";
+            this.relatórioToolStripMenuItem.Click += new System.EventHandler(this.relatórioToolStripMenuItem_Click);
             // 
             // cadastroToolStripMenuItem
             // 
@@ -195,11 +208,12 @@
             this.petToolStripMenuItem.Size = new System.Drawing.Size(110, 22);
             this.petToolStripMenuItem.Text = "Pet";
             // 
-            // controleToolStripMenuItem
+            // MnuRelatorioControle
             // 
-            this.controleToolStripMenuItem.Name = "controleToolStripMenuItem";
-            this.controleToolStripMenuItem.Size = new System.Drawing.Size(140, 22);
-            this.controleToolStripMenuItem.Text = "Controle";
+            this.MnuRelatorioControle.Name = "MnuRelatorioControle";
+            this.MnuRelatorioControle.Size = new System.Drawing.Size(140, 22);
+            this.MnuRelatorioControle.Text = "Controle";
+            this.MnuRelatorioControle.Click += new System.EventHandler(this.controleToolStripMenuItem_Click);
             // 
             // tratamentoToolStripMenuItem
             // 
@@ -207,11 +221,12 @@
             this.tratamentoToolStripMenuItem.Size = new System.Drawing.Size(140, 22);
             this.tratamentoToolStripMenuItem.Text = "Tratamentos";
             // 
-            // denúnciasToolStripMenuItem
+            // MnuRelatorioDenuncia
             // 
-            this.denúnciasToolStripMenuItem.Name = "denúnciasToolStripMenuItem";
-            this.denúnciasToolStripMenuItem.Size = new System.Drawing.Size(140, 22);
-            this.denúnciasToolStripMenuItem.Text = "Denúncias";
+            this.MnuRelatorioDenuncia.Name = "MnuRelatorioDenuncia";
+            this.MnuRelatorioDenuncia.Size = new System.Drawing.Size(140, 22);
+            this.MnuRelatorioDenuncia.Text = "Denúncias";
+            this.MnuRelatorioDenuncia.Click += new System.EventHandler(this.denúnciasToolStripMenuItem_Click);
             // 
             // MnuSair
             // 
@@ -220,23 +235,12 @@
             this.MnuSair.Text = "Sair";
             this.MnuSair.Click += new System.EventHandler(this.MnuSair_Click);
             // 
-            // tipoDeTratamentoToolStripMenuItem
-            // 
-            this.tipoDeTratamentoToolStripMenuItem.Name = "tipoDeTratamentoToolStripMenuItem";
-            this.tipoDeTratamentoToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.tipoDeTratamentoToolStripMenuItem.Text = "Tipo de Tratamento";
-            this.tipoDeTratamentoToolStripMenuItem.Click += new System.EventHandler(this.tipoDeTratamentoToolStripMenuItem_Click);
-            // 
-            // tToolStripMenuItem
-            // 
-            this.tToolStripMenuItem.Name = "tToolStripMenuItem";
-            this.tToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.tToolStripMenuItem.Text = "Tipo de Raça";
-            // 
             // TelaPrincipal
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackgroundImage = global::AmigoDono.View.Properties.Resources.aparecida;
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.menuStrip1);
             this.IsMdiContainer = true;
@@ -261,9 +265,7 @@
         public System.Windows.Forms.ToolStripMenuItem MnuPet;
         private System.Windows.Forms.ToolStripMenuItem relatórioToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem cadastroToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem controleToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem tratamentoToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem denúnciasToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem amigoToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem petToolStripMenuItem;
         public System.Windows.Forms.ToolStripMenuItem MnuDenuncia;
@@ -272,11 +274,13 @@
         private System.Windows.Forms.ToolStripMenuItem pesquisarToolStripMenuItem;
         public System.Windows.Forms.ToolStripMenuItem MnuPesquisarAmigo;
         public System.Windows.Forms.ToolStripMenuItem MnuPesquisarPet;
-        private System.Windows.Forms.ToolStripMenuItem MnuPesquisarTratamento;
-        private System.Windows.Forms.ToolStripMenuItem MnuPesqusaControle;
         public System.Windows.Forms.ToolStripMenuItem MnuPesquisarDenuncia;
-        private System.Windows.Forms.ToolStripMenuItem tipoDeTratamentoToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem tToolStripMenuItem;
+        public System.Windows.Forms.ToolStripMenuItem MnuTipoRaça;
+        public System.Windows.Forms.ToolStripMenuItem MnuTipoTratamento;
+        public System.Windows.Forms.ToolStripMenuItem MnuPesquisarTratamento;
+        public System.Windows.Forms.ToolStripMenuItem MnuPesqusaControle;
+        public System.Windows.Forms.ToolStripMenuItem MnuRelatorioControle;
+        public System.Windows.Forms.ToolStripMenuItem MnuRelatorioDenuncia;
     }
 }
 

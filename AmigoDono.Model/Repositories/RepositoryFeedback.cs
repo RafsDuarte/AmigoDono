@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace AmigoDono.Model.Repositories
 {
-    public class RepositoryFeedback
+    public class RepositoryFeedback : IDisposable
     {
-        private Amigos_do_DonoEntities odb;
+        private AmigoDonoEntities odb;
         private bool LiberaContexto = false;
         //private bool attach = false;
 
@@ -19,13 +19,14 @@ namespace AmigoDono.Model.Repositories
             LiberaContexto = true;
         }
 
-        public RepositoryFeedback(Amigos_do_DonoEntities _obd)
+        public RepositoryFeedback(AmigoDonoEntities _obd)
         {
             _obd = odb;
         }
 
         public void Incluir(FEEDBACK oFeedback)
         {
+
             odb.FEEDBACK.Add(oFeedback);
             odb.SaveChanges();
         }

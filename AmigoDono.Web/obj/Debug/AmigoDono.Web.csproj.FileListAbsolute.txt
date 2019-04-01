@@ -888,6 +888,8 @@ D:\AmigoDono\AmigoDono.Web\obj\Debug\AmigoDono.Web.csproj.CoreCompileInputs.cach
 D:\AmigoDono\AmigoDono.Web\obj\Debug\AmigoDono.Web.csproj.CopyComplete
 D:\AmigoDono\AmigoDono.Web\obj\Debug\AmigoDono.Web.dll
 D:\AmigoDono\AmigoDono.Web\obj\Debug\AmigoDono.Web.pdb
+C:\GitHub\AmigoDono.Web\obj\Debug\AmigoDono.Web.csprojAssemblyReference.cache
+C:\GitHub\AmigoDono.Web\obj\Debug\AmigoDono.Web.csproj.CoreCompileInputs.cache
 C:\GitHub\AmigoDono\AmigoDono.Web\bin\ApplicationInsights.config
 C:\GitHub\AmigoDono\AmigoDono.Web\bin\AmigoDono.Web.dll.config
 C:\GitHub\AmigoDono\AmigoDono.Web\bin\AmigoDono.Web.dll
@@ -957,13 +959,13 @@ C:\GitHub\AmigoDono\AmigoDono.Web\bin\Microsoft.ApplicationInsights.dll
 C:\GitHub\AmigoDono\AmigoDono.Web\bin\Microsoft.AspNet.Identity.Core.dll
 C:\GitHub\AmigoDono\AmigoDono.Web\bin\Microsoft.AspNet.Identity.EntityFramework.dll
 C:\GitHub\AmigoDono\AmigoDono.Web\bin\Microsoft.AspNet.Identity.Owin.dll
-C:\GitHub\AmigoDono\AmigoDono.Web\bin\Microsoft.AspNet.TelemetryCorrelation.dll
 C:\GitHub\AmigoDono\AmigoDono.Web\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
 C:\GitHub\AmigoDono\AmigoDono.Web\bin\Microsoft.Owin.dll
 C:\GitHub\AmigoDono\AmigoDono.Web\bin\Microsoft.Owin.Host.SystemWeb.dll
 C:\GitHub\AmigoDono\AmigoDono.Web\bin\Microsoft.Owin.Security.Cookies.dll
 C:\GitHub\AmigoDono\AmigoDono.Web\bin\Microsoft.Owin.Security.dll
 C:\GitHub\AmigoDono\AmigoDono.Web\bin\Microsoft.Owin.Security.OAuth.dll
+C:\GitHub\AmigoDono\AmigoDono.Web\bin\Microsoft.QualityTools.Testing.Fakes.dll
 C:\GitHub\AmigoDono\AmigoDono.Web\bin\Microsoft.Web.Infrastructure.dll
 C:\GitHub\AmigoDono\AmigoDono.Web\bin\Microsoft.Win32.Primitives.dll
 C:\GitHub\AmigoDono\AmigoDono.Web\bin\Newtonsoft.Json.dll
@@ -1007,13 +1009,13 @@ C:\GitHub\AmigoDono\AmigoDono.Web\bin\Microsoft.ApplicationInsights.xml
 C:\GitHub\AmigoDono\AmigoDono.Web\bin\Microsoft.AspNet.Identity.Core.xml
 C:\GitHub\AmigoDono\AmigoDono.Web\bin\Microsoft.AspNet.Identity.EntityFramework.xml
 C:\GitHub\AmigoDono\AmigoDono.Web\bin\Microsoft.AspNet.Identity.Owin.xml
-C:\GitHub\AmigoDono\AmigoDono.Web\bin\Microsoft.AspNet.TelemetryCorrelation.xml
 C:\GitHub\AmigoDono\AmigoDono.Web\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
 C:\GitHub\AmigoDono\AmigoDono.Web\bin\Microsoft.Owin.xml
 C:\GitHub\AmigoDono\AmigoDono.Web\bin\Microsoft.Owin.Host.SystemWeb.xml
 C:\GitHub\AmigoDono\AmigoDono.Web\bin\Microsoft.Owin.Security.xml
 C:\GitHub\AmigoDono\AmigoDono.Web\bin\Microsoft.Owin.Security.Cookies.xml
 C:\GitHub\AmigoDono\AmigoDono.Web\bin\Microsoft.Owin.Security.OAuth.xml
+C:\GitHub\AmigoDono\AmigoDono.Web\bin\Newtonsoft.Json.pdb
 C:\GitHub\AmigoDono\AmigoDono.Web\bin\Newtonsoft.Json.xml
 C:\GitHub\AmigoDono\AmigoDono.Web\bin\System.Diagnostics.DiagnosticSource.xml
 C:\GitHub\AmigoDono\AmigoDono.Web\bin\System.Web.Helpers.xml
@@ -1023,6 +1025,7 @@ C:\GitHub\AmigoDono\AmigoDono.Web\bin\System.Web.Razor.xml
 C:\GitHub\AmigoDono\AmigoDono.Web\bin\System.Web.WebPages.xml
 C:\GitHub\AmigoDono\AmigoDono.Web\bin\System.Web.WebPages.Deployment.xml
 C:\GitHub\AmigoDono\AmigoDono.Web\bin\System.Web.WebPages.Razor.xml
+C:\GitHub\AmigoDono\AmigoDono.Web\bin\pt-BR\Microsoft.QualityTools.Testing.Fakes.resources.dll
 C:\GitHub\AmigoDono\AmigoDono.Web\obj\Debug\AmigoDono.Web.csprojAssemblyReference.cache
 C:\GitHub\AmigoDono\AmigoDono.Web\obj\Debug\AmigoDono.Web.csproj.CoreCompileInputs.cache
 C:\GitHub\AmigoDono\AmigoDono.Web\obj\Debug\AmigoDono.Web.csproj.CopyComplete

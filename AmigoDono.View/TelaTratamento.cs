@@ -18,24 +18,129 @@ namespace AmigoDono.View
 {
     public partial class TelaTratamento : Form
     {
-
+        private bool Incluir = true;
         private Control.CTratamento _Control = new CTratamento();
         private Control.CPet _Pet = new CPet();
         private Control.CAmigo _Amigo = new CAmigo();
 
-        public string teste;
-
+        TIPOTRATAMENTO _TipoTratamento = null;
+        TIPOTRATAMENTO oTipoTratamento = new TIPOTRATAMENTO();
         TRATAMENTO _tratamento = null;
-        TRATAMENTO tratamenentoalterar = new TRATAMENTO();
         TRATAMENTO oTratamento = new TRATAMENTO();
-      
+        AMIGO _proprietario = null;
         AMIGO oProprietario = new AMIGO();
-        AMIGO retornoA = new AMIGO();
-
-
+        PET _pet = null;
+        PET oPet = new PET(); 
+        
         public TelaTratamento()
         {
             InitializeComponent();
+        }
+        private void CarregaGrid()
+        {
+            DteTimePickerDataTratamento.Enabled = false;
+            cboPet.Enabled = false;
+            CboTipoCuidado.Enabled = false;
+            CboResponsavel.Enabled = false;
+            CboTipoCuidado.Enabled = false;
+            TxtObs.Enabled = false;
+        }
+        private bool ValidaControles()
+        {
+            return true;
+        }
+        private void DesabiitaCampos()
+        {
+            DteTimePickerDataTratamento.Enabled = false;
+            cboPet.Enabled = false;
+            CboTipoCuidado.Enabled = false;
+            CboResponsavel.Enabled = false;
+            TxtObs.Enabled = false;
+            BtnSalvar.Enabled = false;
+        }
+        private void PopulaCampos()
+        {
+            cboPet.Text = _pet.NomePet;
+            CboTipoCuidado.Text = _TipoTratamento.Descricao;
+            CboResponsavel.Text = _proprietario.Nome;
+            TxtObs.Text = _tratamento.OBS;
+        }
+        private void LimpaDados()
+        {
+            cboPet.Text ="";
+            CboTipoCuidado.Text ="";
+            CboResponsavel.Text = "";
+            TxtObs.Text = "";
+        }
+        private bool ValidaCampos()
+        {
+            return true;
+        }
+
+        private void BtnSair_Click(object sender, EventArgs e)
+        {
+            Close();
+        }
+        private void CarregaGrid(string NomePet = "")
+        {
+            GrdHistoricoTratamento.DataSource = _Control.NomePet(NomePet);
+        }
+
+        private void TelaTratamento_FormClosed_1(object sender, FormClosedEventArgs e)
+        {
+            ((TelaPrincipal)this.MdiParent).MnuTratamento.Enabled = true;
+        }
+
+
+        //BOTAO INCLUIR
+        private void BtnSalvar_Click(object sender, EventArgs e)
+        {
+            if (ValidaCampos())
+            {
+                if (ValidaControles())
+                {
+                    if (_Control!=null)
+                    {
+                        _tratamento.OBS = TxtObs.Text;
+
+                        Mensagens.MsgAlterado();
+                        LimpaDados();
+                        cboPet.Focus();
+                    }
+                    else
+                    {
+                        List<PET> Cachorros = _Control.Pets();
+                        foreach (var x in Cachorros)
+                        {
+                            if (cboPet.Text == x.NomePet)
+                            {
+                                oTratamento.IDPet = x.IDP;
+                            }
+                        }
+
+
+                        List<AMIGO> Proprietario = _Control.Amigos();
+                        foreach (var x in Proprietario)
+                        {
+                            if (CboResponsavel.Text == x.Nome)
+                            {
+                                oTratamento.IDResponsavel = x.IDA;
+                            }
+                        }
+
+                        oTratamento.OBS = TxtObs.Text;
+                        _Control.Incluir(oTratamento);
+                        Mensagens.MsgIncluido();
+                        LimpaDados();
+                        cboPet.Focus();
+                    }
+                }
+            }
+           
+        }
+        //BOTAO EXCLUIR
+        private void BtnExcluir_Click(object sender, EventArgs e)
+        {
         }
         public TelaTratamento(TRATAMENTO tratamento)
         {
@@ -44,119 +149,53 @@ namespace AmigoDono.View
             PopulaCampos();
         }
 
-        public TelaTratamento(PET oPet) { }
-        private void PopulaCampos()
-        {
-            //TxtIdPet.Text = retornoP.IDP.ToString();
-            //TxtNomePet.Text = retornoP.NomePet;
-            CboTipoCuidado.Text = _tratamento.Tipo;
-            TxtIdResponsavel.Text = retornoA.IDA.ToString();
-            TxtNomeResponsavel.Text = retornoA.Nome;
-            //TxtDescricao.Text = _tratamento.;
-            BtnExcluir.Enabled = true;
-        }
-        private void TelaTratamento_Load(object sender, EventArgs e) { }
-        private void BtnSair_Click(object sender, EventArgs e) { Close(); }
+        ////public TelaTratamento(TRATAMENTO oTratamento) { }
+
+        ////private void TelaTratamento_Load(object sender, EventArgs e)
+        ////{
+        ////    List<TRATAMENTO> Tratamentos = _Control.Nome();
+        ////    foreach (var x in Nome)
+        ////    {
+        ////        cboPet.Items.Add(x.NomePet);
+        ////    }
+        ////    List<AMIGO> Responsavel = _Control.Amigos();
+        ////    foreach (var x in Responsavel)
+        ////    {
+        ////        CboResponsavel.Items.Add(x.Nome);
+        ////    }
+        ////}
         private void dateTimePickerTratamento_ValueChanged(object sender, EventArgs e) { }
         private void TxtDescricao_TextChanged(object sender, EventArgs e) { }
-        private void TelaTratamento_FormClosed_1(object sender, FormClosedEventArgs e) { ((TelaPrincipal)this.MdiParent).MnuTratamento.Enabled = true; }
         //DIRECIONA TELA PET
         private void BtnBuscarPet_Click(object sender, EventArgs e)
         {
-            //TelaTratamentoBuscarPet frmControle = new TelaTratamentoBuscarPet();
-            //frmControle.MdiParent = this.MdiParent;
-            //frmControle.Show();
 
         }
         //DIRECIONA TELA PROPRIETARIO
         private void BtnBuscarResp_Click(object sender, EventArgs e)
         {
-            //TelaTratamentoBuscarProp frmControle = new TelaTratamentoBuscarProp();
-            //frmControle.MdiParent = this.MdiParent;
-            //frmControle.Show();
         }
         //CARREGA COMBOBOX
         private void CboTipoCuidado_SelectedIndexChanged(object sender, EventArgs e) { this.CboTipoCuidado.Items.Add(oTratamento.Tipo); }
-        //VALIDAR CAMPOS PRA INCLUIR
-        //private bool ValidaCampos()
-        //{
-        //    if (CboTipoCuidado.Text == string.Empty)
-        //    {
-        //        MessageBox.Show("Selecione o tipo de cuidado", "Sistema Friend of the Owner", MessageBoxButtons.OK, MessageBoxIcon.Warning);
-        //        CboTipoCuidado.Select();
-        //        return false;
 
-        //        if (TxtDescricao.Text == "")
-        //        {
-        //            MessageBox.Show("Descrição deve ser preenchida", "Sistema Friend of the Owner", MessageBoxButtons.OK, MessageBoxIcon.Warning);
-        //            TxtDescricao.Select();
-        //            TxtDescricao.Focus();
-        //            return false;
-
-        //            if (TxtNomePet.Text == "")
-        //            {
-        //                MessageBox.Show("Nome do Pet deve ser preenchido", "Sistema Friend of the Owner", MessageBoxButtons.OK, MessageBoxIcon.Warning);
-        //                TxtDescricao.Select();
-        //                TxtDescricao.Focus();
-        //                return false;
-
-        //                if (TxtNomeResponsavel.Text == "")
-        //                {
-        //                    MessageBox.Show("Nome do Responsável deve ser preenchido", "Sistema Friend of the Owner", MessageBoxButtons.OK, MessageBoxIcon.Warning);
-        //                    TxtDescricao.Select();
-        //                    TxtDescricao.Focus();
-        //                    return false;
-
-        //                    if (DteTimePickerDataTratamento.Text == "")
-        //                    {
-        //                        MessageBox.Show("A data deve ser preenchida", "Sistema Friend of the Owner", MessageBoxButtons.OK, MessageBoxIcon.Warning);
-        //                        TxtDescricao.Select();
-        //                        TxtDescricao.Focus();
-        //                        return false;
-        //                    }
-        //                }
-        //            }
-        //        }
-        //    }
-        //    else
-        //    {
-        //        return true;
-        //    }
-
-
-        //}
-        //BOTAO INCLUIR
-
-        private void BtnIncluir_Click(object sender, EventArgs e)
+        private void cboPet_SelectedIndexChanged(object sender, EventArgs e)
         {
-            //    if (ValidaCampos() == true)
-            //    {
-            //        _tratamento.IDPet = Convert.ToInt32(TxtNomePet.Text);
-            //        _tratamento.IDResponsavel = Convert.ToInt32(TxtIdResponsavel.Text);
-            //        _tratamento.Descricao = TxtDescricao.Text;
-            //        _tratamento.Tipo = CboTipoCuidado.Text;
-            //        _tratamento.Data = DteTimePickerDataTratamento.MaxDate;
-
-            //        _Control.Incluir(_tratamento);
-            //        Mensagens.MsgIncluido();
-            //    }
-            //    else
-            //    {
-            //        MessageBox.Show("validacampos == false");
-            //    }
-
-        }
-        //BOTAO EXCLUIR
-        private void BtnExcluir_Click(object sender, EventArgs e)
-        {
-            TRATAMENTO oTrat;
-            oTrat = _Control.SelecionarID(Convert.ToInt32(TxtIdPet.Text));
-            if (Mensagens.MsgPerguntaExclusao() == DialogResult.Yes)
+            string procura = cboPet.Text;
+            if (cboPet.Text == "")
             {
-                _Control.Excluir(oTrat);
-                Mensagens.MsgExcluido();
-                this.Close();
+                GrdHistoricoTratamento.DataSource = _Control.NomePet("");
+            }
+            else
+            {
+                CarregaGrid(procura);
+
+                if (GrdHistoricoTratamento.Rows.Count == 0)
+                {
+                    Mensagens.MsgRegInexistente();
+                }
             }
         }
+        //VALIDAR CAMPOS PRA INCLUIR
+
     }
 }

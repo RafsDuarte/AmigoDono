@@ -21,14 +21,16 @@ namespace AmigoDono.Model
 
             [DisplayName("Id do Dono")]
             public object IDDono { get; set; }
-      
+
             [DisplayName("Id do Doador")]
             public object IDDoador { get; set; }
 
             [DisplayName("Data da Adocao")]
             public object DataAdocao { get; set; }
+
             [DisplayName("Status")]
             public object Statu { get; set; }
+
             [DisplayName("Observação")]
             public object OBS { get; set; }
         }

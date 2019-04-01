@@ -14,7 +14,7 @@
         protected override void Dispose(bool disposing)
         {
             if (disposing && (components != null))
-           {
+            {
                 components.Dispose();
             }
             base.Dispose(disposing);
@@ -177,7 +177,10 @@
         }
 
         #endregion
-
+        private System.Windows.Forms.DataGridViewTextBoxColumn nomePetDataGridViewTextBoxColumn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn tipoPetDataGridViewTextBoxColumn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn situacaoDataGridViewTextBoxColumn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn castradoDataGridViewTextBoxColumn;
         private System.Windows.Forms.Button BtnOK;
         private System.Windows.Forms.TextBox TxtPesquisaNome;
         private System.Windows.Forms.Button BtnSair;

@@ -188,6 +188,8 @@
         private System.Windows.Forms.Label LblNome;
         private System.Windows.Forms.DataGridView GrdDenuncia;
         private System.Windows.Forms.BindingSource dENUNCIABindingSource;
+        private System.Windows.Forms.DataGridViewTextBoxColumn denuncianteDataGridViewTextBoxColumn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn textoDenunciaDataGridViewTextBoxColumn;
         private Amigos_do_DonoDataSet1 amigos_do_DonoDataSet1;
         private System.Windows.Forms.BindingSource dENUNCIABindingSource1;
         private Amigos_do_DonoDataSet1TableAdapters.DENUNCIATableAdapter dENUNCIATableAdapter;
