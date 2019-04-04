@@ -215,12 +215,6 @@
     <Compile Include="RelatorioDenuncia.Designer.cs">
       <DependentUpon>RelatorioDenuncia.cs</DependentUpon>
     </Compile>
-    <Compile Include="RepRelatorioAmigo.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>RepRelatorioAmigo.rpt</DependentUpon>
-      <SubType>Component</SubType>
-    </Compile>
     <Compile Include="SqlServerTypes\Loader.cs" />
     <Compile Include="TelaBuscarPet.cs">
       <SubType>Form</SubType>
@@ -340,10 +334,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="RelatorioDenuncia.resx">
       <DependentUpon>RelatorioDenuncia.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="RepRelatorioAmigo.rpt">
-      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
-      <LastGenOutput>RepRelatorioAmigo.cs</LastGenOutput>
     </EmbeddedResource>
     <EmbeddedResource Include="TelaBuscarPet.resx">
       <DependentUpon>TelaBuscarPet.cs</DependentUpon>

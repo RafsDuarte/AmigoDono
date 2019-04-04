@@ -108,3 +108,15 @@ C:\Amigo_do_Dono\AmigoDono-master\AmigoDono.Control\obj\Debug\AmigoDono.Control.
 C:\Amigo_do_Dono\AmigoDono-master\AmigoDono.Control\obj\Debug\AmigoDono.Control.csproj.CopyComplete
 C:\Amigo_do_Dono\AmigoDono-master\AmigoDono.Control\obj\Debug\AmigoDono.Control.dll
 C:\Amigo_do_Dono\AmigoDono-master\AmigoDono.Control\obj\Debug\AmigoDono.Control.pdb
+C:\GitHub\AmigoDono\AmigoDono.Control\bin\Debug\AmigoDono.Control.dll
+C:\GitHub\AmigoDono\AmigoDono.Control\bin\Debug\AmigoDono.Control.pdb
+C:\GitHub\AmigoDono\AmigoDono.Control\bin\Debug\AmigoDono.Model.dll
+C:\GitHub\AmigoDono\AmigoDono.Control\bin\Debug\EntityFramework.dll
+C:\GitHub\AmigoDono\AmigoDono.Control\bin\Debug\AmigoDono.Model.pdb
+C:\GitHub\AmigoDono\AmigoDono.Control\bin\Debug\AmigoDono.Model.dll.config
+C:\GitHub\AmigoDono\AmigoDono.Control\bin\Debug\EntityFramework.xml
+C:\GitHub\AmigoDono\AmigoDono.Control\obj\Debug\AmigoDono.Control.csprojAssemblyReference.cache
+C:\GitHub\AmigoDono\AmigoDono.Control\obj\Debug\AmigoDono.Control.csproj.CoreCompileInputs.cache
+C:\GitHub\AmigoDono\AmigoDono.Control\obj\Debug\AmigoDono.Control.csproj.CopyComplete
+C:\GitHub\AmigoDono\AmigoDono.Control\obj\Debug\AmigoDono.Control.dll
+C:\GitHub\AmigoDono\AmigoDono.Control\obj\Debug\AmigoDono.Control.pdb
