@@ -46,6 +46,12 @@ namespace AmigoDono.Model.Repositories
         {
             return odb.PET.OrderBy(p => p.NomePet).ToList();
         }
+
+        public List<vw_PET> ListarPets()
+        {
+            return odb.vw_PET.OrderBy(p => p.NomePet).ToList();
+        }
+
         public void Incluir(PET oPet)
         {
             odb.PET.Add(oPet);

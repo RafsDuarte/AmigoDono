@@ -959,6 +959,7 @@ C:\GitHub\AmigoDono\AmigoDono.Web\bin\Microsoft.ApplicationInsights.dll
 C:\GitHub\AmigoDono\AmigoDono.Web\bin\Microsoft.AspNet.Identity.Core.dll
 C:\GitHub\AmigoDono\AmigoDono.Web\bin\Microsoft.AspNet.Identity.EntityFramework.dll
 C:\GitHub\AmigoDono\AmigoDono.Web\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\GitHub\AmigoDono\AmigoDono.Web\bin\Microsoft.AspNet.TelemetryCorrelation.dll
 C:\GitHub\AmigoDono\AmigoDono.Web\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
 C:\GitHub\AmigoDono\AmigoDono.Web\bin\Microsoft.Owin.dll
 C:\GitHub\AmigoDono\AmigoDono.Web\bin\Microsoft.Owin.Host.SystemWeb.dll
@@ -1009,6 +1010,7 @@ C:\GitHub\AmigoDono\AmigoDono.Web\bin\Microsoft.ApplicationInsights.xml
 C:\GitHub\AmigoDono\AmigoDono.Web\bin\Microsoft.AspNet.Identity.Core.xml
 C:\GitHub\AmigoDono\AmigoDono.Web\bin\Microsoft.AspNet.Identity.EntityFramework.xml
 C:\GitHub\AmigoDono\AmigoDono.Web\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\GitHub\AmigoDono\AmigoDono.Web\bin\Microsoft.AspNet.TelemetryCorrelation.xml
 C:\GitHub\AmigoDono\AmigoDono.Web\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
 C:\GitHub\AmigoDono\AmigoDono.Web\bin\Microsoft.Owin.xml
 C:\GitHub\AmigoDono\AmigoDono.Web\bin\Microsoft.Owin.Host.SystemWeb.xml

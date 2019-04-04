@@ -19,10 +19,7 @@ namespace AmigoDono.View
 {
     public partial class TelaCadastroAmigo : Form
     {
-        private bool Incluir = true;
         private Control.CAmigo _Control = new CAmigo();
-        //Bitmap bmp;
-        //Thread nt;
         public string teste;
         AMIGO _amigo=null;
         AMIGO amigoAlterar = new AMIGO();

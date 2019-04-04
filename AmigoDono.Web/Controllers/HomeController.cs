@@ -37,8 +37,8 @@ namespace AmigoDono.Web.Controllers
             // Busca atráves do objeto User.Identity, criado automaticamente no ASP.NET.
             var Usuario1 = System.Web.HttpContext.Current.User.Identity.Name;
             ViewBag.Nome = Usuario;
-            AMIGO aMIGO = _RepositoryAmigo.SelecionarPorEmail(Usuario);
-            ViewBag.ID = aMIGO.IDA;
+            //AMIGO aMIGO = _RepositoryAmigo.SelecionarPorEmail(Usuario);
+            //ViewBag.ID = aMIGO.IDA;
             List<vw_PET> Pets = _Repository.ListarPets();
             return View(Pets);
         }

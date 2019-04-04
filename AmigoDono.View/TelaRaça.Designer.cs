@@ -183,8 +183,6 @@
         private System.Windows.Forms.Button BtnSalvar;
         private System.Windows.Forms.DataGridViewButtonColumn BtnEscolher;
         private System.Windows.Forms.DataGridViewButtonColumn BtnAlterar;
-        private System.Windows.Forms.DataGridViewTextBoxColumn iDRDataGridViewTextBoxColumn;
-        private System.Windows.Forms.DataGridViewTextBoxColumn nomeRaçaDataGridViewTextBoxColumn;
         private Amigos_do_DonoRaça amigos_do_DonoRaça;
         private System.Windows.Forms.BindingSource rAÇABindingSource1;
         private Amigos_do_DonoRaçaTableAdapters.RAÇATableAdapter rAÇATableAdapter;
