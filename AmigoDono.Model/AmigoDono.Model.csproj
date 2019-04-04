@@ -86,9 +86,9 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>ModelClasses.edmx</DependentUpon>
     </Compile>
-    <Compile Include="Partial\Feedback.cs" />
     <Compile Include="Partial\Login.cs" />
     <Compile Include="Partial\Raça.cs" />
+    <Compile Include="Partial\Feedback.cs" />
     <Compile Include="Partial\TipoTratamento.cs" />
     <Compile Include="Partial\Amigo.cs" />
     <Compile Include="Partial\Controle.cs" />
