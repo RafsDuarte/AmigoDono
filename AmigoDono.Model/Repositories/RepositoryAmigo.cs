@@ -41,6 +41,11 @@ namespace AmigoDono.Model.Repositories
         {
             return (from p in odb.AMIGO where p.IDA == ID select p).FirstOrDefault();
         }
+
+        public AMIGO VerificaLogin(string Email, string Senha)
+        {
+            return (from p in odb.AMIGO where p.Email.Equals(Email) && p.Senha.Equals(Senha) select p).FirstOrDefault();
+        }
         // ok
         public List<AMIGO> SelecionarTodos(string amigo)
         {
@@ -55,6 +60,11 @@ namespace AmigoDono.Model.Repositories
         }
 
         public List<AMIGO> SelecionarTodosAmigos()
+        {
+            return odb.AMIGO.OrderBy(p => p.Nome).ToList();
+        }
+
+        public List<AMIGO> ListarAmigos()
         {
             return odb.AMIGO.OrderBy(p => p.Nome).ToList();
         }

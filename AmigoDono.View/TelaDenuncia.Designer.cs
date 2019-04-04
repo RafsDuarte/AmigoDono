@@ -500,15 +500,6 @@
         private System.Windows.Forms.Button BtnSalvar;
         private System.Windows.Forms.Button BtnExcluir;
         private System.Windows.Forms.BindingSource dENUNCIABindingSource;
-        private System.Windows.Forms.DataGridViewTextBoxColumn iDDDataGridViewTextBoxColumn;
-        private System.Windows.Forms.DataGridViewTextBoxColumn denuncianteDataGridViewTextBoxColumn;
-        private System.Windows.Forms.DataGridViewTextBoxColumn textoDenunciaDataGridViewTextBoxColumn;
-        private System.Windows.Forms.DataGridViewTextBoxColumn nomeLogradouroDataGridViewTextBoxColumn;
-        private System.Windows.Forms.DataGridViewTextBoxColumn numeroDataGridViewTextBoxColumn;
-        private System.Windows.Forms.DataGridViewTextBoxColumn complementoDataGridViewTextBoxColumn;
-        private System.Windows.Forms.DataGridViewTextBoxColumn cidadeDataGridViewTextBoxColumn;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dataDataGridViewTextBoxColumn;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dataRespostaDataGridViewTextBoxColumn;
         private System.Windows.Forms.ComboBox CboTipoLogradouro;
         private System.Windows.Forms.TextBox TxtIDD;
         private System.Windows.Forms.Label LblID;

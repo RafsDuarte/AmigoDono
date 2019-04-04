@@ -18,7 +18,6 @@ namespace AmigoDono.View
 {
     public partial class TelaTratamento : Form
     {
-        private bool Incluir = true;
         private Control.CTratamento _Control = new CTratamento();
         private Control.CPet _Pet = new CPet();
         private Control.CAmigo _Amigo = new CAmigo();

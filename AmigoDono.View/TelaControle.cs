@@ -144,7 +144,7 @@ namespace AmigoDono.View
         }
         private void BtnExcluir_Click(object sender, EventArgs e)
         {
-            CONTROLE oControle;
+            //CONTROLE oControle;
             if (Mensagens.MsgPerguntaExclusao() == DialogResult.Yes)
             {
                 LimpaDados();
@@ -204,6 +204,11 @@ namespace AmigoDono.View
         }
 
         private void nu(object sender, EventArgs e)
+        {
+
+        }
+
+        private void CBODoador_SelectedIndexChanged(object sender, EventArgs e)
         {
 
         }

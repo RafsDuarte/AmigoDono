@@ -18,13 +18,8 @@ namespace AmigoDono.View
     
     public partial class TelaCadastroPet : Form
     {
-        RAÇA _raça = null;
         RAÇA oRaça = new RAÇA();
-        private bool Incluir = true;
         private Control.CPet _Control = new CPet();
-        Bitmap bmp;
-        Thread nt;
-        public string teste;
         PET _pet = null;
         PET petalterar = new PET();
         PET oPet = new PET();

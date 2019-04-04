@@ -286,7 +286,7 @@ SELECT IDD, Denunciante, TextoDenuncia, Email, CEP, Logradouro, NomeLogradouro, 
   <xs:element name="Amigos_do_DonoDataSet1" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="True" msprop:Generator_DataSetName="Amigos_do_DonoDataSet1" msprop:Generator_UserDSName="Amigos_do_DonoDataSet1">
     <xs:complexType>
       <xs:choice minOccurs="0" maxOccurs="unbounded">
-        <xs:element name="AMIGO" msprop:Generator_TableClassName="AMIGODataTable" msprop:Generator_TableVarName="tableAMIGO" msprop:Generator_TablePropName="AMIGO" msprop:Generator_RowDeletingName="AMIGORowDeleting" msprop:Generator_RowChangingName="AMIGORowChanging" msprop:Generator_RowEvHandlerName="AMIGORowChangeEventHandler" msprop:Generator_RowDeletedName="AMIGORowDeleted" msprop:Generator_UserTableName="AMIGO" msprop:Generator_RowChangedName="AMIGORowChanged" msprop:Generator_RowEvArgName="AMIGORowChangeEvent" msprop:Generator_RowClassName="AMIGORow">
+        <xs:element name="AMIGO" msprop:Generator_TableClassName="AMIGODataTable" msprop:Generator_TableVarName="tableAMIGO" msprop:Generator_RowChangedName="AMIGORowChanged" msprop:Generator_TablePropName="AMIGO" msprop:Generator_RowDeletingName="AMIGORowDeleting" msprop:Generator_RowChangingName="AMIGORowChanging" msprop:Generator_RowEvHandlerName="AMIGORowChangeEventHandler" msprop:Generator_RowDeletedName="AMIGORowDeleted" msprop:Generator_RowClassName="AMIGORow" msprop:Generator_UserTableName="AMIGO" msprop:Generator_RowEvArgName="AMIGORowChangeEvent">
           <xs:complexType>
             <xs:sequence>
               <xs:element name="IDA" msdata:ReadOnly="true" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="-1" msdata:AutoIncrementStep="-1" msprop:Generator_ColumnVarNameInTable="columnIDA" msprop:Generator_ColumnPropNameInRow="IDA" msprop:Generator_ColumnPropNameInTable="IDAColumn" msprop:Generator_UserColumnName="IDA" type="xs:int" />
@@ -415,7 +415,7 @@ SELECT IDD, Denunciante, TextoDenuncia, Email, CEP, Logradouro, NomeLogradouro, 
             </xs:sequence>
           </xs:complexType>
         </xs:element>
-        <xs:element name="DENUNCIA" msprop:Generator_TableClassName="DENUNCIADataTable" msprop:Generator_TableVarName="tableDENUNCIA" msprop:Generator_TablePropName="DENUNCIA" msprop:Generator_RowDeletingName="DENUNCIARowDeleting" msprop:Generator_RowChangingName="DENUNCIARowChanging" msprop:Generator_RowEvHandlerName="DENUNCIARowChangeEventHandler" msprop:Generator_RowDeletedName="DENUNCIARowDeleted" msprop:Generator_UserTableName="DENUNCIA" msprop:Generator_RowChangedName="DENUNCIARowChanged" msprop:Generator_RowEvArgName="DENUNCIARowChangeEvent" msprop:Generator_RowClassName="DENUNCIARow">
+        <xs:element name="DENUNCIA" msprop:Generator_TableClassName="DENUNCIADataTable" msprop:Generator_TableVarName="tableDENUNCIA" msprop:Generator_RowChangedName="DENUNCIARowChanged" msprop:Generator_TablePropName="DENUNCIA" msprop:Generator_RowDeletingName="DENUNCIARowDeleting" msprop:Generator_RowChangingName="DENUNCIARowChanging" msprop:Generator_RowEvHandlerName="DENUNCIARowChangeEventHandler" msprop:Generator_RowDeletedName="DENUNCIARowDeleted" msprop:Generator_RowClassName="DENUNCIARow" msprop:Generator_UserTableName="DENUNCIA" msprop:Generator_RowEvArgName="DENUNCIARowChangeEvent">
           <xs:complexType>
             <xs:sequence>
               <xs:element name="IDD" msdata:ReadOnly="true" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="-1" msdata:AutoIncrementStep="-1" msprop:Generator_ColumnVarNameInTable="columnIDD" msprop:Generator_ColumnPropNameInRow="IDD" msprop:Generator_ColumnPropNameInTable="IDDColumn" msprop:Generator_UserColumnName="IDD" type="xs:int" />
@@ -502,7 +502,7 @@ SELECT IDD, Denunciante, TextoDenuncia, Email, CEP, Logradouro, NomeLogradouro, 
   </xs:element>
   <xs:annotation>
     <xs:appinfo>
-      <msdata:Relationship name="FK_DENUNCIA_AMIGO" msdata:parent="AMIGO" msdata:child="DENUNCIA" msdata:parentkey="IDA" msdata:childkey="Denunciante" msprop:Generator_UserChildTable="DENUNCIA" msprop:Generator_ChildPropName="GetDENUNCIARows" msprop:Generator_UserRelationName="FK_DENUNCIA_AMIGO" msprop:Generator_ParentPropName="AMIGORow" msprop:Generator_RelationVarName="relationFK_DENUNCIA_AMIGO" msprop:Generator_UserParentTable="AMIGO" />
+      <msdata:Relationship name="FK_DENUNCIA_AMIGO" msdata:parent="AMIGO" msdata:child="DENUNCIA" msdata:parentkey="IDA" msdata:childkey="Denunciante" msprop:Generator_UserChildTable="DENUNCIA" msprop:Generator_ChildPropName="GetDENUNCIARows" msprop:Generator_UserRelationName="FK_DENUNCIA_AMIGO" msprop:Generator_RelationVarName="relationFK_DENUNCIA_AMIGO" msprop:Generator_UserParentTable="AMIGO" msprop:Generator_ParentPropName="AMIGORow" />
     </xs:appinfo>
   </xs:annotation>
 </xs:schema>

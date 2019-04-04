@@ -10,27 +10,27 @@ namespace AmigoDono.Control
 {
     public class CRaça :IDisposable
     {
-        RepositoryTratamento _Repository;
+        RepositoryRaça _Repository;
         public CRaça()
         {
-            _Repository = new RepositoryTratamento();
+            _Repository = new RepositoryRaça();
         }
-        public void Incluir(TRATAMENTO oTratamento)
+        public void Incluir(RAÇA oRaça)
         {
-            _Repository.Incluir(oTratamento);
+            _Repository.Incluir(oRaça);
         }
 
-        public void Excluir(TRATAMENTO oTratamento)
+        public void Excluir(RAÇA oRaça)
         {
-            _Repository.Excluir(oTratamento);
+            _Repository.Excluir(oRaça);
         }
-        public TRATAMENTO Selecionar(int ID)
+        public RAÇA Selecionar(int ID)
         {
             return _Repository.Selecionar(ID);
         }
-        public TRATAMENTO SelecionarID(int ID)
+        public RAÇA SelecionarIDR(int ID)
         {
-            return _Repository.SelecionarID(ID);
+            return _Repository.SelecionarIDR(ID);
         }
 
         public void Dispose()

@@ -76,6 +76,7 @@
             this.CBODoador.Name = "CBODoador";
             this.CBODoador.Size = new System.Drawing.Size(367, 21);
             this.CBODoador.TabIndex = 27;
+            this.CBODoador.SelectedIndexChanged += new System.EventHandler(this.CBODoador_SelectedIndexChanged);
             // 
             // aMIGOBindingSource1
             // 

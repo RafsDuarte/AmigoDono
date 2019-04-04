@@ -77,6 +77,11 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>Amigos_do_DonoDataSet10.xsd</DependentUpon>
     </Compile>
+    <Compile Include="Amigos_do_DonoDataSet11.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Amigos_do_DonoDataSet11.xsd</DependentUpon>
+    </Compile>
     <Compile Include="Amigos_do_DonoDataSet111.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -404,6 +409,17 @@
     </None>
     <None Include="Amigos_do_DonoDataSet10.xss">
       <DependentUpon>Amigos_do_DonoDataSet10.xsd</DependentUpon>
+    </None>
+    <None Include="Amigos_do_DonoDataSet11.xsc">
+      <DependentUpon>Amigos_do_DonoDataSet11.xsd</DependentUpon>
+    </None>
+    <None Include="Amigos_do_DonoDataSet11.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Amigos_do_DonoDataSet11.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Amigos_do_DonoDataSet11.xss">
+      <DependentUpon>Amigos_do_DonoDataSet11.xsd</DependentUpon>
     </None>
     <None Include="Amigos_do_DonoDataSet111.xsc">
       <DependentUpon>Amigos_do_DonoDataSet111.xsd</DependentUpon>

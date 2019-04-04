@@ -20,7 +20,6 @@ namespace AmigoDono.View
 {
     public partial class TelaRaça : Form
     {
-        private bool Incluir = true;
         private Control.CRaça _Control = new CRaça();
         public string teste;
         RAÇA _raça = null;

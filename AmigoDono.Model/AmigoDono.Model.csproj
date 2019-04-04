@@ -38,6 +38,7 @@
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Configuration" />
     <Reference Include="System.Core" />
     <Reference Include="System.Runtime.Serialization" />
     <Reference Include="System.Security" />
@@ -66,8 +67,10 @@
       <DependentUpon>ModelClasses.tt</DependentUpon>
     </Compile>
     <Compile Include="Helper\Constantes.cs" />
+    <Compile Include="Helper\CustomValidator\Util.cs" />
     <Compile Include="Helper\Data.cs" />
     <Compile Include="Helper\Mensagens.cs" />
+    <Compile Include="Helper\Perfil.cs" />
     <Compile Include="ModelClasses.Context.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -83,14 +86,16 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>ModelClasses.edmx</DependentUpon>
     </Compile>
+    <Compile Include="Partial\Feedback.cs" />
+    <Compile Include="Partial\Login.cs" />
     <Compile Include="Partial\Raça.cs" />
-    <Compile Include="Partial\Feedback .cs" />
     <Compile Include="Partial\TipoTratamento.cs" />
     <Compile Include="Partial\Amigo.cs" />
     <Compile Include="Partial\Controle.cs" />
     <Compile Include="Partial\Denuncia.cs" />
     <Compile Include="Partial\Tratamentos.cs" />
     <Compile Include="Partial\Pet.cs" />
+    <Compile Include="Partial\vw_Pet.cs" />
     <Compile Include="PET.cs">
       <DependentUpon>ModelClasses.tt</DependentUpon>
     </Compile>

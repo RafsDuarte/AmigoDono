@@ -147,14 +147,6 @@
 
         private System.Windows.Forms.DataGridView GrdRelatorioControle;
         private System.Windows.Forms.BindingSource vwCONTROLEBindingSource;
-        private System.Windows.Forms.DataGridViewTextBoxColumn iDPetDataGridViewTextBoxColumn;
-        private System.Windows.Forms.DataGridViewTextBoxColumn nomePetDataGridViewTextBoxColumn;
-        private System.Windows.Forms.DataGridViewTextBoxColumn iDDoadorDataGridViewTextBoxColumn;
-        private System.Windows.Forms.DataGridViewTextBoxColumn doadorDataGridViewTextBoxColumn;
-        private System.Windows.Forms.DataGridViewTextBoxColumn iDDonoDataGridViewTextBoxColumn;
-        private System.Windows.Forms.DataGridViewTextBoxColumn donoDataGridViewTextBoxColumn;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dataAdocaoDataGridViewTextBoxColumn;
-        private System.Windows.Forms.DataGridViewTextBoxColumn statuDataGridViewTextBoxColumn;
         private System.Windows.Forms.Button BtnSair;
         private Amigos_do_DonoDataSet18 amigos_do_DonoDataSet18;
         private System.Windows.Forms.BindingSource vwCONTROLEBindingSource1;
