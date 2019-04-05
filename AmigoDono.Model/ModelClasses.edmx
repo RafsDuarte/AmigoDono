@@ -4,7 +4,7 @@
   <edmx:Runtime>
     <!-- SSDL content -->
     <edmx:StorageModels>
-    <Schema Namespace="Amigos_do_DonoModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+      <Schema Namespace="Amigos_do_DonoModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
         <EntityType Name="AMIGO">
           <Key>
             <PropertyRef Name="IDA" />
@@ -46,8 +46,8 @@
           </Key>
           <Property Name="IDC" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
           <Property Name="IDPet" Type="int" Nullable="false" />
-          <Property Name="IDDono" Type="int" />
-          <Property Name="IDDoador" Type="int" />
+          <Property Name="IDDono" Type="int" Nullable="false" />
+          <Property Name="IDDoador" Type="int" Nullable="false" />
           <Property Name="DataAdocao" Type="date" />
           <Property Name="Statu" Type="varchar" MaxLength="50" Nullable="false" />
           <Property Name="OBS" Type="varchar(max)" />
@@ -75,7 +75,7 @@
           <Key>
             <PropertyRef Name="IDF" />
           </Key>
-          <Property Name="IDF" Type="int" Nullable="false" />
+          <Property Name="IDF" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
           <Property Name="Nome" Type="varchar(max)" Nullable="false" />
           <Property Name="Email" Type="varchar" MaxLength="100" Nullable="false" />
           <Property Name="Opiniao" Type="varchar(max)" Nullable="false" />
@@ -86,6 +86,7 @@
             <PropertyRef Name="IDP" />
           </Key>
           <Property Name="IDP" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="IDRaça" Type="int" />
           <Property Name="Cadastro" Type="date" Nullable="false" />
           <Property Name="NomePet" Type="varchar" MaxLength="80" Nullable="false" />
           <Property Name="TipoPet" Type="varchar" MaxLength="10" Nullable="false" />
@@ -97,7 +98,6 @@
           <Property Name="DataNascimento" Type="date" />
           <Property Name="OBS" Type="varchar(max)" />
           <Property Name="Imagem" Type="image" />
-          <Property Name="IDRaça" Type="int" />
         </EntityType>
         <EntityType Name="RAÇA">
           <Key>
@@ -172,6 +172,8 @@ warning 6002: The table/view 'Amigos_do_Dono.dbo.vw_PET' does not have a primary
             <PropertyRef Name="Sexo" />
             <PropertyRef Name="Porte" />
             <PropertyRef Name="Castrado" />
+            <PropertyRef Name="Cadastro" />
+            <PropertyRef Name="IDP" />
           </Key>
           <Property Name="Imagem" Type="image" />
           <Property Name="NomePet" Type="varchar" MaxLength="80" Nullable="false" />
@@ -183,6 +185,10 @@ warning 6002: The table/view 'Amigos_do_Dono.dbo.vw_PET' does not have a primary
           <Property Name="Porte" Type="varchar" MaxLength="50" Nullable="false" />
           <Property Name="Castrado" Type="varchar" MaxLength="3" Nullable="false" />
           <Property Name="DataNascimento" Type="date" />
+          <Property Name="OBS" Type="varchar(max)" />
+          <Property Name="Cadastro" Type="date" Nullable="false" />
+          <Property Name="IDP" Type="int" Nullable="false" />
+          <Property Name="IDRaça" Type="int" />
         </EntityType>
         <!--Errors Found During Generation:
 warning 6002: The table/view 'Amigos_do_Dono.dbo.vw_TRATAMENTO' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
@@ -220,7 +226,7 @@ warning 6002: The table/view 'Amigos_do_Dono.dbo.vw_TRATAMENTO' does not have a 
           </ReferentialConstraint>
         </Association>
         <Association Name="FK_CONTROLE_AMIGO">
-          <End Role="AMIGO" Type="Self.AMIGO" Multiplicity="0..1" />
+          <End Role="AMIGO" Type="Self.AMIGO" Multiplicity="1" />
           <End Role="CONTROLE" Type="Self.CONTROLE" Multiplicity="*" />
           <ReferentialConstraint>
             <Principal Role="AMIGO">
@@ -232,7 +238,7 @@ warning 6002: The table/view 'Amigos_do_Dono.dbo.vw_TRATAMENTO' does not have a 
           </ReferentialConstraint>
         </Association>
         <Association Name="FK_CONTROLE_AMIGO1">
-          <End Role="AMIGO" Type="Self.AMIGO" Multiplicity="0..1" />
+          <End Role="AMIGO" Type="Self.AMIGO" Multiplicity="1" />
           <End Role="CONTROLE" Type="Self.CONTROLE" Multiplicity="*" />
           <ReferentialConstraint>
             <Principal Role="AMIGO">
@@ -243,7 +249,7 @@ warning 6002: The table/view 'Amigos_do_Dono.dbo.vw_TRATAMENTO' does not have a 
             </Dependent>
           </ReferentialConstraint>
         </Association>
-        <Association Name="FK_PET_RAÇA1">
+        <Association Name="FK_PET_RAÇA">
           <End Role="RAÇA" Type="Self.RAÇA" Multiplicity="0..1" />
           <End Role="PET" Type="Self.PET" Multiplicity="*" />
           <ReferentialConstraint>
@@ -291,41 +297,6 @@ warning 6002: The table/view 'Amigos_do_Dono.dbo.vw_TRATAMENTO' does not have a 
             </Dependent>
           </ReferentialConstraint>
         </Association>
-        <Function Name="fn_diagramobjects" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="true" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" ReturnType="int" />
-        <Function Name="sp_alterdiagram" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
-          <Parameter Name="diagramname" Type="nvarchar" Mode="In" />
-          <Parameter Name="owner_id" Type="int" Mode="In" />
-          <Parameter Name="version" Type="int" Mode="In" />
-          <Parameter Name="definition" Type="varbinary(max)" Mode="In" />
-        </Function>
-        <Function Name="sp_creatediagram" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
-          <Parameter Name="diagramname" Type="nvarchar" Mode="In" />
-          <Parameter Name="owner_id" Type="int" Mode="In" />
-          <Parameter Name="version" Type="int" Mode="In" />
-          <Parameter Name="definition" Type="varbinary(max)" Mode="In" />
-        </Function>
-        <Function Name="sp_dropdiagram" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
-          <Parameter Name="diagramname" Type="nvarchar" Mode="In" />
-          <Parameter Name="owner_id" Type="int" Mode="In" />
-        </Function>
-        <Function Name="sp_helpdiagramdefinition" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
-          <Parameter Name="diagramname" Type="nvarchar" Mode="In" />
-          <Parameter Name="owner_id" Type="int" Mode="In" />
-        </Function>
-        <Function Name="sp_helpdiagrams" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
-          <Parameter Name="diagramname" Type="nvarchar" Mode="In" />
-          <Parameter Name="owner_id" Type="int" Mode="In" />
-        </Function>
-        <Function Name="sp_renamediagram" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
-          <Parameter Name="diagramname" Type="nvarchar" Mode="In" />
-          <Parameter Name="owner_id" Type="int" Mode="In" />
-          <Parameter Name="new_diagramname" Type="nvarchar" Mode="In" />
-        </Function>
-        <Function Name="sp_upgraddiagrams" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" />
-        <Function Name="spc_Controle" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
-          <Parameter Name="ID" Type="int" Mode="In" />
-          <Parameter Name="DATA" Type="date" Mode="In" />
-        </Function>
         <EntityContainer Name="Amigos_do_DonoModelStoreContainer">
           <EntitySet Name="AMIGO" EntityType="Self.AMIGO" Schema="dbo" store:Type="Tables" />
           <EntitySet Name="CONTADOR" EntityType="Self.CONTADOR" Schema="dbo" store:Type="Tables" />
@@ -368,7 +339,11 @@ warning 6002: The table/view 'Amigos_do_Dono.dbo.vw_TRATAMENTO' does not have a 
     [vw_PET].[Sexo] AS [Sexo], 
     [vw_PET].[Porte] AS [Porte], 
     [vw_PET].[Castrado] AS [Castrado], 
-    [vw_PET].[DataNascimento] AS [DataNascimento]
+    [vw_PET].[DataNascimento] AS [DataNascimento], 
+    [vw_PET].[OBS] AS [OBS], 
+    [vw_PET].[Cadastro] AS [Cadastro], 
+    [vw_PET].[IDP] AS [IDP], 
+    [vw_PET].[IDRaça] AS [IDRaça]
     FROM [dbo].[vw_PET] AS [vw_PET]</DefiningQuery>
           </EntitySet>
           <EntitySet Name="vw_TRATAMENTO" EntityType="Self.vw_TRATAMENTO" store:Type="Views" store:Schema="dbo">
@@ -397,7 +372,7 @@ warning 6002: The table/view 'Amigos_do_Dono.dbo.vw_TRATAMENTO' does not have a 
             <End Role="AMIGO" EntitySet="AMIGO" />
             <End Role="CONTROLE" EntitySet="CONTROLE" />
           </AssociationSet>
-          <AssociationSet Name="FK_PET_RAÇA1" Association="Self.FK_PET_RAÇA1">
+          <AssociationSet Name="FK_PET_RAÇA" Association="Self.FK_PET_RAÇA">
             <End Role="RAÇA" EntitySet="RAÇA" />
             <End Role="PET" EntitySet="PET" />
           </AssociationSet>
@@ -414,7 +389,8 @@ warning 6002: The table/view 'Amigos_do_Dono.dbo.vw_TRATAMENTO' does not have a 
             <End Role="TRATAMENTO" EntitySet="TRATAMENTO" />
           </AssociationSet>
         </EntityContainer>
-      </Schema></edmx:StorageModels>
+      </Schema>
+    </edmx:StorageModels>
     <!-- CSDL content -->
     <edmx:ConceptualModels>
       <Schema Namespace="Amigos_do_DonoModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
@@ -462,8 +438,8 @@ warning 6002: The table/view 'Amigos_do_Dono.dbo.vw_TRATAMENTO' does not have a 
           </Key>
           <Property Name="IDC" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
           <Property Name="IDPet" Type="Int32" Nullable="false" />
-          <Property Name="IDDono" Type="Int32" />
-          <Property Name="IDDoador" Type="Int32" />
+          <Property Name="IDDono" Type="Int32" Nullable="false" />
+          <Property Name="IDDoador" Type="Int32" Nullable="false" />
           <Property Name="DataAdocao" Type="DateTime" Precision="0" />
           <Property Name="Statu" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
           <Property Name="OBS" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
@@ -494,7 +470,7 @@ warning 6002: The table/view 'Amigos_do_Dono.dbo.vw_TRATAMENTO' does not have a 
           <Key>
             <PropertyRef Name="IDF" />
           </Key>
-          <Property Name="IDF" Type="Int32" Nullable="false" />
+          <Property Name="IDF" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
           <Property Name="Nome" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" Nullable="false" />
           <Property Name="Email" Type="String" MaxLength="100" FixedLength="false" Unicode="false" Nullable="false" />
           <Property Name="Opiniao" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" Nullable="false" />
@@ -505,6 +481,7 @@ warning 6002: The table/view 'Amigos_do_Dono.dbo.vw_TRATAMENTO' does not have a 
             <PropertyRef Name="IDP" />
           </Key>
           <Property Name="IDP" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="IDRaça" Type="Int32" />
           <Property Name="Cadastro" Type="DateTime" Nullable="false" Precision="0" />
           <Property Name="NomePet" Type="String" MaxLength="80" FixedLength="false" Unicode="false" Nullable="false" />
           <Property Name="TipoPet" Type="String" MaxLength="10" FixedLength="false" Unicode="false" Nullable="false" />
@@ -516,9 +493,8 @@ warning 6002: The table/view 'Amigos_do_Dono.dbo.vw_TRATAMENTO' does not have a 
           <Property Name="DataNascimento" Type="DateTime" Precision="0" />
           <Property Name="OBS" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
           <Property Name="Imagem" Type="Binary" MaxLength="Max" FixedLength="false" />
-          <Property Name="IDRaça" Type="Int32" />
           <NavigationProperty Name="CONTROLE" Relationship="Self.FK_adocao_Animal" FromRole="PET" ToRole="CONTROLE" />
-          <NavigationProperty Name="RAÇA" Relationship="Self.FK_PET_RAÇA1" FromRole="PET" ToRole="RAÇA" />
+          <NavigationProperty Name="RAÇA" Relationship="Self.FK_PET_RAÇA" FromRole="PET" ToRole="RAÇA" />
           <NavigationProperty Name="TRATAMENTO" Relationship="Self.FK_TRATAMENTO_PET" FromRole="PET" ToRole="TRATAMENTO" />
         </EntityType>
         <EntityType Name="RAÇA">
@@ -527,7 +503,7 @@ warning 6002: The table/view 'Amigos_do_Dono.dbo.vw_TRATAMENTO' does not have a 
           </Key>
           <Property Name="IDR" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
           <Property Name="NomeRaça" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
-          <NavigationProperty Name="PET" Relationship="Self.FK_PET_RAÇA1" FromRole="RAÇA" ToRole="PET" />
+          <NavigationProperty Name="PET" Relationship="Self.FK_PET_RAÇA" FromRole="RAÇA" ToRole="PET" />
         </EntityType>
         <EntityType Name="TIPOTRATAMENTO">
           <Key>
@@ -593,6 +569,8 @@ warning 6002: The table/view 'Amigos_do_Dono.dbo.vw_TRATAMENTO' does not have a 
             <PropertyRef Name="Sexo" />
             <PropertyRef Name="Porte" />
             <PropertyRef Name="Castrado" />
+            <PropertyRef Name="Cadastro" />
+            <PropertyRef Name="IDP" />
           </Key>
           <Property Name="Imagem" Type="Binary" MaxLength="Max" FixedLength="false" />
           <Property Name="NomePet" Type="String" MaxLength="80" FixedLength="false" Unicode="false" Nullable="false" />
@@ -604,6 +582,10 @@ warning 6002: The table/view 'Amigos_do_Dono.dbo.vw_TRATAMENTO' does not have a 
           <Property Name="Porte" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
           <Property Name="Castrado" Type="String" MaxLength="3" FixedLength="false" Unicode="false" Nullable="false" />
           <Property Name="DataNascimento" Type="DateTime" Precision="0" />
+          <Property Name="OBS" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+          <Property Name="Cadastro" Type="DateTime" Nullable="false" Precision="0" />
+          <Property Name="IDP" Type="Int32" Nullable="false" />
+          <Property Name="IDRaça" Type="Int32" />
         </EntityType>
         <EntityType Name="vw_TRATAMENTO">
           <Key>
@@ -627,7 +609,7 @@ warning 6002: The table/view 'Amigos_do_Dono.dbo.vw_TRATAMENTO' does not have a 
           <Property Name="Descricao" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
         </EntityType>
         <Association Name="FK_CONTROLE_AMIGO">
-          <End Role="AMIGO" Type="Self.AMIGO" Multiplicity="0..1" />
+          <End Role="AMIGO" Type="Self.AMIGO" Multiplicity="1" />
           <End Role="CONTROLE" Type="Self.CONTROLE" Multiplicity="*" />
           <ReferentialConstraint>
             <Principal Role="AMIGO">
@@ -639,7 +621,7 @@ warning 6002: The table/view 'Amigos_do_Dono.dbo.vw_TRATAMENTO' does not have a 
           </ReferentialConstraint>
         </Association>
         <Association Name="FK_CONTROLE_AMIGO1">
-          <End Role="AMIGO" Type="Self.AMIGO" Multiplicity="0..1" />
+          <End Role="AMIGO" Type="Self.AMIGO" Multiplicity="1" />
           <End Role="CONTROLE" Type="Self.CONTROLE" Multiplicity="*" />
           <ReferentialConstraint>
             <Principal Role="AMIGO">
@@ -674,7 +656,7 @@ warning 6002: The table/view 'Amigos_do_Dono.dbo.vw_TRATAMENTO' does not have a 
             </Dependent>
           </ReferentialConstraint>
         </Association>
-        <Association Name="FK_PET_RAÇA1">
+        <Association Name="FK_PET_RAÇA">
           <End Role="RAÇA" Type="Self.RAÇA" Multiplicity="0..1" />
           <End Role="PET" Type="Self.PET" Multiplicity="*" />
           <ReferentialConstraint>
@@ -740,7 +722,7 @@ warning 6002: The table/view 'Amigos_do_Dono.dbo.vw_TRATAMENTO' does not have a 
             <End Role="PET" EntitySet="PET" />
             <End Role="CONTROLE" EntitySet="CONTROLE" />
           </AssociationSet>
-          <AssociationSet Name="FK_PET_RAÇA1" Association="Self.FK_PET_RAÇA1">
+          <AssociationSet Name="FK_PET_RAÇA" Association="Self.FK_PET_RAÇA">
             <End Role="RAÇA" EntitySet="RAÇA" />
             <End Role="PET" EntitySet="PET" />
           </AssociationSet>
@@ -752,52 +734,7 @@ warning 6002: The table/view 'Amigos_do_Dono.dbo.vw_TRATAMENTO' does not have a 
             <End Role="TIPOTRATAMENTO" EntitySet="TIPOTRATAMENTO" />
             <End Role="TRATAMENTO" EntitySet="TRATAMENTO" />
           </AssociationSet>
-          <FunctionImport Name="sp_alterdiagram">
-            <Parameter Name="diagramname" Mode="In" Type="String" />
-            <Parameter Name="owner_id" Mode="In" Type="Int32" />
-            <Parameter Name="version" Mode="In" Type="Int32" />
-            <Parameter Name="definition" Mode="In" Type="Binary" />
-          </FunctionImport>
-          <FunctionImport Name="sp_creatediagram">
-            <Parameter Name="diagramname" Mode="In" Type="String" />
-            <Parameter Name="owner_id" Mode="In" Type="Int32" />
-            <Parameter Name="version" Mode="In" Type="Int32" />
-            <Parameter Name="definition" Mode="In" Type="Binary" />
-          </FunctionImport>
-          <FunctionImport Name="sp_dropdiagram">
-            <Parameter Name="diagramname" Mode="In" Type="String" />
-            <Parameter Name="owner_id" Mode="In" Type="Int32" />
-          </FunctionImport>
-          <FunctionImport Name="sp_helpdiagramdefinition" ReturnType="Collection(Amigos_do_DonoModel.sp_helpdiagramdefinition_Result)">
-            <Parameter Name="diagramname" Mode="In" Type="String" />
-            <Parameter Name="owner_id" Mode="In" Type="Int32" />
-          </FunctionImport>
-          <FunctionImport Name="sp_helpdiagrams" ReturnType="Collection(Amigos_do_DonoModel.sp_helpdiagrams_Result)">
-            <Parameter Name="diagramname" Mode="In" Type="String" />
-            <Parameter Name="owner_id" Mode="In" Type="Int32" />
-          </FunctionImport>
-          <FunctionImport Name="sp_renamediagram">
-            <Parameter Name="diagramname" Mode="In" Type="String" />
-            <Parameter Name="owner_id" Mode="In" Type="Int32" />
-            <Parameter Name="new_diagramname" Mode="In" Type="String" />
-          </FunctionImport>
-          <FunctionImport Name="sp_upgraddiagrams" />
-          <FunctionImport Name="spc_Controle">
-            <Parameter Name="ID" Mode="In" Type="Int32" />
-            <Parameter Name="DATA" Mode="In" Type="DateTime" />
-          </FunctionImport>
         </EntityContainer>
-        <ComplexType Name="sp_helpdiagramdefinition_Result">
-          <Property Type="Int32" Name="version" Nullable="true" />
-          <Property Type="Binary" Name="definition" Nullable="true" />
-        </ComplexType>
-        <ComplexType Name="sp_helpdiagrams_Result">
-          <Property Type="String" Name="Database" Nullable="true" MaxLength="128" />
-          <Property Type="String" Name="Name" Nullable="false" MaxLength="128" />
-          <Property Type="Int32" Name="ID" Nullable="false" />
-          <Property Type="String" Name="Owner" Nullable="true" MaxLength="128" />
-          <Property Type="Int32" Name="OwnerID" Nullable="false" />
-        </ComplexType>
       </Schema>
     </edmx:ConceptualModels>
     <!-- C-S mapping content -->
@@ -889,6 +826,7 @@ warning 6002: The table/view 'Amigos_do_Dono.dbo.vw_TRATAMENTO' does not have a 
             <EntityTypeMapping TypeName="Amigos_do_DonoModel.PET">
               <MappingFragment StoreEntitySet="PET">
                 <ScalarProperty Name="IDP" ColumnName="IDP" />
+                <ScalarProperty Name="IDRaça" ColumnName="IDRaça" />
                 <ScalarProperty Name="Cadastro" ColumnName="Cadastro" />
                 <ScalarProperty Name="NomePet" ColumnName="NomePet" />
                 <ScalarProperty Name="TipoPet" ColumnName="TipoPet" />
@@ -900,7 +838,6 @@ warning 6002: The table/view 'Amigos_do_Dono.dbo.vw_TRATAMENTO' does not have a 
                 <ScalarProperty Name="DataNascimento" ColumnName="DataNascimento" />
                 <ScalarProperty Name="OBS" ColumnName="OBS" />
                 <ScalarProperty Name="Imagem" ColumnName="Imagem" />
-                <ScalarProperty Name="IDRaça" ColumnName="IDRaça" />
               </MappingFragment>
             </EntityTypeMapping>
           </EntitySetMapping>
@@ -971,6 +908,10 @@ warning 6002: The table/view 'Amigos_do_Dono.dbo.vw_TRATAMENTO' does not have a 
                 <ScalarProperty Name="Porte" ColumnName="Porte" />
                 <ScalarProperty Name="Castrado" ColumnName="Castrado" />
                 <ScalarProperty Name="DataNascimento" ColumnName="DataNascimento" />
+                <ScalarProperty Name="OBS" ColumnName="OBS" />
+                <ScalarProperty Name="Cadastro" ColumnName="Cadastro" />
+                <ScalarProperty Name="IDP" ColumnName="IDP" />
+                <ScalarProperty Name="IDRaça" ColumnName="IDRaça" />
               </MappingFragment>
             </EntityTypeMapping>
           </EntitySetMapping>
@@ -990,31 +931,6 @@ warning 6002: The table/view 'Amigos_do_Dono.dbo.vw_TRATAMENTO' does not have a 
               </MappingFragment>
             </EntityTypeMapping>
           </EntitySetMapping>
-          <FunctionImportMapping FunctionImportName="sp_alterdiagram" FunctionName="Amigos_do_DonoModel.Store.sp_alterdiagram" />
-          <FunctionImportMapping FunctionImportName="sp_creatediagram" FunctionName="Amigos_do_DonoModel.Store.sp_creatediagram" />
-          <FunctionImportMapping FunctionImportName="sp_dropdiagram" FunctionName="Amigos_do_DonoModel.Store.sp_dropdiagram" />
-          <FunctionImportMapping FunctionImportName="sp_helpdiagramdefinition" FunctionName="Amigos_do_DonoModel.Store.sp_helpdiagramdefinition">
-            <ResultMapping>
-              <ComplexTypeMapping TypeName="Amigos_do_DonoModel.sp_helpdiagramdefinition_Result">
-                <ScalarProperty Name="version" ColumnName="version" />
-                <ScalarProperty Name="definition" ColumnName="definition" />
-              </ComplexTypeMapping>
-            </ResultMapping>
-          </FunctionImportMapping>
-          <FunctionImportMapping FunctionImportName="sp_helpdiagrams" FunctionName="Amigos_do_DonoModel.Store.sp_helpdiagrams">
-            <ResultMapping>
-              <ComplexTypeMapping TypeName="Amigos_do_DonoModel.sp_helpdiagrams_Result">
-                <ScalarProperty Name="Database" ColumnName="Database" />
-                <ScalarProperty Name="Name" ColumnName="Name" />
-                <ScalarProperty Name="ID" ColumnName="ID" />
-                <ScalarProperty Name="Owner" ColumnName="Owner" />
-                <ScalarProperty Name="OwnerID" ColumnName="OwnerID" />
-              </ComplexTypeMapping>
-            </ResultMapping>
-          </FunctionImportMapping>
-          <FunctionImportMapping FunctionImportName="sp_renamediagram" FunctionName="Amigos_do_DonoModel.Store.sp_renamediagram" />
-          <FunctionImportMapping FunctionImportName="sp_upgraddiagrams" FunctionName="Amigos_do_DonoModel.Store.sp_upgraddiagrams" />
-          <FunctionImportMapping FunctionImportName="spc_Controle" FunctionName="Amigos_do_DonoModel.Store.spc_Controle" />
         </EntityContainerMapping>
       </Mapping>
     </edmx:Mappings>

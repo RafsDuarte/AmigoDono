@@ -44,8 +44,8 @@
     </Key>
     <Property Name="IDC" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
     <Property Name="IDPet" Type="Int32" Nullable="false" />
-    <Property Name="IDDono" Type="Int32" />
-    <Property Name="IDDoador" Type="Int32" />
+    <Property Name="IDDono" Type="Int32" Nullable="false" />
+    <Property Name="IDDoador" Type="Int32" Nullable="false" />
     <Property Name="DataAdocao" Type="DateTime" Precision="0" />
     <Property Name="Statu" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
     <Property Name="OBS" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
@@ -76,7 +76,7 @@
     <Key>
       <PropertyRef Name="IDF" />
     </Key>
-    <Property Name="IDF" Type="Int32" Nullable="false" />
+    <Property Name="IDF" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
     <Property Name="Nome" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" Nullable="false" />
     <Property Name="Email" Type="String" MaxLength="100" FixedLength="false" Unicode="false" Nullable="false" />
     <Property Name="Opiniao" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" Nullable="false" />
@@ -87,6 +87,7 @@
       <PropertyRef Name="IDP" />
     </Key>
     <Property Name="IDP" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="IDRaça" Type="Int32" />
     <Property Name="Cadastro" Type="DateTime" Nullable="false" Precision="0" />
     <Property Name="NomePet" Type="String" MaxLength="80" FixedLength="false" Unicode="false" Nullable="false" />
     <Property Name="TipoPet" Type="String" MaxLength="10" FixedLength="false" Unicode="false" Nullable="false" />
@@ -98,9 +99,8 @@
     <Property Name="DataNascimento" Type="DateTime" Precision="0" />
     <Property Name="OBS" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
     <Property Name="Imagem" Type="Binary" MaxLength="Max" FixedLength="false" />
-    <Property Name="IDRaça" Type="Int32" />
     <NavigationProperty Name="CONTROLE" Relationship="Self.FK_adocao_Animal" FromRole="PET" ToRole="CONTROLE" />
-    <NavigationProperty Name="RAÇA" Relationship="Self.FK_PET_RAÇA1" FromRole="PET" ToRole="RAÇA" />
+    <NavigationProperty Name="RAÇA" Relationship="Self.FK_PET_RAÇA" FromRole="PET" ToRole="RAÇA" />
     <NavigationProperty Name="TRATAMENTO" Relationship="Self.FK_TRATAMENTO_PET" FromRole="PET" ToRole="TRATAMENTO" />
   </EntityType>
   <EntityType Name="RAÇA">
@@ -109,7 +109,7 @@
     </Key>
     <Property Name="IDR" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
     <Property Name="NomeRaça" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
-    <NavigationProperty Name="PET" Relationship="Self.FK_PET_RAÇA1" FromRole="RAÇA" ToRole="PET" />
+    <NavigationProperty Name="PET" Relationship="Self.FK_PET_RAÇA" FromRole="RAÇA" ToRole="PET" />
   </EntityType>
   <EntityType Name="TIPOTRATAMENTO">
     <Key>
@@ -175,6 +175,8 @@
       <PropertyRef Name="Sexo" />
       <PropertyRef Name="Porte" />
       <PropertyRef Name="Castrado" />
+      <PropertyRef Name="Cadastro" />
+      <PropertyRef Name="IDP" />
     </Key>
     <Property Name="Imagem" Type="Binary" MaxLength="Max" FixedLength="false" />
     <Property Name="NomePet" Type="String" MaxLength="80" FixedLength="false" Unicode="false" Nullable="false" />
@@ -186,6 +188,10 @@
     <Property Name="Porte" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
     <Property Name="Castrado" Type="String" MaxLength="3" FixedLength="false" Unicode="false" Nullable="false" />
     <Property Name="DataNascimento" Type="DateTime" Precision="0" />
+    <Property Name="OBS" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Name="Cadastro" Type="DateTime" Nullable="false" Precision="0" />
+    <Property Name="IDP" Type="Int32" Nullable="false" />
+    <Property Name="IDRaça" Type="Int32" />
   </EntityType>
   <EntityType Name="vw_TRATAMENTO">
     <Key>
@@ -209,7 +215,7 @@
     <Property Name="Descricao" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
   </EntityType>
   <Association Name="FK_CONTROLE_AMIGO">
-    <End Role="AMIGO" Type="Self.AMIGO" Multiplicity="0..1" />
+    <End Role="AMIGO" Type="Self.AMIGO" Multiplicity="1" />
     <End Role="CONTROLE" Type="Self.CONTROLE" Multiplicity="*" />
     <ReferentialConstraint>
       <Principal Role="AMIGO">
@@ -221,7 +227,7 @@
     </ReferentialConstraint>
   </Association>
   <Association Name="FK_CONTROLE_AMIGO1">
-    <End Role="AMIGO" Type="Self.AMIGO" Multiplicity="0..1" />
+    <End Role="AMIGO" Type="Self.AMIGO" Multiplicity="1" />
     <End Role="CONTROLE" Type="Self.CONTROLE" Multiplicity="*" />
     <ReferentialConstraint>
       <Principal Role="AMIGO">
@@ -256,7 +262,7 @@
       </Dependent>
     </ReferentialConstraint>
   </Association>
-  <Association Name="FK_PET_RAÇA1">
+  <Association Name="FK_PET_RAÇA">
     <End Role="RAÇA" Type="Self.RAÇA" Multiplicity="0..1" />
     <End Role="PET" Type="Self.PET" Multiplicity="*" />
     <ReferentialConstraint>
@@ -322,7 +328,7 @@
       <End Role="PET" EntitySet="PET" />
       <End Role="CONTROLE" EntitySet="CONTROLE" />
     </AssociationSet>
-    <AssociationSet Name="FK_PET_RAÇA1" Association="Self.FK_PET_RAÇA1">
+    <AssociationSet Name="FK_PET_RAÇA" Association="Self.FK_PET_RAÇA">
       <End Role="RAÇA" EntitySet="RAÇA" />
       <End Role="PET" EntitySet="PET" />
     </AssociationSet>
@@ -334,50 +340,5 @@
       <End Role="TIPOTRATAMENTO" EntitySet="TIPOTRATAMENTO" />
       <End Role="TRATAMENTO" EntitySet="TRATAMENTO" />
     </AssociationSet>
-    <FunctionImport Name="sp_alterdiagram">
-      <Parameter Name="diagramname" Mode="In" Type="String" />
-      <Parameter Name="owner_id" Mode="In" Type="Int32" />
-      <Parameter Name="version" Mode="In" Type="Int32" />
-      <Parameter Name="definition" Mode="In" Type="Binary" />
-    </FunctionImport>
-    <FunctionImport Name="sp_creatediagram">
-      <Parameter Name="diagramname" Mode="In" Type="String" />
-      <Parameter Name="owner_id" Mode="In" Type="Int32" />
-      <Parameter Name="version" Mode="In" Type="Int32" />
-      <Parameter Name="definition" Mode="In" Type="Binary" />
-    </FunctionImport>
-    <FunctionImport Name="sp_dropdiagram">
-      <Parameter Name="diagramname" Mode="In" Type="String" />
-      <Parameter Name="owner_id" Mode="In" Type="Int32" />
-    </FunctionImport>
-    <FunctionImport Name="sp_helpdiagramdefinition" ReturnType="Collection(Amigos_do_DonoModel.sp_helpdiagramdefinition_Result)">
-      <Parameter Name="diagramname" Mode="In" Type="String" />
-      <Parameter Name="owner_id" Mode="In" Type="Int32" />
-    </FunctionImport>
-    <FunctionImport Name="sp_helpdiagrams" ReturnType="Collection(Amigos_do_DonoModel.sp_helpdiagrams_Result)">
-      <Parameter Name="diagramname" Mode="In" Type="String" />
-      <Parameter Name="owner_id" Mode="In" Type="Int32" />
-    </FunctionImport>
-    <FunctionImport Name="sp_renamediagram">
-      <Parameter Name="diagramname" Mode="In" Type="String" />
-      <Parameter Name="owner_id" Mode="In" Type="Int32" />
-      <Parameter Name="new_diagramname" Mode="In" Type="String" />
-    </FunctionImport>
-    <FunctionImport Name="sp_upgraddiagrams" />
-    <FunctionImport Name="spc_Controle">
-      <Parameter Name="ID" Mode="In" Type="Int32" />
-      <Parameter Name="DATA" Mode="In" Type="DateTime" />
-    </FunctionImport>
   </EntityContainer>
-  <ComplexType Name="sp_helpdiagramdefinition_Result">
-    <Property Type="Int32" Name="version" Nullable="true" />
-    <Property Type="Binary" Name="definition" Nullable="true" />
-  </ComplexType>
-  <ComplexType Name="sp_helpdiagrams_Result">
-    <Property Type="String" Name="Database" Nullable="true" MaxLength="128" />
-    <Property Type="String" Name="Name" Nullable="false" MaxLength="128" />
-    <Property Type="Int32" Name="ID" Nullable="false" />
-    <Property Type="String" Name="Owner" Nullable="true" MaxLength="128" />
-    <Property Type="Int32" Name="OwnerID" Nullable="false" />
-  </ComplexType>
 </Schema>

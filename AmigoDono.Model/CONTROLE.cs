@@ -16,8 +16,8 @@ namespace AmigoDono.Model
     {
         public int IDC { get; set; }
         public int IDPet { get; set; }
-        public Nullable<int> IDDono { get; set; }
-        public Nullable<int> IDDoador { get; set; }
+        public int IDDono { get; set; }
+        public int IDDoador { get; set; }
         public Nullable<System.DateTime> DataAdocao { get; set; }
         public string Statu { get; set; }
         public string OBS { get; set; }
