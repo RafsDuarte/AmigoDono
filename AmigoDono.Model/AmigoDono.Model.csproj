@@ -67,7 +67,6 @@
       <DependentUpon>ModelClasses.tt</DependentUpon>
     </Compile>
     <Compile Include="Helper\Constantes.cs" />
-    <Compile Include="Helper\CustomValidator\Util.cs" />
     <Compile Include="Helper\Data.cs" />
     <Compile Include="Helper\Mensagens.cs" />
     <Compile Include="Helper\Perfil.cs" />
@@ -166,6 +165,9 @@
       <DependentUpon>ModelClasses.edmx</DependentUpon>
       <LastGenOutput>ModelClasses.cs</LastGenOutput>
     </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Helper\CustomValidator\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

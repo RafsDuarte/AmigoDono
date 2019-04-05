@@ -53,9 +53,9 @@
             <th class="text-center">
                 @Html.DisplayNameFor(model => model.Castrado)
             </th>
-            <th class="text-center">
+            @*<th class="text-center">
                 @Html.DisplayNameFor(model => model.OBS)
-            </th>
+            </th>*@
             <th class="text-center">
                 @Html.DisplayName("Opções")
             </th>
@@ -64,108 +64,108 @@
 
         @foreach (var item in Model)
         {
-            <tr>
-                @if (item.Imagem != null)
-                {
-                    <td class="text-center">
-                        @{
-                            var base64 = Convert.ToBase64String(item.Imagem);
-                            var imgSrc = String.Format("data:image/gif;base64,{0}", base64);
-                        }
-                        <img src='@imgSrc' style="max-width:100px; max-height:100px;" />
-                    </td>
-                }
-                else
-                {
-                    <td class="text-center">
-                        <img src="~/Content/imagens/Foto em branco.jpg" style="max-width:100px; max-height:100px;" />
-                    </td>
-                }
+        <tr>
+            @if (item.Imagem != null)
+            {
                 <td class="text-center">
-                    @Html.DisplayFor(modelItem => item.NomePet)
+                    @{
+                        var base64 = Convert.ToBase64String(item.Imagem);
+                        var imgSrc = String.Format("data:image/gif;base64,{0}", base64);
+                    }
+                    <img src='@imgSrc' style="max-width:100px; max-height:100px;" />
                 </td>
+            }
+            else
+            {
                 <td class="text-center">
-                    @Html.DisplayFor(modelItem => item.TipoPet)
+                    <img src="~/Content/imagens/Foto em branco.jpg" style="max-width:100px; max-height:100px;" />
                 </td>
-                <td class="text-center">
-                    @Html.DisplayFor(modelItem => item.DataNascimento)
-                </td>
-                <td class="text-center">
-                    @Html.DisplayFor(modelItem => item.Situacao)
-                </td>
-                <td class="text-center">
-                    @Html.DisplayFor(modelItem => item.Idade)
-                </td>
-                <td class="text-center">
-                    @Html.DisplayFor(modelItem => item.NomeRaça)
-                </td>
-                <td class="text-center">
-                    @Html.DisplayFor(modelItem => item.Sexo)
-                </td>
-                <td class="text-center">
-                    @Html.DisplayFor(modelItem => item.Porte)
-                </td>
-                <td class="text-center">
-                    @Html.DisplayFor(modelItem => item.Castrado)
-                </td>
-                <td class="text-center" hidden>
-                    @Html.DisplayFor(modelItem => item.OBS)
-                </td>
+            }
+            <td class="text-center">
+                @Html.DisplayFor(modelItem => item.NomePet)
+            </td>
+            <td class="text-center">
+                @Html.DisplayFor(modelItem => item.TipoPet)
+            </td>
+            <td class="text-center">
+                @Html.DisplayFor(modelItem => item.DataNascimento)
+            </td>
+            <td class="text-center">
+                @Html.DisplayFor(modelItem => item.Situacao)
+            </td>
+            <td class="text-center">
+                @Html.DisplayFor(modelItem => item.Idade)
+            </td>
+            <td class="text-center">
+                @Html.DisplayFor(modelItem => item.NomeRaça)
+            </td>
+            <td class="text-center">
+                @Html.DisplayFor(modelItem => item.Sexo)
+            </td>
+            <td class="text-center">
+                @Html.DisplayFor(modelItem => item.Porte)
+            </td>
+            <td class="text-center">
+                @Html.DisplayFor(modelItem => item.Castrado)
+            </td>
+            @*<td class="text-center" hidden>
+            @Html.DisplayFor(modelItem => item.OBS)
+        </td>*@
 
-                @if (Session["Perfil"] != null)
-                {
-                    <td class="text-center">
-                        <button class="btn btn-success center-block  BtnCapturar" data-toggle="modal"
-                                data-target="#ModalMensagem">
-                            Capturar Amigo
-                        </button>
+            @if (Session["Perfil"] != null)
+            {
+                <td class="text-center">
+                    <button class="btn btn-success center-block  BtnCapturar" data-toggle="modal"
+                            data-target="#ModalMensagem">
+                        Capturar Amigo
+                    </button>
 
-                        <br />
+                    <br />
 
-                        <!--Configuração do Botão que vai Abrir o Modal, onde será definido os parametros do Modal com os dados que
-                        irá aparecer no JQuery-->
+                    <!--Configuração do Botão que vai Abrir o Modal, onde será definido os parametros do Modal com os dados que
+            irá aparecer no JQuery-->
 
-                        <button class="btn btn-primary BtnDetalhes" onclick="return false"
-                                data-Imagem="@item.Imagem"
-                                data-NomePet="@item.NomePet"
-                                data-TipoPet="@item.TipoPet"
-                                data-Situacao="@item.Situacao"
-                                data-Idade="@item.Idade"
-                                data-NomeRaca="@item.NomeRaça"
-                                data-Sexo="@item.Sexo"
-                                data-Porte="@item.Porte"
-                                data-Castrado="@item.Castrado"
-                                data-DataNascimento="@item.DataNascimento"
-                                data-OBS="@item.OBS"
-                                data-toggle="modal"
-                                data-target="#ModalDetalhes">
-                            Detalhes
-                        </button>
-                    </td>
-                }
-                else
-                {
-                    <td class="text-center">
-                        <button class="btn btn-primary BtnDetalhes" onclick="return false"
-                                data-Imagem="@item.Imagem"
-                                data-NomePet="@item.NomePet"
-                                data-TipoPet="@item.TipoPet"
-                                data-Situacao="@item.Situacao"
-                                data-Idade="@item.Idade"
-                                data-NomeRaca="@item.NomeRaça"
-                                data-Sexo="@item.Sexo"
-                                data-Porte="@item.Porte"
-                                data-Castrado="@item.Castrado"
-                                data-DataNascimento="@item.DataNascimento"
-                                data-OBS="@item.OBS"
-                                data-toggle="modal"
-                                data-target="#ModalDetalhes">
-                            Detalhes
-                        </button>
-                    </td>
-                }
+                    <button class="btn btn-primary BtnDetalhes" onclick="return false"
+                            data-Imagem="@item.Imagem"
+                            data-NomePet="@item.NomePet"
+                            data-TipoPet="@item.TipoPet"
+                            data-Situacao="@item.Situacao"
+                            data-Idade="@item.Idade"
+                            data-NomeRaca="@item.NomeRaça"
+                            data-Sexo="@item.Sexo"
+                            data-Porte="@item.Porte"
+                            data-Castrado="@item.Castrado"
+                            data-DataNascimento="@item.DataNascimento"
+                            @*data-OBS="@item.OBS"*@
+                            data-toggle="modal"
+                            data-target="#ModalDetalhes">
+                        Detalhes
+                    </button>
+                </td>
+            }
+            else
+            {
+                <td class="text-center">
+                    <button class="btn btn-primary BtnDetalhes" onclick="return false"
+                            data-Imagem="@item.Imagem"
+                            data-NomePet="@item.NomePet"
+                            data-TipoPet="@item.TipoPet"
+                            data-Situacao="@item.Situacao"
+                            data-Idade="@item.Idade"
+                            data-NomeRaca="@item.NomeRaça"
+                            data-Sexo="@item.Sexo"
+                            data-Porte="@item.Porte"
+                            data-Castrado="@item.Castrado"
+                            data-DataNascimento="@item.DataNascimento"
+                            @*data-OBS="@item.OBS"*@
+                            data-toggle="modal"
+                            data-target="#ModalDetalhes">
+                        Detalhes
+                    </button>
+                </td>
+            }
 
-            </tr>
+        </tr>
         }
     </table>
 

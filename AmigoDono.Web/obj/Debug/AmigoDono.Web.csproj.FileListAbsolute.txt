@@ -953,7 +953,6 @@ C:\GitHub\AmigoDono\AmigoDono.Web\bin\Microsoft.AI.Agent.Intercept.dll
 C:\GitHub\AmigoDono\AmigoDono.Web\bin\Microsoft.AI.DependencyCollector.dll
 C:\GitHub\AmigoDono\AmigoDono.Web\bin\Microsoft.AI.PerfCounterCollector.dll
 C:\GitHub\AmigoDono\AmigoDono.Web\bin\Microsoft.AI.ServerTelemetryChannel.dll
-C:\GitHub\AmigoDono\AmigoDono.Web\bin\Microsoft.AI.Web.dll
 C:\GitHub\AmigoDono\AmigoDono.Web\bin\Microsoft.AI.WindowsServer.dll
 C:\GitHub\AmigoDono\AmigoDono.Web\bin\Microsoft.ApplicationInsights.dll
 C:\GitHub\AmigoDono\AmigoDono.Web\bin\Microsoft.AspNet.Identity.Core.dll
@@ -1004,7 +1003,6 @@ C:\GitHub\AmigoDono\AmigoDono.Web\bin\EntityFramework.SqlServer.xml
 C:\GitHub\AmigoDono\AmigoDono.Web\bin\Microsoft.AI.DependencyCollector.xml
 C:\GitHub\AmigoDono\AmigoDono.Web\bin\Microsoft.AI.PerfCounterCollector.xml
 C:\GitHub\AmigoDono\AmigoDono.Web\bin\Microsoft.AI.ServerTelemetryChannel.xml
-C:\GitHub\AmigoDono\AmigoDono.Web\bin\Microsoft.AI.Web.xml
 C:\GitHub\AmigoDono\AmigoDono.Web\bin\Microsoft.AI.WindowsServer.xml
 C:\GitHub\AmigoDono\AmigoDono.Web\bin\Microsoft.ApplicationInsights.xml
 C:\GitHub\AmigoDono\AmigoDono.Web\bin\Microsoft.AspNet.Identity.Core.xml
@@ -1033,3 +1031,5 @@ C:\GitHub\AmigoDono\AmigoDono.Web\obj\Debug\AmigoDono.Web.csproj.CoreCompileInpu
 C:\GitHub\AmigoDono\AmigoDono.Web\obj\Debug\AmigoDono.Web.csproj.CopyComplete
 C:\GitHub\AmigoDono\AmigoDono.Web\obj\Debug\AmigoDono.Web.dll
 C:\GitHub\AmigoDono\AmigoDono.Web\obj\Debug\AmigoDono.Web.pdb
+C:\GitHub\AmigoDono\AmigoDono.Web\bin\Microsoft.AI.Web.dll
+C:\GitHub\AmigoDono\AmigoDono.Web\bin\Microsoft.AI.Web.xml
