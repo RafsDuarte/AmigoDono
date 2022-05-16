@@ -117,3 +117,15 @@ C:\GitHub\AmigoDono\AmigoDono.Model\obj\Debug\AmigoDono.Model.csproj.CopyComplet
 C:\GitHub\AmigoDono\AmigoDono.Model\obj\Debug\AmigoDono.Model.dll
 C:\GitHub\AmigoDono\AmigoDono.Model\obj\Debug\AmigoDono.Model.pdb
 C:\GitHub\AmigoDono\AmigoDono.Model\obj\Debug\AmigoDono.Model.csprojAssemblyReference.cache
+C:\Users\rafin\Documents\Projects\AmigoDono\AmigoDono.Model\bin\Debug\AmigoDono.Model.dll.config
+C:\Users\rafin\Documents\Projects\AmigoDono\AmigoDono.Model\bin\Debug\AmigoDono.Model.dll
+C:\Users\rafin\Documents\Projects\AmigoDono\AmigoDono.Model\bin\Debug\AmigoDono.Model.pdb
+C:\Users\rafin\Documents\Projects\AmigoDono\AmigoDono.Model\bin\Debug\EntityFramework.dll
+C:\Users\rafin\Documents\Projects\AmigoDono\AmigoDono.Model\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\rafin\Documents\Projects\AmigoDono\AmigoDono.Model\bin\Debug\EntityFramework.xml
+C:\Users\rafin\Documents\Projects\AmigoDono\AmigoDono.Model\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\rafin\Documents\Projects\AmigoDono\AmigoDono.Model\obj\Debug\AmigoDono.Model.csproj.AssemblyReference.cache
+C:\Users\rafin\Documents\Projects\AmigoDono\AmigoDono.Model\obj\Debug\AmigoDono.Model.csproj.CoreCompileInputs.cache
+C:\Users\rafin\Documents\Projects\AmigoDono\AmigoDono.Model\obj\Debug\AmigoDono.Model.csproj.CopyComplete
+C:\Users\rafin\Documents\Projects\AmigoDono\AmigoDono.Model\obj\Debug\AmigoDono.Model.dll
+C:\Users\rafin\Documents\Projects\AmigoDono\AmigoDono.Model\obj\Debug\AmigoDono.Model.pdb
