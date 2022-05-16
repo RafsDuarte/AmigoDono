@@ -120,15 +120,3 @@ C:\GitHub\AmigoDono\AmigoDono.Control\obj\Debug\AmigoDono.Control.csproj.CoreCom
 C:\GitHub\AmigoDono\AmigoDono.Control\obj\Debug\AmigoDono.Control.csproj.CopyComplete
 C:\GitHub\AmigoDono\AmigoDono.Control\obj\Debug\AmigoDono.Control.dll
 C:\GitHub\AmigoDono\AmigoDono.Control\obj\Debug\AmigoDono.Control.pdb
-C:\Users\rafin\Documents\Projects\AmigoDono\AmigoDono.Control\bin\Debug\AmigoDono.Control.dll
-C:\Users\rafin\Documents\Projects\AmigoDono\AmigoDono.Control\bin\Debug\AmigoDono.Control.pdb
-C:\Users\rafin\Documents\Projects\AmigoDono\AmigoDono.Control\bin\Debug\AmigoDono.Model.dll
-C:\Users\rafin\Documents\Projects\AmigoDono\AmigoDono.Control\bin\Debug\EntityFramework.dll
-C:\Users\rafin\Documents\Projects\AmigoDono\AmigoDono.Control\bin\Debug\AmigoDono.Model.pdb
-C:\Users\rafin\Documents\Projects\AmigoDono\AmigoDono.Control\bin\Debug\AmigoDono.Model.dll.config
-C:\Users\rafin\Documents\Projects\AmigoDono\AmigoDono.Control\bin\Debug\EntityFramework.xml
-C:\Users\rafin\Documents\Projects\AmigoDono\AmigoDono.Control\obj\Debug\AmigoDono.Control.csproj.AssemblyReference.cache
-C:\Users\rafin\Documents\Projects\AmigoDono\AmigoDono.Control\obj\Debug\AmigoDono.Control.csproj.CoreCompileInputs.cache
-C:\Users\rafin\Documents\Projects\AmigoDono\AmigoDono.Control\obj\Debug\AmigoDono.Control.csproj.CopyComplete
-C:\Users\rafin\Documents\Projects\AmigoDono\AmigoDono.Control\obj\Debug\AmigoDono.Control.dll
-C:\Users\rafin\Documents\Projects\AmigoDono\AmigoDono.Control\obj\Debug\AmigoDono.Control.pdb
